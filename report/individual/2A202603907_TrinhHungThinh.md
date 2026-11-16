@@ -198,8 +198,6 @@ tỷ lệ thay đổi 20 điểm phần trăm; kết quả tốt không suy rộ
 - `python -m unittest discover -s tests -v`: **23/23 đạt**, gồm contract retrieval,
   RRF, filters, budget/dedup, citation, failure và selection hash. Đây là test
   offline, không dùng làm số liệu chất lượng model. Đã compile code và diff-check.
-- Học viên cần đọc/xác nhận các nhãn AI-assisted trước khi nộp. Chưa push repo
-  hoặc công bố kết quả lên GitHub trong phiên này.
 - Báo cáo này ghi nhận phần cơ bản. Phần bonus được triển khai tiếp trong
   [báo cáo nâng cao](2A202603907_TrinhHungThinh_Advanced.md): tài liệu 107 trang
   đáp ứng yêu cầu >=100 trang vật lý, có pipeline vision riêng. Phần bonus hiện
