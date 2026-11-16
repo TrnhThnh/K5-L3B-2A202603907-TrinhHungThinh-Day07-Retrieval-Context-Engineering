@@ -1,0 +1,45 @@
+{
+  "page": 99,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains references related to cybersecurity in maritime contexts, including guidelines and standards from various organizations such as the IMO, ISA, and ISO. It highlights the importance of cybersecurity measures and frameworks for maritime safety management systems and risk management. The references include resolutions, guidelines, and strategic documents aimed at enhancing cybersecurity resilience in the maritime sector.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references related to maritime cybersecurity, including various resolutions, guidelines, and standards from organizations such as the IMO, ISA, and ISO."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 157,
+    "total_tokens": 25897,
+    "cost": 0.0039552,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039552,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.42e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7616.563599993242,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

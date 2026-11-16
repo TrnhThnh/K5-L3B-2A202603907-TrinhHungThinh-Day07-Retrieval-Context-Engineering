@@ -1,0 +1,56 @@
+{
+  "page": 89,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page outlines various publications related to maritime cyber incident trends, general guidelines, and resources for cyber incidents. It includes a list of recent publications from organizations like NATO and the US Coast Guard, as well as guidelines from the World Bank and ITU. Additionally, it highlights the top twelve mitigation measures recommended by the U.S. Coast Guard Cyber Command for enhancing cybersecurity in the marine transportation sector.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "table",
+      "label": "Table 1",
+      "bbox": [
+        0.05,
+        0.1,
+        0.95,
+        0.4
+      ],
+      "description": "A table listing maritime cyber incident trends and guidelines with publication titles ordered by date."
+    },
+    {
+      "kind": "text",
+      "label": "Text",
+      "bbox": [
+        0.05,
+        0.45,
+        0.95,
+        0.9
+      ],
+      "description": "Text detailing the top twelve mitigation measures for cybersecurity in the marine transportation sector as recommended by the U.S. Coast Guard Cyber Command."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 239,
+    "total_tokens": 25979,
+    "cost": 0.0040044,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040044,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001434
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5740.613200003281,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

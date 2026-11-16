@@ -1,0 +1,94 @@
+{
+  "tfidf-base": {
+    "n": 34,
+    "successful_answerable": 30,
+    "errors": 0,
+    "hit1": {
+      "n": 11,
+      "N": 30,
+      "rate": 0.36666666666666664
+    },
+    "hit3": {
+      "n": 22,
+      "N": 30,
+      "rate": 0.7333333333333333
+    },
+    "context_evidence_rate": {
+      "n": 13,
+      "N": 30,
+      "rate": 0.43333333333333335
+    },
+    "median_ms": 0.37939999310765415,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  },
+  "dense-base": {
+    "n": 34,
+    "successful_answerable": 30,
+    "errors": 0,
+    "hit1": {
+      "n": 10,
+      "N": 30,
+      "rate": 0.3333333333333333
+    },
+    "hit3": {
+      "n": 16,
+      "N": 30,
+      "rate": 0.5333333333333333
+    },
+    "context_evidence_rate": {
+      "n": 11,
+      "N": 30,
+      "rate": 0.36666666666666664
+    },
+    "median_ms": 35.821549987304024,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  },
+  "hybrid-rrf": {
+    "n": 34,
+    "successful_answerable": 30,
+    "errors": 0,
+    "hit1": {
+      "n": 17,
+      "N": 30,
+      "rate": 0.5666666666666667
+    },
+    "hit3": {
+      "n": 21,
+      "N": 30,
+      "rate": 0.7
+    },
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 30,
+      "rate": 0.5666666666666667
+    },
+    "median_ms": 31.017099987366237,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  },
+  "hybrid-context": {
+    "n": 34,
+    "successful_answerable": 30,
+    "errors": 0,
+    "hit1": {
+      "n": 17,
+      "N": 30,
+      "rate": 0.5666666666666667
+    },
+    "hit3": {
+      "n": 21,
+      "N": 30,
+      "rate": 0.7
+    },
+    "context_evidence_rate": {
+      "n": 27,
+      "N": 30,
+      "rate": 0.9
+    },
+    "median_ms": 37.768449998111464,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  }
+}

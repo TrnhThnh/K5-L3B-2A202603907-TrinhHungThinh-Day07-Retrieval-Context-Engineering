@@ -1,0 +1,40 @@
+{
+  "source_id": "world-bank-cybersecurity-ports-2026",
+  "title": "Cybersecurity in Ports: Shifting from Risk to Resilience",
+  "authors": [
+    "Simona Sulikova",
+    "Edoardo Casarotto",
+    "Jaqueline Herrmann",
+    "Sotiria Lagouvardou",
+    "Giacomo Assenza",
+    "Isabelle Rojon",
+    "Dominik Englert",
+    "Jan Hoffmann",
+    "Rico Salgmann"
+  ],
+  "publisher": "World Bank",
+  "source_path_or_url": "data/Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+  "official_source_url": "https://www.worldbank.org/en/topic/transport/publication/cybersecurity-in-ports",
+  "license_or_permission": "The report's Rights and Permissions page says it may be reproduced, in whole or in part, for noncommercial purposes as long as full attribution is given. This project is noncommercial. The PDF does not state a separate AI-specific license.",
+  "attribution": "World Bank. 2026. Cybersecurity in Ports: Shifting from Risk to Resilience. © World Bank.",
+  "accessed_at": "2026-11-14",
+  "snapshot": "User-provided PDF; title and authors verified from physical pages 3–4.",
+  "physical_page_count": 107,
+  "content_page_count": 80,
+  "content_page_ids": "physical PDF pages 12-16 and 19-93",
+  "page_counting_rule": "Include substantive executive-summary, introduction, policy, practice, barriers, conclusions, and Appendices 1-4. Exclude cover/front matter, the unreadable illustrated divider at physical page 17, the title-only Introduction divider at page 18, bibliography, image credits, and blank pages. Physical PDF page number is retained as page metadata.",
+  "metadata": {
+    "category": "Report section derived from the table of contents: executive_summary, introduction, policy, practice, barriers, conclusions, appendices.",
+    "section": "Same verified section label as category; used for exact-match filters.",
+    "year": 2026
+  },
+  "extraction": {
+    "library": "pypdf",
+    "normalization": "Unicode NFKC; soft hyphen removed; line whitespace collapsed while line boundaries are retained.",
+    "total_normalized_characters": 165928,
+    "ocr": false,
+    "limitations": "pypdf extraction has minor replacement/spacing artifacts on physical page 12 and a severely garbled custom-font illustrated divider at physical page 17; page 17 is excluded. Physical page 18 is title-only and excluded. Verify quotations against the PDF."
+  },
+  "permission_status": "NONCOMMERCIAL_REUSE_WITH_ATTRIBUTION",
+  "limitation": "For noncommercial reuse only with full attribution. Retrieved excerpts are sent to OpenRouter for answer generation in the chatbot demo."
+}

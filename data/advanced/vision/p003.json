@@ -1,0 +1,33 @@
+{
+  "page": 3,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page serves as the title page for the report 'Cybersecurity in Ports: Shifting from Risk to Resilience,' authored by a team of researchers. It lists the names of the contributors without any additional content or visual elements.",
+  "page_class": "front_matter",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 69,
+    "total_tokens": 25809,
+    "cost": 0.0039024,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039024,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 4.14e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4170.275700016646,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

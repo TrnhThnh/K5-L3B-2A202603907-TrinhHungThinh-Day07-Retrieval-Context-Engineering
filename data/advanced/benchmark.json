@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "ad01",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table 2, give the high-income respondent count and percentage.",
+    "answerable": true,
+    "expected_answer": "48 respondents; 44.04%.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 75,
+        "bbox": [
+          0.11,
+          0.52,
+          0.9,
+          0.74
+        ],
+        "label": "Table 2, High-income row",
+        "detail": "Number=48, Percentage=44.04%.",
+        "original_image": "data/advanced/pages/p075.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      75
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad02",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table 1, Enforcement & oversight, what does the Singapore Cybersecurity Act impose?",
+    "answerable": true,
+    "expected_answer": "Penalties for breaches or general non-compliance.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 32,
+        "bbox": [
+          0.11,
+          0.08,
+          0.9,
+          0.36
+        ],
+        "label": "Table 1 continuation, Enforcement & oversight",
+        "detail": "Singapore row imposes penalties for breaches/general non-compliance.",
+        "original_image": "data/advanced/pages/p032.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      32
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad03",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 3, how can GPS spoofing and AIS manipulation affect vessels?",
+    "answerable": true,
+    "expected_answer": "Counterfeit satellite signals override GPS causing navigation errors; AIS injects false vessel identity/position, masking movements or creating phantom ships.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 87,
+        "bbox": [
+          0.11,
+          0.77,
+          0.9,
+          0.87
+        ],
+        "label": "Table 3, GPS Spoofing & AIS Manipulation",
+        "detail": "GPS errors; false identity/position, masked movements/phantom ships.",
+        "original_image": "data/advanced/pages/p087.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      87
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad04",
+    "split": "dev",
+    "group": "diagram",
+    "question": "In the impact-ripple diagram under Why Does This Report Matter, what event is at the innermost labeled level?",
+    "answerable": true,
+    "expected_answer": "Cyber Incident.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 12,
+        "bbox": [
+          0.05,
+          0.52,
+          0.95,
+          0.99
+        ],
+        "label": "Impact ripple diagram, innermost label",
+        "detail": "Cyber Incident nearest center.",
+        "original_image": "data/advanced/pages/p012.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      12
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad05",
+    "split": "dev",
+    "group": "diagram",
+    "question": "In the Cyber Resilient Ports infographic, list the three actions under Strengthen Policy in The Way Forward panel.",
+    "answerable": true,
+    "expected_answer": "Binding cyber rules; clear responsibilities; mandatory incident reporting.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 17,
+        "bbox": [
+          0.33,
+          0.48,
+          0.68,
+          0.88
+        ],
+        "label": "The Way Forward, Strengthen Policy",
+        "detail": "Three bullets in central blue panel.",
+        "original_image": "data/advanced/pages/p017.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      17
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad06",
+    "split": "dev",
+    "group": "diagram",
+    "question": "In Figure 6, what three branches follow Triage in the reactive approach?",
+    "answerable": true,
+    "expected_answer": "Fix and restoration of operations; external escalation and compliance paperwork; minimal lessons learned.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 42,
+        "bbox": [
+          0.1,
+          0.1,
+          0.9,
+          0.34
+        ],
+        "label": "Figure 6, upper reactive flowchart",
+        "detail": "Three outgoing arrows from Triage.",
+        "original_image": "data/advanced/pages/p042.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      42
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad07",
+    "split": "dev",
+    "group": "chart",
+    "question": "In A Global Port Resilience Gap, compare incident-reporting percentages for high-income versus low- and middle-income ports and calculate the gap.",
+    "answerable": true,
+    "expected_answer": "83% versus 56%; gap 27 percentage points.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 14,
+        "bbox": [
+          0.07,
+          0.37,
+          0.93,
+          0.55
+        ],
+        "label": "Reporting Incidents panel",
+        "detail": "83 and 56 labels; 83-56=27 pp.",
+        "original_image": "data/advanced/pages/p014.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      14
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "83-56=27 percentage points"
+  },
+  {
+    "id": "ad08",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 16, which region has the smallest response share, and what is its percentage?",
+    "answerable": true,
+    "expected_answer": "South Asia, 2.8%.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 76,
+        "bbox": [
+          0.11,
+          0.21,
+          0.9,
+          0.52
+        ],
+        "label": "Figure 16, donut and legend",
+        "detail": "Gray South Asia slice=2.8%.",
+        "original_image": "data/advanced/pages/p076.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      76
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad09",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 17, what percentage of respondents are ministries?",
+    "answerable": true,
+    "expected_answer": "7.3%.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 77,
+        "bbox": [
+          0.11,
+          0.07,
+          0.9,
+          0.36
+        ],
+        "label": "Figure 17, ministry slice and legend",
+        "detail": "Dark-blue Ministry slice=7.3%.",
+        "original_image": "data/advanced/pages/p077.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      77
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad10",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Combine Figure 4 and Table 2: what is the share with a formal cybersecurity policy, and how many low-income respondents were surveyed?",
+    "answerable": true,
+    "expected_answer": "64% have a formal policy; 8 low-income respondents.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 35,
+        "bbox": [
+          0.11,
+          0.45,
+          0.9,
+          0.76
+        ],
+        "label": "Figure 4",
+        "detail": "Yes=64%.",
+        "original_image": "data/advanced/pages/p035.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 75,
+        "bbox": [
+          0.11,
+          0.52,
+          0.9,
+          0.74
+        ],
+        "label": "Table 2",
+        "detail": "Low-income count=8.",
+        "original_image": "data/advanced/pages/p075.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      35,
+      75
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad11",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Combine Box 6 with Table 3: what does network segmentation do, and what entry point can spread laterally when third-party networks are unsegmented?",
+    "answerable": true,
+    "expected_answer": "Segmentation divides networks into isolated zones by function/criticality/protection; third-party and supply-chain compromise can spread laterally from vendors/contractors/partners.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 46,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Box 6",
+        "detail": "Isolated zones grouped by function, criticality, protection.",
+        "original_image": "data/advanced/pages/p046.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 87,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Table 3, Third-Party & Supply Chain Compromise",
+        "detail": "Unsegmented networks allow third-party breach to spread laterally.",
+        "original_image": "data/advanced/pages/p087.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      46,
+      87
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad12",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Using the financial barriers discussion and Box 10, why can ROSI support cybersecurity investment even when cybersecurity creates no direct revenue?",
+    "answerable": true,
+    "expected_answer": "Cybersecurity prevents revenue losses; ROSI estimates avoided losses relative to the control cost to assess cost-effectiveness.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 60,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "3.2 Financial Barriers",
+        "detail": "No direct revenue; prevents revenue losses.",
+        "original_image": "data/advanced/pages/p060.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 61,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Box 10, ROSI definition",
+        "detail": "Avoided losses relative to control cost.",
+        "original_image": "data/advanced/pages/p061.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      60,
+      61
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad13",
+    "split": "dev",
+    "group": "text",
+    "question": "What two automated solutions does the report name for aggregating/correlating IT/OT information and coordinating responses, respectively?",
+    "answerable": true,
+    "expected_answer": "SIEM aggregates/correlates real-time IT/OT information; SOAR coordinates responses.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 46,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "2.1.4 Embracing Automated Cybersecurity Solutions",
+        "detail": "SIEM and SOAR functions in paragraph after Box 6.",
+        "original_image": "data/advanced/pages/p046.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      46
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad14",
+    "split": "dev",
+    "group": "text",
+    "question": "What is ChainPORT, when was it established, and what was its original focus?",
+    "answerable": true,
+    "expected_answer": "A global network of leading ports established in 2015 to share port digitalization, innovation and operational-efficiency practices.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 67,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Box 12, ChainPORT",
+        "detail": "2015; digitalization, innovation, operational efficiency.",
+        "original_image": "data/advanced/pages/p067.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      67
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad15",
+    "split": "dev",
+    "group": "text",
+    "question": "When precise cyber-loss prediction is uncertain, which time-based measures does the report suggest CISOs can directly control?",
+    "answerable": true,
+    "expected_answer": "Time needed to detect incidents and respond to them.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 62,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Paragraph before 3.3 Economic Barriers",
+        "detail": "Minimize detection and response time as operational-efficiency indicators.",
+        "original_image": "data/advanced/pages/p062.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      62
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at01",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 2, give the low-income respondent count and exact percentage.",
+    "answerable": true,
+    "expected_answer": "8 respondents; 7.34%.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 75,
+        "bbox": [
+          0.11,
+          0.52,
+          0.9,
+          0.74
+        ],
+        "label": "Table 2, Low-income row",
+        "detail": "8 and 7.34%.",
+        "original_image": "data/advanced/pages/p075.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      75
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at02",
+    "split": "test",
+    "group": "table",
+    "question": "Using Table 2, how many more respondents are lower-middle-income than upper-middle-income? Show both counts and the difference.",
+    "answerable": true,
+    "expected_answer": "30 lower-middle versus 23 upper-middle; 7 more respondents.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 75,
+        "bbox": [
+          0.11,
+          0.52,
+          0.9,
+          0.74
+        ],
+        "label": "Table 2, middle-income rows",
+        "detail": "30-23=7 respondents.",
+        "original_image": "data/advanced/pages/p075.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      75
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "30-23=7 respondents"
+  },
+  {
+    "id": "at03",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 1, Reporting & information-sharing, which new body does Japan's Active Cyber Defense Law establish, and what coordination is it intended to improve?",
+    "answerable": true,
+    "expected_answer": "A Cyber Council to enhance information sharing and incident response between government agencies and key private-sector partners.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 31,
+        "bbox": [
+          0.11,
+          0.58,
+          0.9,
+          0.84
+        ],
+        "label": "Table 1, Reporting & information-sharing, Japan example",
+        "detail": "New Cyber Council and government/private-sector coordination.",
+        "original_image": "data/advanced/pages/p031.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      31
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at04",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 3, identify the three mechanisms described under Insider Threats.",
+    "answerable": true,
+    "expected_answer": "Employees/contractors can expose credentials, introduce malware via personal devices, or be recruited by criminals to facilitate cyber and physical intrusions.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 88,
+        "bbox": [
+          0.11,
+          0.09,
+          0.9,
+          0.24
+        ],
+        "label": "Table 3 continuation, Insider Threats",
+        "detail": "Credentials; malware through personal devices; recruitment for cyber/physical intrusions.",
+        "original_image": "data/advanced/pages/p088.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      88
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at05",
+    "split": "test",
+    "group": "table",
+    "question": "According to the Phishing & Spear-Phishing row in Table 3, what do fraudulent messages trick staff into doing, and whom does spear-phishing target?",
+    "answerable": true,
+    "expected_answer": "Surrendering credentials or downloading malware; individuals with privileged system access.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 87,
+        "bbox": [
+          0.11,
+          0.38,
+          0.9,
+          0.46
+        ],
+        "label": "Table 3, Phishing & Spear-Phishing",
+        "detail": "Credentials/malware; privileged system access.",
+        "original_image": "data/advanced/pages/p087.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      87
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at06",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 4, name the two publications listed under Technical Standards, including their years.",
+    "answerable": true,
+    "expected_answer": "ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026); ISO 27001 Information security management systems (2022).",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 88,
+        "bbox": [
+          0.11,
+          0.84,
+          0.9,
+          0.92
+        ],
+        "label": "Table 4, Technical Standards",
+        "detail": "Two listed standards and dates.",
+        "original_image": "data/advanced/pages/p088.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      88
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at07",
+    "split": "test",
+    "group": "diagram",
+    "question": "In the impact-ripple diagram, list the three impact levels outward from Cyber Incident, in order.",
+    "answerable": true,
+    "expected_answer": "Local Port Impact → National Economic Impact → Cross-Border Spillover Effects.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 12,
+        "bbox": [
+          0.05,
+          0.52,
+          0.95,
+          0.99
+        ],
+        "label": "Impact ripple diagram, expanding arcs",
+        "detail": "Order of the three outer labeled arcs.",
+        "original_image": "data/advanced/pages/p012.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      12
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at08",
+    "split": "test",
+    "group": "diagram",
+    "question": "In the vulnerable-versus-cyber-resilient port infographic, list the four callout labels on the vulnerable side and the four on the resilient side.",
+    "answerable": true,
+    "expected_answer": "Vulnerable: Legacy OT Systems; Weak Cyber Governance; Fragmented Systems; Operational Delays. Resilient: Clear Cyber Governance; Coordinated Port Ecosystem; Secure IT and OT Systems; Reliable, Efficient Operations.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 17,
+        "bbox": [
+          0.01,
+          0.2,
+          0.99,
+          0.96
+        ],
+        "label": "Cyber Resilient Ports, left/right comparison",
+        "detail": "Eight printed callouts around the two port drawings.",
+        "original_image": "data/advanced/pages/p017.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      17
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at09",
+    "split": "test",
+    "group": "diagram",
+    "question": "In Figure 5, list the four port governance models top-to-bottom and explain how public and private responsibility change from the top model to the bottom.",
+    "answerable": true,
+    "expected_answer": "Public Service Port → Tool Port → Landlord Port → Private Port. Public responsibility decreases from primary to limited; private responsibility increases from limited to primary.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 36,
+        "bbox": [
+          0.11,
+          0.48,
+          0.9,
+          0.71
+        ],
+        "label": "Figure 5, model rows and opposing triangles",
+        "detail": "Four model labels; opposite public/private responsibility gradients.",
+        "original_image": "data/advanced/pages/p036.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      36
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at10",
+    "split": "test",
+    "group": "diagram",
+    "question": "In the continuous/proactive panel of Figure 6, give the six activities clockwise starting at Asset inventory.",
+    "answerable": true,
+    "expected_answer": "Asset inventory → Living risk assessment → Vulnerability identification and prioritization → Mitigation measures and inclusion in BCPs → Testing and Audit → Improvement and lessons learned.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 42,
+        "bbox": [
+          0.11,
+          0.35,
+          0.9,
+          0.72
+        ],
+        "label": "Figure 6, lower circular proactive diagram",
+        "detail": "Six clockwise labeled activities.",
+        "original_image": "data/advanced/pages/p042.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      42
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at11",
+    "split": "test",
+    "group": "diagram",
+    "question": "In Figure 13, what generic training artifact is shown on the left, and which three job roles are explicitly labeled in the personalized-training panel on the right?",
+    "answerable": true,
+    "expected_answer": "A Cybersecurity training checklist; Security guard, Crane operator, Operations supervisor.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 58,
+        "bbox": [
+          0.11,
+          0.44,
+          0.9,
+          0.73
+        ],
+        "label": "Figure 13, both panels",
+        "detail": "Left checklist label and three right-panel role labels.",
+        "original_image": "data/advanced/pages/p058.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      58
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at12",
+    "split": "test",
+    "group": "chart",
+    "question": "From Figure 4, give the percentages for No and Don't know, then their combined share.",
+    "answerable": true,
+    "expected_answer": "No=25%; Don't know=11%; combined 36%.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 35,
+        "bbox": [
+          0.11,
+          0.45,
+          0.9,
+          0.76
+        ],
+        "label": "Figure 4, donut labels and legend",
+        "detail": "25+11=36%.",
+        "original_image": "data/advanced/pages/p035.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      35
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "25+11=36 percent"
+  },
+  {
+    "id": "at13",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 16, compare Europe & Central Asia with Latin America & Caribbean: give both shares and the percentage-point difference.",
+    "answerable": true,
+    "expected_answer": "25.7% versus 23.9%; Europe & Central Asia higher by 1.8 percentage points.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 76,
+        "bbox": [
+          0.11,
+          0.21,
+          0.9,
+          0.52
+        ],
+        "label": "Figure 16, gold and dark-blue slices with legend",
+        "detail": "25.7-23.9=1.8 pp.",
+        "original_image": "data/advanced/pages/p076.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      76
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "25.7-23.9=1.8 percentage points"
+  },
+  {
+    "id": "at14",
+    "split": "test",
+    "group": "chart",
+    "question": "From Figure 17, give the shares of port authorities and terminal operators and calculate their gap in percentage points.",
+    "answerable": true,
+    "expected_answer": "Port authority=56%; terminal operator=17.4%; gap=38.6 percentage points.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 77,
+        "bbox": [
+          0.11,
+          0.07,
+          0.9,
+          0.36
+        ],
+        "label": "Figure 17, light-blue and gold slices",
+        "detail": "56-17.4=38.6 pp.",
+        "original_image": "data/advanced/pages/p077.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      77
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "56-17.4=38.6 percentage points"
+  },
+  {
+    "id": "at15",
+    "split": "test",
+    "group": "chart",
+    "question": "Read Figure 12 using its legend: which income group has the longest dark-blue annual-training segment, and which has the shortest? What does dark blue mean?",
+    "answerable": true,
+    "expected_answer": "High income longest; upper-middle income shortest. Dark blue means Yes, at least once a year.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 56,
+        "bbox": [
+          0.11,
+          0.08,
+          0.9,
+          0.43
+        ],
+        "label": "Figure 12, stacked bars and legend",
+        "detail": "Compare dark-blue segment widths; annual-training legend.",
+        "original_image": "data/advanced/pages/p056.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      56
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at16",
+    "split": "test",
+    "group": "chart",
+    "question": "In A Global Port Resilience Gap, give both regular-training percentages in Building Capacity and their percentage-point gap.",
+    "answerable": true,
+    "expected_answer": "High-income=84%; low- and middle-income=49%; gap=35 percentage points.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 14,
+        "bbox": [
+          0.06,
+          0.78,
+          0.94,
+          0.97
+        ],
+        "label": "Building Capacity panel",
+        "detail": "84-49=35 pp; regular cybersecurity training.",
+        "original_image": "data/advanced/pages/p014.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      14
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "84-49=35 percentage points"
+  },
+  {
+    "id": "at17",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Combine Table 2 with Figure 17: compare the high-income share of respondents with the terminal-operator share. Give both percentages, their difference in percentage points, and distinguish the two classifications.",
+    "answerable": true,
+    "expected_answer": "High-income share=44.04%; terminal-operator share=17.4%; difference=26.64 percentage points. Income level and organizational type are different classifications.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 75,
+        "bbox": [
+          0.11,
+          0.52,
+          0.9,
+          0.74
+        ],
+        "label": "Table 2, High-income row",
+        "detail": "44.04%, income classification.",
+        "original_image": "data/advanced/pages/p075.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 77,
+        "bbox": [
+          0.11,
+          0.07,
+          0.9,
+          0.36
+        ],
+        "label": "Figure 17, Terminal operator",
+        "detail": "17.4%, organizational classification.",
+        "original_image": "data/advanced/pages/p077.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      75,
+      77
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "44.04-17.4=26.64 percentage points"
+  },
+  {
+    "id": "at18",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Combine Table 1's NIS2 reporting example with the Italian circular case study: what reporting timeframe and recipient does the table state, and which Italian facilities are exempt from the circular's additional requirements?",
+    "answerable": true,
+    "expected_answer": "Within 24 hours to Computer Security Incident Response Teams; facilities already covered by NIS2 are exempt from additional circular requirements to avoid duplication.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 31,
+        "bbox": [
+          0.11,
+          0.58,
+          0.9,
+          0.84
+        ],
+        "label": "Table 1, NIS2 reporting row",
+        "detail": "24 hours; CSIRTs.",
+        "original_image": "data/advanced/pages/p031.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 28,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Box 4, Italian circular",
+        "detail": "Already covered by NIS2 → exempt from additional requirements.",
+        "original_image": "data/advanced/pages/p028.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      28,
+      31
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at19",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Combine Figure 13 and the Cyber-SHIP Lab case study: name the three roles labeled in personalized training, and identify what physical environment the Lab replicates for realistic IT/OT incident training.",
+    "answerable": true,
+    "expected_answer": "Security guard, Crane operator, Operations supervisor; the Lab physically replicates a ship's bridge.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 58,
+        "bbox": [
+          0.51,
+          0.44,
+          0.9,
+          0.73
+        ],
+        "label": "Figure 13, personalized-training panel",
+        "detail": "Three role labels.",
+        "original_image": "data/advanced/pages/p058.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 59,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Box 9, Cyber-SHIP Lab",
+        "detail": "Physically replicates a ship bridge for IT/OT scenarios.",
+        "original_image": "data/advanced/pages/p059.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      58,
+      59
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at20",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Use the financial-barriers explanation and Box 10's formula for this hypothetical scenario: SLE=$100,000, ARO=2/year, mitigation=50%, annual control cost=$25,000. Calculate ALE, avoided annual losses and ROSI, and explain whether the benefit is new revenue or avoided loss.",
+    "answerable": true,
+    "expected_answer": "ALE=$200,000/year; avoided losses=$100,000/year; ROSI=(100000-25000)/25000=3=300%. This is avoided loss, not direct new revenue; inputs are hypothetical.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 60,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "3.2 Financial Barriers",
+        "detail": "Cybersecurity prevents revenue losses rather than direct revenue.",
+        "original_image": "data/advanced/pages/p060.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      },
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 61,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Box 10, inputs and core formula",
+        "detail": "ALE=SLE×ARO; ROSI=[ALE×mitigation-cost]/cost.",
+        "original_image": "data/advanced/pages/p061.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      60,
+      61
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required.",
+    "calculation": "100000*2=200000;200000*0.5=100000;(100000-25000)/25000=3=300%",
+    "units": "USD per year; ROSI dimensionless or percent; hypothetical inputs"
+  },
+  {
+    "id": "at21",
+    "split": "test",
+    "group": "text",
+    "question": "In Appendix 2, how many expert interviews were conducted, over what period, and how were interviewees split between practitioners and academia?",
+    "answerable": true,
+    "expected_answer": "Eight interviews, early December 2025 through end of January 2026; seven cybersecurity practitioners and one academic researcher.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 83,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Appendix 2, Expert Interviews: Approach and Coverage",
+        "detail": "8; early Dec 2025-end Jan 2026; seven practitioners/one academic.",
+        "original_image": "data/advanced/pages/p083.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      83
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at22",
+    "split": "test",
+    "group": "text",
+    "question": "According to the survey Limitations section, give the three reasons results are indicative rather than statistically generalizable.",
+    "answerable": true,
+    "expected_answer": "Self-reporting/social-desirability bias; limited response count/representativeness; uneven reach despite three offered languages.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 77,
+        "bbox": [
+          0.11,
+          0.41,
+          0.9,
+          0.62
+        ],
+        "label": "Limitations",
+        "detail": "Three numbered-in-prose limitations after Figure 17.",
+        "original_image": "data/advanced/pages/p077.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      77
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at23",
+    "split": "test",
+    "group": "text",
+    "question": "What five safeguards does the appendix recommend for third-party remote access to vulnerable OT-enabled systems?",
+    "answerable": true,
+    "expected_answer": "Multi-factor authentication; time-bound credentials; monitored jump servers; session logging; clear contractual cybersecurity obligations for suppliers.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 90,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Paragraph on OT-enabled remotely operated systems",
+        "detail": "Five measures in Recommended measures include clause.",
+        "original_image": "data/advanced/pages/p090.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      90
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "at24",
+    "split": "test",
+    "group": "text",
+    "question": "What software and named thematic-analysis procedure were used to analyze the expert interview transcripts?",
+    "answerable": true,
+    "expected_answer": "ATLAS.ti; Braun and Clarke's (2006) thematic analysis procedure.",
+    "evidence": [
+      {
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "page": 83,
+        "bbox": [
+          0.1,
+          0.07,
+          0.91,
+          0.92
+        ],
+        "label": "Appendix 2, analysis paragraph",
+        "detail": "ATLAS.ti software and Braun and Clarke (2006).",
+        "original_image": "data/advanced/pages/p083.jpg",
+        "gold_verification": "Codex inspected original rendered PDF; student confirmation pending"
+      }
+    ],
+    "required_pages": [
+      83
+    ],
+    "grading": "Binary: correct and complete answer, units/conditions/calculation and supporting page/region citations required."
+  },
+  {
+    "id": "ad16",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What exact annual dollar cost does the report give for the Gambia Ports Authority's weekly warning-email program?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "No exact program cost is reported.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "ad17",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What exact number of Cyber-SHIP Lab incidents will be prevented in 2029 according to the report?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "No observed/predicted exact 2029 prevention count is provided.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "ad18",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What 95% confidence interval does Figure 4 give for its formal-policy percentage?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "The donut provides percentages, not a 95% confidence interval.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "at25",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What exact per-student tuition fee in US dollars does the report give for training at the Cyber-SHIP Lab?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "The lab description gives no tuition price.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "at26",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Which laptop manufacturer is named on the personalized-training illustration in Figure 13?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "No laptop manufacturer/brand is identified in the illustration.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "at27",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What exact annual cybersecurity budget in dollars does the report give for the Port of Singapore in 2025?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "No exact annual named-port budget for Singapore in 2025 is supplied.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "at28",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What was the Port of Rotterdam's individual response to survey question 14, according to the report?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "Individual named-port survey responses are not published; only aggregated data/questionnaire.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "at29",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Using the report's observed 2025 control cost and mitigation rate for the Port of Los Angeles, calculate that port's actual ROSI.",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "ROSI formula is provided but those port-specific observed inputs are not.",
+    "evidence": [],
+    "required_pages": []
+  },
+  {
+    "id": "at30",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What 95% confidence interval is printed for the terminal-operator share in Figure 17?",
+    "answerable": false,
+    "expected_answer": "Explicitly state insufficient evidence; do not invent the requested fact.",
+    "absence_reason": "The chart reports a share, not a confidence interval.",
+    "evidence": [],
+    "required_pages": []
+  }
+]

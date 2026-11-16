@@ -1,0 +1,45 @@
+{
+  "page": 21,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents selected examples of cyber incidents in the maritime transport sector, highlighting various ransomware attacks and other cyber threats that have disrupted operations and caused significant financial losses across different ports and shipping companies from 2011 to 2024.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Box 1",
+      "bbox": [
+        0.05,
+        0.1,
+        0.95,
+        0.9
+      ],
+      "description": "Selected examples of cyber incidents in the maritime transport sector, detailing incidents from various years and their impacts."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 138,
+    "total_tokens": 25878,
+    "cost": 0.0039438,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039438,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.28e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5745.916200015927,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

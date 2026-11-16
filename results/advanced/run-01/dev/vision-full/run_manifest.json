@@ -1,0 +1,65 @@
+{
+  "config": {
+    "id": "vision-full",
+    "model": "openai/gpt-4.1",
+    "top_k": 16,
+    "context_rows": 28,
+    "max_searches": 6,
+    "max_pages": 10,
+    "max_turns": 18,
+    "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+  },
+  "cases": [
+    "ad01",
+    "ad02",
+    "ad03",
+    "ad04",
+    "ad05",
+    "ad06",
+    "ad07",
+    "ad08",
+    "ad09",
+    "ad10",
+    "ad11",
+    "ad12",
+    "ad13",
+    "ad14",
+    "ad15",
+    "ad16",
+    "ad17",
+    "ad18"
+  ],
+  "completed_at_utc": "2026-11-16T03:39:33.963466+00:00",
+  "hashes": {
+    "data/advanced/benchmark.json": "0307faa65edced40ea2dfee0e6c3adfe8cdb4cccf8dc7ec72be0ba88e1831e3b",
+    "data/advanced/index_rows.json": "f0a280e4dec791287393dea24c051a0cb4dcc3b8780b4e547413f13b5617b110",
+    "data/advanced/source.pdf": "654a61f25fba637ca467a1a4d7e7d9fe4247c998bdbf5b6f5392c8b8cef8172e",
+    "configs/advanced.json": "e729f3b35ae417af6e71c3dc234ce5c958bc34dd1d8c5573475a6b7b9a0d35ed",
+    "src/advanced/agent.py": "67b6d24c78dbbba7666c2ee1056f3c6d0d4f8b1b0348d302b87b54c17d2ad00a",
+    "src/advanced/store.py": "7e30dc36cc2bcd5960c2750afec51995178851998fe81fbe98ecb3f8d0d84283"
+  },
+  "service_cost": {
+    "known_usd": 0,
+    "complete": false
+  },
+  "errors": [
+    "ad01",
+    "ad02",
+    "ad03",
+    "ad04",
+    "ad05",
+    "ad06",
+    "ad07",
+    "ad08",
+    "ad09",
+    "ad10",
+    "ad11",
+    "ad12",
+    "ad13",
+    "ad14",
+    "ad15",
+    "ad16",
+    "ad17",
+    "ad18"
+  ]
+}

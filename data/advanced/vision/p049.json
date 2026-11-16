@@ -1,0 +1,45 @@
+{
+  "page": 49,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the Maritime and Port Authority of Singapore's (MPA) cybersecurity tabletop exercises aimed at improving port resilience through business continuity planning. The exercises involve international participants and simulate cyberattacks across multiple ports, testing coordination mechanisms under different regulatory frameworks. It emphasizes the importance of considering cyber risks alongside physical risks and suggests backup strategies for recovery.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Terminal within Kingston – KFTL",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "An aerial view of a terminal in Kingston, showing numerous shipping containers and cranes, illustrating port operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 164,
+    "total_tokens": 25904,
+    "cost": 0.0039594,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039594,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.84e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4631.369899987476,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

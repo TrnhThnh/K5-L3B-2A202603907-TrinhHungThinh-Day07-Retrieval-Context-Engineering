@@ -1,0 +1,45 @@
+{
+  "page": 25,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page introduces the first section titled 'Policy' in the World Bank Cybersecurity in Ports report. It features a visually engaging graphic of a globe with a digital lock symbol, representing cybersecurity. The design emphasizes connectivity and security in a global context.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure 1",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "A digital illustration of a globe with a lock symbol, representing cybersecurity. The globe is connected with lines and points, indicating global connectivity."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 148,
+    "total_tokens": 25888,
+    "cost": 0.0039498,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039498,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.88e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5132.5593999936245,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,45 @@
+{
+  "page": 45,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses the importance of conducting vulnerability scans to identify weaknesses in port systems. It highlights that high-income countries conduct these scans more frequently compared to middle and low-income countries. The findings emphasize the need for routine scanning to mitigate risks associated with cybersecurity threats.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 8",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.7
+      ],
+      "description": "A bar chart showing the frequency of conducting vulnerability scans or pentesting across different income levels. The chart includes categories for 'Quarterly or more often', 'Annually', 'Less than once a year', 'Never', and 'Prefer not to say', with percentage responses for each income category."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 182,
+    "total_tokens": 25922,
+    "cost": 0.0039702,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039702,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001092
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5509.99910000246,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

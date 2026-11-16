@@ -1,0 +1,11 @@
+{
+  "strategy": "ADVANCED_M1",
+  "rows": 582,
+  "pages": 106,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "source_sha256": "654a61f25fba637ca467a1a4d7e7d9fe4247c998bdbf5b6f5392c8b8cef8172e",
+  "index_rows_sha256": "745e67ab7507516cca8e0a34e8e9662499fc150a0e7cde05c02e04a1e93fd98d",
+  "visual_catalog_sha256": "8e202eec7d1c6c2fe2a230163fdaf0d27f320784c7565b8d7cad2f12f48a1a52",
+  "service_cost_usd": 0
+}

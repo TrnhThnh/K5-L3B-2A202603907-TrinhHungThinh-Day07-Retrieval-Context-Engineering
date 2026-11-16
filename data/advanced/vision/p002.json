@@ -1,0 +1,33 @@
+{
+  "page": 2,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "",
+  "page_class": "blank",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 21,
+    "total_tokens": 25761,
+    "cost": 0.0038736,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0038736,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 1.26e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 3271.6777000168804,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

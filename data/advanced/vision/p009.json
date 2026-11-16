@@ -1,0 +1,45 @@
+{
+  "page": 9,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains a list of acronyms relevant to cybersecurity in ports, providing their full forms and descriptions. It serves as a reference for understanding terminology used throughout the report.",
+  "page_class": "front_matter",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "List of Acronyms",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A comprehensive list of acronyms related to cybersecurity in ports, including terms like AI (Artificial Intelligence), BCP (Business Continuity Plan), and ISPS (International Ship and Port Facility Security)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 141,
+    "total_tokens": 25881,
+    "cost": 0.0039456,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039456,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.46e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4551.753700012341,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

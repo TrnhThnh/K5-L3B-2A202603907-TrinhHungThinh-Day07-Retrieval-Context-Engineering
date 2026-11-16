@@ -1,0 +1,155 @@
+{
+  "passed": 17,
+  "total": 18,
+  "rate": 0.9444444444444444,
+  "threshold_met": true,
+  "system_errors": 0,
+  "groups": {
+    "table": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1.0
+    },
+    "diagram": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1.0
+    },
+    "chart": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1.0
+    },
+    "multi_hop": {
+      "passed": 2,
+      "total": 3,
+      "rate": 0.6666666666666666
+    },
+    "text": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1.0
+    },
+    "unanswerable": {
+      "passed": 3,
+      "total": 3,
+      "rate": 1.0
+    }
+  },
+  "outcomes": [
+    {
+      "query_id": "ad01",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 2 shows 48 and 44.04%; complete and cited table region contains the row."
+    },
+    {
+      "query_id": "ad02",
+      "group": "table",
+      "passed": true,
+      "reason": "Original page 32 Table 1 continuation states penalties for breaches/general non-compliance; aligned region includes the statement."
+    },
+    {
+      "query_id": "ad03",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 3 GPS/AIS row supports navigation errors, masked movements and phantom ships; local PDF layout alignment locates the row."
+    },
+    {
+      "query_id": "ad04",
+      "group": "diagram",
+      "passed": true,
+      "reason": "Original ripple infographic labels innermost level Cyber Incident; aligned diagram contains it."
+    },
+    {
+      "query_id": "ad05",
+      "group": "diagram",
+      "passed": true,
+      "reason": "Original page 17 central panel lists binding cyber rules, clear responsibilities and mandatory incident reporting."
+    },
+    {
+      "query_id": "ad06",
+      "group": "diagram",
+      "passed": true,
+      "reason": "Original Figure 6 has the three Triage branches returned; aligned figure includes all branches."
+    },
+    {
+      "query_id": "ad07",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original infographic reporting panel shows 83% and 56%; difference 27 percentage points is correct."
+    },
+    {
+      "query_id": "ad08",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Figure 16 gray South Asia slice is 2.8%, the smallest; compare all legend/slice labels."
+    },
+    {
+      "query_id": "ad09",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Figure 17 ministry dark-blue slice is 7.3%; matches answer."
+    },
+    {
+      "query_id": "ad10",
+      "group": "multi_hop",
+      "passed": true,
+      "reason": "Original Figure 4 Yes=64%; original Table 2 low-income count=8; both pages cited."
+    },
+    {
+      "query_id": "ad11",
+      "group": "multi_hop",
+      "passed": true,
+      "reason": "Original Box 6 describes isolated zones by function/criticality/protection; original Table 3 third-party row describes lateral spread; both pages cited."
+    },
+    {
+      "query_id": "ad12",
+      "group": "multi_hop",
+      "passed": false,
+      "reason": "Answer is broadly right but cites only page 61. Required multi-hop page 60 loss-prevention evidence is not cited; incomplete evidence set fails strict bonus scoring."
+    },
+    {
+      "query_id": "ad13",
+      "group": "text",
+      "passed": true,
+      "reason": "Original 2.1.4 paragraph assigns aggregation/correlation to SIEM and coordination to SOAR; PDF text-block alignment includes both."
+    },
+    {
+      "query_id": "ad14",
+      "group": "text",
+      "passed": true,
+      "reason": "Original Box 12 states 2015 and original focus on smart-port development/port community systems. This source-supported wording is accepted even though draft expected answer used the broader founding topics."
+    },
+    {
+      "query_id": "ad15",
+      "group": "text",
+      "passed": true,
+      "reason": "Original page 62 first paragraph explicitly gives time to detect and respond; aligned text block contains both."
+    },
+    {
+      "query_id": "ad16",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual response states missing exact Gambia email-program cost; original relevant case study gives weekly emails but no dollar cost. No guessed cost."
+    },
+    {
+      "query_id": "ad17",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual response explicitly declines exact future Cyber-SHIP incident-prevention count; original lab case study contains no such projection."
+    },
+    {
+      "query_id": "ad18",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual response states Figure 4 provides no 95% confidence interval; original chart labels only percentages."
+    }
+  ],
+  "grading_status": "Codex-assisted original-page reviews; student/teacher confirmation pending",
+  "service_cost": {
+    "known_usd": 0.02151038,
+    "complete": true
+  },
+  "elapsed_ms_total": 139618.48339994322
+}

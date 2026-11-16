@@ -1,0 +1,100 @@
+[
+  {
+    "query_id": "u01",
+    "absence_reason": "The corpus discusses the center but provides no production database credentials.",
+    "scope": "Corpus-wide term scan across all 80 pages; specific requested facts checked against matching passages and report date. Term hits alone are not proof of absence.",
+    "term_pages": {
+      "password": [
+        89
+      ],
+      "postgresql": []
+    },
+    "limitation": "Absence applies only to this corpus; not a claim about all external sources."
+  },
+  {
+    "query_id": "u02",
+    "absence_reason": "The report is dated 2026; it discusses training and financing but contains no exact 2030 budget for this port.",
+    "scope": "Corpus-wide term scan across all 80 pages; specific requested facts checked against matching passages and report date. Term hits alone are not proof of absence.",
+    "term_pages": {
+      "2030": [],
+      "antwerp": [
+        21,
+        56,
+        57
+      ],
+      "budget": [
+        51,
+        60
+      ]
+    },
+    "limitation": "Absence applies only to this corpus; not a claim about all external sources."
+  },
+  {
+    "query_id": "u03",
+    "absence_reason": "The corpus discusses Singapore exercises and SOCs but publishes no private API keys.",
+    "scope": "Corpus-wide term scan across all 80 pages; specific requested facts checked against matching passages and report date. Term hits alone are not proof of absence.",
+    "term_pages": {
+      "api key": [],
+      "private key": [],
+      "singapore": [
+        31,
+        32,
+        49,
+        65,
+        66
+      ]
+    },
+    "limitation": "Absence applies only to this corpus; not a claim about all external sources."
+  },
+  {
+    "query_id": "u04",
+    "absence_reason": "The 2026 report has no observed incident count for future calendar year 2035.",
+    "scope": "Corpus-wide term scan across all 80 pages; specific requested facts checked against matching passages and report date. Term hits alone are not proof of absence.",
+    "term_pages": {
+      "2035": [],
+      "los angeles": [
+        20,
+        64,
+        65
+      ],
+      "ransomware": [
+        21,
+        46,
+        87
+      ]
+    },
+    "limitation": "Absence applies only to this corpus; not a claim about all external sources."
+  },
+  {
+    "query_id": "u05",
+    "absence_reason": "The 2026 report does not provide an observed 2034 insurance premium for Barcelona.",
+    "scope": "Corpus-wide term scan across all 80 pages; specific requested facts checked against matching passages and report date. Term hits alone are not proof of absence.",
+    "term_pages": {
+      "2034": [],
+      "barcelona": [
+        58,
+        66
+      ],
+      "premium": [
+        62
+      ]
+    },
+    "limitation": "Absence applies only to this corpus; not a claim about all external sources."
+  },
+  {
+    "query_id": "u06",
+    "absence_reason": "The corpus describes the lab but contains no observed 2036 incident-reduction percentage.",
+    "scope": "Corpus-wide term scan across all 80 pages; specific requested facts checked against matching passages and report date. Term hits alone are not proof of absence.",
+    "term_pages": {
+      "2036": [],
+      "cyber-ship": [
+        59
+      ],
+      "reduction": [
+        58,
+        69
+      ]
+    },
+    "limitation": "Absence applies only to this corpus; not a claim about all external sources."
+  }
+]

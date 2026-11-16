@@ -1,0 +1,21 @@
+{
+  "physical_pages": 107,
+  "rendered_pages": 107,
+  "vision_catalog_ok": 107,
+  "indexed_pages": 106,
+  "index_rows": 582,
+  "unindexed_pages": [
+    2
+  ],
+  "reason_unindexed": "Physically blank page; no useful native text or visual content.",
+  "test_groups": {
+    "table": 6,
+    "diagram": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "source_sha256": "654a61f25fba637ca467a1a4d7e7d9fe4247c998bdbf5b6f5392c8b8cef8172e",
+  "warning": "Structural audit does not certify machine extraction or answer correctness; original-page content reviews required."
+}

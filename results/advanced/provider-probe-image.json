@@ -1,0 +1,11 @@
+{
+  "status": "error",
+  "http": 429,
+  "response": "{\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemini-2.5-flash-lite is temporarily rate-limited upstream. Please retry shortly, or add your own provider key to use your own limits: [key settings] AI Studio\",\"is_byok\":false,\"provider_error_code\":\"429\",\"limit_source\":\"upstream_provider_shared_pool\",\"remedy_hint\":\"Retry shortly, add your own provider key to use your own limits ([key settings] or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing.\"}},\"[USER]\":\"[USER]\"}",
+  "quota": {
+    "limit": 0.7,
+    "usage_daily": 0.60812388,
+    "remaining": 0.09187612,
+    "reserved_usd": 0.008
+  }
+}

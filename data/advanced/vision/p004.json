@@ -1,0 +1,33 @@
+{
+  "page": 4,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains copyright information and rights and permissions related to the World Bank's publication on cybersecurity in ports. It emphasizes the importance of proper attribution when reproducing the material and provides contact details for inquiries regarding rights and licenses.",
+  "page_class": "front_matter",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 67,
+    "total_tokens": 25807,
+    "cost": 0.0039012,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039012,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 4.02e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 3633.644399989862,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

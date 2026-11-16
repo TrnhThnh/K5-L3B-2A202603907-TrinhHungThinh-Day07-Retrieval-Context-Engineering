@@ -1,0 +1,45 @@
+{
+  "page": 1,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page serves as the cover for the World Bank report titled 'Cybersecurity in Ports: Shifting from Risk to Resilience.' It features a digital illustration of port infrastructure, including ships and cranes, integrated with cybersecurity elements such as shields. The design emphasizes the theme of cybersecurity in the maritime sector.",
+  "page_class": "front_matter",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Cover Image",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A digital illustration depicting port infrastructure with ships and cranes, overlaid with cybersecurity elements like shields, symbolizing the integration of cybersecurity in ports."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 153,
+    "total_tokens": 25893,
+    "cost": 0.0039528,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039528,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.18e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5189.862900006119,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

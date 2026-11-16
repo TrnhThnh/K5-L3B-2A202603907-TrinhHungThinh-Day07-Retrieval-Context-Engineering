@@ -1,0 +1,33 @@
+{
+  "page": 47,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses the disparity in adoption of automated cybersecurity systems between ports in high-income and low-income countries, highlighting the risks and opportunities presented by emerging technologies such as AI, big data analytics, drones, quantum computing, and 5G. It emphasizes the importance of integrating cybersecurity into incident response and business continuity planning (BCP) to maintain critical port functions during disruptions. The World Bank survey shows varying levels of cybersecurity integration in business continuity planning across income levels, with over 80% in high-income countries and only 25% in low-income countries. The lack of business continuity plans in some ports may explain lower integration rates.",
+  "page_class": "content",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 148,
+    "total_tokens": 2812,
+    "cost": 0.0013024,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0013024,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0002368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 8561.940599989612,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

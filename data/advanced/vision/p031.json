@@ -1,0 +1,45 @@
+{
+  "page": 31,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents a table outlining common elements of regulation governing critical infrastructure, categorized into themes such as governance and accountability, risk prevention and protection, reporting and information-sharing, and resilience and continuity. Each theme includes a description and illustrative examples from various jurisdictions, including Australia, the EU, Hong Kong, Japan, and Singapore, highlighting specific legislative requirements and frameworks.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "table",
+      "label": "Table 1",
+      "bbox": [
+        0.05,
+        0.1,
+        0.95,
+        0.9
+      ],
+      "description": "Common elements of regulation governing critical infrastructure, detailing themes, descriptions, and illustrative examples from various jurisdictions."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 163,
+    "total_tokens": 25903,
+    "cost": 0.0039588,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039588,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.78e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5751.347600016743,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

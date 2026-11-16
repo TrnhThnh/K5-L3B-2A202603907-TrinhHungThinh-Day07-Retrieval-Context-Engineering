@@ -1,0 +1,45 @@
+{
+  "page": 48,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the inclusion of cybersecurity in incident response and business continuity plans, highlighting the importance of regular testing through tabletop exercises. It emphasizes the need for coordination among various teams to ensure effective responses to incidents. Figure 9 illustrates the percentage of responses regarding whether cybersecurity is included in planning across different income levels.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 9",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "description": "Bar chart showing the inclusion of cybersecurity in incident response and business continuity plans across different income levels (High income, Upper-middle income, Lower-middle income, Low income). The chart displays three categories: Yes (black), No (red), and Prefer not to say (yellow), with percentages on the y-axis."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 195,
+    "total_tokens": 25935,
+    "cost": 0.003978,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003978,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000117
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4494.455000007292,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

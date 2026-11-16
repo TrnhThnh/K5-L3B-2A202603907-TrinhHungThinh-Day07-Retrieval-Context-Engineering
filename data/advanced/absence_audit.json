@@ -1,0 +1,166 @@
+[
+  {
+    "query_id": "ad16",
+    "reason": "No exact program cost is reported.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "Gambia": [
+        8,
+        56,
+        57,
+        66
+      ],
+      "cost": [
+        12,
+        16,
+        17,
+        22,
+        29,
+        46,
+        48,
+        51,
+        54,
+        59,
+        60,
+        61,
+        62,
+        68,
+        69,
+        70,
+        85,
+        89,
+        97,
+        98,
+        99,
+        100,
+        101,
+        104
+      ]
+    }
+  },
+  {
+    "query_id": "ad17",
+    "reason": "No observed/predicted exact 2029 prevention count is provided.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "2029": [],
+      "Cyber-SHIP": [
+        59,
+        104
+      ]
+    }
+  },
+  {
+    "query_id": "ad18",
+    "reason": "The donut provides percentages, not a 95% confidence interval.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "confidence interval": [],
+      "Figure 4": [
+        6,
+        35
+      ]
+    }
+  },
+  {
+    "query_id": "at25",
+    "reason": "The lab description gives no tuition price.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "Cyber-SHIP": [
+        59,
+        104
+      ],
+      "tuition": [],
+      "fee": [
+        8,
+        39,
+        70
+      ]
+    }
+  },
+  {
+    "query_id": "at26",
+    "reason": "No laptop manufacturer/brand is identified in the illustration.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "Figure 13": [
+        6,
+        58
+      ],
+      "manufacturer": []
+    }
+  },
+  {
+    "query_id": "at27",
+    "reason": "No exact annual named-port budget for Singapore in 2025 is supplied.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "Singapore": [
+        8,
+        10,
+        31,
+        32,
+        49,
+        65,
+        66,
+        97,
+        101,
+        103
+      ],
+      "budget": [
+        51,
+        60
+      ]
+    }
+  },
+  {
+    "query_id": "at28",
+    "reason": "Individual named-port survey responses are not published; only aggregated data/questionnaire.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "Rotterdam": [
+        67,
+        102
+      ],
+      "Individual responses": [
+        77
+      ]
+    }
+  },
+  {
+    "query_id": "at29",
+    "reason": "ROSI formula is provided but those port-specific observed inputs are not.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "Los Angeles": [
+        64,
+        65,
+        102,
+        105
+      ],
+      "ROSI": [
+        7,
+        10,
+        16,
+        21,
+        60,
+        61,
+        97
+      ]
+    }
+  },
+  {
+    "query_id": "at30",
+    "reason": "The chart reports a share, not a confidence interval.",
+    "method": "Full-corpus term scan plus inspection of relevant original pages/figures; absence limited to this document.",
+    "term_pages": {
+      "confidence interval": [],
+      "Figure 17": [
+        6,
+        76,
+        77
+      ]
+    }
+  }
+]

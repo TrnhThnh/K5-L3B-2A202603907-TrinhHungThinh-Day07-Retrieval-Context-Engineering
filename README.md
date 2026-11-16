@@ -1,4 +1,26 @@
+Giao diện chat: chạy ` .\run-web.ps1 `, mở http://127.0.0.1:8070. [Hướng dẫn UI](docs/WEB_UI.md).
+
 # Day 7 — Agentic RAG
+
+## Bài thực hiện — Trịnh Hưng Thịnh · 2A202603907 · L3B
+
+Đã tích hợp corpus và pgvector Day06: 80 trang, 212 chunk, MiniLM 384 chiều;
+3 phương pháp TF-IDF/dense/hybrid, agent OpenRouter dùng tool calling, benchmark
+41 câu và trace/review có thể kiểm chứng.
+
+- [Hướng dẫn cài đặt, chạy demo và benchmark](docs/DAY07_RUNBOOK.md)
+- [Báo cáo cá nhân](report/individual/2A202603907_TrinhHungThinh.md)
+- [Cấu hình thí nghiệm](configs/experiments.json)
+- [Benchmark và nhãn nguồn](data/benchmark.json)
+- [Kết quả chạy cuối](results/final/)
+- [Bonus multimodal — benchmark Flash Lite, kết quả và lỗi provider](report/individual/2A202603907_TrinhHungThinh_Advanced.md)
+- [Cách chạy phần nâng cao](docs/ADVANCED_RUNBOOK.md)
+
+Kiểm tra offline: `python -m src.day7.cli check` và
+`python -m unittest discover -s tests -v`.
+Đề bài gốc được giữ bên dưới để đối chiếu yêu cầu.
+
+---
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 

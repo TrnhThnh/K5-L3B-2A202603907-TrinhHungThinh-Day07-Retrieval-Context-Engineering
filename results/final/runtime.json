@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-11-16T02:50:43.663602+00:00",
+  "python": "3.12.7",
+  "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7",
+  "packages": {
+    "sentence-transformers": "5.7.0",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "psycopg": "3.3.8",
+    "python-dotenv": "1.2.4"
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "strategy": "B",
+  "chat_model": "openai/gpt-4o-mini",
+  "inputs": {
+    "data/benchmark.json": "556ab1c989da9895c9c71db822a4fadaf2f1d77b25158a6c27815006548eba3e",
+    "data/day06/pages.jsonl": "e9b348221db4dcbc352029fff97c9b44b0f6b8bbab7e9cde96c641f9e82cefdb",
+    "configs/experiments.json": "0e01e29dec4b4a7a09ea0a1dfeac925e31a4c6d443571ce4c2755f4efc687505"
+  },
+  "code": {
+    "src/day7/agent.py": "3cdbe2763ccb150ec7768dcab5128780faff9e6a12a4df55cb169124d672389c",
+    "src/day7/benchmark.py": "ed5918950dee1927f3dfd327e02b3a44bdbf0649cc641e84061227ff47338e6b",
+    "src/day7/cli.py": "a81287d76363f71e457c14cc1ed28737da536ab19bd55b24fbc5f1b071c2ab0b",
+    "src/day7/data.py": "b1478ee225f7de51199024cd6012dd1f822a84827a59bd3056e9d29c2b4b5015",
+    "src/day7/prepare.py": "775aba6b372e383846c90b7589520c0c3b6fb7f0da607fc832d33038edec263e",
+    "src/day7/retrieval.py": "8e96367056dd4ea747436af324e38a096df972217c46cb29a2c33c17705ec2a1",
+    "src/day7/review.py": "b30f8ad945bedc09a6d4801827fd9810f107e1961a1857f32e2c1570debec2ee",
+    "src/day7/runtime.py": "4a8dbdc98211a1334b18c5de3915a2216956b39b2b67f22391e36036319cf305",
+    "src/day7/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "provider": "OpenRouter",
+  "key_or_database_url_recorded": false,
+  "embedding_revision_limit": "Original cache/model provenance reused; Day06 table does not store embedding model revision."
+}

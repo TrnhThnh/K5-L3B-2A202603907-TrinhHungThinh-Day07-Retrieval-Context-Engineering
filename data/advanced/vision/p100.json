@@ -1,0 +1,45 @@
+{
+  "page": 100,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page includes references and citations related to cybersecurity in ports, highlighting various studies and proposals on the topic. It features works from multiple authors discussing aspects such as cyber risk management, interdependent security, and the integration of cybersecurity into digital development agendas. The references cover a range of publications from 2003 to 2025, indicating ongoing research and developments in maritime cybersecurity.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references and citations related to cybersecurity in ports, including various studies and proposals."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 154,
+    "total_tokens": 25894,
+    "cost": 0.0039534,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039534,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.24e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4910.905400000047,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

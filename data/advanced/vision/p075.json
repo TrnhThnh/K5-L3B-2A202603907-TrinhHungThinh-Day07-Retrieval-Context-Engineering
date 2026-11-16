@@ -1,0 +1,45 @@
+{
+  "page": 75,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents the survey design and sample characteristics for a global study on cybersecurity in ports, conducted between November and December 2025. It includes a breakdown of survey respondents by income level, highlighting the distribution across high-income, upper-middle-income, lower-middle-income, and low-income categories. The survey aimed to capture a comprehensive view of cybersecurity practices and challenges faced by various organizations in the port sector.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "table",
+      "label": "Table 2",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.8
+      ],
+      "description": "Table showing the distribution of survey respondents classified by income level, including the number of respondents and their respective percentages for each income category."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 178,
+    "total_tokens": 25918,
+    "cost": 0.0039678,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039678,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001068
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6116.949399991427,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

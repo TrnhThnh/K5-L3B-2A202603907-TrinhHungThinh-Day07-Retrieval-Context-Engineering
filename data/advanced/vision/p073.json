@@ -1,0 +1,45 @@
+{
+  "page": 73,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses the barriers to creating cyber-resilient supply chains in ports. It emphasizes the need for role-based training, simulations, and stakeholder alignment through governance frameworks. The text advocates for mandatory incident reporting, cybersecurity clauses in agreements, and the establishment of formal mechanisms for data exchange. It highlights the importance of cooperation among ports, academic institutions, and a culture of transparency in incident reporting.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Text",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "Discussion on barriers to cyber-resilient supply chains, emphasizing training, stakeholder alignment, and cooperation."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 160,
+    "total_tokens": 25900,
+    "cost": 0.003957,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003957,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.6e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6278.526399983093,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

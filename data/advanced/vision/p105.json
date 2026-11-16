@@ -1,0 +1,45 @@
+{
+  "page": 105,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains references related to cybersecurity in ports, including various reports and articles from the World Bank and the World Economic Forum. It highlights the importance of cybersecurity jobs and trends in the industry, along with links to resources for further information.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references including reports and articles from the World Bank and the World Economic Forum, detailing cybersecurity in ports and related topics."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 135,
+    "total_tokens": 25875,
+    "cost": 0.003942,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003942,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.1e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4227.9653000005055,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

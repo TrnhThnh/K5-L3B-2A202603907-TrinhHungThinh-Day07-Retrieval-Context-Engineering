@@ -1,0 +1,33 @@
+{
+  "page": 96,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains the bibliography for the report 'Cybersecurity in Ports: Shifting from Risk to Resilience.' It lists various sources, including academic articles, reports, and guidelines relevant to cybersecurity challenges in the maritime sector and port operations. The references cover a range of topics from economic perspectives on information security to specific cybersecurity threats and best practices for ports.",
+  "page_class": "references",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 91,
+    "total_tokens": 25831,
+    "cost": 0.0039156,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039156,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 5.46e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 3723.049099993659,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

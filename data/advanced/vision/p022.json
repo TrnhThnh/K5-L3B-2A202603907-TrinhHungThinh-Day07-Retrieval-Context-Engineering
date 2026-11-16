@@ -1,0 +1,33 @@
+{
+  "page": 22,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses the economic and employment impacts of cyber incidents in maritime transport, highlighting potential losses exceeding $100 billion in the Asia-Pacific region and significant costs in the U.S. It emphasizes the importance of cybersecurity for job stability and creation in ports, noting the growing demand for specialized cybersecurity roles. The page also addresses cybersecurity as a development challenge, pointing out disparities in cybersecurity capacity between low- and middle-income countries (LMICs) and high-income countries, with LMICs scoring lower on the ITU Global Cybersecurity Index. This disparity has macroeconomic implications, potentially reducing GDP per capita by about 1.5 percent in LMICs.",
+  "page_class": "text",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 152,
+    "total_tokens": 2816,
+    "cost": 0.0013088,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0013088,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0002432
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5155.982900003437,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

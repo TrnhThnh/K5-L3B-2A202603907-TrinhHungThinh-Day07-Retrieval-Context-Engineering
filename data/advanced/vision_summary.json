@@ -1,0 +1,15 @@
+{
+  "models": {
+    "openai/gpt-4o-mini": 99,
+    "openai/gpt-4.1-mini": 8
+  },
+  "pages": 107,
+  "ok": 107,
+  "errors": [],
+  "service_cost": {
+    "known_usd": 0.4066708,
+    "complete": false
+  },
+  "earlier_failed_attempts": 8,
+  "coverage": "All physical pages attempted, including unbenchmarked pages. No question/gold supplied to extraction."
+}

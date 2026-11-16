@@ -1,0 +1,67 @@
+{
+  "page": 84,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the thematic areas of cybersecurity in ports, focusing on the current state of cybersecurity approaches and best practices. It includes prompts for understanding the governance structures and policies that guide port cybersecurity, as well as inquiries about innovative practices and the role of leadership in enabling cybersecurity progress.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Introductory Questions",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.15
+      ],
+      "description": "Introductory questions about the respondent's current role and port organization profile."
+    },
+    {
+      "kind": "text",
+      "label": "Thematic Areas",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.25
+      ],
+      "description": "Overview of thematic areas related to cybersecurity in ports."
+    },
+    {
+      "kind": "text",
+      "label": "Prompts",
+      "bbox": [
+        0.05,
+        0.25,
+        0.95,
+        0.85
+      ],
+      "description": "List of prompts regarding cybersecurity approaches, governance, and policy frameworks."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 263,
+    "total_tokens": 26003,
+    "cost": 0.0040188,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040188,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001578
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5882.395099994028,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

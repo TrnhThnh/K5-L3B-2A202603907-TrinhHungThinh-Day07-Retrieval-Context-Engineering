@@ -1,0 +1,45 @@
+{
+  "page": 77,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents Figure 17, which illustrates the distribution of survey respondents by organizational type in the context of cybersecurity in ports. The figure categorizes respondents into five groups: Port association, Ministry, Other, Terminal operator, and Port authority, with the largest segment being Port association at 56%. The page also discusses limitations of the survey findings, emphasizing potential biases and the representativeness of the data.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 17",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.6
+      ],
+      "description": "A pie chart showing the percentage distribution of survey respondents by organizational type: Port association (56%), Terminal operator (17.4%), Other (14.7%), Ministry (7.3%), and Port authority (4.6%)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 200,
+    "total_tokens": 25940,
+    "cost": 0.003981,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003981,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.00012
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5595.15779998037,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,56 @@
+{
+  "page": 32,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the enforcement and oversight of cybersecurity regulations in ports, highlighting various national frameworks and their implementation. It emphasizes the differences in institutional capacity and regulatory maturity across countries, with examples from Japan, Singapore, and the EU. The text also notes the uneven development of cybersecurity governance, with statistics on countries having national strategies and agencies, and the impact of legal instruments on compliance and enforcement.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "table",
+      "label": "Table 1",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.45
+      ],
+      "description": "A table summarizing enforcement powers, inspections, and penalties for non-compliance in various countries, including Japan, Singapore, and the EU."
+    },
+    {
+      "kind": "chart",
+      "label": "Figure 2",
+      "bbox": [
+        0.05,
+        0.55,
+        0.95,
+        0.85
+      ],
+      "description": "A chart illustrating the percentage of respondents from different income countries operating under national or sectoral cybersecurity requirements."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 246,
+    "total_tokens": 25986,
+    "cost": 0.0040086,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040086,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001476
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 8906.321599992225,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

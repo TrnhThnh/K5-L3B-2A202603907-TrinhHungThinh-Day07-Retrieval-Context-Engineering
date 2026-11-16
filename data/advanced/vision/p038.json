@@ -1,0 +1,45 @@
+{
+  "page": 38,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the establishment of cybersecurity steering committees as a governance and coordination mechanism in ports. It highlights their role in enhancing strategic oversight, decision-making, and accountability among various stakeholders, including port authorities and service providers. The committees facilitate information exchange and align cybersecurity policies, contributing to improved resilience against cyber threats. The operation of these committees varies based on the port governance model, with different approaches in publicly operated, landlord, and fully private ports.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Box 5",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ],
+      "description": "Text discussing the role and importance of cybersecurity steering committees in port governance."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 174,
+    "total_tokens": 25914,
+    "cost": 0.0039654,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039654,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001044
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5807.56499999552,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

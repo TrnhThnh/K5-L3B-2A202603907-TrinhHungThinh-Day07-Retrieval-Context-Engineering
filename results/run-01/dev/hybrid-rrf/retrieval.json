@@ -1,0 +1,2436 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does the report say about cybersecurity responsibility in a connected port ecosystem?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:36:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 36,
+        "text": "Primary\n\nSource: World Bank and adapted from Notteboom, Pallis and Rodrigue (2022).\n\nThese differences in port governance models shape not only where cybersecurity responsibility\n\nresides, but also how challenging coordination becomes across the port ecosystem. The manner\n\nin which responsibility is allocated at the governance level has important implications for how\n\ncybersecurity risks are managed in practice, and for how roles and responsibilities are exercised at\n\nboth management and operational levels, as discussed in the following section.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1897,
+          "end_char": 2442
+        },
+        "score": 0.031544957774465976,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:12:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 12,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxii\n\nWhy Does This Report Matter?\n\nPorts play a critical role in international trade, regional and domestic economic activities, and the\n\nwell-being of people and societies. Today, ports are no longer simply physical infrastructure; they\n\nhave become digital systems. Port authorities, terminal operators, shipping lines, logistics providers,\n\nand customs are increasingly linked through shared digital platforms. This improves efficiency and\n\ntransparency in ports, but it also means that a breach in one part of the ecosystem can cascade\n\nacross others. Cybersecurity in ports is therefore a collective responsibility, and the entire ecosystem\n\nis only as strong as its weakest link.\n\nA cybersecurity incident at a port can halt vessel movements, prevent cargo from reaching its\n\ndestination, and compromise the safety of people and the integrity of equipment, such as robot\n\ncranes or guided vehicles. The costs of incidents",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 973
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:13:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 13,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxiii\n\nWhat Does This Report Do?\n\nThis report draws on a global survey of 109 port stakeholders, in-depth interviews, and desk-based\n\nregulatory mapping. The outcome is a unique overview of the current cybersecurity landscape in the\n\nport sector and a series of actionable recommendations, with a particular focus on ports in low- and\n\nmiddle-income countries. The findings and recommendations are split into three themes:\n\n1. Policy 2. Practice 3. Barriers\n\nWhat Does This Report Find and Recommend?\n\nEven in high-income countries, cyber resilience in ports\n\nremains a work in progress. Full compliance, adequate\n\nresourcing, and consistent practice are still far from the\n\nnorm. In low- and middle-income settings, the challenges\n\nare often even more acute: policy coverage is thinner, skills\n\ngaps are wider, and resources are more constrained. As\n\nsupply chain interdependencies grow, these gaps create",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 948
+        },
+        "score": 0.0304147465437788,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 10,
+          "tfidf": 2
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:36:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 36]\nPrimary\n\nSource: World Bank and adapted from Notteboom, Pallis and Rodrigue (2022).\n\nThese differences in port governance models shape not only where cybersecurity responsibility\n\nresides, but also how challenging coordination becomes across the port ecosystem. The manner\n\nin which responsibility is allocated at the governance level has important implications for how\n\ncybersecurity risks are managed in practice, and for how roles and responsibilities are exercised at\n\nboth management and operational levels, as discussed in the following section.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:36:para:2"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 70.8069000102114
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "What evidence sources did the report combine to describe port cybersecurity?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:43:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 43,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n26\n\n2.1 Evaluating Risk: Knowing What You Are Up Against\n\n2.1.1 How Do Incidents Occur?\n\nUnderstanding how incidents enter port systems is a prerequisite for protecting them. The\n\noverwhelming majority of port cyber incidents documented in the literature involve the exploitation\n\nof well-known, preventable weaknesses rather than novel techniques (Meland et al. 2021; Chubb et\n\nal. 2022; Badea et al. 2025). This has important implications: for most ports, basic and consistent\n\nimplementation of established protective controls would materially reduce exposure of information\n\nand operational technologies (IT and OT).\n\nSynthesizing incident data and threat analysis from various sources, the evidence consistently\n\npoints to several recurring entry points in port environments:\n\n• phishing and social engineering targeting staff,\n\n• exploitation of unpatched software vulnerabilities in IT systems,",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 946
+        },
+        "score": 0.032018442622950824,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:24:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 24,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n7\n\nThe report is intended for port authorities, port operators, policymakers, and development\n\npractitioners seeking to strengthen cybersecurity and cyber resilience in the maritime transport\n\nsector. While the findings are globally relevant, the analysis is designed to inform decision-making\n\nacross a range of port governance models and institutional contexts.\n\nConsistent with this focus, the report presents adaptable, system-level guidance that can be\n\ntailored to different circumstances. This approach reflects the diversity of port ecosystems and\n\nacknowledges that responsibilities for cybersecurity vary across jurisdictions.\n\nThe findings and recommendations presented in this report are grounded in a combination of\n\nprimary and secondary data sources. Box 2 summarizes the research approach and data collection\n\nmethods underpinning the analysis.\n\nBox 2 Research approach and data collection",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 951
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 6,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:84:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 84,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n67\n\nIntro-questions about them:\n\n• What is your current role?\n\n• Port/organization profile: port type(s), size and throughput, ownership model;\n\nkey systems (TOS, PCS, VTS, OT/ICS); level of automation\n\n2. Thematic Areas\n\nTheme 1: General Cybersecurity Landscape in Ports\n\n1. Overview of Cybersecurity Approach – state of the art\n\na. From what you have observed, what does “state of the art” port cybersecurity look like?\n\ni. Typical priorities you’ve seen across ports?\n\nii. Common elements of mature approaches?\n\n2. Learning from Others & Best Practices\n\na. What factors have enabled progress in cybersecurity at your port?\n\n• Prompts:\n\ni. Enabling policy, finances, grants, leadership, partnerships\n\nii. Have you adopted any practices from other Ports? If so, which ones and how were\n\nthey adapted?\n\niii. Are there any innovative approaches you have seen or implemented?\n\nb. Governance and policy:",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 939
+        },
+        "score": 0.03057889822595705,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 8
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:43:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 43]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n26\n\n2.1 Evaluating Risk: Knowing What You Are Up Against\n\n2.1.1 How Do Incidents Occur?\n\nUnderstanding how incidents enter port systems is a prerequisite for protecting them. The\n\noverwhelming majority of port cyber incidents documented in the literature involve the exploitation\n\nof well-known, preventable weaknesses rather than novel techniques (Meland et al. 2021; Chubb et\n\nal. 2022; Badea et al. 2025). This has important implications: for most ports, basic and consistent\n\nimplementation of established protective controls would materially reduce exposure of information\n\nand operational technologies (IT and OT).\n\nSynthesizing incident data and threat analysis from various sources, the evidence consistently\n\npoints to several recurring entry points in port environments:\n\n• phishing and social engineering targeting staff,\n\n• exploitation of unpatched software vulnerabilities in IT systems,",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:43:para:0"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 64.9351000029128
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many survey respondents came from high-income countries, and what share did they represent?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:75:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 75,
+        "text": "The survey received 109 responses from ports, port authorities, and maritime organizations\n\nworldwide. Table 2 presents the distribution of respondents by World Bank income classification\n\n(World Bank 2026).\n\nT able 2 Respondents to survey, classified by income level\n\nIncome level Number of respondents Percentage\n\nHigh-income 48 44.04%\n\nUpper-middle-income 23 21.10%\n\nLower-middle-income 30 27.52%\n\nLow-income 8 7.34%\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nAlthough low-income countries are underrepresented in absolute terms, responses span all income\n\ngroups, allowing for comparative analysis of cybersecurity practices across different development\n\ncontexts. This pattern partly reflects the scope of the study, which focuses on ports; a significant\n\nshare of low-income countries is landlocked and therefore fall outside this scope.",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 955,
+          "end_char": 1808
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 5
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:32:para:3",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 32,
+        "text": "These national-level disparities are reflected in World Bank survey responses, which show\n\nmarked differences in whether port authorities and operators are subject to national or sectoral\n\ncybersecurity regulations or requirements. As shown in Figure 2, 65 percent of respondents from\n\nhigh-income countries report operating under national or sectoral cybersecurity requirements,\n\ncompared to around 38 percent in low-income countries, 38 percent in lower-middle-income\n\ncountries, and just over 26 percent in upper-middle-income countries.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 3,
+          "start_char": 2786,
+          "end_char": 3321
+        },
+        "score": 0.030834914611005692,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 8
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:55:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 55,
+        "text": "respondents were asked how often their organization provided regular cybersecurity awareness\n\ntraining for all employees. Almost two-thirds of respondents from high-income countries reported\n\nconducting such general cybersecurity awareness and training at least annually. In contrast, a large\n\nshare of respondents from lower-middle-income and low-income countries reported that no formal\n\ntraining was provided to staff (Figure 12).",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1884,
+          "end_char": 2313
+        },
+        "score": 0.030621785881252923,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 9,
+          "tfidf": 2
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:75:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 75]\nThe survey received 109 responses from ports, port authorities, and maritime organizations\n\nworldwide. Table 2 presents the distribution of respondents by World Bank income classification\n\n(World Bank 2026).\n\nT able 2 Respondents to survey, classified by income level\n\nIncome level Number of respondents Percentage\n\nHigh-income 48 44.04%\n\nUpper-middle-income 23 21.10%\n\nLower-middle-income 30 27.52%\n\nLow-income 8 7.34%\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nAlthough low-income countries are underrepresented in absolute terms, responses span all income\n\ngroups, allowing for comparative analysis of cybersecurity practices across different development\n\ncontexts. This pattern partly reflects the scope of the study, which focuses on ports; a significant\n\nshare of low-income countries is landlocked and therefore fall outside this scope.\n\n[world-bank-cybersecurity-ports-2026:55:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 55]\nrespondents were asked how often their organization provided regular cybersecurity awareness\n\ntraining for all employees. Almost two-thirds of respondents from high-income countries reported\n\nconducting such general cybersecurity awareness and training at least annually. In contrast, a large\n\nshare of respondents from lower-middle-income and low-income countries reported that no formal\n\ntraining was provided to staff (Figure 12).",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:75:para:1",
+      "world-bank-cybersecurity-ports-2026:55:para:2"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 43.324500002199784
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the executive summary Policy subsection, does the report identify a binding global framework for port cybersecurity?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:15:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 15,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxv\n\nPolicy\n\nEffective cybersecurity governance needs to clarify who is accountable, which standards apply,\n\nhow compliance is enforced, and how resources are allocated to address risks across the entire\n\nport ecosystem. However, there is currently no widely accepted, binding global framework for\n\nport cybersecurity. While the International Maritime Organization (IMO) and the International\n\nShip and Port Facility (ISPS) Code provide foundations, their treatment of cybersecurity remains\n\nlimited. At the national level, roughly half of countries worldwide, specifically 104 out of 194,\n\nas measured by the International Telecommunication Union’s Global Cybersecurity Index, have\n\ncybersecurity legislation applicable to critical infrastructure. Fewer than half of port stakeholders\n\nreport full compliance with existing frameworks in high-income countries. This situation is even less",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 934
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:29:para:3",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 29,
+        "text": "governance, controls, and measurable outcomes, enabling benchmarking, vendor integration,\n\nand compliance across jurisdictions (ISO 2022; NIST 2024a). While not port-specific or globally-\n\nbinding, these internationally recognized models are widely applicable and increasingly relevant\n\nin practice. For example, during the interview, Port Victoria (Seychelles) highlighted the value of\n\naligning with ISO standards, including to meet growing expectations from the IMO to strengthen\n\ncybersecurity investment.\n\nTaken together, the global governance landscape for cybersecurity in ports remains fragmented and\n\nlargely non-binding. While discussions to strengthen international regulation and coordination are\n\nongoing at the IMO, mandatory requirements for port cybersecurity have primarily emerged through\n\nnational governance frameworks, which are examined in the following section.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 3,
+          "start_char": 2835,
+          "end_char": 3710
+        },
+        "score": 0.031054405392392875,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 7
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:26:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 26,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n9\n\nWith interconnections and interdependencies at the core of port ecosystems, effective cybersecurity\n\ngovernance is becoming increasingly important. Robust governance structures play a central role in\n\nsecuring stakeholder buy-in, clarifying accountability, enabling coordination, and ensuring minimum\n\nlevels of cybersecurity (Punt et al. 2023).\n\nThis chapter examines policy as a key enabler of effective cybersecurity management in ports. It\n\nexplores how international frameworks (1.1), national legislation (1.2), and local and organizational\n\narrangements (1.3) shape cyber resilience across complex port ecosystems. It then concludes with\n\nrecommendations to strengthen cybersecurity governance in ports (1.4).\n\n1.1 Global Governance\n\nThere is currently no widely accepted, binding global framework for port cybersecurity. Nevertheless,\n\na set of international organizations and industry bodies play an important role in shaping",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 983
+        },
+        "score": 0.029236022193768675,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 11,
+          "tfidf": 6
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:15:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 15]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\nxv\n\nPolicy\n\nEffective cybersecurity governance needs to clarify who is accountable, which standards apply,\n\nhow compliance is enforced, and how resources are allocated to address risks across the entire\n\nport ecosystem. However, there is currently no widely accepted, binding global framework for\n\nport cybersecurity. While the International Maritime Organization (IMO) and the International\n\nShip and Port Facility (ISPS) Code provide foundations, their treatment of cybersecurity remains\n\nlimited. At the national level, roughly half of countries worldwide, specifically 104 out of 194,\n\nas measured by the International Telecommunication Union’s Global Cybersecurity Index, have\n\ncybersecurity legislation applicable to critical infrastructure. Fewer than half of port stakeholders\n\nreport full compliance with existing frameworks in high-income countries. This situation is even less",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:15:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 63.478500000201166
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does the report recommend ports maintain to assess exposure to cyber threats?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:16:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 16,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxvi\n\nSelected recommendations:\n\n• Inventories and vulnerability scans: Maintain live inventories of OT and IT (information te chnology)\n\nto help assess exposure and determine vulnerability to cyber threats on a regular basis. These\n\nalso help with the implementation and consistent updating of mitigation measures.\n\n• Testing: Validate business continuity plans through regular drills and tabletop exercises to\n\nconfirm that the plans work under pressure and ensure rapid recovery in real-world scenarios.\n\nBarriers\n\nCyber incidents impose system-wide costs along global supply chains and ports can no longer\n\nprotect themselves in isolation. However, human, financial, and economic barriers continue to limit\n\nprogress towards resilient supply chains.\n\nHuman error remains one of the most significant risk factors — an industry study found that 92",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 894
+        },
+        "score": 0.03057889822595705,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 8,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:13:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 13,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxiii\n\nWhat Does This Report Do?\n\nThis report draws on a global survey of 109 port stakeholders, in-depth interviews, and desk-based\n\nregulatory mapping. The outcome is a unique overview of the current cybersecurity landscape in the\n\nport sector and a series of actionable recommendations, with a particular focus on ports in low- and\n\nmiddle-income countries. The findings and recommendations are split into three themes:\n\n1. Policy 2. Practice 3. Barriers\n\nWhat Does This Report Find and Recommend?\n\nEven in high-income countries, cyber resilience in ports\n\nremains a work in progress. Full compliance, adequate\n\nresourcing, and consistent practice are still far from the\n\nnorm. In low- and middle-income settings, the challenges\n\nare often even more acute: policy coverage is thinner, skills\n\ngaps are wider, and resources are more constrained. As\n\nsupply chain interdependencies grow, these gaps create",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 948
+        },
+        "score": 0.03009207275993712,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 13,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:19:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 19,
+        "text": "Economic Forum’s 2026 Risk Perception Survey ranking cyber risks among the most significant\n\nglobal threats across economic sectors (World Economic Forum 2026). This global assessment is\n\nmirrored within the port community: a 2026 survey conducted by the International Association of\n\nPorts and Harbors (IAPH) found that port authorities identify cybersecurity threats as the most\n\nimportant risk factor, with 61 percent of respondents classifying cyber incidents as a high risk\n\n(IAPH 2026). In the maritime sector, these risks are particularly acute because port operations\n\nincreasingly depend on interconnected digital systems to coordinate activities and maintain the\n\nsmooth functioning of national and global supply chains (World Bank 2025a; World Bank 2025d).\n\nThese systems support real-time data exchange among public and private actors across logistics\n\nnetworks that extend well beyond the physical port perimeter. As a result, cyber disruptions",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1941,
+          "end_char": 2889
+        },
+        "score": 0.028381642512077296,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 9,
+          "tfidf": 12
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:16:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 16]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\nxvi\n\nSelected recommendations:\n\n• Inventories and vulnerability scans: Maintain live inventories of OT and IT (information te chnology)\n\nto help assess exposure and determine vulnerability to cyber threats on a regular basis. These\n\nalso help with the implementation and consistent updating of mitigation measures.\n\n• Testing: Validate business continuity plans through regular drills and tabletop exercises to\n\nconfirm that the plans work under pressure and ensure rapid recovery in real-world scenarios.\n\nBarriers\n\nCyber incidents impose system-wide costs along global supply chains and ports can no longer\n\nprotect themselves in isolation. However, human, financial, and economic barriers continue to limit\n\nprogress towards resilient supply chains.\n\nHuman error remains one of the most significant risk factors — an industry study found that 92",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:16:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 53.905999986454844
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "Why does the report consider integration of IT and OT significant in ports?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:20:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 20,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n3\n\nAt an operational level, these systemic risks are shaped by the increasing integration of information\n\ntechnology (IT) and operational technology (OT) within port environments. Modern ports operate\n\ncomplex, networked systems in which IT applications—traditionally used for data management,\n\ncommercial records, and administrative processes—are closely linked to OT systems that control\n\nphysical operations such as cargo handling, crane and conveyor movements, and energy and facility\n\nmanagement (Lagouvardou 2018; Li et al. 2024). This convergence is significant because IT and OT\n\nsystems have distinct security requirements and risk tolerances, and failures can affect ports in\n\nfundamentally different ways. While cyber incidents2 affecting IT systems typically disrupt data\n\nintegrity, financial transactions, or administrative operations, incidents involving OT systems",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 928
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:20:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 20,
+        "text": "can halt cargo movement, damage physical assets, and, in severe cases, endanger human safety.\n\nAs IT and OT systems become increasingly interconnected, cyber incidents originating in digital\n\nenvironments can more readily propagate into physical operations, expanding both the likelihood\n\nand the severity of disruption (Progoulakis et al. 2022).\n\nAt the same time, many ports are adopting advanced digital architectures—often described as “Port\n\n4.0” or “Smart Port” systems—that integrate smart solutions and Internet of Things (IoT) devices\n\n(de la Peña Zarzuelo 2021; Li et al. 2024). While these technologies promise significant performance\n\ngains, they also expand the threat exposure surface by increasing system complexity and the\n\nnumber of interconnected assets, users, and external interfaces that must be secured.\n\nStructural factors further exacerbate cyber risk in ports. Many port facilities continue to rely on",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 929,
+          "end_char": 1846
+        },
+        "score": 0.028309409888357256,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 6,
+          "tfidf": 16
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:43:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 43,
+        "text": "• insecure or unmonitored remote access connections,\n\n• the IT/OT interface, where administrative networks connect to operational control systems\n\nwithout adequate segmentation,\n\n• third-party and supply chain access, where vendors, logistics partners, or software suppliers\n\nintroduce exposure, and\n\n• physical vectors, including the use of infected Universal Serial Bus (USB) devices or unauthorized\n\nphysical access to network equipment.\n\nAppendix 3: Further Resources to Improve Protection provides more details on these entry points\n\nand the systems they most commonly affect.\n\n2.1.2 Conducting Risk Assessments\n\nTo understand how these common entry points may affect a port, it is necessary to assess the\n\nsystems and processes within it. In this report, a risk assessment is taken to be the overall process\n\nof risk identification, analysis and evaluation (ISO 31000 2018). Assets include security technologies",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 947,
+          "end_char": 1852
+        },
+        "score": 0.027745885954841176,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 7,
+          "tfidf": 18
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:20:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 20]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n3\n\nAt an operational level, these systemic risks are shaped by the increasing integration of information\n\ntechnology (IT) and operational technology (OT) within port environments. Modern ports operate\n\ncomplex, networked systems in which IT applications—traditionally used for data management,\n\ncommercial records, and administrative processes—are closely linked to OT systems that control\n\nphysical operations such as cargo handling, crane and conveyor movements, and energy and facility\n\nmanagement (Lagouvardou 2018; Li et al. 2024). This convergence is significant because IT and OT\n\nsystems have distinct security requirements and risk tolerances, and failures can affect ports in\n\nfundamentally different ways. While cyber incidents2 affecting IT systems typically disrupt data\n\nintegrity, financial transactions, or administrative operations, incidents involving OT systems",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:20:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 63.08919997536577
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to the Policy section, what do robust cybersecurity governance structures enable?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:26:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 26,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n9\n\nWith interconnections and interdependencies at the core of port ecosystems, effective cybersecurity\n\ngovernance is becoming increasingly important. Robust governance structures play a central role in\n\nsecuring stakeholder buy-in, clarifying accountability, enabling coordination, and ensuring minimum\n\nlevels of cybersecurity (Punt et al. 2023).\n\nThis chapter examines policy as a key enabler of effective cybersecurity management in ports. It\n\nexplores how international frameworks (1.1), national legislation (1.2), and local and organizational\n\narrangements (1.3) shape cyber resilience across complex port ecosystems. It then concludes with\n\nrecommendations to strengthen cybersecurity governance in ports (1.4).\n\n1.1 Global Governance\n\nThere is currently no widely accepted, binding global framework for port cybersecurity. Nevertheless,\n\na set of international organizations and industry bodies play an important role in shaping",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 983
+        },
+        "score": 0.030776515151515152,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:35:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 35,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n18\n\n1.3 Local and Organizational Governance\n\n1.3.1 Embedding Cybersecurity in Port-Level Governance\n\nGiven the complexity and interdependence of port ecosystems, effective cybersecurity governance\n\nat the port level is essential for ensuring resilient operations, rapid recovery, and the achievement\n\nof broader organizational objectives (Pöyhönen and Lehto 2023). While national legislation provides\n\nan important framework, cybersecurity risks in ports cannot be managed through regulation\n\nalone; effective implementation also depends on robust internal governance structures and local\n\ncoordination mechanisms within ports.\n\nOne indicator of how firmly cybersecurity is embedded in port governance is the presence of\n\nformal, organization-wide cybersecurity policies that provide consistent guidance across systems,\n\nfunctions, and actors. As shown in Figure 4, only 64 percent of surveyed respondents report having",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 965
+        },
+        "score": 0.030536130536130537,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 6,
+          "tfidf": 5
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:25:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 25,
+        "text": "1\n\nPolicy: Governance and\n\nCoordination of Cybersecurity in Ports",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 63
+        },
+        "score": 0.03009207275993712,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 13,
+          "tfidf": 1
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:26:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 26]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n9\n\nWith interconnections and interdependencies at the core of port ecosystems, effective cybersecurity\n\ngovernance is becoming increasingly important. Robust governance structures play a central role in\n\nsecuring stakeholder buy-in, clarifying accountability, enabling coordination, and ensuring minimum\n\nlevels of cybersecurity (Punt et al. 2023).\n\nThis chapter examines policy as a key enabler of effective cybersecurity management in ports. It\n\nexplores how international frameworks (1.1), national legislation (1.2), and local and organizational\n\narrangements (1.3) shape cyber resilience across complex port ecosystems. It then concludes with\n\nrecommendations to strengthen cybersecurity governance in ports (1.4).\n\n1.1 Global Governance\n\nThere is currently no widely accepted, binding global framework for port cybersecurity. Nevertheless,\n\na set of international organizations and industry bodies play an important role in shaping\n\n[world-bank-cybersecurity-ports-2026:25:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 25]\n1\n\nPolicy: Governance and\n\nCoordination of Cybersecurity in Ports",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:26:para:0",
+      "world-bank-cybersecurity-ports-2026:25:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 70.74549997923896
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does Part A of the ISPS Code require port facilities to do?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:27:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 27,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n10\n\nBox 3 Cybersecurity considerations within the ISPS Code\n\nThe ISPS Code is structured in two parts:\n\n• Part A sets out mandatory requirements, including the obligation for port facilities to\n\nconduct a Port Facility Security Assessment and to develop, implement, and maintain\n\nan approved Port Facility Security Plan. The latter defines measures to prevent, detect,\n\nand respond to security threats affecting port infrastructure, operations, personnel,\n\nand cargo.\n\n• Part B provides non-mandatory guidance on how to meet the requirements of Part A,\n\nincluding illustrative examples of risks and mitigation measures.\n\nDespite its broad governance scope, the ISPS Code was designed primarily to address\n\nphysical security risks and has undergone only limited updates since its adoption.\n\nCybersecurity is not included among the mandatory requirements in Part A. References",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 919
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:28:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 28,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n11\n\nIn the absence of binding global cybersecurity requirements for ports, some countries have adapted\n\nexisting maritime security frameworks—most notably those derived from the ISPS Code—to\n\nincorporate explicit cybersecurity obligations at the national level, as illustrated in Box 4.\n\nBox 4 Case studies: National approaches to integrating cybersecurity into\n\nISPS-based port security frameworks\n\nThe Navigation Safety – General Series Circular No. 177/2025, issued by the Italian Coast\n\nGuard, provides operational guidance on integrating cyber-risk management into the\n\nmaritime sector, with specific implications for port authorities and port facilities. While\n\nthe circular applies more broadly to ships and shipping companies, it requires port facilities\n\nto explicitly incorporate cybersecurity considerations into their existing security and risk",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 903
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:28:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 28,
+        "text": "on 8 June 2023 by the Dirección General del Territorio Marítimo y de Marina Mercante\n\n(DIRECTEMAR). The circular establishes mandatory cybersecurity and information-security\n\nrequirements for port facilities as part of maritime cyber risk management. It requires\n\nports to implement a structured cyber risk management system aligned with international\n\nstandards and to integrate this system into security assessments and port protection\n\nplans under the ISPS Code. Ports must identify and mitigate cyber risks affecting critical\n\nsystems—such as access control, communications, cargo handling systems, and other\n\noperational technologies—designate a responsible cybersecurity officer, and report\n\ncyber incidents to the competent maritime authority. Compliance is verified through a\n\ncombination of internal and external audits, and strategically significant port\n\nfacilities are required to incorporate cyber risk management into their overall\n\nsecurity studies and general security plans.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1834,
+          "end_char": 2814
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 7,
+          "tfidf": 3
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:27:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 27]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n10\n\nBox 3 Cybersecurity considerations within the ISPS Code\n\nThe ISPS Code is structured in two parts:\n\n• Part A sets out mandatory requirements, including the obligation for port facilities to\n\nconduct a Port Facility Security Assessment and to develop, implement, and maintain\n\nan approved Port Facility Security Plan. The latter defines measures to prevent, detect,\n\nand respond to security threats affecting port infrastructure, operations, personnel,\n\nand cargo.\n\n• Part B provides non-mandatory guidance on how to meet the requirements of Part A,\n\nincluding illustrative examples of risks and mitigation measures.\n\nDespite its broad governance scope, the ISPS Code was designed primarily to address\n\nphysical security risks and has undergone only limited updates since its adoption.\n\nCybersecurity is not included among the mandatory requirements in Part A. References",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:27:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 87.31589998933487
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "What role does national governance play while international port cybersecurity frameworks evolve?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:26:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 26,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n9\n\nWith interconnections and interdependencies at the core of port ecosystems, effective cybersecurity\n\ngovernance is becoming increasingly important. Robust governance structures play a central role in\n\nsecuring stakeholder buy-in, clarifying accountability, enabling coordination, and ensuring minimum\n\nlevels of cybersecurity (Punt et al. 2023).\n\nThis chapter examines policy as a key enabler of effective cybersecurity management in ports. It\n\nexplores how international frameworks (1.1), national legislation (1.2), and local and organizational\n\narrangements (1.3) shape cyber resilience across complex port ecosystems. It then concludes with\n\nrecommendations to strengthen cybersecurity governance in ports (1.4).\n\n1.1 Global Governance\n\nThere is currently no widely accepted, binding global framework for port cybersecurity. Nevertheless,\n\na set of international organizations and industry bodies play an important role in shaping",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 983
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:30:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 30,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n13\n\n1.2 National-Level Governance: Filling the Gap\n\n1.2.1 A Fundamental Role to Play in Driving Cyber Resilience\n\nWith international frameworks for port cybersecurity still evolving, national governance has played\n\na central role in improving the cyber resilience of ports. National legislation and policy frameworks\n\nare important for translating international guidance into enforceable obligations, providing legal\n\nclarity on responsibilities and establishing minimum expectations for cybersecurity across port\n\nauthorities, operators, and other actors within the port ecosystem.\n\nIn many countries, ports are designated as critical infrastructure, placing them within the scope of\n\nbroader national cybersecurity and resilience legislation. Such frameworks help drive investment in\n\ncybersecurity, mandate baseline risk management and reporting practices, and create incentives",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 928
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 5,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:39:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 39,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n22\n\n1.4 Main Takeaways and Key Recommendations\n\nEffective governance is the cornerstone of port cybersecurity. International frameworks currently\n\nprovide mostly non-binding guidance, placing the burden of implementation on national authorities.\n\nMany countries designate ports as critical infrastructure and have national cybersecurity\n\nregulations that focus on core elements such as governance, accountability, risk prevention and\n\nprotection, reporting and response, and resilience and continuity. However, the effectiveness\n\nof these frameworks ultimately depends on how they are translated into local governance\n\narrangements within ports, where responsibilities are assigned, oversight is exercised, and\n\noperational measures are implemented.\n\nRecommendation 1: Strengthen alignment between global maritime frameworks and port\n\ncybersecurity needs",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 900
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 5
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:26:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 26]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n9\n\nWith interconnections and interdependencies at the core of port ecosystems, effective cybersecurity\n\ngovernance is becoming increasingly important. Robust governance structures play a central role in\n\nsecuring stakeholder buy-in, clarifying accountability, enabling coordination, and ensuring minimum\n\nlevels of cybersecurity (Punt et al. 2023).\n\nThis chapter examines policy as a key enabler of effective cybersecurity management in ports. It\n\nexplores how international frameworks (1.1), national legislation (1.2), and local and organizational\n\narrangements (1.3) shape cyber resilience across complex port ecosystems. It then concludes with\n\nrecommendations to strengthen cybersecurity governance in ports (1.4).\n\n1.1 Global Governance\n\nThere is currently no widely accepted, binding global framework for port cybersecurity. Nevertheless,\n\na set of international organizations and industry bodies play an important role in shaping",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:26:para:0"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 55.18060000031255
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "Among high-income-country respondents, what share said they were required to notify a national or sectoral response body?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:34:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 34,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n17\n\nDifferences in reporting obligations and response mechanisms are also evident across country\n\nincome groups. As shown in Figure 3, among respondents from organizations in high-income\n\ncountries, 65 percent state being required to notify a national or sectoral response body and a\n\nfurther 19 percent indicate that they may do so voluntarily, with only 6 percent reporting that no\n\nsuch body is known to them. In contrast, among respondents from low- and middle-income countries\n\n(LMICs), only 33 percent indicate a mandatory reporting obligation, while 23 percent note the option\n\nto notify voluntarily; 25 percent indicate that no response body is known to them, and 20 percent\n\nreport uncertainty regarding whether such a body exists. Together, these findings reflect differences\n\nin the clarity and institutionalization of reporting arrangements, with implications for information\n\nsharing and collective situational awareness.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 981
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:33:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 33,
+        "text": "By contrast, among respondents not subject to national or sectoral requirements, only 23 percent\n\nindicate that incident notification is mandatory, although a relatively large share (42 percent) report\n\nthe option to notify a response team voluntarily. Taken together, these responses suggest that\n\nformal regulatory requirements tend to be associated with reporting obligations, even though the\n\npresence of incident response teams is not limited to jurisdictions with such requirements.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1917,
+          "end_char": 2401
+        },
+        "score": 0.032018442622950824,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:34:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 34,
+        "text": "Figure 3 Percentage of ports notifying a national or sectoral CIRT/CSIRT in the event of a\n\ncybersecurity incident\n\nPercentage of responses\n\nIs there a national or sectoral cyber incident response team (CIRT/CSIRT),\n\nor similar, that your organization can or is required to notify in the event\n\nof a cybersecurity incident?\n\nHigh income Upper-middle income Lower-middle income Low income\n\n0%\n\n10%\n\n20%\n\n40%\n\n70%\n\n100%\n\n90%\n\n80%\n\n60%\n\n50%\n\n30%\n\nYes – We can notify them voluntarily Yes – We are required to notify them\n\nNo – There is no known team or organization we can or must notify Not sure\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nThese differences reflect broader variations in institutional maturity, regulatory capacity, and\n\nresources. High-income economies are more likely to have established cybersecurity strategies,\n\nclearly designated response bodies, and legal mandates that require incident reporting by critical",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 982,
+          "end_char": 1911
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 2
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:34:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 34]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n17\n\nDifferences in reporting obligations and response mechanisms are also evident across country\n\nincome groups. As shown in Figure 3, among respondents from organizations in high-income\n\ncountries, 65 percent state being required to notify a national or sectoral response body and a\n\nfurther 19 percent indicate that they may do so voluntarily, with only 6 percent reporting that no\n\nsuch body is known to them. In contrast, among respondents from low- and middle-income countries\n\n(LMICs), only 33 percent indicate a mandatory reporting obligation, while 23 percent note the option\n\nto notify voluntarily; 25 percent indicate that no response body is known to them, and 20 percent\n\nreport uncertainty regarding whether such a body exists. Together, these findings reflect differences\n\nin the clarity and institutionalization of reporting arrangements, with implications for information\n\nsharing and collective situational awareness.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:34:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 48.831299995072186
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "How does the report characterize the role of governance in port cybersecurity?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:35:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 35,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n18\n\n1.3 Local and Organizational Governance\n\n1.3.1 Embedding Cybersecurity in Port-Level Governance\n\nGiven the complexity and interdependence of port ecosystems, effective cybersecurity governance\n\nat the port level is essential for ensuring resilient operations, rapid recovery, and the achievement\n\nof broader organizational objectives (Pöyhönen and Lehto 2023). While national legislation provides\n\nan important framework, cybersecurity risks in ports cannot be managed through regulation\n\nalone; effective implementation also depends on robust internal governance structures and local\n\ncoordination mechanisms within ports.\n\nOne indicator of how firmly cybersecurity is embedded in port governance is the presence of\n\nformal, organization-wide cybersecurity policies that provide consistent guidance across systems,\n\nfunctions, and actors. As shown in Figure 4, only 64 percent of surveyed respondents report having",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 965
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:26:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 26,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n9\n\nWith interconnections and interdependencies at the core of port ecosystems, effective cybersecurity\n\ngovernance is becoming increasingly important. Robust governance structures play a central role in\n\nsecuring stakeholder buy-in, clarifying accountability, enabling coordination, and ensuring minimum\n\nlevels of cybersecurity (Punt et al. 2023).\n\nThis chapter examines policy as a key enabler of effective cybersecurity management in ports. It\n\nexplores how international frameworks (1.1), national legislation (1.2), and local and organizational\n\narrangements (1.3) shape cyber resilience across complex port ecosystems. It then concludes with\n\nrecommendations to strengthen cybersecurity governance in ports (1.4).\n\n1.1 Global Governance\n\nThere is currently no widely accepted, binding global framework for port cybersecurity. Nevertheless,\n\na set of international organizations and industry bodies play an important role in shaping",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 983
+        },
+        "score": 0.031746031746031744,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:36:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 36,
+        "text": "Primary\n\nSource: World Bank and adapted from Notteboom, Pallis and Rodrigue (2022).\n\nThese differences in port governance models shape not only where cybersecurity responsibility\n\nresides, but also how challenging coordination becomes across the port ecosystem. The manner\n\nin which responsibility is allocated at the governance level has important implications for how\n\ncybersecurity risks are managed in practice, and for how roles and responsibilities are exercised at\n\nboth management and operational levels, as discussed in the following section.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1897,
+          "end_char": 2442
+        },
+        "score": 0.03125,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 4
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:35:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 35]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n18\n\n1.3 Local and Organizational Governance\n\n1.3.1 Embedding Cybersecurity in Port-Level Governance\n\nGiven the complexity and interdependence of port ecosystems, effective cybersecurity governance\n\nat the port level is essential for ensuring resilient operations, rapid recovery, and the achievement\n\nof broader organizational objectives (Pöyhönen and Lehto 2023). While national legislation provides\n\nan important framework, cybersecurity risks in ports cannot be managed through regulation\n\nalone; effective implementation also depends on robust internal governance structures and local\n\ncoordination mechanisms within ports.\n\nOne indicator of how firmly cybersecurity is embedded in port governance is the presence of\n\nformal, organization-wide cybersecurity policies that provide consistent guidance across systems,\n\nfunctions, and actors. As shown in Figure 4, only 64 percent of surveyed respondents report having",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:35:para:0"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 61.25709999469109
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "How does the report define cyber resilience for a port?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:72:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 72,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational",
+        "metadata": {
+          "category": "conclusions",
+          "section": "conclusions",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 972
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:24:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 24,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n7\n\nThe report is intended for port authorities, port operators, policymakers, and development\n\npractitioners seeking to strengthen cybersecurity and cyber resilience in the maritime transport\n\nsector. While the findings are globally relevant, the analysis is designed to inform decision-making\n\nacross a range of port governance models and institutional contexts.\n\nConsistent with this focus, the report presents adaptable, system-level guidance that can be\n\ntailored to different circumstances. This approach reflects the diversity of port ecosystems and\n\nacknowledges that responsibilities for cybersecurity vary across jurisdictions.\n\nThe findings and recommendations presented in this report are grounded in a combination of\n\nprimary and secondary data sources. Box 2 summarizes the research approach and data collection\n\nmethods underpinning the analysis.\n\nBox 2 Research approach and data collection",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 951
+        },
+        "score": 0.03125,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:13:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 13,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxiii\n\nWhat Does This Report Do?\n\nThis report draws on a global survey of 109 port stakeholders, in-depth interviews, and desk-based\n\nregulatory mapping. The outcome is a unique overview of the current cybersecurity landscape in the\n\nport sector and a series of actionable recommendations, with a particular focus on ports in low- and\n\nmiddle-income countries. The findings and recommendations are split into three themes:\n\n1. Policy 2. Practice 3. Barriers\n\nWhat Does This Report Find and Recommend?\n\nEven in high-income countries, cyber resilience in ports\n\nremains a work in progress. Full compliance, adequate\n\nresourcing, and consistent practice are still far from the\n\nnorm. In low- and middle-income settings, the challenges\n\nare often even more acute: policy coverage is thinner, skills\n\ngaps are wider, and resources are more constrained. As\n\nsupply chain interdependencies grow, these gaps create",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 948
+        },
+        "score": 0.03009207275993712,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 13,
+          "tfidf": 1
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:72:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 72]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:72:para:0"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 65.20380001165904
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the Practice section, what is the purpose of vulnerability scans?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:45:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 45,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 987
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:45:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 45,
+        "text": "specific penetration tests at least annually, and nearly a third do so every three months or more\n\n(Figure 8). In middle-income countries, this proportion falls to approximately half of the respondents.\n\nBy contrast, half of the respondents from low-income countries conduct vulnerability scans\n\nless than once a year or never. The absence of routine scanning and testing leaves weaknesses\n\nunaddressed and increases the likelihood that attempted intrusions with widely available malicious\n\nsoftware will succeed (NIST 2022).\n\nFigure 8 Frequency of conducting vulnerability scans\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nHow frequently do you conduct vulnerability scans or pentesting?\n\nAnnuallyQuarterly or more often Less than once a year Never Prefer not to say\n\nSource: World Bank survey Understanding Cybersecurity in Ports.",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 988,
+          "end_char": 1899
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:79:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 79,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n62\n\nSection 3: Governance & Strategy\n\nIn this section, we ask you about your organization’s cybersecurity policies.\n\n6. Does your organization have a formal cybersecurity policy?\n\na. Yes\n\nb. No\n\nc. Don’t know\n\n7. Is there a designated person or team responsible for cybersecurity (e.g., CISO, IT security lead)?\n\na. Yes\n\nb. No\n\nc. Don’t know\n\n8. Have you conducted a cybersecurity risk assessment in the past 24 months?\n\na. Yes\n\nb. No\n\nc. Prefer not to say\n\nSection 4: Protection & Detection\n\nIn this section, we ask you to elaborate on how cybersecurity is enforced.\n\n9. How frequently do you conduct vulnerability scans or “pentesting”?\n\na. Quarterly or more often\n\nb. Annually\n\nc. Less than once a year\n\nd. Never\n\ne. Prefer not to say\n\n10. Does your organization operate a Security Operations Center (SOC) or use a managed\n\nSOC service?\n\na. Yes – internally operated\n\nb. Yes – outsourced\n\nc. No\n\nd. Prefer not to say",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 948
+        },
+        "score": 0.03007688828584351,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 7,
+          "tfidf": 6
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:45:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 45]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:45:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 66.62880000658333
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "What did the Maritime and Port Authority of Singapore do to exercise cyber incident coordination?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:49:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 49,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n32\n\nTerminal within Kingston – KFTL\n\nBox 7 Case studies: Improving port resilience through business\n\ncontinuity planning\n\nThe Maritime and Port Authority of Singapore (MPA) conducts regular cybersecurity\n\ntabletop exercises with key partners. The one conducted in April 2024 brought together\n\n40 international participants from the maritime sector. The exercise simulated\n\nsimultaneous cyberattacks across ports in multiple regions, deliberately testing the\n\ncoordination mechanisms between port authorities operating under different national\n\nregulatory frameworks. The inclusion of international ports reflects a deliberate design\n\nchoice: because digital supply chain cyber incidents rarely respect national boundaries,\n\nresponse capacity needs to be practiced across borders, not just within them.\n\nCyber risks should also be considered alongside physical risks, where appropriate—for",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 933
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:65:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 65,
+        "text": "The Maritime and Port Authority of Singapore (MPA) has progressively built a multi-layered\n\ncyber resilience ecosystem for the maritime transport domain. It began with the launch of a\n\n24/7 Maritime Cybersecurity Operations Center (MSOC) in 2019 to monitor, detect, analyze,\n\nand respond to cyber threats affecting maritime critical information infrastructure. MPA\n\nhas expanded this into the Maritime Cyber Assurance and Operations Center (MCAOC),\n\nwhich provides real-time cyber threats monitoring and advisories to participating\n\nmaritime companies.\n\nNORMA Cyber: Nordic Maritime Cyber Resilience Center\n\nNORMA Cyber began in Norway in 2021 as the Norwegian Maritime Cyber Resilience\n\nCentre. It was founded by the Norwegian War Risk Association (DNK) and the Norwegian\n\nShipowners’ Association (NSA), and has since expanded into a Nordic, membership-\n\nbased, non-profit organization. It provides joint cyber resilience services to maritime",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 937,
+          "end_char": 1869
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:31:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 31,
+        "text": "Council, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1908,
+          "end_char": 2499
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 7
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:49:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 49]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n32\n\nTerminal within Kingston – KFTL\n\nBox 7 Case studies: Improving port resilience through business\n\ncontinuity planning\n\nThe Maritime and Port Authority of Singapore (MPA) conducts regular cybersecurity\n\ntabletop exercises with key partners. The one conducted in April 2024 brought together\n\n40 international participants from the maritime sector. The exercise simulated\n\nsimultaneous cyberattacks across ports in multiple regions, deliberately testing the\n\ncoordination mechanisms between port authorities operating under different national\n\nregulatory frameworks. The inclusion of international ports reflects a deliberate design\n\nchoice: because digital supply chain cyber incidents rarely respect national boundaries,\n\nresponse capacity needs to be practiced across borders, not just within them.\n\nCyber risks should also be considered alongside physical risks, where appropriate—for",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:49:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 58.122699992964044
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "Give one indicator the report suggests for measuring cybersecurity progress in ports.",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:84:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 84,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n67\n\nIntro-questions about them:\n\n• What is your current role?\n\n• Port/organization profile: port type(s), size and throughput, ownership model;\n\nkey systems (TOS, PCS, VTS, OT/ICS); level of automation\n\n2. Thematic Areas\n\nTheme 1: General Cybersecurity Landscape in Ports\n\n1. Overview of Cybersecurity Approach – state of the art\n\na. From what you have observed, what does “state of the art” port cybersecurity look like?\n\ni. Typical priorities you’ve seen across ports?\n\nii. Common elements of mature approaches?\n\n2. Learning from Others & Best Practices\n\na. What factors have enabled progress in cybersecurity at your port?\n\n• Prompts:\n\ni. Enabling policy, finances, grants, leadership, partnerships\n\nii. Have you adopted any practices from other Ports? If so, which ones and how were\n\nthey adapted?\n\niii. Are there any innovative approaches you have seen or implemented?\n\nb. Governance and policy:",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 939
+        },
+        "score": 0.029206349206349208,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 15
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:91:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 91,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n74\n\nAppendix 4: Additional Survey Results\n\nSome survey questions were not included in the main text of the report. The results for these\n\nquestions are presented below.\n\nFigure 18 shows that the vast majority of surveyed ports are either designated as critical\n\ninfrastructure, or consider themselves critical infrastructure. Figure 19 shows that for ports which\n\nare subject to national regulations concerning cybersecurity, fewer than half are fully compliant.\n\nFigure 20 shows that more than half of all ports, regardless of income level, do have a designated\n\nauthority for cybersecurity. Figure 21 shows that the style of operational cyber risk management\n\nvaries. Figure 22 shows that the adoption of automated cybersecurity solutions is far more prevalent\n\nin high-income countries than in LMICs. Similarly, Figure 23 shows that certification and alignment",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 910
+        },
+        "score": 0.026785714285714288,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 10,
+          "tfidf": 20
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:52:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 52,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n35\n\n2.3 Main Takeaways and Key Recommendations\n\nMany ports struggle to maintain a current risk picture and implement security controls into\n\nroutine operations across IT/OT. At the same time, incident readiness remains under-practiced and\n\ninsufficiently integrated with business continuity. A central challenge of cybersecurity in ports is\n\nthe transition from one-off risk-gauging efforts to continuous outcomes-focused risk management\n\n(IMO 2025). By integrating cybersecurity responsibilities into established processes, such as risk\n\nmanagement, operations oversight, business continuity planning, and procurement, ports can\n\nstrengthen resilience without creating parallel institutional frameworks.\n\nRecommendation 1: Conduct an asset inventory\n\nPorts should identify the key systems and processes within the port by defining the perimeter",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 892
+        },
+        "score": 0.02658450704225352,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 20,
+          "tfidf": 11
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:84:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 84]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n67\n\nIntro-questions about them:\n\n• What is your current role?\n\n• Port/organization profile: port type(s), size and throughput, ownership model;\n\nkey systems (TOS, PCS, VTS, OT/ICS); level of automation\n\n2. Thematic Areas\n\nTheme 1: General Cybersecurity Landscape in Ports\n\n1. Overview of Cybersecurity Approach – state of the art\n\na. From what you have observed, what does “state of the art” port cybersecurity look like?\n\ni. Typical priorities you’ve seen across ports?\n\nii. Common elements of mature approaches?\n\n2. Learning from Others & Best Practices\n\na. What factors have enabled progress in cybersecurity at your port?\n\n• Prompts:\n\ni. Enabling policy, finances, grants, leadership, partnerships\n\nii. Have you adopted any practices from other Ports? If so, which ones and how were\n\nthey adapted?\n\niii. Are there any innovative approaches you have seen or implemented?\n\nb. Governance and policy:",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:84:para:0"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 67.27789997239597
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the Practice section, what gap does the report identify between incident readiness and business continuity?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:47:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 47,
+        "text": "Incident response planning focuses on the immediate technical and organizational actions\n\nneeded to detect, contain, and recover from a specific cybersecurity event (Nelson et al. 2025).\n\nBusiness continuity planning is a core component of incident preparation. To develop a business\n\ncontinuity plan (BCP), it is necessary to identify the critical business functions required for the\n\ncontinued operation of an organization. The BCP defines the strategies, resources, management\n\nresponsibilities, and procedures needed to maintain these critical functions during and after\n\ndisruptions. This includes workarounds, alternative processes, and resource (re-)allocation to keep\n\nservices running. When cyberspace is excluded from continuity planning, essential functions, such as\n\ncargo handling, customs approvals, or vessel scheduling may lack fallback procedures and recovery\n\npaths. This could increase port downtime and cascade into operational impacts across the port",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1847,
+          "end_char": 2809
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 6
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:80:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 80,
+        "text": "14. Does your organization provide regular cybersecurity awareness training for its employees?\n\na. Yes, at least once a year\n\nb. Yes, but less than once a year\n\nc. No, no formal training is provided\n\nd. Prefer not to say\n\nSection 6: Incident Response & Recovery\n\nIn this section, we ask about cybersecurity incidents you may have experienced, and how you\n\nprepare for them.\n\n15. Is cybersecurity included in your incident response and business continuity planning? These\n\ndocuments provide guidance on how to respond to an emergency or an incident, and how to\n\nensure that essential business functions of an organization can continue.\n\na. Yes\n\nb. No\n\nc. Prefer not to say",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 899,
+          "end_char": 1557
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 7
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:48:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 48,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n31\n\nFigure 9 Inclusion of cybersecurity in incident response and business continuity plans\n\nPercentage of responses\n\nIs cybersecurity included in your incident response and business continuity planning?\n\nYes No Prefer not to say\n\nHigh income Upper-middle income Lower-middle income Low income\n\n0%\n\n20%\n\n40%\n\n60%\n\n80%\n\n100%\n\n90%\n\n70%\n\n50%\n\n30%\n\n10%\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\n2.2.2 Practicing Business Continuity Plans\n\nTo be effective, incident response and business continuity plans should be regularly practiced and\n\ntested through tabletop exercises and drills with clearly defined recovery time and recovery point\n\nobjectives. The literature on port resilience recommends practicing switching back to manual\n\noperations7 to ensure a port’s ability to maintain degraded operations without core IT/OT systems\n\nfor extended periods (Varley et al. 2024).",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 927
+        },
+        "score": 0.030536130536130537,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 6,
+          "tfidf": 5
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:47:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 47]\nIncident response planning focuses on the immediate technical and organizational actions\n\nneeded to detect, contain, and recover from a specific cybersecurity event (Nelson et al. 2025).\n\nBusiness continuity planning is a core component of incident preparation. To develop a business\n\ncontinuity plan (BCP), it is necessary to identify the critical business functions required for the\n\ncontinued operation of an organization. The BCP defines the strategies, resources, management\n\nresponsibilities, and procedures needed to maintain these critical functions during and after\n\ndisruptions. This includes workarounds, alternative processes, and resource (re-)allocation to keep\n\nservices running. When cyberspace is excluded from continuity planning, essential functions, such as\n\ncargo handling, customs approvals, or vessel scheduling may lack fallback procedures and recovery\n\npaths. This could increase port downtime and cascade into operational impacts across the port",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:47:para:2"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 55.25459998170845
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "answerable": true,
+    "question": "What frequency and response options does the survey question on employee cybersecurity awareness training ask about?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:80:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 80,
+        "text": "14. Does your organization provide regular cybersecurity awareness training for its employees?\n\na. Yes, at least once a year\n\nb. Yes, but less than once a year\n\nc. No, no formal training is provided\n\nd. Prefer not to say\n\nSection 6: Incident Response & Recovery\n\nIn this section, we ask about cybersecurity incidents you may have experienced, and how you\n\nprepare for them.\n\n15. Is cybersecurity included in your incident response and business continuity planning? These\n\ndocuments provide guidance on how to respond to an emergency or an incident, and how to\n\nensure that essential business functions of an organization can continue.\n\na. Yes\n\nb. No\n\nc. Prefer not to say",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 899,
+          "end_char": 1557
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:80:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 80,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n63\n\n11. Are automated cybersecurity solutions (for example, security information event management\n\n(SIEM), security orchestration, automation and response (SOAR)) integrated into your systems?\n\na. Yes\n\nb. No\n\nc. Not sure\n\nd. Prefer not to say\n\nSection 5: Awareness & Training\n\nIn this section, we ask you about the cybersecurity training opportunities you have.\n\n12. Do you agree with the following statement? “Our organization has the necessary cybersecurity\n\nskills to effectively manage current risk and compliance requirements.”\n\na. Yes, true\n\nb. Partially\n\nc. No, not true at all\n\nd. Prefer not to say\n\n13. Does your organization provide specialized training or professional development opportunities\n\nfor cybersecurity personnel?\n\na. Yes, at least once a year\n\nb. Yes, but less than once a year\n\nc. No, no formal training is provided\n\nd. Prefer not to say",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 898
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 5,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:24:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 24,
+        "text": "into institutional, operational, and contextual factors shaping cybersecurity practices. As\n\nwith all survey-based research, findings rely on self-reported information and should be\n\ninterpreted as indicative rather than statistically representative.\n\nFurther details on the survey and expert interviews—including participant numbers,\n\nrespondent profiles, and question structure—are provided in Appendices 1 and 2.\n\nSource: World Bank.",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1889,
+          "end_char": 2320
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 7
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:80:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 80]\n14. Does your organization provide regular cybersecurity awareness training for its employees?\n\na. Yes, at least once a year\n\nb. Yes, but less than once a year\n\nc. No, no formal training is provided\n\nd. Prefer not to say\n\nSection 6: Incident Response & Recovery\n\nIn this section, we ask about cybersecurity incidents you may have experienced, and how you\n\nprepare for them.\n\n15. Is cybersecurity included in your incident response and business continuity planning? These\n\ndocuments provide guidance on how to respond to an emergency or an incident, and how to\n\nensure that essential business functions of an organization can continue.\n\na. Yes\n\nb. No\n\nc. Prefer not to say\n\n[world-bank-cybersecurity-ports-2026:24:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 24]\ninto institutional, operational, and contextual factors shaping cybersecurity practices. As\n\nwith all survey-based research, findings rely on self-reported information and should be\n\ninterpreted as indicative rather than statistically representative.\n\nFurther details on the survey and expert interviews—including participant numbers,\n\nrespondent profiles, and question structure—are provided in Appendices 1 and 2.\n\nSource: World Bank.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:80:para:1",
+      "world-bank-cybersecurity-ports-2026:24:para:2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 62.89999998989515
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the Barriers section, what does ROSI estimate?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:53:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 53,
+        "text": "3\n\nBarriers",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 10
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:61:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 61,
+        "text": "• Interpreting results: >0 indicates net savings; higher values indicate better cost-\n\neffectiveness. Use ranges for uncertainty.\n\nPractical steps:\n\n• Quantify baseline risk (SLE, ARO) for specific threat-asset pairs.\n\n• Estimate the control’s mitigation rate (evidence from pilots, audits, and incident data).\n\n• Include full life-cycle costs (tools, integration, staffing).\n\n• Perform sensitivity analysis (best/base/worst case scenarios) and revisit annually.\n\nOutputs should be treated as decision support tools and not forecasts, as precise impact\n\nestimation is difficult. ROSI should still be used within a broader quantitative\n\nrisk assessment, pairing financial estimates with operational metrics and\n\nperiodic reviews to keep decisions on cybersecurity investment evidence-based.\n\nSource: World Bank and ENISA (2012).",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 916,
+          "end_char": 1732
+        },
+        "score": 0.03009207275993712,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 13
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:78:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 78,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n61\n\nFor additional information regarding the project or the questionnaire, please contact any of the\n\nfollowing:\n\nBy taking this survey, you agree with how your responses will be used.\n\nSection 2: Organization Background\n\nIn this section, we ask you for some details about your organization.\n\n1. Which country is the port or organization you are working with located in?\n\n2. What best describes your organization?\n\n– Port authority\n\n– Terminal operator\n\n– Port association\n\n– Ministry\n\n– Other\n\n– Prefer not to say\n\n3. What size is the port(s) or terminal(s) you work in or with? Please provide the relevant value for\n\nannual container throughput (in TEU), for tonnage in million tons per year, and for passengers\n\nnumber of passengers transported per year, where applicable.\n\n4. Is your organization considered a Critical Infrastructure Operator?\n\na. Yes – We are formally designated as such by the government",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 949
+        },
+        "score": 0.029850746268656716,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 7,
+          "tfidf": 7
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:53:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 53]\n3\n\nBarriers\n\n[world-bank-cybersecurity-ports-2026:61:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 61]\n• Interpreting results: >0 indicates net savings; higher values indicate better cost-\n\neffectiveness. Use ranges for uncertainty.\n\nPractical steps:\n\n• Quantify baseline risk (SLE, ARO) for specific threat-asset pairs.\n\n• Estimate the control’s mitigation rate (evidence from pilots, audits, and incident data).\n\n• Include full life-cycle costs (tools, integration, staffing).\n\n• Perform sensitivity analysis (best/base/worst case scenarios) and revisit annually.\n\nOutputs should be treated as decision support tools and not forecasts, as precise impact\n\nestimation is difficult. ROSI should still be used within a broader quantitative\n\nrisk assessment, pairing financial estimates with operational metrics and\n\nperiodic reviews to keep decisions on cybersecurity investment evidence-based.\n\nSource: World Bank and ENISA (2012).",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:53:para:0",
+      "world-bank-cybersecurity-ports-2026:61:para:1"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 57.72810001508333
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "answerable": true,
+    "question": "When did the Port of Los Angeles launch its Cyber Resilience Center, and what was its purpose?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:65:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 65,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 936
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:65:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 65,
+        "text": "entities—including shipping companies, ports, terminals, and classification\n\nsocieties—through intelligence sharing, monitoring support, crisis response, and\n\ncollaborative exercises.\n\nSource: World Bank; Los Angeles Cyber Resilience Centre: Port of Los Angeles (n.d.), World Ports Sustainability Program\n\n(2025); Singapore Maritime Cyber Assurance and Operations Center: Singapore Business Review (2025); Ong (n.d.).; NORMA\n\nCyber: NORMA Cyber (n.d.).",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1870,
+          "end_char": 2317
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:64:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 64,
+        "text": "frameworks. The widespread uncertainty about participation further suggests that many\n\narrangements remain informal or lack operational visibility.\n\nVoluntary information sharing across the wider port community is critical to addressing detection\n\ngaps and reducing cascading impacts across interconnected operations. In this context, peer\n\nbenchmarking on cybersecurity resource allocation and the maturity of cybersecurity practices can\n\nalso provide valuable insights for ports and maritime stakeholders seeking to strengthen their cyber\n\nresilience (ENISA 2021; IAPH 2021).\n\nA more structured form of voluntary collaboration within port ecosystems is the development of\n\na Cyber Resilience Center (CRC). A CRC is a specialized hub designed to protect, detect, and share\n\ninformation on cyber incidents threatening maritime supply chains. The Port of Los Angeles was the\n\nfirst port to establish a CRC in 2022 (AAPA 2023). Establishing CRCs at the wider port-ecosystem",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 898,
+          "end_char": 1859
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 4
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:65:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:65:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 62.65070001245476
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "answerable": true,
+    "question": "Why does the report call systemic cyber resilience a public good?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:16:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 16,
+        "text": "to improving cybersecurity across the broader port ecosystem. However, fewer than a third of the\n\nsurveyed organizations (31 percent) participate in voluntary information-sharing mechanisms,\n\nregardless of their country’s income level.\n\nSelected recommendations:\n\n• Training: Implement role-based, recurrent cybersecurity training across all staff levels, covering\n\nboth IT and OT threat scenarios.\n\n• Culture: Foster a no-blame reporting culture that treats incident disclosure as a contribution to\n\ncollective defense rather than an admission of failure.\n\n• Incentives: Treat cyber-resilient supply chains as a public good and reflect this in governance\n\nframeworks and contractual arrangements. For example, invest in cyber resilience centers\n\nand cross-sector capacity building to enhance coordinated detection, intelligence sharing, and\n\nincident response capabilities.\n\nThis report provides recommendations to bridge these gaps, securing the digital backbone of",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1822,
+          "end_char": 2777
+        },
+        "score": 0.031054405392392875,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 7
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:68:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 68,
+        "text": "failure to meet required security standards and obligations results in an incident, that company\n\nmust cover the related claims, losses, or fines. A 2019 study that modeled a global maritime\n\ncyber event found that approximately 92 percent of the losses would not be covered by insurance\n\n(CyRiM 2019). Clear rules can help align each organization’s self-interest with the port’s overall\n\nresilience and discourage “free-riding”, where one company benefits from others’ investments\n\nwithout contributing.\n\n3.4 Main Takeaways and Key Recommendations\n\nAs cyber resilience is both a public and a private good, governments and private operators have an\n\nimportant role to play by deploying complementary tools to improve cybersecurity. Governments\n\nand port authorities can impose regulatory baselines, enforce compliance through audits and\n\nsanctions, and embed cybersecurity requirements into concession agreements. On the private-",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1845,
+          "end_char": 2764
+        },
+        "score": 0.030330882352941176,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 4,
+          "tfidf": 8
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:68:para:3",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 68,
+        "text": "sector side, operators should recognize the interconnections within the supply chain and incorporate\n\ncyber-risk considerations into their business engagements with purchasers, suppliers, terminal\n\noperators, and port service providers. Businesses can leverage contractual provisions with vendors,\n\ninsurance coverage, and investment conditions tied to cyber risk considerations. When combined,\n\nthese instruments can translate systemic cyber risk into enforceable obligations and targeted\n\nfinancial consequences, aligning private incentives with collective resilience objectives.",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 3,
+          "start_char": 2765,
+          "end_char": 3341
+        },
+        "score": 0.0288981288981289,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 5,
+          "tfidf": 14
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:16:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 16]\nto improving cybersecurity across the broader port ecosystem. However, fewer than a third of the\n\nsurveyed organizations (31 percent) participate in voluntary information-sharing mechanisms,\n\nregardless of their country’s income level.\n\nSelected recommendations:\n\n• Training: Implement role-based, recurrent cybersecurity training across all staff levels, covering\n\nboth IT and OT threat scenarios.\n\n• Culture: Foster a no-blame reporting culture that treats incident disclosure as a contribution to\n\ncollective defense rather than an admission of failure.\n\n• Incentives: Treat cyber-resilient supply chains as a public good and reflect this in governance\n\nframeworks and contractual arrangements. For example, invest in cyber resilience centers\n\nand cross-sector capacity building to enhance coordinated detection, intelligence sharing, and\n\nincident response capabilities.\n\nThis report provides recommendations to bridge these gaps, securing the digital backbone of",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:16:para:2"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 44.247399986488745
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "answerable": true,
+    "question": "What functions can a cybersecurity steering committee perform across port organizations?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:38:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 38,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n21\n\nBox 5 Steering committees as a governance and coordination mechanism\n\nA practical mechanism for strengthening governance and coordination in port cybersecurity\n\nis the establishment of a cybersecurity steering committee (IAPH 2021). Such a committee\n\ncan bring together representatives from port authorities, terminal operators, logistics\n\nproviders, IT and OT service providers, shipping agents, and relevant public authorities with\n\ncybersecurity mandates.\n\nA steering committee can support the allocation and exercise of cybersecurity\n\nresponsibilities by providing a formal structure for strategic oversight, decision making, and\n\naccountability. It may contribute to setting priorities, aligning cybersecurity policies across\n\nstakeholders, and clarifying roles and responsibilities related to risk management, incident\n\nreporting, and regulatory compliance across the port ecosystem (IAPH 2021).",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 951
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:38:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 38,
+        "text": "At the same time, the committee can function as a coordination mechanism across\n\norganizational boundaries. Through regular information exchange, it can facilitate the\n\nsharing of threat intelligence, promote greater consistency in cybersecurity practices\n\namong concessionaires and service providers, and support coordinated preparedness and\n\nresponse to cyber incidents. In addition, it can serve as a focal point for engagement with\n\nnational cybersecurity authorities and sectoral CSIRTs, thereby strengthening the port’s\n\nintegration into wider cyber resilience frameworks (ENISA 2021).\n\nThe mandate and operation of cybersecurity steering committees vary depending on the\n\nport governance model (World Bank 2025b). In publicly operated ports, coordination may\n\nfollow a more hierarchical approach led by the port authority. In landlord ports, steering\n\ncommittees often act as collaborative platforms to align multiple private operators through",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 952,
+          "end_char": 1892
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:37:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 37,
+        "text": "safety, or the port’s role within wider supply chains. Clear escalation pathways and defined\n\nmanagement responsibilities are therefore essential to ensure timely and coordinated responses\n\nwhen incidents occur.\n\nGiven the multiplicity of actors operating within ports, management-level responsibility frequently\n\nextends beyond individual organizations to encompass port-wide governance arrangements.\n\nOne mechanism used in a range of port contexts is the establishment of cybersecurity steering\n\ncommittees (Box 5). At the management level, such committees provide a formal structure for\n\nstrategic oversight, enabling port authorities, terminal operators, and other key stakeholders to\n\nalign cybersecurity priorities, clarify responsibilities, and coordinate policies across organizational\n\nboundaries. While their composition and authority vary depending on the port governance model,\n\nthese arrangements help translate assigned responsibility into more coherent governance across the",
+        "metadata": {
+          "category": "policy",
+          "section": "policy",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1889,
+          "end_char": 2868
+        },
+        "score": 0.03131881575727918,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 7
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:38:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 38]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n21\n\nBox 5 Steering committees as a governance and coordination mechanism\n\nA practical mechanism for strengthening governance and coordination in port cybersecurity\n\nis the establishment of a cybersecurity steering committee (IAPH 2021). Such a committee\n\ncan bring together representatives from port authorities, terminal operators, logistics\n\nproviders, IT and OT service providers, shipping agents, and relevant public authorities with\n\ncybersecurity mandates.\n\nA steering committee can support the allocation and exercise of cybersecurity\n\nresponsibilities by providing a formal structure for strategic oversight, decision making, and\n\naccountability. It may contribute to setting priorities, aligning cybersecurity policies across\n\nstakeholders, and clarifying roles and responsibilities related to risk management, incident\n\nreporting, and regulatory compliance across the port ecosystem (IAPH 2021).",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:38:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 65.5722999945283
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "answerable": true,
+    "question": "Besides planned intervals, when does the report recommend conducting vulnerability scans?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:45:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 45,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 987
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:45:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 45,
+        "text": "specific penetration tests at least annually, and nearly a third do so every three months or more\n\n(Figure 8). In middle-income countries, this proportion falls to approximately half of the respondents.\n\nBy contrast, half of the respondents from low-income countries conduct vulnerability scans\n\nless than once a year or never. The absence of routine scanning and testing leaves weaknesses\n\nunaddressed and increases the likelihood that attempted intrusions with widely available malicious\n\nsoftware will succeed (NIST 2022).\n\nFigure 8 Frequency of conducting vulnerability scans\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nHow frequently do you conduct vulnerability scans or pentesting?\n\nAnnuallyQuarterly or more often Less than once a year Never Prefer not to say\n\nSource: World Bank survey Understanding Cybersecurity in Ports.",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 988,
+          "end_char": 1899
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 3
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:52:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 52,
+        "text": "relevant to the organization and conducting a comprehensive asset inventory. Conducting an asset\n\ninventory also helps the organization identify critical components necessary for business continuity.\n\nThis should include IT and OT assets, and document all connections, whether intended or legacy,\n\nbetween the environments.\n\nRecommendation 2: Conduct regular risk assessments\n\nRisk assessments should be conducted at planned intervals and when significant changes to port\n\nsystems occur. In practice, this likely means conducting a comprehensive assessment annually, with\n\nrisk-based or trigger-based reassessments.\n\nRecommendation 3: Implement practical risk mitigation measures\n\nSystem protection is a core element of cybersecurity risk management. Even relatively simple\n\nmeasures, such as clearly defining acceptable user behavior for online accounts or mandatory\n\nrefresh cycles for software and physical infrastructure housing IT systems, can significantly improve",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 893,
+          "end_char": 1852
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 6,
+          "tfidf": 2
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:45:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 45]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:45:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 56.18539999704808
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "answerable": true,
+    "question": "What creative cybersecurity awareness activities are described for the Port of Antwerp-Bruges?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:57:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 57,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n40\n\nBox 8 Case studies: Delivery and communication styles of cybersecurity\n\ntraining methods\n\nThe Port of Antwerp-Bruges demonstrated the importance of training delivery methods\n\nby using creative approaches, including organizing a Cybersecurity Escape Room and\n\ncybersecurity-focused shows. While these initiatives require significant effort, lower-intensity\n\nmeasures can also be highly effective. For example, inviting a speaker from a company that has\n\nexperienced a cyber incident has proven successful in raising employee awareness.\n\nMaintaining continuous awareness requires ongoing communication, not just periodic\n\ntraining events. The Gambia Ports Authority, for instance, sends weekly warning emails to\n\nstaff highlighting social engineering threats such as phishing, helping to keep security\n\ntop-of-mind throughout the year.\n\nTogether, these examples illustrate that effective cybersecurity training in ports",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 966
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:86:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 86,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n69\n\nc. How do you collaborate with other ports at the national and international levels? What is the\n\nadded value?\n\nd. Do you know how other ports dealt well/badly with: improving cybersecurity in shared platforms\n\nsuch as PCS or MSW/exchanging information?\n\n• Prompts:\n\ni. How do you collaborate with external partners (e.g., government, other ports,\n\nindustry groups) on cybersecurity?\n\nii. Does this occur only within the country, on a regional level, or also outside the EU?\n\niii. How are your cybersecurity efforts coordinated between the port authority and\n\nterminal operators?\n\niv. What mechanisms exist for sharing threat intelligence or best practices?\n\nTheme 3: The Journey and Future Outlook\n\n• Evolution and Milestones\n\na. What have been the key milestones or turning points?\n\nb. Has this affected the number and type of jobs and employees in your organization?\n\n• Looking Ahead",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 931
+        },
+        "score": 0.030621785881252923,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 9
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:12:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 12,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxii\n\nWhy Does This Report Matter?\n\nPorts play a critical role in international trade, regional and domestic economic activities, and the\n\nwell-being of people and societies. Today, ports are no longer simply physical infrastructure; they\n\nhave become digital systems. Port authorities, terminal operators, shipping lines, logistics providers,\n\nand customs are increasingly linked through shared digital platforms. This improves efficiency and\n\ntransparency in ports, but it also means that a breach in one part of the ecosystem can cascade\n\nacross others. Cybersecurity in ports is therefore a collective responsibility, and the entire ecosystem\n\nis only as strong as its weakest link.\n\nA cybersecurity incident at a port can halt vessel movements, prevent cargo from reaching its\n\ndestination, and compromise the safety of people and the integrity of equipment, such as robot\n\ncranes or guided vehicles. The costs of incidents",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 973
+        },
+        "score": 0.02946912242686891,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 5,
+          "tfidf": 11
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:57:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 57]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n40\n\nBox 8 Case studies: Delivery and communication styles of cybersecurity\n\ntraining methods\n\nThe Port of Antwerp-Bruges demonstrated the importance of training delivery methods\n\nby using creative approaches, including organizing a Cybersecurity Escape Room and\n\ncybersecurity-focused shows. While these initiatives require significant effort, lower-intensity\n\nmeasures can also be highly effective. For example, inviting a speaker from a company that has\n\nexperienced a cyber incident has proven successful in raising employee awareness.\n\nMaintaining continuous awareness requires ongoing communication, not just periodic\n\ntraining events. The Gambia Ports Authority, for instance, sends weekly warning emails to\n\nstaff highlighting social engineering threats such as phishing, helping to keep security\n\ntop-of-mind throughout the year.\n\nTogether, these examples illustrate that effective cybersecurity training in ports",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:57:para:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 55.297299986705184
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "answerable": true,
+    "question": "How can ports strengthen cyber resilience without creating entirely new institutional structures?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:72:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 72,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational",
+        "metadata": {
+          "category": "conclusions",
+          "section": "conclusions",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 972
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:23:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 23,
+        "text": "cybersecurity into port digitalization and modernization efforts. It places particular emphasis on the\n\nchallenges faced by ports in low- and middle-income countries, where gaps between cyber exposure\n\nand cyber readiness are often most pronounced. Building on recent World Bank work (World Bank\n\n2023b; Vergara Cobos 2024; World Bank 2025a) and new empirical evidence, the report highlights\n\nthe role of institutional, technological, human and economic factors as central drivers of cyber\n\nresilience and vulnerability.",
+        "metadata": {
+          "category": "introduction",
+          "section": "introduction",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1926,
+          "end_char": 2441
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 5,
+          "tfidf": 4
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:72:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 72,
+        "text": "risks, oversee third-party vendors, conduct training programs, maintain business continuity\n\narrangements, and coordinate among multiple stakeholders. Enhancing cybersecurity, therefore,\n\nlargely involves integrating this dimension into existing governance, risk management, capacity-\n\nbuilding, and operational processes. By embedding cybersecurity into established port management\n\nfunctions, ports can progressively strengthen resilience while building on structures and practices\n\nthat are already familiar to operators and policymakers.\n\nThis report set out to (i) assess the global cybersecurity landscape in ports, (ii) consolidate practical\n\nbest practices, and (iii) provide strategic recommendations to improve cyber resilience in ports.\n\nDrawing on desk-based research, global survey results, and in-depth stakeholder interviews, this\n\nreport was structured around three thematic areas that capture the key dimensions of cyber",
+        "metadata": {
+          "category": "conclusions",
+          "section": "conclusions",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 973,
+          "end_char": 1901
+        },
+        "score": 0.030536130536130537,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 6,
+          "tfidf": 5
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:72:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 72]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:72:para:0"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 55.088300025090575
+  },
+  {
+    "query_id": "q25",
+    "split": "dev",
+    "answerable": true,
+    "question": "When was the survey conducted and which languages were offered?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:77:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 77,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n60\n\nFigure 17 Survey respondents by organizational type\n\nPort association Ministry Port authorityTerminal operatorOther\n\n4.6%\n\n56%\n\n7.3%\n\n17.4%\n\n14.7%\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nLimitations\n\nThe findings are subject to several limitations common to survey-based research. First, the analysis\n\nrelies on self-reported data, which may be subject to social desirability bias, including the potential\n\noverstatement of cybersecurity maturity or underreporting of incidents and vulnerabilities. Second,\n\nthe number of responses limits the extent to which findings can be considered representative of the\n\nglobal port sector. Third, although the survey was available in three languages, some organizations\n\nmay not have been reached equally, particularly in regions where English, French, or Spanish are\n\nless commonly used in professional settings. Accordingly, the results should be viewed as indicative",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 979
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:50:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 50,
+        "text": "Percentage of responses\n\nHave you conducted a cyber incident response drill or exercise in the past 5 years?\n\nHigh income Upper-middle income Lower-middle income Low income\n\n0%\n\n20%\n\n40%\n\n60%\n\n80%\n\n100%\n\n90%\n\n70%\n\n50%\n\n30%\n\n10%\n\nYes No Prefer not to say\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.",
+        "metadata": {
+          "category": "practice",
+          "section": "practice",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 968,
+          "end_char": 1271
+        },
+        "score": 0.02976190476190476,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 12
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:75:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 75,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n58\n\nAppendix 1: Survey on Cybersecurity in Ports\n\nSurvey Design and Sample Characteristics\n\nThe survey provides a global snapshot of cybersecurity practices, challenges, and priorities\n\nacross the port sector and forms a core empirical input to this report. It was conducted between\n\nearly November and mid-December 2025 and made available in English, French, and Spanish\n\nto maximize accessibility. The survey combined closed-ended questions, enabling descriptive\n\nstatistical analysis, with open-ended questions designed to capture context-specific perspectives.\n\nResponses to the open-ended questions helped elucidate the reasoning behind observed practices,\n\nthe barriers organizations face, and the institutional and operational factors shaping cybersecurity\n\ndecision-making beyond what quantitative data alone can reveal. The full questionnaire is provided\n\nbelow (English only).\n\nIncome Representation",
+        "metadata": {
+          "category": "appendices",
+          "section": "appendices",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 954
+        },
+        "score": 0.029571646010002173,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 13,
+          "tfidf": 3
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:77:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 77]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n60\n\nFigure 17 Survey respondents by organizational type\n\nPort association Ministry Port authorityTerminal operatorOther\n\n4.6%\n\n56%\n\n7.3%\n\n17.4%\n\n14.7%\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nLimitations\n\nThe findings are subject to several limitations common to survey-based research. First, the analysis\n\nrelies on self-reported data, which may be subject to social desirability bias, including the potential\n\noverstatement of cybersecurity maturity or underreporting of incidents and vulnerabilities. Second,\n\nthe number of responses limits the extent to which findings can be considered representative of the\n\nglobal port sector. Third, although the survey was available in three languages, some organizations\n\nmay not have been reached equally, particularly in regions where English, French, or Spanish are\n\nless commonly used in professional settings. Accordingly, the results should be viewed as indicative\n\n[world-bank-cybersecurity-ports-2026:50:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 50]\nPercentage of responses\n\nHave you conducted a cyber incident response drill or exercise in the past 5 years?\n\nHigh income Upper-middle income Lower-middle income Low income\n\n0%\n\n20%\n\n40%\n\n60%\n\n80%\n\n100%\n\n90%\n\n70%\n\n50%\n\n30%\n\n10%\n\nYes No Prefer not to say\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:77:para:0",
+      "world-bank-cybersecurity-ports-2026:50:para:1"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "elapsed_ms": 54.704299982404336
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "What is the PostgreSQL password used by the Port of Los Angeles Cyber Resilience Center?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:65:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 65,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 936
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1,
+          "tfidf": 1
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:65:para:2",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 65,
+        "text": "entities—including shipping companies, ports, terminals, and classification\n\nsocieties—through intelligence sharing, monitoring support, crisis response, and\n\ncollaborative exercises.\n\nSource: World Bank; Los Angeles Cyber Resilience Centre: Port of Los Angeles (n.d.), World Ports Sustainability Program\n\n(2025); Singapore Maritime Cyber Assurance and Operations Center: Singapore Business Review (2025); Ong (n.d.).; NORMA\n\nCyber: NORMA Cyber (n.d.).",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 2,
+          "start_char": 1870,
+          "end_char": 2317
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 2,
+          "tfidf": 2
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:64:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 64,
+        "text": "frameworks. The widespread uncertainty about participation further suggests that many\n\narrangements remain informal or lack operational visibility.\n\nVoluntary information sharing across the wider port community is critical to addressing detection\n\ngaps and reducing cascading impacts across interconnected operations. In this context, peer\n\nbenchmarking on cybersecurity resource allocation and the maturity of cybersecurity practices can\n\nalso provide valuable insights for ports and maritime stakeholders seeking to strengthen their cyber\n\nresilience (ENISA 2021; IAPH 2021).\n\nA more structured form of voluntary collaboration within port ecosystems is the development of\n\na Cyber Resilience Center (CRC). A CRC is a specialized hub designed to protect, detect, and share\n\ninformation on cyber incidents threatening maritime supply chains. The Port of Los Angeles was the\n\nfirst port to establish a CRC in 2022 (AAPA 2023). Establishing CRCs at the wider port-ecosystem",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 1,
+          "start_char": 898,
+          "end_char": 1859
+        },
+        "score": 0.031746031746031744,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 3,
+          "tfidf": 3
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:65:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:65:para:0"
+    ],
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "elapsed_ms": 56.49749998701736
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "What is the exact 2030 cybersecurity budget in US dollars for the Port of Antwerp-Bruges?",
+    "config": {
+      "id": "hybrid-rrf",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 1600,
+      "max_searches": 1,
+      "candidates": 20,
+      "hypothesis": "Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."
+    },
+    "filters": {},
+    "status": "ok",
+    "results": [
+      {
+        "id": "world-bank-cybersecurity-ports-2026:13:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 13,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxiii\n\nWhat Does This Report Do?\n\nThis report draws on a global survey of 109 port stakeholders, in-depth interviews, and desk-based\n\nregulatory mapping. The outcome is a unique overview of the current cybersecurity landscape in the\n\nport sector and a series of actionable recommendations, with a particular focus on ports in low- and\n\nmiddle-income countries. The findings and recommendations are split into three themes:\n\n1. Policy 2. Practice 3. Barriers\n\nWhat Does This Report Find and Recommend?\n\nEven in high-income countries, cyber resilience in ports\n\nremains a work in progress. Full compliance, adequate\n\nresourcing, and consistent practice are still far from the\n\nnorm. In low- and middle-income settings, the challenges\n\nare often even more acute: policy coverage is thinner, skills\n\ngaps are wider, and resources are more constrained. As\n\nsupply chain interdependencies grow, these gaps create",
+        "metadata": {
+          "category": "executive_summary",
+          "section": "executive_summary",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 948
+        },
+        "score": 0.02877846790890269,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 9,
+          "tfidf": 10
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:60:para:0",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 60,
+        "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n43\n\n3.2 Financial Barriers\n\nEven where ports recognize the skills gap discussed above, they frequently cannot justify\n\nthe investment — not because they are indifferent to risk, but because the financial logic of\n\ncybersecurity works against them. Among World Bank survey respondents, funding cybersecurity\n\nis an important barrier for more than 50 percent of ports across all income groups. The lack of a\n\nbusiness case is also widely recognized as a core barrier among ports. Unlike the human capacity\n\nbarriers discussed above, financial barriers concern what ports are willing to spend. This is distinct\n\nfrom the market failures discussed in Section 3.3, which persist even where the financial case\n\nbecomes clear and adequate investments are present.\n\nSecurity in general and cybersecurity in particular do not provide direct revenue to an organization",
+        "metadata": {
+          "category": "barriers",
+          "section": "barriers",
+          "year": 2026,
+          "segment": 0,
+          "start_char": 0,
+          "end_char": 905
+        },
+        "score": 0.028083267871170464,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 7,
+          "tfidf": 16
+        }
+      },
+      {
+        "id": "world-bank-cybersecurity-ports-2026:12:para:1",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+        "page": 12,
+        "text": "are real and measurable: according to industry\n\nestimates, the average cost of a cyber incident in\n\nthe maritime transport sector reached $550,000\n\nin 2023, a threefold increase from 2022, and\n\nransom demands averaged $3.2 million (Kenney and\n\nMacdonald 2023). Despite the growing importance\n\nof cybersecurity, many port stakeholders lack\n\nup-to-date knowledge, tools, and experience\n\nsecuring their information and operational\n\ntechnology infrastructure.\n\nAs cyber-related disruptions in\n\nports can have economy-wide\n\nand even cross-border impacts,\n\ncybersecurity represents a critical\n\nbuilding block for making ports\n\nmore resilient and for enabling\n\neconomic development.\n\nC/y.altb/e.altr Incid/e.altnt\n\nLoc/a.altl Port Imp/a.altct\n\nN/a.alttion/a.altl Economic Imp/a.altct\n\nCross-Bord/e.altr Spillov/e.altr Eff/e.altcts",
+        "metadata": {
+          "year": 2026,
+          "section": "executive_summary",
+          "segment": 1,
+          "category": "executive_summary",
+          "end_char": 1777,
+          "start_char": 974
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "component_ranks": {
+          "dense": 1
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:13:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 13]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\nxiii\n\nWhat Does This Report Do?\n\nThis report draws on a global survey of 109 port stakeholders, in-depth interviews, and desk-based\n\nregulatory mapping. The outcome is a unique overview of the current cybersecurity landscape in the\n\nport sector and a series of actionable recommendations, with a particular focus on ports in low- and\n\nmiddle-income countries. The findings and recommendations are split into three themes:\n\n1. Policy 2. Practice 3. Barriers\n\nWhat Does This Report Find and Recommend?\n\nEven in high-income countries, cyber resilience in ports\n\nremains a work in progress. Full compliance, adequate\n\nresourcing, and consistent practice are still far from the\n\nnorm. In low- and middle-income settings, the challenges\n\nare often even more acute: policy coverage is thinner, skills\n\ngaps are wider, and resources are more constrained. As\n\nsupply chain interdependencies grow, these gaps create",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:13:para:0"
+    ],
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "elapsed_ms": 60.43139999383129
+  }
+]

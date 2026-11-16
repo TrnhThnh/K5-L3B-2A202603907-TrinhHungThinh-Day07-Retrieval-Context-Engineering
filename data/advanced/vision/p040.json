@@ -1,0 +1,45 @@
+{
+  "page": 40,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page introduces Section 2 titled 'Practice,' featuring a digital illustration that emphasizes cybersecurity in port operations. The visual elements include a crane, trucks, and ships, all interconnected with security icons, symbolizing the integration of cybersecurity measures in port logistics.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure 2",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "An illustration depicting a port environment with a crane, trucks, and ships, interconnected by lines representing cybersecurity measures. The image features security shields with padlocks, highlighting the importance of cybersecurity in port operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 162,
+    "total_tokens": 25902,
+    "cost": 0.0039582,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039582,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.72e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5778.3705000183545,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

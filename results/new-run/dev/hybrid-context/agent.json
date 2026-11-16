@@ -1,0 +1,682 @@
+[
+  {
+    "query_id": "q01",
+    "question": "What does the report say about cybersecurity responsibility in a connected port ecosystem?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 271.80200000293553
+  },
+  {
+    "query_id": "q02",
+    "question": "What evidence sources did the report combine to describe port cybersecurity?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 246.09159998362884
+  },
+  {
+    "query_id": "q03",
+    "question": "How many survey respondents came from high-income countries, and what share did they represent?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 270.37640000344254
+  },
+  {
+    "query_id": "q04",
+    "question": "In the executive summary Policy subsection, does the report identify a binding global framework for port cybersecurity?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 1533.0834000196774
+  },
+  {
+    "query_id": "q05",
+    "question": "What does the report recommend ports maintain to assess exposure to cyber threats?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 238.7985999812372
+  },
+  {
+    "query_id": "q06",
+    "question": "Why does the report consider integration of IT and OT significant in ports?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 242.96269999467768
+  },
+  {
+    "query_id": "q07",
+    "question": "According to the Policy section, what do robust cybersecurity governance structures enable?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 191.43730000359938
+  },
+  {
+    "query_id": "q08",
+    "question": "What does Part A of the ISPS Code require port facilities to do?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 189.40099998144433
+  },
+  {
+    "query_id": "q09",
+    "question": "What role does national governance play while international port cybersecurity frameworks evolve?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 209.8155000130646
+  },
+  {
+    "query_id": "q10",
+    "question": "Among high-income-country respondents, what share said they were required to notify a national or sectoral response body?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 289.5213000010699
+  },
+  {
+    "query_id": "q11",
+    "question": "How does the report characterize the role of governance in port cybersecurity?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 191.04320000042208
+  },
+  {
+    "query_id": "q12",
+    "question": "How does the report define cyber resilience for a port?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 196.0743000090588
+  },
+  {
+    "query_id": "q13",
+    "question": "In the Practice section, what is the purpose of vulnerability scans?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 217.25139999762177
+  },
+  {
+    "query_id": "q14",
+    "question": "What did the Maritime and Port Authority of Singapore do to exercise cyber incident coordination?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 232.15299998992123
+  },
+  {
+    "query_id": "q15",
+    "question": "Give one indicator the report suggests for measuring cybersecurity progress in ports.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 212.517600011779
+  },
+  {
+    "query_id": "q16",
+    "question": "In the Practice section, what gap does the report identify between incident readiness and business continuity?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 219.51999998418614
+  },
+  {
+    "query_id": "q17",
+    "question": "What frequency and response options does the survey question on employee cybersecurity awareness training ask about?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 238.95500000799075
+  },
+  {
+    "query_id": "q18",
+    "question": "In the Barriers section, what does ROSI estimate?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 206.1299000051804
+  },
+  {
+    "query_id": "q19",
+    "question": "When did the Port of Los Angeles launch its Cyber Resilience Center, and what was its purpose?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 177.31690002256073
+  },
+  {
+    "query_id": "q20",
+    "question": "Why does the report call systemic cyber resilience a public good?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 248.413299996173
+  },
+  {
+    "query_id": "q21",
+    "question": "What functions can a cybersecurity steering committee perform across port organizations?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 201.40669998363592
+  },
+  {
+    "query_id": "q22",
+    "question": "Besides planned intervals, when does the report recommend conducting vulnerability scans?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 173.50050000823103
+  },
+  {
+    "query_id": "q23",
+    "question": "What creative cybersecurity awareness activities are described for the Port of Antwerp-Bruges?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 220.65550001570955
+  },
+  {
+    "query_id": "q24",
+    "question": "How can ports strengthen cyber resilience without creating entirely new institutional structures?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 494.1553999960888
+  },
+  {
+    "query_id": "q25",
+    "question": "When was the survey conducted and which languages were offered?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 211.99859998887405
+  },
+  {
+    "query_id": "q26",
+    "question": "What roles does the report assign to a Security Operations Center in incident management?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 208.29479998792522
+  },
+  {
+    "query_id": "q27",
+    "question": "How does the Cyber-SHIP Lab make maritime cyber incident training realistic for professionals?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 211.14319999469444
+  },
+  {
+    "query_id": "q28",
+    "question": "In the barriers discussion, what safeguards help port organizations share information while protecting sensitive commercial data?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 261.8839999777265
+  },
+  {
+    "query_id": "q29",
+    "question": "In the barriers recommendations, which information-governance rules are essential for effective mandatory and voluntary sharing?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 207.2296000260394
+  },
+  {
+    "query_id": "q30",
+    "question": "In the technical resources appendix, what can denial-of-service attacks disrupt at a port?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 209.88939999369904
+  },
+  {
+    "query_id": "u01",
+    "question": "What is the PostgreSQL password used by the Port of Los Angeles Cyber Resilience Center?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 246.47760001244023
+  },
+  {
+    "query_id": "u02",
+    "question": "What is the exact 2030 cybersecurity budget in US dollars for the Port of Antwerp-Bruges?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 248.1829000171274
+  },
+  {
+    "query_id": "u03",
+    "question": "What is the private API key used by the Maritime and Port Authority of Singapore SOC?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 215.41559998877347
+  },
+  {
+    "query_id": "u04",
+    "question": "What was the exact number of ransomware incidents at the Port of Los Angeles in calendar year 2035?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 260.3094000078272
+  }
+]

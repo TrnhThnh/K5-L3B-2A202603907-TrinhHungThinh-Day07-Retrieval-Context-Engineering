@@ -1,0 +1,338 @@
+{
+  "config": {
+    "id": "vision-lite",
+    "model": "google/gemini-2.5-flash-lite",
+    "top_k": 10,
+    "context_rows": 14,
+    "max_searches": 4,
+    "max_pages": 6,
+    "max_turns": 12,
+    "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+  },
+  "dev_summaries": {
+    "vision-lite": {
+      "passed": 17,
+      "total": 18,
+      "rate": 0.9444444444444444,
+      "threshold_met": true,
+      "system_errors": 0,
+      "groups": {
+        "table": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "diagram": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "chart": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "multi_hop": {
+          "passed": 2,
+          "total": 3,
+          "rate": 0.6666666666666666
+        },
+        "text": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "unanswerable": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        }
+      },
+      "outcomes": [
+        {
+          "query_id": "ad01",
+          "group": "table",
+          "passed": true,
+          "reason": "Original Table 2 shows 48 and 44.04%; complete and cited table region contains the row."
+        },
+        {
+          "query_id": "ad02",
+          "group": "table",
+          "passed": true,
+          "reason": "Original page 32 Table 1 continuation states penalties for breaches/general non-compliance; aligned region includes the statement."
+        },
+        {
+          "query_id": "ad03",
+          "group": "table",
+          "passed": true,
+          "reason": "Original Table 3 GPS/AIS row supports navigation errors, masked movements and phantom ships; local PDF layout alignment locates the row."
+        },
+        {
+          "query_id": "ad04",
+          "group": "diagram",
+          "passed": true,
+          "reason": "Original ripple infographic labels innermost level Cyber Incident; aligned diagram contains it."
+        },
+        {
+          "query_id": "ad05",
+          "group": "diagram",
+          "passed": true,
+          "reason": "Original page 17 central panel lists binding cyber rules, clear responsibilities and mandatory incident reporting."
+        },
+        {
+          "query_id": "ad06",
+          "group": "diagram",
+          "passed": true,
+          "reason": "Original Figure 6 has the three Triage branches returned; aligned figure includes all branches."
+        },
+        {
+          "query_id": "ad07",
+          "group": "chart",
+          "passed": true,
+          "reason": "Original infographic reporting panel shows 83% and 56%; difference 27 percentage points is correct."
+        },
+        {
+          "query_id": "ad08",
+          "group": "chart",
+          "passed": true,
+          "reason": "Original Figure 16 gray South Asia slice is 2.8%, the smallest; compare all legend/slice labels."
+        },
+        {
+          "query_id": "ad09",
+          "group": "chart",
+          "passed": true,
+          "reason": "Original Figure 17 ministry dark-blue slice is 7.3%; matches answer."
+        },
+        {
+          "query_id": "ad10",
+          "group": "multi_hop",
+          "passed": true,
+          "reason": "Original Figure 4 Yes=64%; original Table 2 low-income count=8; both pages cited."
+        },
+        {
+          "query_id": "ad11",
+          "group": "multi_hop",
+          "passed": true,
+          "reason": "Original Box 6 describes isolated zones by function/criticality/protection; original Table 3 third-party row describes lateral spread; both pages cited."
+        },
+        {
+          "query_id": "ad12",
+          "group": "multi_hop",
+          "passed": false,
+          "reason": "Answer is broadly right but cites only page 61. Required multi-hop page 60 loss-prevention evidence is not cited; incomplete evidence set fails strict bonus scoring."
+        },
+        {
+          "query_id": "ad13",
+          "group": "text",
+          "passed": true,
+          "reason": "Original 2.1.4 paragraph assigns aggregation/correlation to SIEM and coordination to SOAR; PDF text-block alignment includes both."
+        },
+        {
+          "query_id": "ad14",
+          "group": "text",
+          "passed": true,
+          "reason": "Original Box 12 states 2015 and original focus on smart-port development/port community systems. This source-supported wording is accepted even though draft expected answer used the broader founding topics."
+        },
+        {
+          "query_id": "ad15",
+          "group": "text",
+          "passed": true,
+          "reason": "Original page 62 first paragraph explicitly gives time to detect and respond; aligned text block contains both."
+        },
+        {
+          "query_id": "ad16",
+          "group": "unanswerable",
+          "passed": true,
+          "reason": "Actual response states missing exact Gambia email-program cost; original relevant case study gives weekly emails but no dollar cost. No guessed cost."
+        },
+        {
+          "query_id": "ad17",
+          "group": "unanswerable",
+          "passed": true,
+          "reason": "Actual response explicitly declines exact future Cyber-SHIP incident-prevention count; original lab case study contains no such projection."
+        },
+        {
+          "query_id": "ad18",
+          "group": "unanswerable",
+          "passed": true,
+          "reason": "Actual response states Figure 4 provides no 95% confidence interval; original chart labels only percentages."
+        }
+      ],
+      "grading_status": "Codex-assisted original-page reviews; student/teacher confirmation pending",
+      "service_cost": {
+        "known_usd": 0.02151038,
+        "complete": true
+      },
+      "elapsed_ms_total": 139618.48339994322
+    },
+    "vision-lite-wide": {
+      "passed": 17,
+      "total": 18,
+      "rate": 0.9444444444444444,
+      "threshold_met": true,
+      "system_errors": 0,
+      "groups": {
+        "table": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "diagram": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "chart": {
+          "passed": 2,
+          "total": 3,
+          "rate": 0.6666666666666666
+        },
+        "multi_hop": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "text": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        },
+        "unanswerable": {
+          "passed": 3,
+          "total": 3,
+          "rate": 1.0
+        }
+      },
+      "outcomes": [
+        {
+          "query_id": "ad01",
+          "group": "table",
+          "passed": true,
+          "reason": "Original Table 2 shows 48 and 44.04%; complete and cited table region contains the row."
+        },
+        {
+          "query_id": "ad02",
+          "group": "table",
+          "passed": true,
+          "reason": "Original page 32 Table 1 continuation states penalties for breaches/general non-compliance; aligned region includes the statement."
+        },
+        {
+          "query_id": "ad03",
+          "group": "table",
+          "passed": true,
+          "reason": "Original Table 3 GPS/AIS row supports navigation errors, masked movements and phantom ships; local PDF layout alignment locates the row."
+        },
+        {
+          "query_id": "ad04",
+          "group": "diagram",
+          "passed": true,
+          "reason": "Original ripple infographic labels innermost level Cyber Incident; aligned diagram contains it."
+        },
+        {
+          "query_id": "ad05",
+          "group": "diagram",
+          "passed": true,
+          "reason": "Original page 17 central panel lists binding cyber rules, clear responsibilities and mandatory incident reporting."
+        },
+        {
+          "query_id": "ad06",
+          "group": "diagram",
+          "passed": true,
+          "reason": "Original Figure 6 has the three Triage branches returned; aligned figure includes all branches."
+        },
+        {
+          "query_id": "ad07",
+          "group": "chart",
+          "passed": true,
+          "reason": "Original infographic reporting panel shows 83% and 56%; difference 27 percentage points is correct."
+        },
+        {
+          "query_id": "ad08",
+          "group": "chart",
+          "passed": false,
+          "reason": "Incorrectly selects North America 4.6%; original Figure 16 clearly shows smaller South Asia 2.8%. Valid figure citation does not rescue wrong reading."
+        },
+        {
+          "query_id": "ad09",
+          "group": "chart",
+          "passed": true,
+          "reason": "Original Figure 17 ministry dark-blue slice is 7.3%; matches answer."
+        },
+        {
+          "query_id": "ad10",
+          "group": "multi_hop",
+          "passed": true,
+          "reason": "Original Figure 4 Yes=64%; original Table 2 low-income count=8; both pages cited."
+        },
+        {
+          "query_id": "ad11",
+          "group": "multi_hop",
+          "passed": true,
+          "reason": "Original Box 6 describes isolated zones by function/criticality/protection; original Table 3 third-party row describes lateral spread; both pages cited."
+        },
+        {
+          "query_id": "ad12",
+          "group": "multi_hop",
+          "passed": true,
+          "reason": "Original page 60 explains loss prevention rather than new revenue; Box 10 page 61 defines avoided losses relative to control cost; requires both pages."
+        },
+        {
+          "query_id": "ad13",
+          "group": "text",
+          "passed": true,
+          "reason": "Original 2.1.4 paragraph assigns aggregation/correlation to SIEM and coordination to SOAR; PDF text-block alignment includes both."
+        },
+        {
+          "query_id": "ad14",
+          "group": "text",
+          "passed": true,
+          "reason": "Original Box 12 states 2015 and original focus on smart-port development/port community systems. This source-supported wording is accepted even though draft expected answer used the broader founding topics."
+        },
+        {
+          "query_id": "ad15",
+          "group": "text",
+          "passed": true,
+          "reason": "Original page 62 first paragraph explicitly gives time to detect and respond; aligned text block contains both."
+        },
+        {
+          "query_id": "ad16",
+          "group": "unanswerable",
+          "passed": true,
+          "reason": "Actual response states missing exact Gambia email-program cost; original relevant case study gives weekly emails but no dollar cost. No guessed cost."
+        },
+        {
+          "query_id": "ad17",
+          "group": "unanswerable",
+          "passed": true,
+          "reason": "Actual response explicitly declines exact future Cyber-SHIP incident-prevention count; original lab case study contains no such projection."
+        },
+        {
+          "query_id": "ad18",
+          "group": "unanswerable",
+          "passed": true,
+          "reason": "Actual response states Figure 4 provides no 95% confidence interval; original chart labels only percentages."
+        }
+      ],
+      "grading_status": "Codex-assisted original-page reviews; student/teacher confirmation pending",
+      "service_cost": {
+        "known_usd": 0.026916380000000004,
+        "complete": true
+      },
+      "elapsed_ms_total": 126473.54019992054
+    }
+  },
+  "rule": "Highest fully reviewed dev binary pass rate; tie lower known API cost then ID.",
+  "selected_at_utc": "2026-11-16T04:00:45.155881+00:00",
+  "hashes": {
+    "data/advanced/benchmark.json": "0307faa65edced40ea2dfee0e6c3adfe8cdb4cccf8dc7ec72be0ba88e1831e3b",
+    "data/advanced/index_rows.json": "745e67ab7507516cca8e0a34e8e9662499fc150a0e7cde05c02e04a1e93fd98d",
+    "data/advanced/source.pdf": "654a61f25fba637ca467a1a4d7e7d9fe4247c998bdbf5b6f5392c8b8cef8172e",
+    "configs/advanced.json": "ccb666729c6547d93bfb8c0f1b0a341c6352620a15557ce4aeed276cf5f8bde8",
+    "data/advanced/pages.json": "c8a7f2b2e578f770254ed13a25a24f15394b57f860508340e9191c9552da2126",
+    "data/advanced/visual_catalog.json": "8e202eec7d1c6c2fe2a230163fdaf0d27f320784c7565b8d7cad2f12f48a1a52",
+    "src/advanced/agent.py": "e205cba8caa89b54a65f8333db6997a319c216f86a572cf3af97b3c22d0e20ef",
+    "src/advanced/store.py": "7e30dc36cc2bcd5960c2750afec51995178851998fe81fbe98ecb3f8d0d84283",
+    "src/advanced/common.py": "8e61cf25b85c8024334c762152ad74e9a5a37b9df682625b77ef9a7218191736",
+    "src/advanced/citation_alignment.py": "a63a3f69629f9a47882a0df80059006dcf066d9e29b361c743f9b797ec620705"
+  }
+}

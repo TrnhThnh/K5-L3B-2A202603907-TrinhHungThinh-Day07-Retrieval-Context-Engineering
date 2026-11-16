@@ -1,0 +1,11 @@
+{
+  "checked_date": "2026-11-16",
+  "model": "google/gemini-2.5-flash-lite",
+  "source": "https://openrouter.ai/google/gemini-2.5-flash-lite",
+  "listed_input_usd_per_million_tokens": 0.10,
+  "listed_output_usd_per_million_tokens": 0.40,
+  "billing_note": "Actual experiment costs use provider usage.cost, not this pricing estimate. Image token accounting and caching affect the bill.",
+  "user_daily_ceiling_usd": 0.70,
+  "usage_daily_before_this_turn_usd": 0.50568715,
+  "remaining_before_this_turn_usd": 0.19431285
+}

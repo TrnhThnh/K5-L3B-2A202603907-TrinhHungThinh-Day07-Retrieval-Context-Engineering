@@ -1,0 +1,45 @@
+{
+  "page": 66,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses the importance of standardized information-sharing protocols in enhancing cybersecurity within ports. It highlights insights from various ports, emphasizing governance, trust, and practical enablers. The text also addresses the need for collaboration beyond port boundaries, involving stakeholders and regulatory frameworks to ensure effective information sharing while maintaining data protection and liability considerations.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure 12",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        1.0
+      ],
+      "description": "A photograph of a busy port with containers and cranes, illustrating the scale of port operations and the importance of cybersecurity in this environment."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 162,
+    "total_tokens": 25902,
+    "cost": 0.0039582,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039582,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.72e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5587.960599979851,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,45 @@
+{
+  "page": 97,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page includes references to various reports and studies related to cybersecurity in ports and maritime industries. It highlights the importance of cybersecurity awareness and provides links to resources from organizations such as the Cyber Security Agency of Singapore, ENISA, and others. The references cover topics like cyber risk management, cybersecurity legislation, and investment in cybersecurity measures.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references related to cybersecurity in ports, including reports and studies from various organizations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 145,
+    "total_tokens": 25885,
+    "cost": 0.003948,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003948,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.7e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4382.574699993711,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

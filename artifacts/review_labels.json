@@ -1,0 +1,946 @@
+{
+  "dev/tfidf-base": {
+    "q01": [
+      1,
+      [
+        false,
+        true
+      ],
+      "Describes governance allocation but misses collective responsibility and cascading risk."
+    ],
+    "q02": [
+      0,
+      [
+        true
+      ],
+      "Cited incident analysis is supported but does not answer survey/interviews/regulatory-mapping evidence sources."
+    ],
+    "q03": [
+      2,
+      [
+        true
+      ],
+      "Table 2 supports 48 and 44.04%; valid alternative evidence to rounded executive-summary figure."
+    ],
+    "q04": [
+      2,
+      [
+        false,
+        true
+      ],
+      "Correct no-binding-framework answer; first citation is only a section title."
+    ],
+    "q05": [
+      1,
+      [
+        true
+      ],
+      "Inventory and risk management supported, but misses explicit live OT/IT inventory and regular scans."
+    ],
+    "q06": [
+      1,
+      [
+        false
+      ],
+      "Main IT/OT linkage is correct; extra severity comparison extends beyond the retained truncated paragraph."
+    ],
+    "q07": [
+      1,
+      [
+        true,
+        false
+      ],
+      "Relevant governance benefits, but omits buy-in/accountability/minimum standards; second citation is a generic closing fragment."
+    ],
+    "q08": [
+      2,
+      [
+        true
+      ],
+      "Security assessment and approved security plan requirements are explicitly supported."
+    ],
+    "q09": [
+      2,
+      [
+        true
+      ],
+      "National law translates guidance into enforceable obligations and responsibilities."
+    ],
+    "q10": [
+      2,
+      [
+        true
+      ],
+      "65 percent figure explicitly appears in cited page 34."
+    ],
+    "q11": [
+      2,
+      [
+        true
+      ],
+      "Central role and governance mechanisms correctly characterize the role; alternative supporting passage accepted."
+    ],
+    "q12": [
+      0,
+      [],
+      "False abstention on an answerable definition question."
+    ],
+    "q13": [
+      2,
+      [
+        false,
+        true
+      ],
+      "Correct scans/missing patches/misconfiguration answer; Practice title itself is not evidence."
+    ],
+    "q14": [
+      0,
+      [
+        true
+      ],
+      "Describes Singapore SOC development instead of tabletop coordination exercises."
+    ],
+    "q15": [
+      2,
+      [
+        true
+      ],
+      "Asset inventory/risk rating is a valid suggested indicator; question asks for any one indicator."
+    ],
+    "q16": [
+      1,
+      [
+        false,
+        false
+      ],
+      "Recommendations on exercises do not establish the observed readiness/integration gap; section title adds no support."
+    ],
+    "q17": [
+      0,
+      [],
+      "False abstention: survey frequency/options exist in corpus."
+    ],
+    "q18": [
+      0,
+      [],
+      "False abstention: ROSI definition exists in corpus."
+    ],
+    "q19": [
+      2,
+      [
+        true
+      ],
+      "January 2022 and rapid sharing/collective defense supported by CRC case study."
+    ],
+    "q20": [
+      2,
+      [
+        true
+      ],
+      "Public good and benefits across borders supported."
+    ],
+    "q21": [
+      2,
+      [
+        true
+      ],
+      "Several legitimate steering committee functions explicitly supported; question does not require an exhaustive list."
+    ],
+    "q22": [
+      2,
+      [
+        true
+      ],
+      "Significant system changes trigger scans, explicitly stated."
+    ],
+    "q23": [
+      2,
+      [
+        true,
+        true
+      ],
+      "Escape Room and shows plus ongoing communication are supported by the two case-study fragments."
+    ],
+    "q24": [
+      1,
+      [
+        true
+      ],
+      "Broad reuse of existing governance is supported, but detailed integration areas are missing."
+    ],
+    "q25": [
+      1,
+      [
+        true
+      ],
+      "Languages supported on alternative page, but survey dates omitted."
+    ],
+    "q26": [
+      0,
+      [
+        false
+      ],
+      "Conflates CRC functions with SOC roles; cited page distinguishes the two."
+    ],
+    "q27": [
+      2,
+      [
+        true
+      ],
+      "Physical ship bridge and realistic IT/OT scenarios supported."
+    ],
+    "q28": [
+      2,
+      [
+        true
+      ],
+      "Valid alternative safeguards: ownership/confidentiality/need-to-know rules directly answer protection of shared sensitive data."
+    ],
+    "q29": [
+      2,
+      [
+        true,
+        false
+      ],
+      "Correct ownership/confidentiality/access rules; Barriers title is not evidence."
+    ],
+    "q30": [
+      1,
+      [
+        false
+      ],
+      "Three DoS targets correct, but adds interception as a DoS capability although source lists it as a separate vector."
+    ]
+  },
+  "dev/dense-base": {
+    "q01": [
+      1,
+      [
+        true
+      ],
+      "Governance-allocation explanation supported, but omits collective responsibility and cascading risks."
+    ],
+    "q02": [
+      0,
+      [
+        true
+      ],
+      "Supported incident-analysis description does not answer evidence sources of the report."
+    ],
+    "q03": [
+      2,
+      [
+        true
+      ],
+      "Alternative Table 2 explicitly gives 48 and 44.04%."
+    ],
+    "q04": [
+      2,
+      [
+        true
+      ],
+      "No binding global framework explicitly supported."
+    ],
+    "q05": [
+      0,
+      [
+        true
+      ],
+      "Protective controls and entry points do not answer what inventory ports should maintain."
+    ],
+    "q06": [
+      1,
+      [
+        false,
+        false
+      ],
+      "Core IT/OT link correct; extra safety/severity conclusion extends the truncated paragraph, second citation is only a fragment."
+    ],
+    "q07": [
+      2,
+      [
+        true
+      ],
+      "Buy-in, accountability, coordination and minimum levels all explicitly supported."
+    ],
+    "q08": [
+      2,
+      [
+        true
+      ],
+      "Assessment and approved security plan obligations supported."
+    ],
+    "q09": [
+      1,
+      [
+        true
+      ],
+      "General governance benefits supported, but missing translation to enforceable obligations."
+    ],
+    "q10": [
+      0,
+      [],
+      "False abstention on answerable 65-percent question."
+    ],
+    "q11": [
+      2,
+      [
+        false,
+        true
+      ],
+      "Essential governance role supported by page 35; title-only page is not evidence."
+    ],
+    "q12": [
+      1,
+      [
+        true
+      ],
+      "Operational-resilience linkage supported but does not define prevent/respond/recover."
+    ],
+    "q13": [
+      2,
+      [
+        true
+      ],
+      "Scan purpose and examples explicitly supported."
+    ],
+    "q14": [
+      2,
+      [
+        true
+      ],
+      "April 2024, 40 participants and cross-region exercise supported."
+    ],
+    "q15": [
+      0,
+      [],
+      "False abstention; several legitimate progress indicators exist."
+    ],
+    "q16": [
+      1,
+      [
+        true,
+        false
+      ],
+      "Practice/testing recommendation supported, but not the full observed readiness gap; regulatory continuity passage does not establish the claim."
+    ],
+    "q17": [
+      2,
+      [
+        true,
+        true
+      ],
+      "All four response options supported; second passage also supports annual/no formal training frequencies."
+    ],
+    "q18": [
+      1,
+      [
+        false,
+        true
+      ],
+      "Interpretation/net savings supported, but core definition of avoided loss relative to control cost omitted; title adds no evidence."
+    ],
+    "q19": [
+      2,
+      [
+        true
+      ],
+      "CRC launch date and sharing/collective-defense purpose supported."
+    ],
+    "q21": [
+      2,
+      [
+        true
+      ],
+      "Multiple explicit steering committee functions supplied."
+    ],
+    "q22": [
+      2,
+      [
+        true
+      ],
+      "Significant system changes explicitly trigger scans."
+    ],
+    "q23": [
+      2,
+      [
+        true
+      ],
+      "Escape Room and shows supported in training case study."
+    ],
+    "q24": [
+      1,
+      [
+        true
+      ],
+      "Reusing governance supported but specific four integration areas missing."
+    ],
+    "q25": [
+      1,
+      [
+        true
+      ],
+      "Languages present in alternative source; survey dates omitted."
+    ],
+    "q26": [
+      0,
+      [],
+      "False abstention: SOC definition exists in corpus."
+    ],
+    "q27": [
+      2,
+      [
+        true
+      ],
+      "Ship bridge replication and realistic IT/OT scenarios supported."
+    ],
+    "q28": [
+      2,
+      [
+        false,
+        true
+      ],
+      "Valid alternative safeguards in ownership/confidentiality/access passage; challenges passage alone is not a recommendation."
+    ],
+    "q29": [
+      2,
+      [
+        true
+      ],
+      "Ownership, confidentiality and need-to-know access supported."
+    ],
+    "q30": [
+      1,
+      [
+        false
+      ],
+      "Three correct DoS targets, but incorrectly treats communication interception as another DoS function."
+    ]
+  },
+  "dev/hybrid-rrf": {
+    "q01": [
+      1,
+      [
+        true
+      ],
+      "Governance allocation supported but collective responsibility and cascade explanation missing."
+    ],
+    "q02": [
+      0,
+      [
+        true
+      ],
+      "Incident analysis supported, but does not identify report survey/interviews/regulatory mapping."
+    ],
+    "q03": [
+      2,
+      [
+        true
+      ],
+      "Alternative Table 2 gives correct 48 and 44.04%."
+    ],
+    "q04": [
+      2,
+      [
+        true
+      ],
+      "No binding global framework explicitly supported."
+    ],
+    "q05": [
+      1,
+      [
+        true
+      ],
+      "Live IT/OT inventories correct; does not explicitly include regular vulnerability scans."
+    ],
+    "q06": [
+      1,
+      [
+        false
+      ],
+      "Main IT/OT connection supported, but additional severity claim extends beyond retained truncated source."
+    ],
+    "q07": [
+      2,
+      [
+        true
+      ],
+      "All four governance benefits explicitly supported."
+    ],
+    "q08": [
+      2,
+      [
+        true
+      ],
+      "Assessment and security plan obligations supported."
+    ],
+    "q09": [
+      1,
+      [
+        true
+      ],
+      "General governance role supported but enforceable-obligation mechanism missing."
+    ],
+    "q10": [
+      2,
+      [
+        true
+      ],
+      "65-percent mandatory notification figure supported."
+    ],
+    "q11": [
+      2,
+      [
+        true,
+        false
+      ],
+      "Governance centrality supported; extra title citation has no factual support."
+    ],
+    "q12": [
+      0,
+      [],
+      "False abstention on answerable resilience definition."
+    ],
+    "q13": [
+      2,
+      [
+        true
+      ],
+      "Vulnerability scan purpose and examples explicitly supported."
+    ],
+    "q14": [
+      2,
+      [
+        true
+      ],
+      "Tabletop exercise, April 2024, 40 participants and cross-border coordination supported."
+    ],
+    "q15": [
+      0,
+      [],
+      "False abstention on answerable indicator question."
+    ],
+    "q16": [
+      1,
+      [
+        false
+      ],
+      "Recommendation to practice does not directly establish observed lack of integration/readiness."
+    ],
+    "q17": [
+      1,
+      [
+        true
+      ],
+      "Reports frequency findings rather than all requested survey response options."
+    ],
+    "q18": [
+      1,
+      [
+        false,
+        true
+      ],
+      "Net savings interpretation correct but core avoided-loss/control-cost definition missing; title unsupported."
+    ],
+    "q19": [
+      2,
+      [
+        true
+      ],
+      "Launch date and CRC purpose supported."
+    ],
+    "q20": [
+      1,
+      [
+        true
+      ],
+      "Collective benefits relevant, but cross-border societal-economic rationale omitted."
+    ],
+    "q21": [
+      2,
+      [
+        true
+      ],
+      "Several valid committee functions explicitly supported."
+    ],
+    "q22": [
+      2,
+      [
+        true
+      ],
+      "System changes trigger scans, explicitly stated."
+    ],
+    "q23": [
+      2,
+      [
+        true
+      ],
+      "Escape Room and shows supported."
+    ],
+    "q24": [
+      1,
+      [
+        true
+      ],
+      "Existing governance framework supported but specific integration areas missing."
+    ],
+    "q25": [
+      1,
+      [
+        true
+      ],
+      "Languages supported; dates missing."
+    ],
+    "q26": [
+      2,
+      [
+        true
+      ],
+      "Monitoring/detection/response in real time and escalation channels explicitly supported."
+    ],
+    "q27": [
+      2,
+      [
+        true
+      ],
+      "Physical ship bridge and realistic IT/OT incidents supported."
+    ],
+    "q28": [
+      2,
+      [
+        true,
+        false
+      ],
+      "Ownership/confidentiality/access rules valid alternative safeguards; challenges passage does not provide the recommendation."
+    ],
+    "q29": [
+      2,
+      [
+        true
+      ],
+      "All requested governance rules supported."
+    ],
+    "q30": [
+      1,
+      [
+        false
+      ],
+      "Correct DoS targets, but conflates separate communication-interception vector."
+    ]
+  },
+  "dev/hybrid-context": {
+    "q01": [
+      2,
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "Collective responsibility/cascading risk plus governance and committee context supported across cited passages."
+    ],
+    "q02": [
+      1,
+      [
+        true,
+        true,
+        true
+      ],
+      "Diverse sources and interviews supported, but survey size 109 and desk-based regulatory mapping missing."
+    ],
+    "q03": [
+      2,
+      [
+        true
+      ],
+      "Table 2 gives 48 and 44.04%; valid alternative evidence."
+    ],
+    "q04": [
+      2,
+      [
+        true,
+        true
+      ],
+      "Non-binding global framework and national implementation supported."
+    ],
+    "q05": [
+      1,
+      [
+        true,
+        true
+      ],
+      "Live OT/IT inventories supported, but explicit regular vulnerability scans omitted."
+    ],
+    "q06": [
+      1,
+      [
+        false,
+        true,
+        false
+      ],
+      "Core linkage supported but some extra efficiency/severity claims and evolving-risk-management attribution exceed their specific cited fragments."
+    ],
+    "q07": [
+      2,
+      [
+        true
+      ],
+      "All four governance benefits supported."
+    ],
+    "q08": [
+      2,
+      [
+        true
+      ],
+      "Security assessment and plan requirements supported."
+    ],
+    "q09": [
+      0,
+      [],
+      "False abstention despite corpus containing national-governance evidence."
+    ],
+    "q10": [
+      2,
+      [
+        true
+      ],
+      "65-percent figure explicitly supported."
+    ],
+    "q11": [
+      2,
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "Central governance role, national framework and port-level responsibilities supported across passages."
+    ],
+    "q12": [
+      1,
+      [
+        true,
+        true
+      ],
+      "Operational resilience and information sharing supported, but prevent/respond/recover definition missing."
+    ],
+    "q13": [
+      2,
+      [
+        true,
+        true,
+        true
+      ],
+      "Scan purpose and examples supported; complementary scan-frequency and OT-vulnerability passages relevant."
+    ],
+    "q14": [
+      2,
+      [
+        true,
+        true
+      ],
+      "Exercises/40 participants and additional Singapore SOC background both supported."
+    ],
+    "q15": [
+      2,
+      [
+        true
+      ],
+      "Inventory/risk-rating is a valid progress indicator."
+    ],
+    "q16": [
+      1,
+      [
+        true,
+        false
+      ],
+      "Difference between plans and missing fallback risks supported, but actual under-practiced readiness finding omitted; regulatory passage does not establish gap."
+    ],
+    "q17": [
+      2,
+      [
+        true,
+        false
+      ],
+      "All employee-training response options correct; other citation concerns a different specialized-training question."
+    ],
+    "q18": [
+      0,
+      [],
+      "False abstention on answerable ROSI definition."
+    ],
+    "q19": [
+      2,
+      [
+        true,
+        false
+      ],
+      "CRC date and purpose correct; NORMA continuation is not evidence for Los Angeles."
+    ],
+    "q20": [
+      1,
+      [
+        true,
+        true,
+        true
+      ],
+      "Public/private good and incentive recommendations supported, but specific cross-border societal-benefit rationale is not established by these selected citations."
+    ],
+    "q21": [
+      2,
+      [
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "Committee functions explicitly supported by committee/oversight passages; generic page 35 has no committee-function detail."
+    ],
+    "q22": [
+      2,
+      [
+        true
+      ],
+      "Significant system changes trigger scans; explanation consistent with scan purpose."
+    ],
+    "q23": [
+      2,
+      [
+        true,
+        false
+      ],
+      "Escape Room/shows supported; Barcelona training-evaluation passage does not establish Antwerp activities."
+    ],
+    "q24": [
+      2,
+      [
+        true,
+        true
+      ],
+      "All four integration areas and reuse of existing port capabilities supported."
+    ],
+    "q25": [
+      2,
+      [
+        true,
+        false
+      ],
+      "Dates and languages supported on page 75; regional-representation page does not support them."
+    ],
+    "q26": [
+      1,
+      [
+        false
+      ],
+      "Core SOC monitoring/detection/response right, but extra claim that SOC establishes reporting protocols is stronger than retained paragraph."
+    ],
+    "q27": [
+      2,
+      [
+        true,
+        false
+      ],
+      "Ship bridge and IT/OT scenarios supported; generic workforce-development citation does not support Cyber-SHIP specifics."
+    ],
+    "q28": [
+      2,
+      [
+        true,
+        true,
+        false
+      ],
+      "Ownership rules, standardized protocols and controlled file transfer supported; national/international sharing continuation does not establish named safeguards."
+    ],
+    "q29": [
+      2,
+      [
+        true
+      ],
+      "Ownership/confidentiality/need-to-know rules explicitly supported."
+    ],
+    "q30": [
+      1,
+      [
+        false
+      ],
+      "Correct DoS targets but adds communications interception as DoS capability; source distinguishes separate vector."
+    ]
+  },
+  "test/tfidf-base": {
+    "q31": [
+      0,
+      [],
+      "False abstention; exemption exists in corpus but agent context was insufficient."
+    ],
+    "q32": [
+      2,
+      [
+        true
+      ],
+      "Cited table explicitly gives within 24 hours and CSIRTs."
+    ],
+    "q33": [
+      2,
+      [
+        true
+      ],
+      "Figure text explicitly lists Asset inventory in proactive approach."
+    ],
+    "q34": [
+      2,
+      [
+        true
+      ],
+      "More than 50 percent across all income groups explicitly supported."
+    ],
+    "q35": [
+      2,
+      [
+        true,
+        true
+      ],
+      "No-blame/shared-responsibility reporting and collective-defense interpretation supported."
+    ]
+  },
+  "test/hybrid-context": {
+    "q31": [
+      2,
+      [
+        true
+      ],
+      "NIS2-covered facilities exemption supported; neighboring paragraph in context establishes Italian circular antecedent."
+    ],
+    "q32": [
+      2,
+      [
+        true
+      ],
+      "24-hour report and recipient CSIRTs explicitly supported by table."
+    ],
+    "q33": [
+      2,
+      [
+        true
+      ],
+      "Asset inventory explicitly supported by extracted Figure 6 text."
+    ],
+    "q34": [
+      2,
+      [
+        true
+      ],
+      "More than 50 percent across income groups supported."
+    ],
+    "q35": [
+      2,
+      [
+        true,
+        true
+      ],
+      "No-blame culture/shared responsibility and collective defense supported by both passages."
+    ]
+  }
+}

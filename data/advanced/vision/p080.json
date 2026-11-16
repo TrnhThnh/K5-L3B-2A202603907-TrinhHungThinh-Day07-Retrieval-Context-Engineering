@@ -1,0 +1,111 @@
+{
+  "page": 80,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses cybersecurity training opportunities and incident response planning within organizations. It includes questions about the integration of automated cybersecurity solutions, the availability of specialized training for cybersecurity personnel, and the provision of regular cybersecurity awareness training for employees. Additionally, it addresses whether cybersecurity is included in incident response and business continuity planning.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Question 11",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.15
+      ],
+      "description": "Question about automated cybersecurity solutions integration."
+    },
+    {
+      "kind": "text",
+      "label": "Section 5: Awareness & Training",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.25
+      ],
+      "description": "Introduction to the section on cybersecurity training opportunities."
+    },
+    {
+      "kind": "text",
+      "label": "Question 12",
+      "bbox": [
+        0.05,
+        0.25,
+        0.95,
+        0.35
+      ],
+      "description": "Question regarding organizational cybersecurity skills management."
+    },
+    {
+      "kind": "text",
+      "label": "Question 13",
+      "bbox": [
+        0.05,
+        0.35,
+        0.95,
+        0.45
+      ],
+      "description": "Question about specialized training for cybersecurity personnel."
+    },
+    {
+      "kind": "text",
+      "label": "Question 14",
+      "bbox": [
+        0.05,
+        0.45,
+        0.95,
+        0.55
+      ],
+      "description": "Question regarding regular cybersecurity awareness training for employees."
+    },
+    {
+      "kind": "text",
+      "label": "Section 6: Incident Response & Recovery",
+      "bbox": [
+        0.05,
+        0.55,
+        0.95,
+        0.65
+      ],
+      "description": "Introduction to the section on incident response and recovery."
+    },
+    {
+      "kind": "text",
+      "label": "Question 15",
+      "bbox": [
+        0.05,
+        0.65,
+        0.95,
+        0.75
+      ],
+      "description": "Question about the inclusion of cybersecurity in incident response planning."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 496,
+    "total_tokens": 26236,
+    "cost": 0.0041586,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0041586,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0002976
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 10067.129299975932,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

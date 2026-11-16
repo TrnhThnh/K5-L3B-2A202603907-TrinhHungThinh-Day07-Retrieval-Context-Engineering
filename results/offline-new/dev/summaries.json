@@ -1,0 +1,25 @@
+{
+  "tfidf-base": {
+    "n": 34,
+    "successful_answerable": 30,
+    "errors": 0,
+    "hit1": {
+      "n": 11,
+      "N": 30,
+      "rate": 0.36666666666666664
+    },
+    "hit3": {
+      "n": 22,
+      "N": 30,
+      "rate": 0.7333333333333333
+    },
+    "context_evidence_rate": {
+      "n": 13,
+      "N": 30,
+      "rate": 0.43333333333333335
+    },
+    "median_ms": 0.37149999116081744,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  }
+}

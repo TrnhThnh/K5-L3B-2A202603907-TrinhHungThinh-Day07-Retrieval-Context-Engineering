@@ -1,0 +1,140 @@
+[
+  {
+    "config": "tfidf-base",
+    "query_id": "q31",
+    "context_grade": 1,
+    "reason": "Exemption present, but Italian circular antecedent in preceding chunk is missing; source line also mentions Chile.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:28:para:1",
+      "world-bank-cybersecurity-ports-2026:28:para:3"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "tfidf-base",
+    "query_id": "q32",
+    "context_grade": 0,
+    "reason": "Only table introduction retained; neither 24-hour deadline nor CSIRT recipient appears.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:30:para:2"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "tfidf-base",
+    "query_id": "q33",
+    "context_grade": 2,
+    "reason": "Extracted Figure 6 text contains Asset inventory and the proactive-approach label with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:42:para:0"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "tfidf-base",
+    "query_id": "q34",
+    "context_grade": 2,
+    "reason": "More than 50 percent across all income groups explicitly present with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:60:para:0",
+      "world-bank-cybersecurity-ports-2026:53:para:0"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "tfidf-base",
+    "query_id": "q35",
+    "context_grade": 2,
+    "reason": "No-blame/shared responsibility and prompt transparent reporting present with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:73:para:1",
+      "world-bank-cybersecurity-ports-2026:53:para:0",
+      "world-bank-cybersecurity-ports-2026:16:para:2"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "hybrid-context",
+    "query_id": "q31",
+    "context_grade": 2,
+    "reason": "Both Italian circular introduction and NIS2 exemption retained, so antecedent and condition complete.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:28:para:1",
+      "world-bank-cybersecurity-ports-2026:28:para:0",
+      "world-bank-cybersecurity-ports-2026:28:para:3",
+      "world-bank-cybersecurity-ports-2026:28:para:2",
+      "world-bank-cybersecurity-ports-2026:27:para:0",
+      "world-bank-cybersecurity-ports-2026:33:para:2"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "hybrid-context",
+    "query_id": "q32",
+    "context_grade": 2,
+    "reason": "Table row states 24 hours and Computer Security Incident Response Teams with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:30:para:2",
+      "world-bank-cybersecurity-ports-2026:31:para:1",
+      "world-bank-cybersecurity-ports-2026:31:para:2",
+      "world-bank-cybersecurity-ports-2026:32:para:0",
+      "world-bank-cybersecurity-ports-2026:33:para:2",
+      "world-bank-cybersecurity-ports-2026:34:para:2"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "hybrid-context",
+    "query_id": "q33",
+    "context_grade": 2,
+    "reason": "Asset inventory appears in extracted proactive approach figure text with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:42:para:0",
+      "world-bank-cybersecurity-ports-2026:72:para:3",
+      "world-bank-cybersecurity-ports-2026:41:para:1",
+      "world-bank-cybersecurity-ports-2026:52:para:0",
+      "world-bank-cybersecurity-ports-2026:52:para:1"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "hybrid-context",
+    "query_id": "q34",
+    "context_grade": 2,
+    "reason": "More than 50 percent across all income groups explicitly present with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:60:para:0",
+      "world-bank-cybersecurity-ports-2026:54:para:1",
+      "world-bank-cybersecurity-ports-2026:69:para:3",
+      "world-bank-cybersecurity-ports-2026:82:para:1",
+      "world-bank-cybersecurity-ports-2026:85:para:0",
+      "world-bank-cybersecurity-ports-2026:54:para:0"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  },
+  {
+    "config": "hybrid-context",
+    "query_id": "q35",
+    "context_grade": 2,
+    "reason": "No-blame/shared responsibility and prompt transparent reporting explicitly present with source/page.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:73:para:1",
+      "world-bank-cybersecurity-ports-2026:16:para:2",
+      "world-bank-cybersecurity-ports-2026:34:para:0",
+      "world-bank-cybersecurity-ports-2026:15:para:1",
+      "world-bank-cybersecurity-ports-2026:34:para:2",
+      "world-bank-cybersecurity-ports-2026:33:para:2"
+    ],
+    "reviewer": "Codex AI-assisted; student confirmation pending",
+    "scope": "Original-query retrieval context, not rewritten-query agent context"
+  }
+]

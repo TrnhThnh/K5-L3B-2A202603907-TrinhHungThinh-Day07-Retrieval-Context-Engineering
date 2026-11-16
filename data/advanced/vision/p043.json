@@ -1,0 +1,67 @@
+{
+  "page": 43,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses how incidents occur in port systems, emphasizing the importance of understanding common entry points for effective protection. It identifies recurring vulnerabilities such as phishing, unpatched software, insecure remote access, and physical access through infected USB devices. The section also highlights the need for conducting risk assessments to evaluate the impact of these vulnerabilities on port systems and processes, aiding in the identification of critical components necessary for business continuity.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Section 2.1",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.3
+      ],
+      "description": "Evaluating Risk: Knowing What You Are Up Against"
+    },
+    {
+      "kind": "text",
+      "label": "Subsection 2.1.1",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.5
+      ],
+      "description": "How Do Incidents Occur?"
+    },
+    {
+      "kind": "text",
+      "label": "Subsection 2.1.2",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.7
+      ],
+      "description": "Conducting Risk Assessments"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 287,
+    "total_tokens": 26027,
+    "cost": 0.0040332,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040332,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001722
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7492.777900013607,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

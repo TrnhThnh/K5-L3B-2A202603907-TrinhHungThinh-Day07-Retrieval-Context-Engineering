@@ -1,0 +1,45 @@
+{
+  "page": 46,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses the challenges of addressing vulnerabilities in OT environments within ports, emphasizing the importance of mandatory refresh cycles and compensatory controls for legacy systems. It highlights network segmentation as an effective response, detailed in Box 6, which divides a port's digital environment into isolated zones based on function and criticality to prevent widespread compromise. The page also introduces the adoption of automated cybersecurity solutions, including AI, SIEM, and SOAR, to enhance speed, scale, and consistency in cyber risk management. Benefits of AI integration include reduced incident response times and improved handling of security gaps, despite regulatory and ethical challenges.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "diagram",
+      "label": "Box 6 Network segmentation in port environments",
+      "bbox": [
+        0.05,
+        0.28,
+        0.95,
+        0.55
+      ],
+      "description": "Box 6 explains network segmentation in port OT networks, originally closed and air-gapped but now exposed due to expanded automation and connectivity. Segmentation divides the digital environment into isolated zones by function, criticality, and protection level to prevent compromised applications from spreading ransomware or unauthorized access. It references ISA/IEC 62443 standards as a framework for segmentation implementation in industrial environments, helping port operators build security zones, conduits, and levels."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 287,
+    "total_tokens": 2951,
+    "cost": 0.0015248,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015248,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0004592
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5944.92540002102,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "query_id": "ad01",
+    "question": "In Table 2, give the high-income respondent count and percentage.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 448.64119999692775,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad02",
+    "question": "In Table 1, Enforcement & oversight, what does the Singapore Cybersecurity Act impose?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 448.1924000137951,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad03",
+    "question": "According to Table 3, how can GPS spoofing and AIS manipulation affect vessels?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 424.7105999966152,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad04",
+    "question": "In the impact-ripple diagram under Why Does This Report Matter, what event is at the innermost labeled level?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 424.436200002674,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad05",
+    "question": "In the Cyber Resilient Ports infographic, list the three actions under Strengthen Policy in The Way Forward panel.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 421.70829998212866,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad06",
+    "question": "In Figure 6, what three branches follow Triage in the reactive approach?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 434.73209999501705,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad07",
+    "question": "In A Global Port Resilience Gap, compare incident-reporting percentages for high-income versus low- and middle-income ports and calculate the gap.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 444.9043999775313,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad08",
+    "question": "In Figure 16, which region has the smallest response share, and what is its percentage?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 440.69950000266545,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad09",
+    "question": "In Figure 17, what percentage of respondents are ministries?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 481.90009998506866,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad10",
+    "question": "Combine Figure 4 and Table 2: what is the share with a formal cybersecurity policy, and how many low-income respondents were surveyed?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 425.4724999773316,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad11",
+    "question": "Combine Box 6 with Table 3: what does network segmentation do, and what entry point can spread laterally when third-party networks are unsegmented?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 205.7106999855023,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad12",
+    "question": "Using the financial barriers discussion and Box 10, why can ROSI support cybersecurity investment even when cybersecurity creates no direct revenue?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 443.4853999991901,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad13",
+    "question": "What two automated solutions does the report name for aggregating/correlating IT/OT information and coordinating responses, respectively?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 429.38829999184236,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad14",
+    "question": "What is ChainPORT, when was it established, and what was its original focus?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 450.21860001725145,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad15",
+    "question": "When precise cyber-loss prediction is uncertain, which time-based measures does the report suggest CISOs can directly control?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 418.0616000085138,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad16",
+    "question": "What exact annual dollar cost does the report give for the Gambia Ports Authority's weekly warning-email program?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 474.68339998158626,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad17",
+    "question": "What exact number of Cyber-SHIP Lab incidents will be prevented in 2029 according to the report?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 433.4923999849707,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad18",
+    "question": "What 95% confidence interval does Figure 4 give for its formal-policy percentage?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 445.4634999856353,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-full",
+      "model": "openai/gpt-4.1",
+      "top_k": 16,
+      "context_rows": 28,
+      "max_searches": 6,
+      "max_pages": 10,
+      "max_turns": 18,
+      "hypothesis": "Stronger vision model, broader candidates and more page/search allowance improve diagram/table/multi-hop accuracy."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  }
+]

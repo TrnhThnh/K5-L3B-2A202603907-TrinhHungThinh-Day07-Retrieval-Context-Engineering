@@ -1,0 +1,16 @@
+{
+  "cases": 48,
+  "dev": 18,
+  "test": 30,
+  "test_groups": {
+    "table": 6,
+    "diagram": 5,
+    "chart": 5,
+    "multi_hop": 4,
+    "text": 4,
+    "unanswerable": 6
+  },
+  "benchmark_sha256": "0307faa65edced40ea2dfee0e6c3adfe8cdb4cccf8dc7ec72be0ba88e1831e3b",
+  "split_note": "Authored from original pages before dev experiments; no test answers/results used for tuning. AI-authored prospective split, not externally blind.",
+  "rule": "All 30 test cases count; system errors count as failures; need >=27/30, no rounding."
+}

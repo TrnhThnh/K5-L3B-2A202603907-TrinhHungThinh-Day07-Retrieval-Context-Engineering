@@ -1,0 +1,45 @@
+{
+  "page": 6,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains a list of figures from the World Bank Cybersecurity in Ports report, detailing various aspects of cybersecurity practices and perceptions in ports. Each figure is numbered and includes a brief description along with the corresponding page number for reference.",
+  "page_class": "front_matter",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Figure List",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A comprehensive list of figures related to cybersecurity in ports, including topics such as governance models, risk assessments, training, and compliance."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 137,
+    "total_tokens": 25877,
+    "cost": 0.0039432,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039432,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.22e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5134.3203999858815,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,227 @@
+{
+  "passed": 25,
+  "total": 30,
+  "rate": 0.8333333333333334,
+  "threshold_met": false,
+  "system_errors": 2,
+  "groups": {
+    "table": {
+      "passed": 5,
+      "total": 6,
+      "rate": 0.8333333333333334
+    },
+    "diagram": {
+      "passed": 5,
+      "total": 5,
+      "rate": 1.0
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "rate": 1.0
+    },
+    "multi_hop": {
+      "passed": 1,
+      "total": 4,
+      "rate": 0.25
+    },
+    "text": {
+      "passed": 3,
+      "total": 4,
+      "rate": 0.75
+    },
+    "unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1.0
+    }
+  },
+  "outcomes": [
+    {
+      "query_id": "at01",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 2 low-income row gives 8 respondents and 7.34%; exact values and table source supported."
+    },
+    {
+      "query_id": "at02",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 2 gives 30 lower-middle and 23 upper-middle respondents; difference 7 respondents correct."
+    },
+    {
+      "query_id": "at03",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 1 Japan reporting example establishes Cyber Council for government/private-sector information sharing and incident response."
+    },
+    {
+      "query_id": "at04",
+      "group": "table",
+      "passed": false,
+      "reason": "System error counts as failure in advanced benchmark."
+    },
+    {
+      "query_id": "at05",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 3 phishing row supports surrendering credentials/downloading malware and spear-phishing privileged-access individuals."
+    },
+    {
+      "query_id": "at06",
+      "group": "table",
+      "passed": true,
+      "reason": "Original Table 4 Technical Standards row gives ISA/IEC 62443 (ISA 2026) and ISO 27001 (2022); both titles/years correct."
+    },
+    {
+      "query_id": "at07",
+      "group": "diagram",
+      "passed": true,
+      "reason": "Original impact-ripple arcs outward from incident are Local Port Impact, National Economic Impact, Cross-Border Spillover Effects, in that order."
+    },
+    {
+      "query_id": "at08",
+      "group": "diagram",
+      "passed": true,
+      "reason": "All eight callouts match original vulnerable/resilient infographic; citations identify both page-17 sides."
+    },
+    {
+      "query_id": "at09",
+      "group": "diagram",
+      "passed": true,
+      "reason": "Original Figure 5 shows all four port models in order and opposing public/private responsibility gradients; answer complete."
+    },
+    {
+      "query_id": "at10",
+      "group": "diagram",
+      "passed": true,
+      "reason": "All six labels and clockwise order match original Figure 6 proactive cycle."
+    },
+    {
+      "query_id": "at11",
+      "group": "diagram",
+      "passed": true,
+      "reason": "Original Figure 13 labels checklist plus Security guard, Crane operator and Operations supervisor; all returned."
+    },
+    {
+      "query_id": "at12",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Figure 4 No=25%, Don't know=11%; combined 36% correct."
+    },
+    {
+      "query_id": "at13",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Figure 16 Europe/Central Asia=25.7%, Latin America/Caribbean=23.9%; difference 1.8 percentage points correct."
+    },
+    {
+      "query_id": "at14",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Figure 17 port authority=56%, terminal operator=17.4%; difference 38.6 percentage points correct."
+    },
+    {
+      "query_id": "at15",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Figure 12 dark blue means annual training; high income longest and upper-middle income shortest; labels/direction correct."
+    },
+    {
+      "query_id": "at16",
+      "group": "chart",
+      "passed": true,
+      "reason": "Original Building Capacity panel shows 84% vs 49%, gap 35 percentage points, for regular training."
+    },
+    {
+      "query_id": "at17",
+      "group": "multi_hop",
+      "passed": false,
+      "reason": "Percentages, difference and two citations are correct, but answer omits the explicitly requested distinction between income-level and organizational-type classifications; strict complete-answer scoring fails."
+    },
+    {
+      "query_id": "at18",
+      "group": "multi_hop",
+      "passed": false,
+      "reason": "System error counts as failure in advanced benchmark."
+    },
+    {
+      "query_id": "at19",
+      "group": "multi_hop",
+      "passed": true,
+      "reason": "Original Figure 13 has all three role labels and original Box 9 describes physical ship-bridge replication; both pages 58 and 59 cited."
+    },
+    {
+      "query_id": "at20",
+      "group": "multi_hop",
+      "passed": false,
+      "reason": "False abstention on answerable hypothetical calculation: original Box 10 gives formula and question supplies all numeric inputs; no ALE/avoided-loss/ROSI answer returned."
+    },
+    {
+      "query_id": "at21",
+      "group": "text",
+      "passed": true,
+      "reason": "Original Appendix 2 page 83 supports eight interviews, early December 2025-end January 2026, seven practitioners and one academic; all requested conditions returned."
+    },
+    {
+      "query_id": "at22",
+      "group": "text",
+      "passed": true,
+      "reason": "Original Limitations paragraph on page 77 gives self-report/social desirability, limited representativeness and uneven language reach; all three returned."
+    },
+    {
+      "query_id": "at23",
+      "group": "text",
+      "passed": true,
+      "reason": "Original page 90 third-party OT paragraph explicitly lists MFA, time-bound credentials, monitored jump servers, session logging and supplier contractual obligations; all five returned."
+    },
+    {
+      "query_id": "at24",
+      "group": "text",
+      "passed": false,
+      "reason": "False abstention/turn limit: original Appendix 2 page 83 explicitly names ATLAS.ti and Braun and Clarke (2006); no answer returned."
+    },
+    {
+      "query_id": "at25",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Explicitly states that the report does not specify per-student tuition; original Cyber-SHIP case study contains no fee, and no guessed amount is added."
+    },
+    {
+      "query_id": "at26",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Despite protocol status answered, content explicitly says the manufacturer is not named. Original Figure 13 has no manufacturer label and no brand is guessed; rubric accepts explicit lack-of-evidence statements."
+    },
+    {
+      "query_id": "at27",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual response states the report does not provide the exact 2025 Singapore annual cybersecurity budget; no amount is guessed."
+    },
+    {
+      "query_id": "at28",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual response states the named Port of Rotterdam individual survey response is unavailable; original questionnaire explains individual responses are not published."
+    },
+    {
+      "query_id": "at29",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual final output abstains without inventing port-specific ROSI inputs or values. Original document provides a generic formula, not the requested observed Los Angeles inputs; abstention is correct though caused by turn limit."
+    },
+    {
+      "query_id": "at30",
+      "group": "unanswerable",
+      "passed": true,
+      "reason": "Actual response explicitly states no 95% confidence interval is supplied. Additional terminal-operator share 17.4% matches original Figure 17; no interval is guessed."
+    }
+  ],
+  "grading_status": "Codex-assisted original-page reviews; student/teacher confirmation pending",
+  "service_cost": {
+    "known_usd": 0.04175478999999999,
+    "complete": true
+  },
+  "elapsed_ms_total": 380618.6350999924
+}

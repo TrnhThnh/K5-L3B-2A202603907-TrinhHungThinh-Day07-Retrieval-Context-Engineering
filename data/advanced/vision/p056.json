@@ -1,0 +1,45 @@
+{
+  "page": 56,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents Figure 12, which illustrates the provision of regular cybersecurity awareness training for employees across different income levels. The data highlights the percentage of responses regarding whether organizations provide training, with categories including 'Yes, at least once a year,' 'Yes, but less than once a year,' 'No, no formal training is provided,' and 'Prefer not to say.' The figure emphasizes the importance of training in mitigating cybersecurity vulnerabilities identified by interviewees.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 12",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "description": "Bar chart showing the percentage of responses regarding regular cybersecurity awareness training for employees across four income categories: Low income, Lower-middle income, Upper-middle income, and High income. The chart includes four response categories: 'Yes, at least once a year,' 'Yes, but less than once a year,' 'No, no formal training is provided,' and 'Prefer not to say.'"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 239,
+    "total_tokens": 25979,
+    "cost": 0.0040044,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040044,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001434
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5345.946899993578,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

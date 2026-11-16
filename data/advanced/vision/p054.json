@@ -1,0 +1,56 @@
+{
+  "page": 54,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses the critical role of ports as global gateways in maritime transport and the growing cyber risks associated with their digitalization. It identifies three main barriers to cybersecurity in ports: human capacity, financial incentives, and market structures. The focus is on human capacity barriers, particularly skills adequacy, highlighting the challenge of having adequately skilled personnel across income groups. Survey results indicate low confidence in cybersecurity skills, especially in low-income countries, with even high-income countries reporting partial skill adequacy. The page sets the stage for further discussion on financial and economic barriers in subsequent sections.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Main Text",
+      "bbox": [
+        0.05,
+        0.1,
+        0.95,
+        0.9
+      ],
+      "description": "Text discussing the importance of ports, the barriers to cybersecurity including human capacity, financial, and economic barriers, and an introduction to the section on human capacity barriers focusing on skills adequacy."
+    },
+    {
+      "kind": "text",
+      "label": "Footnote",
+      "bbox": [
+        0.05,
+        0.92,
+        0.95,
+        0.97
+      ],
+      "description": "Footnote defining free-riding as 'benefiting from a collective good without having incurred the costs of participating in its production' (Savigny 2016)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 303,
+    "total_tokens": 2967,
+    "cost": 0.0015504,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015504,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0004848
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 8985.007599985693,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

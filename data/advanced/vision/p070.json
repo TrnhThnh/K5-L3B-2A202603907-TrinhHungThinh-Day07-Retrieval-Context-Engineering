@@ -1,0 +1,56 @@
+{
+  "page": 70,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses two key recommendations for enhancing cybersecurity in ports. The first emphasizes the need for clear frameworks that align economic incentives with risk responsibilities among stakeholders. The second advocates for the establishment of a layered information-sharing ecosystem, transitioning from mandatory reporting to voluntary collaboration, particularly in low- and middle-income countries (LMICs). It highlights the importance of data ownership and confidentiality in facilitating effective information exchange.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Recommendation 5",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.25
+      ],
+      "description": "Recommendation to align economic incentives and risk responsibilities in cybersecurity investments for ports."
+    },
+    {
+      "kind": "text",
+      "label": "Recommendation 6",
+      "bbox": [
+        0.05,
+        0.3,
+        0.95,
+        0.5
+      ],
+      "description": "Recommendation to build a layered information-sharing ecosystem, transitioning from mandatory reporting to voluntary collaboration."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 231,
+    "total_tokens": 25971,
+    "cost": 0.0039996,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039996,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001386
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5247.818200004986,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

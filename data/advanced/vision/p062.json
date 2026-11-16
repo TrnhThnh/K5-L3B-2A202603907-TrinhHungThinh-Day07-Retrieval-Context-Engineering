@@ -1,0 +1,89 @@
+{
+  "page": 62,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses the economic barriers to cybersecurity in ports, highlighting the uncertainty of cyber incident costs and the challenges in assessing potential losses. It emphasizes the importance of timely incident response and the collective action problems arising from information asymmetries. The text also addresses the risks of free-riding in cybersecurity efforts and the moral hazards associated with liability and investment in cybersecurity measures.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "3.3 Economic Barriers",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.2
+      ],
+      "description": "Section heading discussing economic barriers related to cybersecurity in ports."
+    },
+    {
+      "kind": "text",
+      "label": "Paragraph 1",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.4
+      ],
+      "description": "Discussion on the uncertainty of cyber incident costs and the challenges in assessing potential losses."
+    },
+    {
+      "kind": "text",
+      "label": "Paragraph 2",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "description": "Explains the dynamics of individual cybersecurity efforts and the risks of free-riding."
+    },
+    {
+      "kind": "text",
+      "label": "Paragraph 3",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "description": "Addresses information asymmetry and its impact on cyber risk management."
+    },
+    {
+      "kind": "text",
+      "label": "Footnote 10",
+      "bbox": [
+        0.1,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "description": "Footnote explaining the 'market for lemons' concept in relation to cybersecurity."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 414,
+    "total_tokens": 26154,
+    "cost": 0.0041094,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0041094,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0002484
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7596.74699997413,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

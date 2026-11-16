@@ -1,0 +1,18 @@
+{
+  "status": "error",
+  "answer": "",
+  "citations": [],
+  "reason": "RuntimeError: provider/retrieval/protocol failure",
+  "events": [
+    {
+      "event": "error",
+      "error_type": "RuntimeError"
+    }
+  ],
+  "context": "",
+  "context_ids": [],
+  "model": "openai/gpt-4o-mini",
+  "usage": [],
+  "service_cost_usd": null,
+  "elapsed_ms": 453.15069999196567
+}

@@ -1,0 +1,45 @@
+{
+  "page": 87,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses common entry points for cyber incidents in port ecosystems, highlighting vulnerabilities such as phishing, software exploitation, and third-party compromises. It emphasizes the importance of addressing known weaknesses to prevent cyber threats.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "table",
+      "label": "Table 3",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "description": "Table summarizing common entry points for cyber incidents in the port ecosystem, including entry points like Phishing & Spear-Phishing, Exploitation of Known Software Vulnerabilities, IT/OT Convergence & Ransomware Propagation, Third-Party & Supply Chain Compromise, Port Community Systems & Web Application Vulnerabilities, GPS Spoofing & AIS Manipulation, and Legacy & Outdated Systems."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 194,
+    "total_tokens": 25934,
+    "cost": 0.0039774,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039774,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001164
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5550.694200006546,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

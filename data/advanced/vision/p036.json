@@ -1,0 +1,45 @@
+{
+  "page": 36,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses how structural characteristics of ports influence ownership and operation of IT and OT systems, cybersecurity governance, and responsibility allocation. It contrasts public service and tool ports, where port authorities retain operational control and cybersecurity can be centralized, with landlord ports, where responsibilities are fragmented among private terminal operators. Fully private ports concentrate cybersecurity responsibility within private operators, leading to varied practices and reliance on national regulation. The page includes Figure 5, illustrating governance models for ports in relation to public and private responsibility for cyber risk, showing a spectrum from primary public responsibility to primary private responsibility across different port types.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "diagram",
+      "label": "Figure 5 Main governance models for ports in relation to public and private responsibility of cyber risk",
+      "bbox": [
+        0.05,
+        0.48,
+        0.95,
+        0.85
+      ],
+      "description": "A diagram illustrating the spectrum of governance models for ports regarding cybersecurity responsibility. On the left, a dark blue inverted triangle labeled 'Public Responsibility' with 'Primary' at the top and 'Limited' at the bottom. On the right, a light blue upright triangle labeled 'Private Responsibility' with 'Limited' at the top and 'Primary' at the bottom. To the right of the triangles are four gray boxes listing port types: 'Public Service Port', 'Tool Port', 'Landlord Port', and 'Private Port'. The diagram shows a transition from primary public responsibility in public service ports to primary private responsibility in private ports. Source: World Bank and adapted from Notteboom, Pallis and Rodrigue (2022)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 352,
+    "total_tokens": 3016,
+    "cost": 0.0016288,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0016288,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0005632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6983.0196000111755,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,45 @@
+{
+  "page": 50,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses indicators for measuring cybersecurity progress in ports, including asset inventory, incident response times, backup success rates, and employee training participation. It highlights survey results indicating that nearly 60% of respondents from high-income countries conducted a cyber incident response drill in the past five years, while over half from low- and middle-income countries did not. Figure 10 illustrates the performance of cyber incident response drills across different income levels.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 10",
+      "bbox": [
+        0.1,
+        0.3,
+        0.9,
+        0.9
+      ],
+      "description": "Bar chart showing the percentage of responses to the question of whether a cyber incident response drill or exercise has been conducted in the past 5 years, categorized by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart uses colors to represent 'Yes' (dark blue), 'No' (red), and 'Prefer not to say' (yellow)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 235,
+    "total_tokens": 25975,
+    "cost": 0.004002,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004002,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000141
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6168.59950000071,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

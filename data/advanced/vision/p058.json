@@ -1,0 +1,45 @@
+{
+  "page": 58,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses the importance of specialized training and professional development in cybersecurity for port employees. It highlights the effectiveness of tailored training programs over generic ones, emphasizing the need for role-specific content. The page includes Figure 13, which contrasts 'One size fits all' cybersecurity training with 'Personalized cybersecurity training' for different port roles. Survey results indicate disparities in training availability, with high-income countries more likely to provide annual specialized training compared to lower-middle and low-income countries. The lack of investment in technical capacity development is noted as a concern in LMICs, with Box 9 referenced for best-practice examples.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "diagram",
+      "label": "Figure 13",
+      "bbox": [
+        0.05,
+        0.38,
+        0.95,
+        0.68
+      ],
+      "description": "Figure 13 illustrates types of training provided for port employees. It contrasts 'One size fits all' training, represented by a cybersecurity training checklist with three workers around a desk, with 'Personalized cybersecurity training' showing role-specific training for a security guard, crane operator, and operations supervisor in a meeting room setting. Each role is labeled with a dark blue tag."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 269,
+    "total_tokens": 2933,
+    "cost": 0.001496,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001496,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0004304
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5862.2251999913715,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

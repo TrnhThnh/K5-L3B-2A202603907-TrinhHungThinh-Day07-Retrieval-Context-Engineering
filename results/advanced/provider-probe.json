@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "usage": {
+    "prompt_tokens": 4,
+    "completion_tokens": 2,
+    "total_tokens": 6,
+    "cost": 1.2e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 1.2e-06,
+      "upstream_inference_prompt_cost": 4e-07,
+      "upstream_inference_completions_cost": 8e-07
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "quota": {
+    "limit": 0.7,
+    "usage_daily": 0.60662631,
+    "remaining": 0.09337368999999995,
+    "reserved_usd": 0.008
+  }
+}

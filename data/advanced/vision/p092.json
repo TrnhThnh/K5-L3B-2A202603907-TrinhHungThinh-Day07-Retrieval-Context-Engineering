@@ -1,0 +1,56 @@
+{
+  "page": 92,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents two figures related to cybersecurity compliance and designated personnel in ports. Figure 19 illustrates the compliance levels with national regulations, showing varying degrees of adherence among respondents. Figure 20 depicts the presence of designated cybersecurity personnel across different income levels, highlighting the percentage of responses indicating whether there is a responsible person or team for cybersecurity.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 19",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.5
+      ],
+      "description": "A pie chart showing compliance with national regulations: 45% Yes, fully; 36% Yes, mostly; 13% Yes, but only to a limited extent; 3% No; 3% Prefer not to say."
+    },
+    {
+      "kind": "chart",
+      "label": "Figure 20",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.9
+      ],
+      "description": "A stacked bar chart showing the percentage of responses regarding designated cybersecurity personnel across income levels: High income, Upper-middle income, Lower-middle income, Low income."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 266,
+    "total_tokens": 26006,
+    "cost": 0.0040206,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040206,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001596
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7962.92610000819,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

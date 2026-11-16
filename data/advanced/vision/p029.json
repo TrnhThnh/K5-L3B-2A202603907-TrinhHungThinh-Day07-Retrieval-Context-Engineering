@@ -1,0 +1,45 @@
+{
+  "page": 29,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "The IMO plays a crucial role in reducing administrative burdens in maritime transport through the FAL Convention, which facilitates the electronic exchange of information related to ship operations. In response to emerging cybersecurity risks, the IMO has issued guidelines and approved amendments to enhance cybersecurity measures for Maritime Single Windows (MSWs). Various associations, including IAPH, have developed targeted guidance for ports, promoting frameworks like the NIST Cybersecurity Framework for managing cyber risks. The global governance landscape for cybersecurity in ports remains fragmented and largely non-binding, with ongoing discussions for stronger regulations.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "Text discussing the role of the IMO in maritime cybersecurity and administrative processes."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 182,
+    "total_tokens": 25922,
+    "cost": 0.0039702,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039702,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001092
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6390.696399990702,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

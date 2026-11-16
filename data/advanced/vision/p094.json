@@ -1,0 +1,56 @@
+{
+  "page": 94,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents two figures related to cybersecurity in ports. Figure 23 illustrates the use of international standards or frameworks for cybersecurity across different income levels, showing the percentage of responses categorized by certification status. Figure 24 highlights the main perceived barriers to advancing cybersecurity in ports, with a focus on funding, expertise, and lack of business case.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 23",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.5
+      ],
+      "description": "Bar chart showing the percentage of responses regarding the use of international standards or frameworks for cybersecurity across different income levels: High income, Upper-middle income, Lower-middle income, Low income. Categories include 'Yes - certified', 'Yes - not certified but aligned', 'No', and 'Prefer not to say'."
+    },
+    {
+      "kind": "chart",
+      "label": "Figure 24",
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.9
+      ],
+      "description": "Pie chart illustrating the main perceived barriers to cybersecurity in ports, with segments representing 'Funding' (54%), 'Expertise' (36%), and 'Lack of business case' (10%)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 290,
+    "total_tokens": 26030,
+    "cost": 0.004035,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004035,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000174
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5914.6346999914385,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

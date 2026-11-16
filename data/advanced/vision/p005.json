@@ -1,0 +1,33 @@
+{
+  "page": 5,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains the Table of Contents for the World Bank Cybersecurity in Ports report. It outlines the structure of the document, including chapters on Policy, Practice, Barriers, and Conclusions, along with appendices and bibliographic information. Each section is numbered and includes specific topics covered within the chapters.",
+  "page_class": "front_matter",
+  "regions": [],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 83,
+    "total_tokens": 25823,
+    "cost": 0.0039108,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039108,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 4.98e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 3925.1777000026777,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

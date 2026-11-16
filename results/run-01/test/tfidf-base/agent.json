@@ -1,0 +1,1402 @@
+[
+  {
+    "query_id": "q26",
+    "question": "What roles does the report assign to a Security Operations Center in incident management?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_hpfmfgV3JmPR0IdXkeKh0Tis",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Security Operations Center incident management roles\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 252,
+          "completion_tokens": 18,
+          "total_tokens": 270,
+          "cost": 4.86e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 4.86e-05,
+            "upstream_inference_prompt_cost": 3.78e-05,
+            "upstream_inference_completions_cost": 1.08e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_hpfmfgV3JmPR0IdXkeKh0Tis",
+        "query": "Security Operations Center incident management roles",
+        "filters": {},
+        "top_k": 3,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 936
+            },
+            "score": 0.22997459272450574,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:51:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 51,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n34\n\n2.2.3 Operationalizing Incident Response Using Security\n\nOperations Centers\n\nA Security Operations Center (SOC) is a centralized team that monitors, detects, and responds\n\nto cyber threats in real time, and it is a critical element of incident management. Without\n\none, organizations may struggle to identify escalation channels, delaying or preventing\n\neffective response.\n\nSurvey findings revealed an unexpected pattern. Middle-income countries were least likely to\n\noperate an in-house or managed SOC, while high-income and low-income countries showed the\n\nhighest rates of SOC outsourcing. Yet interviews suggest an encouraging shift, with more low- and\n\nmiddle-income port operators turning to third-party SOC services as a pragmatic way to build\n\ncapability where in-house expertise is limited. Clear reporting protocols across all staff are equally",
+            "metadata": {
+              "category": "practice",
+              "section": "practice",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 905
+            },
+            "score": 0.16007473863537253,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:69:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 69,
+            "text": "development represents a major opportunity to enhance overall cyber resilience and build a pipeline\n\nof high-quality jobs. Training investments should encompass the diverse roles required for maritime\n\ntransport cybersecurity, from Security Operations Center analysts and OT security engineers to\n\nmaritime risk managers and compliance specialists, also in collaboration with academic institutions.\n\nRecommendation 3: Measure training effectiveness through behavioral metrics\n\nOrganizations should implement behavioral indicators to measure the effectiveness of awareness\n\nprograms, such as the rate at which employees report suspicious emails or the reduction in\n\nsuccessful phishing simulations over time. These metrics help organizations assess and improve\n\ntheir training investments and demonstrate the return on investment in human capacity building.\n\nRecommendation 4: Translate cyber risk into financial terms and build the business case for\n\ninvestment",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1863,
+              "end_char": 2814
+            },
+            "score": 0.15087730669903243,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:65:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:65:para:0"
+        ],
+        "elapsed_ms": 0.6605999951716512
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_hIibfs8eIAK3Hk9Trgb5oS1W",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"The report highlights that a Security Operations Center (SOC) plays a crucial role in incident management by centralizing and automating the exchange of cyber threat indicators and defensive measures. It also offers training and tabletop exercises, and provides an early warning function to protect cargo flow. This is exemplified by the Port of Los Angeles, which established its SOC to enhance collective defense among various stakeholders in the supply chain.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:65:para:0\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 554,
+          "completion_tokens": 117,
+          "total_tokens": 671,
+          "cost": 0.0001533,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001533,
+            "upstream_inference_prompt_cost": 8.31e-05,
+            "upstream_inference_completions_cost": 7.02e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:65:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:65:para:0"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 252,
+        "completion_tokens": 18,
+        "total_tokens": 270,
+        "cost": 4.86e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 4.86e-05,
+          "upstream_inference_prompt_cost": 3.78e-05,
+          "upstream_inference_completions_cost": 1.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 554,
+        "completion_tokens": 117,
+        "total_tokens": 671,
+        "cost": 0.0001533,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001533,
+          "upstream_inference_prompt_cost": 8.31e-05,
+          "upstream_inference_completions_cost": 7.02e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00020190000000000003,
+    "elapsed_ms": 4582.668900024146
+  },
+  {
+    "query_id": "q27",
+    "question": "How does the Cyber-SHIP Lab make maritime cyber incident training realistic for professionals?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_5JGfKC9rubwoDUvi4HW6WHzP",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Cyber-SHIP Lab maritime cyber incident training realistic professionals\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 22,
+          "total_tokens": 275,
+          "cost": 5.115e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.115e-05,
+            "upstream_inference_prompt_cost": 3.795e-05,
+            "upstream_inference_completions_cost": 1.32e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_5JGfKC9rubwoDUvi4HW6WHzP",
+        "query": "Cyber-SHIP Lab maritime cyber incident training realistic professionals",
+        "filters": {},
+        "top_k": 3,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:59:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 59,
+            "text": "maritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n\nreplicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n\ncyber incidents scenarios on information and operational technology (IT and OT) systems\n\nin a realistic environment. The use of cyber ranges more generally can help staff train and\n\nrespond to situations in a lower-cost, safe environment.\n\nThe Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n\ndedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n\ntechnical discipline, the course is grounded in the operational realities of the maritime\n\nenvironment, preparing U.S. Coast Guard personnel for assessing cyber and physical\n\nrisks. The collaboration brings together Stevens’ academic expertise in engineering and\n\ncybersecurity with the Coast Guard’s firsthand knowledge of maritime operations,",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 975,
+              "end_char": 1917
+            },
+            "score": 0.23833025593615356,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:59:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 59,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n42\n\nFigure 14 Prevalence of specialized training or professional development opportunities for\n\ncybersecurity personnel in ports\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nDoes your organization provide specialized training or\n\nprofessional development opportunities for cybersecurity personnel?\n\nYes, at least once a year\n\nPrefer not to say\n\nYes, but less than once a year\n\nNo, no formal training is provided\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nBox 9 Case studies: Academic and port-specific collaboration aiming to\n\nimprove cybersecurity capacity\n\nThe University of Plymouth established the Cyber-SHIP Lab in partnership with over 20\n\nindustry and government partners — including Wärtsilä, Lloyd’s Register, ABS Group, and\n\nthe Royal Navy — to create a world-leading research and training facility dedicated to",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 974
+            },
+            "score": 0.1655111547292003,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "The Maritime and Port Authority of Singapore (MPA) has progressively built a multi-layered\n\ncyber resilience ecosystem for the maritime transport domain. It began with the launch of a\n\n24/7 Maritime Cybersecurity Operations Center (MSOC) in 2019 to monitor, detect, analyze,\n\nand respond to cyber threats affecting maritime critical information infrastructure. MPA\n\nhas expanded this into the Maritime Cyber Assurance and Operations Center (MCAOC),\n\nwhich provides real-time cyber threats monitoring and advisories to participating\n\nmaritime companies.\n\nNORMA Cyber: Nordic Maritime Cyber Resilience Center\n\nNORMA Cyber began in Norway in 2021 as the Norwegian Maritime Cyber Resilience\n\nCentre. It was founded by the Norwegian War Risk Association (DNK) and the Norwegian\n\nShipowners’ Association (NSA), and has since expanded into a Nordic, membership-\n\nbased, non-profit organization. It provides joint cyber resilience services to maritime",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 937,
+              "end_char": 1869
+            },
+            "score": 0.1553866485064469,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:59:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 59]\nmaritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n\nreplicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n\ncyber incidents scenarios on information and operational technology (IT and OT) systems\n\nin a realistic environment. The use of cyber ranges more generally can help staff train and\n\nrespond to situations in a lower-cost, safe environment.\n\nThe Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n\ndedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n\ntechnical discipline, the course is grounded in the operational realities of the maritime\n\nenvironment, preparing U.S. Coast Guard personnel for assessing cyber and physical\n\nrisks. The collaboration brings together Stevens’ academic expertise in engineering and\n\ncybersecurity with the Coast Guard’s firsthand knowledge of maritime operations,",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:59:para:1"
+        ],
+        "elapsed_ms": 2.1182000054977834
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_x9XOfcgUjfCBs3VOJPgw0o2d",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"The Cyber-SHIP Lab makes maritime cyber incident training realistic for professionals by physically replicating a ship’s bridge. This allows maritime professionals to experience and respond to real cyber incident scenarios on information and operational technology (IT and OT) systems in a realistic environment. Additionally, the use of cyber ranges provides a lower-cost, safe environment for staff to train and respond to various situations.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:59:para:1\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 533,
+          "completion_tokens": 112,
+          "total_tokens": 645,
+          "cost": 0.00014715,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014715,
+            "upstream_inference_prompt_cost": 7.995e-05,
+            "upstream_inference_completions_cost": 6.72e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:59:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 59]\nmaritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n\nreplicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n\ncyber incidents scenarios on information and operational technology (IT and OT) systems\n\nin a realistic environment. The use of cyber ranges more generally can help staff train and\n\nrespond to situations in a lower-cost, safe environment.\n\nThe Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n\ndedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n\ntechnical discipline, the course is grounded in the operational realities of the maritime\n\nenvironment, preparing U.S. Coast Guard personnel for assessing cyber and physical\n\nrisks. The collaboration brings together Stevens’ academic expertise in engineering and\n\ncybersecurity with the Coast Guard’s firsthand knowledge of maritime operations,",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:59:para:1"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 253,
+        "completion_tokens": 22,
+        "total_tokens": 275,
+        "cost": 5.115e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.115e-05,
+          "upstream_inference_prompt_cost": 3.795e-05,
+          "upstream_inference_completions_cost": 1.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 533,
+        "completion_tokens": 112,
+        "total_tokens": 645,
+        "cost": 0.00014715,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00014715,
+          "upstream_inference_prompt_cost": 7.995e-05,
+          "upstream_inference_completions_cost": 6.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.0001983,
+    "elapsed_ms": 5634.0076999913435
+  },
+  {
+    "query_id": "q28",
+    "question": "In the barriers discussion, what safeguards help port organizations share information while protecting sensitive commercial data?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_dQSUcdk39XT6CoBUNjlkOsLW",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"barriers safeguards port organizations share information protect sensitive commercial data\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 255,
+          "completion_tokens": 23,
+          "total_tokens": 278,
+          "cost": 5.205e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.205e-05,
+            "upstream_inference_prompt_cost": 3.825e-05,
+            "upstream_inference_completions_cost": 1.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_dQSUcdk39XT6CoBUNjlkOsLW",
+        "query": "barriers safeguards port organizations share information protect sensitive commercial data",
+        "filters": {},
+        "top_k": 3,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:53:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 53,
+            "text": "3\n\nBarriers",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 10
+            },
+            "score": 0.23674693942931288,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:70:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 70,
+            "text": "systems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 978,
+              "end_char": 1394
+            },
+            "score": 0.17060419911595143,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:54:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 54,
+            "text": "accompanied by broad awareness programs for ports workforce. Financial barriers include funding\n\npressures and the perceived absence of a compelling business case. These factors reduce investment\n\nin cybersecurity controls, as such measures avert losses rather than produce measurable revenue.\n\nEconomic barriers arise when different parties do not share the same goals and problems spill over:\n\nif one operator cuts back on cybersecurity, it can raise risks for everyone else, creating so-called\n\nnegative externalities. Some parties may be tempted to benefit from others’ investments without\n\ncontributing themselves, free-riding8 on others (Moore 2010). On top of that, information gaps make\n\nit hard to assess risks clearly and learn from past events. This chapter examines these key barriers\n\nto improving cybersecurity in ports and first discusses human capacity barriers (3.1), then financial\n\nbarriers (3.2), and finally economic barriers (3.3).\n\n3.1 Human Capacity Barriers",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 968,
+              "end_char": 1940
+            },
+            "score": 0.15723502658030827,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:53:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 53]\n3\n\nBarriers\n\n[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:53:para:0",
+          "world-bank-cybersecurity-ports-2026:70:para:1"
+        ],
+        "elapsed_ms": 1.9577000057324767
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_nCPy5knZCzX8bMSBLIIVfo9n",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Safeguards that help port organizations share information while protecting sensitive commercial data include the establishment of clear rules on data ownership, confidentiality, and need-to-know access. These measures are essential for both mandatory and voluntary information-sharing mechanisms to be effective, allowing for meaningful collaboration while ensuring the protection of sensitive information.\",\"citations\":[\"[world-bank-cybersecurity-ports-2026:70:para:1]\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 100,
+          "total_tokens": 593,
+          "cost": 0.00013395,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013395,
+            "upstream_inference_prompt_cost": 7.395e-05,
+            "upstream_inference_completions_cost": 6e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:53:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 53]\n3\n\nBarriers\n\n[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:53:para:0",
+      "world-bank-cybersecurity-ports-2026:70:para:1"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 255,
+        "completion_tokens": 23,
+        "total_tokens": 278,
+        "cost": 5.205e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.205e-05,
+          "upstream_inference_prompt_cost": 3.825e-05,
+          "upstream_inference_completions_cost": 1.38e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 493,
+        "completion_tokens": 100,
+        "total_tokens": 593,
+        "cost": 0.00013395,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00013395,
+          "upstream_inference_prompt_cost": 7.395e-05,
+          "upstream_inference_completions_cost": 6e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.000186,
+    "elapsed_ms": 2835.3842000069562
+  },
+  {
+    "query_id": "q29",
+    "question": "In the barriers recommendations, which information-governance rules are essential for effective mandatory and voluntary sharing?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_YsQ3ThuI78shdrnnGMFb82my",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"barriers recommendations information-governance rules mandatory voluntary sharing\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 257,
+          "completion_tokens": 23,
+          "total_tokens": 280,
+          "cost": 5.235e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.235e-05,
+            "upstream_inference_prompt_cost": 3.855e-05,
+            "upstream_inference_completions_cost": 1.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_YsQ3ThuI78shdrnnGMFb82my",
+        "query": "barriers recommendations information-governance rules mandatory voluntary sharing",
+        "filters": {},
+        "top_k": 3,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:70:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 70,
+            "text": "systems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 978,
+              "end_char": 1394
+            },
+            "score": 0.3164382382333146,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:53:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 53,
+            "text": "3\n\nBarriers",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 10
+            },
+            "score": 0.2924407402954789,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:66:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 66,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 986
+            },
+            "score": 0.17427750479093562,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.\n\n[world-bank-cybersecurity-ports-2026:53:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 53]\n3\n\nBarriers",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:70:para:1",
+          "world-bank-cybersecurity-ports-2026:53:para:0"
+        ],
+        "elapsed_ms": 5.4327000107150525
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_95tZf9vSD1QZAe1si01zCfW8",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"The essential information-governance rules for effective mandatory and voluntary sharing include clear rules on data ownership, confidentiality, and need-to-know access. These rules are crucial to protect sensitive information while enabling meaningful collaboration among ports and related actors.\",\"citations\":[\"[world-bank-cybersecurity-ports-2026:70:para:1]\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 496,
+          "completion_tokens": 86,
+          "total_tokens": 582,
+          "cost": 0.000126,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.000126,
+            "upstream_inference_prompt_cost": 7.44e-05,
+            "upstream_inference_completions_cost": 5.16e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.\n\n[world-bank-cybersecurity-ports-2026:53:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 53]\n3\n\nBarriers",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:70:para:1",
+      "world-bank-cybersecurity-ports-2026:53:para:0"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 257,
+        "completion_tokens": 23,
+        "total_tokens": 280,
+        "cost": 5.235e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.235e-05,
+          "upstream_inference_prompt_cost": 3.855e-05,
+          "upstream_inference_completions_cost": 1.38e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 496,
+        "completion_tokens": 86,
+        "total_tokens": 582,
+        "cost": 0.000126,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000126,
+          "upstream_inference_prompt_cost": 7.44e-05,
+          "upstream_inference_completions_cost": 5.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00017835,
+    "elapsed_ms": 3097.2376999852713
+  },
+  {
+    "query_id": "q30",
+    "question": "In the technical resources appendix, what can denial-of-service attacks disrupt at a port?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_YBxrnrtCNfX1SvqIEwDkL6C3",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"denial-of-service attacks disrupt port\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 254,
+          "completion_tokens": 19,
+          "total_tokens": 273,
+          "cost": 4.95e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 4.95e-05,
+            "upstream_inference_prompt_cost": 3.81e-05,
+            "upstream_inference_completions_cost": 1.14e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_YBxrnrtCNfX1SvqIEwDkL6C3",
+        "query": "denial-of-service attacks disrupt port",
+        "filters": {},
+        "top_k": 3,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:88:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 88,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n71\n\nEntry point Explanation\n\nInsider Threats\n\nEmployees or contractors with privileged access can inadvertently\n\nor deliberately expose credentials, introduce malware via personal\n\ndevices, or be recruited by criminal actors to facilitate both cyber\n\nand physical intrusions.\n\nDistributed denial-of-service\n\nAttacks & Communication\n\nInterception\n\nDenial-of-service attacks can disable port web infrastructure,\n\nvessel traffic management, or Port Community Systems.\n\nInterception of radio and satellite communications used for vessel-\n\nto-shore coordination is an additional vector.\n\nSource: Compiled from ENISA (2019, 2020); T ombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\n\nWorld Bank Port Reform T oolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber",
+            "metadata": {
+              "category": "appendices",
+              "section": "appendices",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 916
+            },
+            "score": 0.31457436541923733,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:35:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 35,
+            "text": "service, tool, landlord, and fully private models—determine how ownership, operational control, and\n\nrisk management responsibilities are distributed across the port community (World Bank 2025b).",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1912,
+              "end_char": 2106
+            },
+            "score": 0.09749763553469604,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:31:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 31,
+            "text": "Council, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1908,
+              "end_char": 2499
+            },
+            "score": 0.09368830343202875,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:88:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 88]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n71\n\nEntry point Explanation\n\nInsider Threats\n\nEmployees or contractors with privileged access can inadvertently\n\nor deliberately expose credentials, introduce malware via personal\n\ndevices, or be recruited by criminal actors to facilitate both cyber\n\nand physical intrusions.\n\nDistributed denial-of-service\n\nAttacks & Communication\n\nInterception\n\nDenial-of-service attacks can disable port web infrastructure,\n\nvessel traffic management, or Port Community Systems.\n\nInterception of radio and satellite communications used for vessel-\n\nto-shore coordination is an additional vector.\n\nSource: Compiled from ENISA (2019, 2020); T ombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\n\nWorld Bank Port Reform T oolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber\n\n[world-bank-cybersecurity-ports-2026:35:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 35]\nservice, tool, landlord, and fully private models—determine how ownership, operational control, and\n\nrisk management responsibilities are distributed across the port community (World Bank 2025b).",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:88:para:0",
+          "world-bank-cybersecurity-ports-2026:35:para:2"
+        ],
+        "elapsed_ms": 5.711899982998148
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_1NPoPraMHHOTwdVrBRoY3o7D",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Denial-of-service attacks can disrupt the following at a port:\\n1. Port web infrastructure\\n2. Vessel traffic management\\n3. Port Community Systems\\n4. Interception of radio and satellite communications used for vessel-to-shore coordination.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:88:para:0\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 681,
+          "completion_tokens": 86,
+          "total_tokens": 767,
+          "cost": 0.00015375,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00015375,
+            "upstream_inference_prompt_cost": 0.00010215,
+            "upstream_inference_completions_cost": 5.16e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:88:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 88]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n71\n\nEntry point Explanation\n\nInsider Threats\n\nEmployees or contractors with privileged access can inadvertently\n\nor deliberately expose credentials, introduce malware via personal\n\ndevices, or be recruited by criminal actors to facilitate both cyber\n\nand physical intrusions.\n\nDistributed denial-of-service\n\nAttacks & Communication\n\nInterception\n\nDenial-of-service attacks can disable port web infrastructure,\n\nvessel traffic management, or Port Community Systems.\n\nInterception of radio and satellite communications used for vessel-\n\nto-shore coordination is an additional vector.\n\nSource: Compiled from ENISA (2019, 2020); T ombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\n\nWorld Bank Port Reform T oolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber\n\n[world-bank-cybersecurity-ports-2026:35:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 35]\nservice, tool, landlord, and fully private models—determine how ownership, operational control, and\n\nrisk management responsibilities are distributed across the port community (World Bank 2025b).",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:88:para:0",
+      "world-bank-cybersecurity-ports-2026:35:para:2"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 254,
+        "completion_tokens": 19,
+        "total_tokens": 273,
+        "cost": 4.95e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 4.95e-05,
+          "upstream_inference_prompt_cost": 3.81e-05,
+          "upstream_inference_completions_cost": 1.14e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 681,
+        "completion_tokens": 86,
+        "total_tokens": 767,
+        "cost": 0.00015375,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00015375,
+          "upstream_inference_prompt_cost": 0.00010215,
+          "upstream_inference_completions_cost": 5.16e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00020324999999999998,
+    "elapsed_ms": 2799.1926000104286
+  },
+  {
+    "query_id": "u03",
+    "question": "What is the private API key used by the Maritime and Port Authority of Singapore SOC?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "no_retrieval",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_BWCmzzMqnwukQ1ZzWmrhgFVx",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"abstain\",\"answer\":\"I cannot provide information about private API keys or any sensitive data related to organizations.\",\"citations\":[]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 254,
+          "completion_tokens": 37,
+          "total_tokens": 291,
+          "cost": 6.03e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.03e-05,
+            "upstream_inference_prompt_cost": 3.81e-05,
+            "upstream_inference_completions_cost": 2.22e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 254,
+        "completion_tokens": 37,
+        "total_tokens": 291,
+        "cost": 6.03e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 6.03e-05,
+          "upstream_inference_prompt_cost": 3.81e-05,
+          "upstream_inference_completions_cost": 2.22e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 6.03e-05,
+    "elapsed_ms": 1252.222500013886
+  },
+  {
+    "query_id": "u04",
+    "question": "What was the exact number of ransomware incidents at the Port of Los Angeles in calendar year 2035?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "model_abstention",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_SE7qmrounaHMXhhZ4fref8T0",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"ransomware incidents Port of Los Angeles 2035\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 258,
+          "completion_tokens": 23,
+          "total_tokens": 281,
+          "cost": 5.25e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.25e-05,
+            "upstream_inference_prompt_cost": 3.87e-05,
+            "upstream_inference_completions_cost": 1.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_SE7qmrounaHMXhhZ4fref8T0",
+        "query": "ransomware incidents Port of Los Angeles 2035",
+        "filters": {},
+        "top_k": 3,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "entities—including shipping companies, ports, terminals, and classification\n\nsocieties—through intelligence sharing, monitoring support, crisis response, and\n\ncollaborative exercises.\n\nSource: World Bank; Los Angeles Cyber Resilience Centre: Port of Los Angeles (n.d.), World Ports Sustainability Program\n\n(2025); Singapore Maritime Cyber Assurance and Operations Center: Singapore Business Review (2025); Ong (n.d.).; NORMA\n\nCyber: NORMA Cyber (n.d.).",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1870,
+              "end_char": 2317
+            },
+            "score": 0.30143934369786646,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 936
+            },
+            "score": 0.23490916544526289,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:21:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 21,
+            "text": "• Marseilles, 2020: The Mespinoza/Pysa ransomware affected port operations via\n\ninterconnections with municipal IT systems\n\n• Durban and Cape Town, 2021: A cyber incident at Transnet halted port operations,\n\ntriggering force majeure and regional supply chain disruptions\n\n• Lisbon, 2021: A ransomware incident affected port servers, with threats to publish\n\nstolen data\n\n• Nagoya, 2023: A LockBit 3.0 ransomware incident shut down container operations for\n\ntwo days, disrupting just-in-time supply chains\n\n• DP World Australia, 2023: A cyber breach forced the shutdown of terminal operations,\n\nstranding around 30,000 containers\n\n• Seattle, 2024: Ransomware exploiting an unpatched software vulnerability\n\ndisrupted systems for weeks, with losses estimated at $10 million\n\nSource: Antwerp: Chubb et al. (2022), Farah et al. (2022), Keleştemur et al. (2024); Maersk: Badea et al. (2025), Steinberg et",
+            "metadata": {
+              "category": "introduction",
+              "section": "introduction",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 986,
+              "end_char": 1873
+            },
+            "score": 0.2062860421957687,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:65:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nentities—including shipping companies, ports, terminals, and classification\n\nsocieties—through intelligence sharing, monitoring support, crisis response, and\n\ncollaborative exercises.\n\nSource: World Bank; Los Angeles Cyber Resilience Centre: Port of Los Angeles (n.d.), World Ports Sustainability Program\n\n(2025); Singapore Maritime Cyber Assurance and Operations Center: Singapore Business Review (2025); Ong (n.d.).; NORMA\n\nCyber: NORMA Cyber (n.d.).\n\n[world-bank-cybersecurity-ports-2026:21:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 21]\n• Marseilles, 2020: The Mespinoza/Pysa ransomware affected port operations via\n\ninterconnections with municipal IT systems\n\n• Durban and Cape Town, 2021: A cyber incident at Transnet halted port operations,\n\ntriggering force majeure and regional supply chain disruptions\n\n• Lisbon, 2021: A ransomware incident affected port servers, with threats to publish\n\nstolen data\n\n• Nagoya, 2023: A LockBit 3.0 ransomware incident shut down container operations for\n\ntwo days, disrupting just-in-time supply chains\n\n• DP World Australia, 2023: A cyber breach forced the shutdown of terminal operations,\n\nstranding around 30,000 containers\n\n• Seattle, 2024: Ransomware exploiting an unpatched software vulnerability\n\ndisrupted systems for weeks, with losses estimated at $10 million\n\nSource: Antwerp: Chubb et al. (2022), Farah et al. (2022), Keleştemur et al. (2024); Maersk: Badea et al. (2025), Steinberg et",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:65:para:2",
+          "world-bank-cybersecurity-ports-2026:21:para:1"
+        ],
+        "elapsed_ms": 6.255499989492819
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_ABtnERan8mMULzrgIuWbx9EM",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"abstain\",\"answer\":\"There is no information available regarding the exact number of ransomware incidents at the Port of Los Angeles in calendar year 2035.\",\"citations\":[]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 757,
+          "completion_tokens": 46,
+          "total_tokens": 803,
+          "cost": 0.00014115,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014115,
+            "upstream_inference_prompt_cost": 0.00011355,
+            "upstream_inference_completions_cost": 2.76e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:65:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nentities—including shipping companies, ports, terminals, and classification\n\nsocieties—through intelligence sharing, monitoring support, crisis response, and\n\ncollaborative exercises.\n\nSource: World Bank; Los Angeles Cyber Resilience Centre: Port of Los Angeles (n.d.), World Ports Sustainability Program\n\n(2025); Singapore Maritime Cyber Assurance and Operations Center: Singapore Business Review (2025); Ong (n.d.).; NORMA\n\nCyber: NORMA Cyber (n.d.).\n\n[world-bank-cybersecurity-ports-2026:21:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 21]\n• Marseilles, 2020: The Mespinoza/Pysa ransomware affected port operations via\n\ninterconnections with municipal IT systems\n\n• Durban and Cape Town, 2021: A cyber incident at Transnet halted port operations,\n\ntriggering force majeure and regional supply chain disruptions\n\n• Lisbon, 2021: A ransomware incident affected port servers, with threats to publish\n\nstolen data\n\n• Nagoya, 2023: A LockBit 3.0 ransomware incident shut down container operations for\n\ntwo days, disrupting just-in-time supply chains\n\n• DP World Australia, 2023: A cyber breach forced the shutdown of terminal operations,\n\nstranding around 30,000 containers\n\n• Seattle, 2024: Ransomware exploiting an unpatched software vulnerability\n\ndisrupted systems for weeks, with losses estimated at $10 million\n\nSource: Antwerp: Chubb et al. (2022), Farah et al. (2022), Keleştemur et al. (2024); Maersk: Badea et al. (2025), Steinberg et",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:65:para:2",
+      "world-bank-cybersecurity-ports-2026:21:para:1"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 258,
+        "completion_tokens": 23,
+        "total_tokens": 281,
+        "cost": 5.25e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.25e-05,
+          "upstream_inference_prompt_cost": 3.87e-05,
+          "upstream_inference_completions_cost": 1.38e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 757,
+        "completion_tokens": 46,
+        "total_tokens": 803,
+        "cost": 0.00014115,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00014115,
+          "upstream_inference_prompt_cost": 0.00011355,
+          "upstream_inference_completions_cost": 2.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00019365,
+    "elapsed_ms": 2227.315700001782
+  }
+]

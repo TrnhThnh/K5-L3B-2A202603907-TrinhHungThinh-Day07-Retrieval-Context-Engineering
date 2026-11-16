@@ -1,0 +1,89 @@
+{
+  "tfidf": {
+    "split": "dev",
+    "answerable": 15,
+    "all_required_pages_retrieved": 15,
+    "groups": {
+      "table": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "diagram": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "chart": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "multi_hop": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "text": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      }
+    },
+    "service_cost_usd": 0,
+    "scope": "Coarse page coverage in top-16 rows, not semantic evidence sufficiency, not generated answers, not the >=90% bonus metric."
+  },
+  "dense": {
+    "split": "dev",
+    "answerable": 15,
+    "all_required_pages_retrieved": 15,
+    "groups": {
+      "table": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "diagram": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "chart": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "multi_hop": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "text": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      }
+    },
+    "service_cost_usd": 0,
+    "scope": "Coarse page coverage in top-16 rows, not semantic evidence sufficiency, not generated answers, not the >=90% bonus metric."
+  },
+  "hybrid": {
+    "split": "dev",
+    "answerable": 15,
+    "all_required_pages_retrieved": 15,
+    "groups": {
+      "table": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "diagram": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "chart": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "multi_hop": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      },
+      "text": {
+        "all_required_pages_retrieved": 3,
+        "total": 3
+      }
+    },
+    "service_cost_usd": 0,
+    "scope": "Coarse page coverage in top-16 rows, not semantic evidence sufficiency, not generated answers, not the >=90% bonus metric."
+  }
+}

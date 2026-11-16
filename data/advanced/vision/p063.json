@@ -1,0 +1,56 @@
+{
+  "page": 63,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page discusses challenges in cybersecurity collaboration within port ecosystems, highlighting issues such as information asymmetry, legal constraints, and market failures, especially in LMICs. It emphasizes the importance of information sharing to improve collective cyber resilience, noting limited participation in cybersecurity information-sharing communities like ISACs. The page introduces Principles-Based Assurance as a method to reduce information asymmetries and improve procurement decisions. It also points out that many respondents are unsure if their organizations participate in such mechanisms.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Main text",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.85
+      ],
+      "description": "Text discussing challenges in cybersecurity collaboration in ports, information asymmetry, legal and practical constraints, market failures in LMICs, and the importance of cybersecurity information-sharing mechanisms."
+    },
+    {
+      "kind": "text",
+      "label": "Footnote 11",
+      "bbox": [
+        0.05,
+        0.87,
+        0.95,
+        0.95
+      ],
+      "description": "Footnote explaining Principles-Based Assurance (PBA) as a cybersecurity evaluation methodology assessing technology against high-level security outcomes rather than fixed technical requirements, structured around Principles, Claims, and Evidence."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 288,
+    "total_tokens": 2952,
+    "cost": 0.0015264,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0015264,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0004608
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6240.08029999095,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

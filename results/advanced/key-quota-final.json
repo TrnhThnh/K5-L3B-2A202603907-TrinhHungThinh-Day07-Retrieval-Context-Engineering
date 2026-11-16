@@ -1,0 +1,10 @@
+{
+  "limit": 0.7,
+  "limit_remaining": 0.05161769999999999,
+  "limit_reset": "daily",
+  "usage": 0.82788558,
+  "usage_daily": 0.6483823,
+  "usage_weekly": 0.6483823,
+  "usage_monthly": 0.82788558,
+  "is_free_tier": false
+}

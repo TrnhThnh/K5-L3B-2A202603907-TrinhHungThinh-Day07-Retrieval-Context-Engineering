@@ -1,0 +1,45 @@
+{
+  "page": 41,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This chapter discusses cyber resilience in ports, emphasizing the importance of preventing, responding to, and recovering from incidents. It highlights frameworks like the U.S. NIST Cybersecurity Framework 2.0 and the IAPH Cybersecurity Guidelines for Ports, which aid in assessing cybersecurity risk management. The text advocates for a proactive approach to cyber risk management, focusing on continuous monitoring and improvement rather than reactive measures.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure 6",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "A photograph of a port area showing cranes, containers, and a welcome sign. The image illustrates the physical environment of port operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 178,
+    "total_tokens": 25918,
+    "cost": 0.0039678,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039678,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001068
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5029.389300005278,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

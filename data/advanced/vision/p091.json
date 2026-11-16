@@ -1,0 +1,45 @@
+{
+  "page": 91,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents survey results regarding ports' designation as critical infrastructure. It includes a pie chart (Figure 18) showing the responses of surveyed ports on whether they consider themselves critical infrastructure. The majority of ports either see themselves as formally designated by the government or consider themselves critical, while a smaller percentage do not identify as critical infrastructure or are unsure.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 18",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "description": "Pie chart illustrating the responses of ports regarding their status as critical infrastructure. The segments represent: 65% (Yes – We are formally designated as such by the government), 19% (Yes – We consider ourselves critical, though not formally designated), 11% (No – We are not considered critical infrastructure), and 5% (Not sure)."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 213,
+    "total_tokens": 25953,
+    "cost": 0.0039888,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039888,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001278
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5362.739100004546,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

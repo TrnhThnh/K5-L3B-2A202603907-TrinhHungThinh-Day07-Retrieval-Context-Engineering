@@ -1,0 +1,55 @@
+{
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "N": 5,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 6,
+    "N": 6
+  },
+  "answer_citation_coverage": {
+    "n": 5,
+    "N": 5
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 5
+  },
+  "search_counts": {
+    "q31": 1,
+    "q32": 1,
+    "q33": 1,
+    "q34": 1,
+    "q35": 1,
+    "u05": 1,
+    "u06": 3
+  },
+  "latency_ms": {
+    "q31": 3415.169399988372,
+    "q32": 2704.1086000099313,
+    "q33": 2526.594099996146,
+    "q34": 2331.8636999756563,
+    "q35": 2758.3631000015885,
+    "u05": 3637.779800017597,
+    "u06": 12918.498999992153
+  },
+  "service_cost_usd": 0.0028353000000000002,
+  "known_service_cost_usd": 0.0028353000000000002,
+  "reviewers": [
+    "Codex AI-assisted content review; student confirmation pending"
+  ],
+  "review_limit": "AI-assisted labels require student confirmation; citation existence is not semantic support."
+}

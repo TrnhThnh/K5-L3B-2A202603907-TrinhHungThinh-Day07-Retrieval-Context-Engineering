@@ -1,0 +1,89 @@
+{
+  "page": 82,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses cybersecurity standards and frameworks relevant to ports, asking respondents if they follow any specific guidelines. It also outlines priorities for cybersecurity over the next 12 months, including improving threat detection, enhancing technology security, and compliance with regulations. Additionally, it addresses perceived barriers to advancing cybersecurity in ports, such as lack of funding and expertise. Finally, it inquires about role models or best practice ports in cybersecurity.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Question 21",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.25
+      ],
+      "description": "Question about following international standards or frameworks for cybersecurity."
+    },
+    {
+      "kind": "text",
+      "label": "Section 8: Priorities",
+      "bbox": [
+        0.05,
+        0.25,
+        0.95,
+        0.35
+      ],
+      "description": "Introduction to the section on cybersecurity priorities and challenges."
+    },
+    {
+      "kind": "text",
+      "label": "Question 22",
+      "bbox": [
+        0.05,
+        0.35,
+        0.95,
+        0.55
+      ],
+      "description": "Question about top cybersecurity priorities for the next 12 months."
+    },
+    {
+      "kind": "text",
+      "label": "Question 23",
+      "bbox": [
+        0.05,
+        0.55,
+        0.95,
+        0.75
+      ],
+      "description": "Question about perceived barriers to advancing cybersecurity in ports."
+    },
+    {
+      "kind": "text",
+      "label": "Question 24",
+      "bbox": [
+        0.05,
+        0.75,
+        0.95,
+        0.95
+      ],
+      "description": "Inquiry about role models or best practice ports in cybersecurity."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 406,
+    "total_tokens": 26146,
+    "cost": 0.0041046,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0041046,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0002436
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 8015.567099995678,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

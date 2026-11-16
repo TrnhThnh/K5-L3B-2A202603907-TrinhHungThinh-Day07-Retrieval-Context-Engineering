@@ -1,0 +1,56 @@
+{
+  "page": 19,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the critical role of ports in international trade and their increasing recognition as critical infrastructure due to digitalization. It highlights the shift from manual operations to interconnected digital systems, which enhances efficiency but also increases cyber risks. The World Economic Forum's 2026 Risk Perception Survey identifies cyber insecurity as a significant global threat, particularly in the maritime sector, where disruptions can have cascading effects on supply chains.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.5
+      ],
+      "description": "Text discussing the importance of ports as critical infrastructure and the impact of digitalization on port operations."
+    },
+    {
+      "kind": "text",
+      "label": "",
+      "bbox": [
+        0,
+        0.5,
+        1,
+        1
+      ],
+      "description": "Text outlining the drivers and consequences of port cyber risk, including survey results on cybersecurity threats."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 219,
+    "total_tokens": 25959,
+    "cost": 0.0039924,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039924,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001314
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5986.881099990569,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

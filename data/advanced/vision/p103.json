@@ -1,0 +1,45 @@
+{
+  "page": 103,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains a list of references related to cybersecurity in maritime contexts, including case studies, assessments, and reports from various organizations and institutions. Key topics include maritime efficiency, cyber risks, and training in maritime cybersecurity. The references highlight efforts from countries like Singapore, the U.S., and Italy to enhance cybersecurity measures in the maritime sector.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references related to maritime cybersecurity, including articles, reports, and case studies from various authors and organizations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 152,
+    "total_tokens": 25892,
+    "cost": 0.0039522,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039522,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.12e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6455.186000006506,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

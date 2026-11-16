@@ -1,0 +1,45 @@
+{
+  "page": 104,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains references related to cybersecurity in ports, including reports and studies from various organizations such as UNCTAD and the World Bank. It highlights the importance of maritime cybersecurity and presents various resources for further reading on the topic.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references related to cybersecurity in ports, including reports, articles, and studies from various authors and organizations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 130,
+    "total_tokens": 25870,
+    "cost": 0.003939,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003939,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 7.8e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 3841.107299987925,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

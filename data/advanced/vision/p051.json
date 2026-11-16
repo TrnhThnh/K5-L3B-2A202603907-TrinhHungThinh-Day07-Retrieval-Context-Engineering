@@ -1,0 +1,45 @@
+{
+  "page": 51,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses the role of Security Operations Centers (SOCs) in incident response and the integration of cybersecurity into daily business operations. It highlights the varying practices among middle-income, high-income, and low-income countries regarding SOCs and emphasizes the importance of embedding cybersecurity requirements into procurement and contracts to enhance operational resilience.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Text",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.5
+      ],
+      "description": "Discussion on the operationalization of incident response using SOCs and the integration of cybersecurity into daily operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 146,
+    "total_tokens": 25886,
+    "cost": 0.0039486,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039486,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.76e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4717.4370999855455,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

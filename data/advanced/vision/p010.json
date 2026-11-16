@@ -1,0 +1,45 @@
+{
+  "page": 10,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains a glossary of acronyms and their definitions related to cybersecurity in ports. It includes terms such as ITU (International Telecommunication Union), LMICs (Low- and Middle-Income Countries), and various cybersecurity frameworks and organizations. The list serves as a reference for understanding the terminology used throughout the report.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "table",
+      "label": "Table",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A table listing acronyms related to cybersecurity in ports along with their full forms and descriptions."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 144,
+    "total_tokens": 25884,
+    "cost": 0.0039474,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039474,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 8.64e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5409.341000020504,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

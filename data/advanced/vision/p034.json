@@ -1,0 +1,45 @@
+{
+  "page": 34,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the differences in reporting obligations and response mechanisms for cybersecurity incidents across various income groups. It highlights that 65% of respondents from high-income countries are required to notify a national or sectoral response body, while only 33% of respondents from low- and middle-income countries report a mandatory obligation. The findings indicate variations in institutional maturity and regulatory capacity, affecting information sharing and situational awareness.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 3",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "description": "Percentage of ports notifying a national or sectoral CIRT/CSIRT in the event of a cybersecurity incident, categorized by income level. The chart shows responses indicating whether organizations are required to notify, can notify voluntarily, have no known team, or are unsure."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 205,
+    "total_tokens": 25945,
+    "cost": 0.003984,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.003984,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000123
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5225.7869000022765,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

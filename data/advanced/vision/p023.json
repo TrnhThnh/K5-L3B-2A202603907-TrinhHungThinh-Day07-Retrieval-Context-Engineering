@@ -1,0 +1,45 @@
+{
+  "page": 23,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents Figure 1, which illustrates the average scoring of countries in the Global Cybersecurity Index by income level. The figure highlights various components such as legal measures, international cooperation, technical and procedural measures, capacity building, and organizational structures. It emphasizes the uneven distribution of cybersecurity capacity, particularly in low-income countries and small island developing states (SIDS), which face significant challenges in defending against cyber threats. The report aims to address the cybersecurity landscape in ports and the associated challenges in low- and middle-income countries.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 1",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.5
+      ],
+      "description": "A radar chart showing the average scoring of countries in the Global Cybersecurity Index by income level, with axes for legal measures, international cooperation, technical and procedural measures, capacity building, and organizational structures. The chart distinguishes between high income, upper-middle income, lower-middle income, and low income categories."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 236,
+    "total_tokens": 25976,
+    "cost": 0.0040026,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040026,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5917.6770000194665,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

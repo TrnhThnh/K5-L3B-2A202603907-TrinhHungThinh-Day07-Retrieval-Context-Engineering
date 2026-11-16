@@ -1,0 +1,67 @@
+[
+  {
+    "query_id": "q31",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "False abstention; exemption exists in corpus but agent context was insufficient."
+  },
+  {
+    "query_id": "q32",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Cited table explicitly gives within 24 hours and CSIRTs."
+  },
+  {
+    "query_id": "q33",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Figure text explicitly lists Asset inventory in proactive approach."
+  },
+  {
+    "query_id": "q34",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "More than 50 percent across all income groups explicitly supported."
+  },
+  {
+    "query_id": "q35",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "No-blame/shared-responsibility reporting and collective-defense interpretation supported."
+  },
+  {
+    "query_id": "u05",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Actual trace abstains without unsupported assertions; corpus absence audit checked for the requested fact."
+  },
+  {
+    "query_id": "u06",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Actual trace abstains without unsupported assertions; corpus absence audit checked for the requested fact."
+  }
+]

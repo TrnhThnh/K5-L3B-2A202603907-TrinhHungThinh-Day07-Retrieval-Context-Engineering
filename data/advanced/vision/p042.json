@@ -1,0 +1,45 @@
+{
+  "page": 42,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents Figure 6, which contrasts a reactive approach with a continuous and proactive approach to managing cyber risks in ports. The reactive approach includes incident triage, external escalation, and minimal lessons learned, while the proactive approach emphasizes continuous improvement, asset inventory, testing and audit, and living risk assessment. The figure illustrates the interconnectedness of these processes in enhancing cybersecurity resilience.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "diagram",
+      "label": "Figure 6",
+      "bbox": [
+        0.05,
+        0.1,
+        0.95,
+        0.9
+      ],
+      "description": "A flowchart illustrating the reactive approach versus a continuous and proactive approach to managing cyber risks. The reactive approach includes 'Incident', 'Triage', 'Fix and restoration of operations', 'External escalation and compliance paperwork', and 'Minimal lessons learned'. The proactive approach includes 'Improvement and lessons learned', 'Asset inventory', 'Testing and Audit', 'Mitigation measures and inclusion in BCPs', 'Living risk assessment', and 'Vulnerability identification and prioritization'."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 242,
+    "total_tokens": 25982,
+    "cost": 0.0040062,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040062,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001452
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6428.737800015369,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

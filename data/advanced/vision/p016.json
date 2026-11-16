@@ -1,0 +1,78 @@
+{
+  "page": 16,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses selected recommendations for enhancing cybersecurity in ports, emphasizing the importance of inventories, vulnerability scans, and regular testing of business continuity plans. It highlights barriers to cybersecurity, including human error, uneven training access, unclear responsibilities, and the need for a culture that encourages incident reporting. The report advocates for role-based training, a no-blame culture, and treating cyber-resilient supply chains as a public good to improve collaboration and incident response capabilities.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Selected recommendations",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.15
+      ],
+      "description": "Recommendations for maintaining inventories, conducting vulnerability scans, and validating business continuity plans."
+    },
+    {
+      "kind": "text",
+      "label": "Barriers",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.35
+      ],
+      "description": "Discussion of barriers to cybersecurity, including human error and uneven training access."
+    },
+    {
+      "kind": "text",
+      "label": "Selected recommendations",
+      "bbox": [
+        0.05,
+        0.35,
+        0.95,
+        0.55
+      ],
+      "description": "Further recommendations focusing on training, culture, and incentives for cybersecurity."
+    },
+    {
+      "kind": "text",
+      "label": "Conclusion",
+      "bbox": [
+        0.05,
+        0.55,
+        0.95,
+        0.75
+      ],
+      "description": "Summary of the report's recommendations to enhance cybersecurity resilience in ports."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 359,
+    "total_tokens": 26099,
+    "cost": 0.0040764,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040764,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0002154
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7109.378099994501,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

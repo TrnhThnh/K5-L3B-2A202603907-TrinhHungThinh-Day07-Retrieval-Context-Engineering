@@ -1,0 +1,215 @@
+[
+  {
+    "query_id": "ad01",
+    "passed": true,
+    "reason": "Original Table 2 shows 48 and 44.04%; complete and cited table region contains the row.",
+    "source_pages_checked": [
+      75
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad02",
+    "passed": true,
+    "reason": "Original page 32 Table 1 continuation states penalties for breaches/general non-compliance; aligned region includes the statement.",
+    "source_pages_checked": [
+      32
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad03",
+    "passed": true,
+    "reason": "Original Table 3 GPS/AIS row supports navigation errors, masked movements and phantom ships; local PDF layout alignment locates the row.",
+    "source_pages_checked": [
+      87
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad04",
+    "passed": true,
+    "reason": "Original ripple infographic labels innermost level Cyber Incident; aligned diagram contains it.",
+    "source_pages_checked": [
+      12
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad05",
+    "passed": true,
+    "reason": "Original page 17 central panel lists binding cyber rules, clear responsibilities and mandatory incident reporting.",
+    "source_pages_checked": [
+      17
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad06",
+    "passed": true,
+    "reason": "Original Figure 6 has the three Triage branches returned; aligned figure includes all branches.",
+    "source_pages_checked": [
+      42
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad07",
+    "passed": true,
+    "reason": "Original infographic reporting panel shows 83% and 56%; difference 27 percentage points is correct.",
+    "source_pages_checked": [
+      14
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad08",
+    "passed": true,
+    "reason": "Original Figure 16 gray South Asia slice is 2.8%, the smallest; compare all legend/slice labels.",
+    "source_pages_checked": [
+      76
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad09",
+    "passed": true,
+    "reason": "Original Figure 17 ministry dark-blue slice is 7.3%; matches answer.",
+    "source_pages_checked": [
+      77
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad10",
+    "passed": true,
+    "reason": "Original Figure 4 Yes=64%; original Table 2 low-income count=8; both pages cited.",
+    "source_pages_checked": [
+      35,
+      75
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad11",
+    "passed": true,
+    "reason": "Original Box 6 describes isolated zones by function/criticality/protection; original Table 3 third-party row describes lateral spread; both pages cited.",
+    "source_pages_checked": [
+      46,
+      87
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad12",
+    "passed": false,
+    "reason": "Answer is broadly right but cites only page 61. Required multi-hop page 60 loss-prevention evidence is not cited; incomplete evidence set fails strict bonus scoring.",
+    "source_pages_checked": [
+      60,
+      61
+    ],
+    "citations_support_all_claims": false,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad13",
+    "passed": true,
+    "reason": "Original 2.1.4 paragraph assigns aggregation/correlation to SIEM and coordination to SOAR; PDF text-block alignment includes both.",
+    "source_pages_checked": [
+      46
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad14",
+    "passed": true,
+    "reason": "Original Box 12 states 2015 and original focus on smart-port development/port community systems. This source-supported wording is accepted even though draft expected answer used the broader founding topics.",
+    "source_pages_checked": [
+      67
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad15",
+    "passed": true,
+    "reason": "Original page 62 first paragraph explicitly gives time to detect and respond; aligned text block contains both.",
+    "source_pages_checked": [
+      62
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad16",
+    "passed": true,
+    "reason": "Actual response states missing exact Gambia email-program cost; original relevant case study gives weekly emails but no dollar cost. No guessed cost.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad17",
+    "passed": true,
+    "reason": "Actual response explicitly declines exact future Cyber-SHIP incident-prevention count; original lab case study contains no such projection.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "ad18",
+    "passed": true,
+    "reason": "Actual response states Figure 4 provides no 95% confidence interval; original chart labels only percentages.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF visual/content review; student confirmation pending",
+    "student_confirmed": false
+  }
+]

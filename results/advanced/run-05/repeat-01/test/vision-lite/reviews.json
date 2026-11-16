@@ -1,0 +1,379 @@
+[
+  {
+    "query_id": "at01",
+    "passed": true,
+    "reason": "Original Table 2 low-income row gives 8 respondents and 7.34%; exact values and table source supported.",
+    "source_pages_checked": [
+      75
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at02",
+    "passed": true,
+    "reason": "Original Table 2 gives 30 lower-middle and 23 upper-middle respondents; difference 7 respondents correct.",
+    "source_pages_checked": [
+      75
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at03",
+    "passed": true,
+    "reason": "Original Table 1 Japan reporting example establishes Cyber Council for government/private-sector information sharing and incident response.",
+    "source_pages_checked": [
+      31
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at04",
+    "passed": false,
+    "reason": "Final provider/system error after bounded retry; counts as failure in 30-case denominator.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at05",
+    "passed": true,
+    "reason": "Original Table 3 phishing row supports surrendering credentials/downloading malware and spear-phishing privileged-access individuals.",
+    "source_pages_checked": [
+      87
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at06",
+    "passed": true,
+    "reason": "Original Table 4 Technical Standards row gives ISA/IEC 62443 (ISA 2026) and ISO 27001 (2022); both titles/years correct.",
+    "source_pages_checked": [
+      88
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at07",
+    "passed": true,
+    "reason": "Original impact-ripple arcs outward from incident are Local Port Impact, National Economic Impact, Cross-Border Spillover Effects, in that order.",
+    "source_pages_checked": [
+      12
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at08",
+    "passed": true,
+    "reason": "All eight callouts match original vulnerable/resilient infographic; citations identify both page-17 sides.",
+    "source_pages_checked": [
+      17
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at09",
+    "passed": true,
+    "reason": "Original Figure 5 shows all four port models in order and opposing public/private responsibility gradients; answer complete.",
+    "source_pages_checked": [
+      36
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at10",
+    "passed": true,
+    "reason": "All six labels and clockwise order match original Figure 6 proactive cycle.",
+    "source_pages_checked": [
+      42
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at11",
+    "passed": true,
+    "reason": "Original Figure 13 labels checklist plus Security guard, Crane operator and Operations supervisor; all returned.",
+    "source_pages_checked": [
+      58
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at12",
+    "passed": true,
+    "reason": "Original Figure 4 No=25%, Don't know=11%; combined 36% correct.",
+    "source_pages_checked": [
+      35
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at13",
+    "passed": true,
+    "reason": "Original Figure 16 Europe/Central Asia=25.7%, Latin America/Caribbean=23.9%; difference 1.8 percentage points correct.",
+    "source_pages_checked": [
+      76
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at14",
+    "passed": true,
+    "reason": "Original Figure 17 port authority=56%, terminal operator=17.4%; difference 38.6 percentage points correct.",
+    "source_pages_checked": [
+      77
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at15",
+    "passed": true,
+    "reason": "Original Figure 12 dark blue means annual training; high income longest and upper-middle income shortest; labels/direction correct.",
+    "source_pages_checked": [
+      56
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at16",
+    "passed": true,
+    "reason": "Original Building Capacity panel shows 84% vs 49%, gap 35 percentage points, for regular training.",
+    "source_pages_checked": [
+      14
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at17",
+    "passed": false,
+    "reason": "Percentages, difference and two citations are correct, but answer omits the explicitly requested distinction between income-level and organizational-type classifications; strict complete-answer scoring fails.",
+    "source_pages_checked": [
+      75,
+      77
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at18",
+    "passed": false,
+    "reason": "Final provider/system error after bounded retry; counts as failure in 30-case denominator.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at19",
+    "passed": true,
+    "reason": "Original Figure 13 has all three role labels and original Box 9 describes physical ship-bridge replication; both pages 58 and 59 cited.",
+    "source_pages_checked": [
+      58,
+      59
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at20",
+    "passed": false,
+    "reason": "False abstention on answerable hypothetical calculation: original Box 10 gives formula and question supplies all numeric inputs; no ALE/avoided-loss/ROSI answer returned.",
+    "source_pages_checked": [
+      60,
+      61
+    ],
+    "citations_support_all_claims": false,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at21",
+    "passed": true,
+    "reason": "Original Appendix 2 page 83 supports eight interviews, early December 2025-end January 2026, seven practitioners and one academic; all requested conditions returned.",
+    "source_pages_checked": [
+      83
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at22",
+    "passed": true,
+    "reason": "Original Limitations paragraph on page 77 gives self-report/social desirability, limited representativeness and uneven language reach; all three returned.",
+    "source_pages_checked": [
+      77
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at23",
+    "passed": true,
+    "reason": "Original page 90 third-party OT paragraph explicitly lists MFA, time-bound credentials, monitored jump servers, session logging and supplier contractual obligations; all five returned.",
+    "source_pages_checked": [
+      90
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at24",
+    "passed": false,
+    "reason": "False abstention/turn limit: original Appendix 2 page 83 explicitly names ATLAS.ti and Braun and Clarke (2006); no answer returned.",
+    "source_pages_checked": [
+      83
+    ],
+    "citations_support_all_claims": false,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": null,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at25",
+    "passed": true,
+    "reason": "Explicitly states that the report does not specify per-student tuition; original Cyber-SHIP case study contains no fee, and no guessed amount is added.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": false,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at26",
+    "passed": true,
+    "reason": "Despite protocol status answered, content explicitly says the manufacturer is not named. Original Figure 13 has no manufacturer label and no brand is guessed; rubric accepts explicit lack-of-evidence statements.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": true,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at27",
+    "passed": true,
+    "reason": "Actual response states the report does not provide the exact 2025 Singapore annual cybersecurity budget; no amount is guessed.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": false,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at28",
+    "passed": true,
+    "reason": "Actual response states the named Port of Rotterdam individual survey response is unavailable; original questionnaire explains individual responses are not published.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": false,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at29",
+    "passed": true,
+    "reason": "Actual final output abstains without inventing port-specific ROSI inputs or values. Original document provides a generic formula, not the requested observed Los Angeles inputs; abstention is correct though caused by turn limit.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": false,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at30",
+    "passed": true,
+    "reason": "Actual response explicitly states no 95% confidence interval is supplied. Additional terminal-operator share 17.4% matches original Figure 17; no interval is guessed.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": null,
+    "original_page_verified": true,
+    "explicit_insufficient_evidence": false,
+    "reviewer": "Codex original-PDF visual/content review; student/teacher confirmation pending",
+    "student_confirmed": false
+  }
+]

@@ -5,6 +5,13 @@ __pycache__/
 .env.*
 !.env.example
 .codex-log/
+.day06/
+.bonus-deps/
+tmp/advanced/
+tmp/web-chrome/
+tmp/web-ui.png
+results/live/
+results/web/
 
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/

@@ -1,0 +1,45 @@
+{
+  "page": 90,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses essential cybersecurity measures for ports, emphasizing the importance of basic cyber hygiene and additional strategies from the MITRE ATT&CK® database. It highlights the vulnerabilities of OT-enabled systems, particularly those operated by third-party vendors, and recommends measures such as multi-factor authentication and controlled access to mitigate risks. The text underscores the need for robust cybersecurity obligations for suppliers to protect against external compromises.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "",
+      "bbox": [
+        0,
+        0.1,
+        1,
+        0.9
+      ],
+      "description": "Text discussing cybersecurity measures, vulnerabilities of OT-enabled systems, and recommendations for improving cybersecurity in ports."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 161,
+    "total_tokens": 25901,
+    "cost": 0.0039576,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039576,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.66e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5191.010699985782,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

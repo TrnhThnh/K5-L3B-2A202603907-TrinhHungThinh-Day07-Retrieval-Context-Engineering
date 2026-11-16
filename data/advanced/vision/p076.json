@@ -1,0 +1,56 @@
+{
+  "page": 76,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents the regional representation of survey respondents across various World Bank regions, highlighting the geographic distribution of responses. Figure 16 illustrates the percentages of respondents from different regions, supporting the report's comparative analysis across institutional and development contexts. Additionally, Figure 17 discusses the organizational representation of survey responses, indicating that port authorities received the majority of responses, followed by terminal operators, emphasizing their role in governance and collaboration.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 16",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.5
+      ],
+      "description": "A pie chart showing the regional representation of survey respondents with segments for South Asia, North America, Sub-Saharan Africa, East Asia & Pacific, Middle East, North Africa, Afghanistan & Pakistan, Latin America & Caribbean, and Europe & Central Asia, with respective percentages."
+    },
+    {
+      "kind": "image",
+      "label": "Figure 17",
+      "bbox": [
+        0.1,
+        0.55,
+        0.9,
+        0.9
+      ],
+      "description": "A photograph depicting a port area with containers and buildings, illustrating the context of organizational representation in the survey."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 278,
+    "total_tokens": 26018,
+    "cost": 0.0040278,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040278,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001668
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7523.462899989681,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

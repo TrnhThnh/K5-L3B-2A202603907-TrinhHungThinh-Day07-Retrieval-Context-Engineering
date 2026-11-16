@@ -1,0 +1,45 @@
+{
+  "page": 106,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains image credits for various visuals used throughout the report, attributing them primarily to the World Bank and the Port Authority of Jamaica. The list includes references to images from pages 9, 10, 11, 20, 24, 27, 32, 39, 40, 43, 48, 49, 50, 59, and 89.",
+  "page_class": "front_matter",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Image Credits",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "A visual representation of image credits for various visuals used in the report, including contributions from the World Bank and the Port Authority of Jamaica."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 182,
+    "total_tokens": 25922,
+    "cost": 0.0039702,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039702,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001092
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6067.86879998981,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

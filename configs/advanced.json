@@ -1,0 +1,4 @@
+[
+  {"id":"vision-lite","model":"google/gemini-2.5-flash-lite","top_k":10,"context_rows":14,"max_searches":4,"max_pages":6,"max_turns":12,"hypothesis":"Low-cost multimodal model with bounded retrieval and original-page inspection."},
+  {"id":"vision-lite-wide","model":"google/gemini-2.5-flash-lite","top_k":16,"context_rows":22,"max_searches":6,"max_pages":8,"max_turns":16,"hypothesis":"Same inexpensive model; broader candidates, context and search/page limits improve complete visual/multi-hop evidence."}
+]

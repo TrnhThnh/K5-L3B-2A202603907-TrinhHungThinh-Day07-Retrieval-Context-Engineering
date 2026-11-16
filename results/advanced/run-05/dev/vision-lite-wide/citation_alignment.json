@@ -1,0 +1,9 @@
+{
+  "resolved_citations": 19,
+  "raw_traces_sha256": "cd7527ec1b3cc7a8bd883fe59e3408f10dc7925127ff2bc3e4db7ef7343c10d6",
+  "aligned_traces_sha256": "89a60ae7c8e4dcf3872c937eda40bf79aeee2bbe499c194e6b8699dac7c4de62",
+  "catalog_sha256": "745e67ab7507516cca8e0a34e8e9662499fc150a0e7cde05c02e04a1e93fd98d",
+  "code_sha256": "a63a3f69629f9a47882a0df80059006dcf066d9e29b361c743f9b797ec620705",
+  "gold_used": false,
+  "limit": "Geometry alignment locates a model-selected source; does not certify semantic support."
+}

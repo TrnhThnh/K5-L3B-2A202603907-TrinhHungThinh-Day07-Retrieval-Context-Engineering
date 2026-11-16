@@ -1,0 +1,23 @@
+{
+  "n": 27,
+  "successful_answerable": 25,
+  "errors": 0,
+  "hit1": {
+    "n": 9,
+    "N": 25,
+    "rate": 0.36
+  },
+  "hit3": {
+    "n": 19,
+    "N": 25,
+    "rate": 0.76
+  },
+  "context_evidence_rate": {
+    "n": 10,
+    "N": 25,
+    "rate": 0.4
+  },
+  "median_ms": 2.8531999851111323,
+  "service_cost_usd": 0,
+  "cost_scope": "Local retrieval only; excludes LLM agent"
+}

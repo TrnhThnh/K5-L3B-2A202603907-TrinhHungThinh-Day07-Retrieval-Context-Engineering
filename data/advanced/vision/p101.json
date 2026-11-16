@@ -1,0 +1,45 @@
+{
+  "page": 101,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains references related to cybersecurity in maritime and port sectors, highlighting various studies, reports, and guidelines from different organizations. Key topics include the economic implications of cybersecurity, retrospective analyses of cyber incidents, and frameworks for managing cybersecurity risks. Notable sources include Lloyd's List, NIST publications, and the Maritime and Port Authority of Singapore.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "A list of references related to cybersecurity in ports and maritime sectors, including studies, reports, and guidelines from various organizations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 154,
+    "total_tokens": 25894,
+    "cost": 0.0039534,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039534,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.24e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4857.470899994951,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

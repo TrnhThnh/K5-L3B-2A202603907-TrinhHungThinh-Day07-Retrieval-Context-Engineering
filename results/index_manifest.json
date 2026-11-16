@@ -1,0 +1,9 @@
+{
+  "strategy": "DAY7_B",
+  "chunks": 212,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "pages_sha256": "e9b348221db4dcbc352029fff97c9b44b0f6b8bbab7e9cde96c641f9e82cefdb",
+  "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7"
+}

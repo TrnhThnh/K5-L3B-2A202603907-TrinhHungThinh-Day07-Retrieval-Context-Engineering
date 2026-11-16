@@ -1,0 +1,45 @@
+{
+  "page": 98,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page includes references to various reports and studies related to cybersecurity in maritime contexts. It cites directives from the European Union regarding cybersecurity measures, surveys on cyber security trends in the maritime industry, and guidelines from the International Association of Ports and Harbors. Additionally, it references research on the economic impact of data breaches and the role of digital technologies in enhancing maritime safety and efficiency.",
+  "page_class": "references",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "References",
+      "bbox": [
+        0,
+        0.1,
+        1,
+        0.9
+      ],
+      "description": "A list of references related to cybersecurity in ports and maritime industries, including EU directives, academic articles, and industry reports."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 164,
+    "total_tokens": 25904,
+    "cost": 0.0039594,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039594,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.84e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7076.936600002227,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

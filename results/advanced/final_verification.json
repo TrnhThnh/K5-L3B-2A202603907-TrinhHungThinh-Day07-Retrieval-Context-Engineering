@@ -1,0 +1,16 @@
+{
+  "frozen_pipeline_matches": true,
+  "verified_trial_groups": [
+    "results/advanced/run-05/dev/vision-lite",
+    "results/advanced/run-05/dev/vision-lite-wide",
+    "results/advanced/run-05/test/vision-lite",
+    "results/advanced/run-05/repeat-01/test/vision-lite"
+  ],
+  "full_first_test_cases": 30,
+  "unit_tests_passed": 33,
+  "daily_limit_usd": 0.7,
+  "actual_usage_daily_usd": 0.6483823,
+  "api_key_disclosures_detected": 0,
+  "first_trial_preserved": true,
+  "review_limit": "Codex-assisted original-page checks; student/teacher confirmation pending."
+}

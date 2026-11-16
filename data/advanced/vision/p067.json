@@ -1,0 +1,56 @@
+{
+  "page": 67,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses cybersecurity collaboration networks in ports, highlighting ChainPORT and FERM. ChainPORT is a global network established in 2015 for sharing best practices in port digitalization and cybersecurity. FERM is a Netherlands-based collaborative network focused on enhancing digital security across critical infrastructure in ports through information sharing and joint risk assessments.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Box 12",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "description": "Text describing cybersecurity collaboration networks: ChainPORT and FERM."
+    },
+    {
+      "kind": "image",
+      "label": "Figure",
+      "bbox": [
+        0.0,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "description": "Photograph of the MSC Amelia container ship at a port with cranes in the background."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 212,
+    "total_tokens": 25952,
+    "cost": 0.0039882,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039882,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001272
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6161.11539999838,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

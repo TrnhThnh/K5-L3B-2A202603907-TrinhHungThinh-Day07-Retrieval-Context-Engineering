@@ -1,0 +1,45 @@
+{
+  "page": 35,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses the importance of embedding cybersecurity in port-level governance, highlighting that only 64% of surveyed organizations have a formal cybersecurity policy. It emphasizes the need for robust internal governance structures and local coordination mechanisms to manage cybersecurity risks effectively. The section also touches on how governance models influence cybersecurity responsibilities across ports.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 4",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.7
+      ],
+      "description": "A pie chart showing the percentage of respondents with a formal cybersecurity policy in place: 64% Yes, 25% No, and 11% Don't know."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 166,
+    "total_tokens": 25906,
+    "cost": 0.0039606,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039606,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.96e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5083.764499984682,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

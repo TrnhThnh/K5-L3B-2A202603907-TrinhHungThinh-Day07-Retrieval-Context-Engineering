@@ -1,0 +1,314 @@
+[
+  {
+    "query_id": "at01",
+    "passed": true,
+    "reason": "Original Table 2 low-income row gives 8 and 7.34%; both values and table citation correct.",
+    "source_pages_checked": [
+      75
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at02",
+    "passed": true,
+    "reason": "Original Table 2 middle-income rows give 30 and 23; difference 7 respondents correct.",
+    "source_pages_checked": [
+      75
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at03",
+    "passed": true,
+    "reason": "Original Table 1 Japan reporting example establishes Cyber Council for government/private-sector information sharing and incident response.",
+    "source_pages_checked": [
+      31
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at04",
+    "passed": false,
+    "reason": "Incorrect row/entity: answer lists other attack entry-point categories from page 87 instead of the Insider Threats mechanisms on page 88. Missing required page 88; fails.",
+    "source_pages_checked": [
+      88
+    ],
+    "citations_support_all_claims": false,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at05",
+    "passed": true,
+    "reason": "Original Table 3 phishing row explicitly supports credentials/malware and privileged-access spear-phishing targets.",
+    "source_pages_checked": [
+      87
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at06",
+    "passed": true,
+    "reason": "Original Table 4 Technical Standards row gives ISA/IEC 62443 (ISA 2026) and ISO 27001 (2022); names/years supported.",
+    "source_pages_checked": [
+      88
+    ],
+    "citations_support_all_claims": true,
+    "original_page_verified": true,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at07",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at08",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at09",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at10",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at11",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at12",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at13",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at14",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at15",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at16",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at17",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at18",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at19",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at20",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at21",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at22",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at23",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at24",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at25",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at26",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at27",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at28",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at29",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  },
+  {
+    "query_id": "at30",
+    "passed": false,
+    "reason": "Provider HTTP 429; system failure counts as not passed, no answer generated.",
+    "source_pages_checked": [],
+    "citations_support_all_claims": false,
+    "original_page_verified": false,
+    "reviewer": "Codex original-PDF content review; student confirmation pending",
+    "student_confirmed": false
+  }
+]

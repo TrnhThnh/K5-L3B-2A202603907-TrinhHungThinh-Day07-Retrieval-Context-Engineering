@@ -1,0 +1,308 @@
+{
+  "status": "answered",
+  "answer": "Ports need to conduct vulnerability scans not only at planned intervals (such as annually) but also when significant changes to port systems occur. This ensures that any new vulnerabilities introduced by system changes are identified and addressed promptly.\n\n[world-bank-cybersecurity-ports-2026:45:para:0] [world-bank-cybersecurity-ports-2026:45:para:1]",
+  "citations": [
+    "world-bank-cybersecurity-ports-2026:45:para:0",
+    "world-bank-cybersecurity-ports-2026:45:para:1"
+  ],
+  "reason": "cited_answer_requires_content_review",
+  "events": [
+    {
+      "event": "model",
+      "turn": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_DiiShfMnbn6P8zjDYGJJYcmo",
+            "function": {
+              "name": "search",
+              "arguments": "{\"query\":\"when ports need to conduct vulnerability scanning outside of regular schedule\"}"
+            }
+          }
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 290,
+        "completion_tokens": 15,
+        "total_tokens": 305,
+        "cost": 5.25e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.25e-05,
+          "upstream_inference_prompt_cost": 4.35e-05,
+          "upstream_inference_completions_cost": 9e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "event": "search",
+      "tool_call_id": "call_DiiShfMnbn6P8zjDYGJJYcmo",
+      "query": "when ports need to conduct vulnerability scanning outside of regular schedule",
+      "filters": {},
+      "top_k": 6,
+      "results": [
+        {
+          "id": "world-bank-cybersecurity-ports-2026:45:para:0",
+          "source_id": "world-bank-cybersecurity-ports-2026",
+          "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+          "page": 45,
+          "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more",
+          "metadata": {
+            "category": "practice",
+            "section": "practice",
+            "year": 2026,
+            "segment": 0,
+            "start_char": 0,
+            "end_char": 987
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "tfidf": 1
+          }
+        },
+        {
+          "id": "world-bank-cybersecurity-ports-2026:16:para:0",
+          "source_id": "world-bank-cybersecurity-ports-2026",
+          "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+          "page": 16,
+          "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\nxvi\n\nSelected recommendations:\n\n• Inventories and vulnerability scans: Maintain live inventories of OT and IT (information te chnology)\n\nto help assess exposure and determine vulnerability to cyber threats on a regular basis. These\n\nalso help with the implementation and consistent updating of mitigation measures.\n\n• Testing: Validate business continuity plans through regular drills and tabletop exercises to\n\nconfirm that the plans work under pressure and ensure rapid recovery in real-world scenarios.\n\nBarriers\n\nCyber incidents impose system-wide costs along global supply chains and ports can no longer\n\nprotect themselves in isolation. However, human, financial, and economic barriers continue to limit\n\nprogress towards resilient supply chains.\n\nHuman error remains one of the most significant risk factors — an industry study found that 92",
+          "metadata": {
+            "category": "executive_summary",
+            "section": "executive_summary",
+            "year": 2026,
+            "segment": 0,
+            "start_char": 0,
+            "end_char": 894
+          },
+          "score": 0.030158730158730156,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 10,
+            "tfidf": 3
+          }
+        },
+        {
+          "id": "world-bank-cybersecurity-ports-2026:45:para:1",
+          "source_id": "world-bank-cybersecurity-ports-2026",
+          "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+          "page": 45,
+          "text": "specific penetration tests at least annually, and nearly a third do so every three months or more\n\n(Figure 8). In middle-income countries, this proportion falls to approximately half of the respondents.\n\nBy contrast, half of the respondents from low-income countries conduct vulnerability scans\n\nless than once a year or never. The absence of routine scanning and testing leaves weaknesses\n\nunaddressed and increases the likelihood that attempted intrusions with widely available malicious\n\nsoftware will succeed (NIST 2022).\n\nFigure 8 Frequency of conducting vulnerability scans\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nHow frequently do you conduct vulnerability scans or pentesting?\n\nAnnuallyQuarterly or more often Less than once a year Never Prefer not to say\n\nSource: World Bank survey Understanding Cybersecurity in Ports.",
+          "metadata": {
+            "category": "practice",
+            "section": "practice",
+            "year": 2026,
+            "segment": 1,
+            "start_char": 988,
+            "end_char": 1899
+          },
+          "score": 0.02964254577157803,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 14,
+            "tfidf": 2
+          }
+        },
+        {
+          "id": "world-bank-cybersecurity-ports-2026:52:para:0",
+          "source_id": "world-bank-cybersecurity-ports-2026",
+          "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+          "page": 52,
+          "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n35\n\n2.3 Main Takeaways and Key Recommendations\n\nMany ports struggle to maintain a current risk picture and implement security controls into\n\nroutine operations across IT/OT. At the same time, incident readiness remains under-practiced and\n\ninsufficiently integrated with business continuity. A central challenge of cybersecurity in ports is\n\nthe transition from one-off risk-gauging efforts to continuous outcomes-focused risk management\n\n(IMO 2025). By integrating cybersecurity responsibilities into established processes, such as risk\n\nmanagement, operations oversight, business continuity planning, and procurement, ports can\n\nstrengthen resilience without creating parallel institutional frameworks.\n\nRecommendation 1: Conduct an asset inventory\n\nPorts should identify the key systems and processes within the port by defining the perimeter",
+          "metadata": {
+            "category": "practice",
+            "section": "practice",
+            "year": 2026,
+            "segment": 0,
+            "start_char": 0,
+            "end_char": 892
+          },
+          "score": 0.0273972602739726,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 13,
+            "tfidf": 13
+          }
+        },
+        {
+          "id": "world-bank-cybersecurity-ports-2026:27:para:0",
+          "source_id": "world-bank-cybersecurity-ports-2026",
+          "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+          "page": 27,
+          "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n10\n\nBox 3 Cybersecurity considerations within the ISPS Code\n\nThe ISPS Code is structured in two parts:\n\n• Part A sets out mandatory requirements, including the obligation for port facilities to\n\nconduct a Port Facility Security Assessment and to develop, implement, and maintain\n\nan approved Port Facility Security Plan. The latter defines measures to prevent, detect,\n\nand respond to security threats affecting port infrastructure, operations, personnel,\n\nand cargo.\n\n• Part B provides non-mandatory guidance on how to meet the requirements of Part A,\n\nincluding illustrative examples of risks and mitigation measures.\n\nDespite its broad governance scope, the ISPS Code was designed primarily to address\n\nphysical security risks and has undergone only limited updates since its adoption.\n\nCybersecurity is not included among the mandatory requirements in Part A. References",
+          "metadata": {
+            "category": "policy",
+            "section": "policy",
+            "year": 2026,
+            "segment": 0,
+            "start_char": 0,
+            "end_char": 919
+          },
+          "score": 0.025657894736842105,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 16,
+            "tfidf": 20
+          }
+        },
+        {
+          "id": "world-bank-cybersecurity-ports-2026:48:para:0",
+          "source_id": "world-bank-cybersecurity-ports-2026",
+          "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+          "page": 48,
+          "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n31\n\nFigure 9 Inclusion of cybersecurity in incident response and business continuity plans\n\nPercentage of responses\n\nIs cybersecurity included in your incident response and business continuity planning?\n\nYes No Prefer not to say\n\nHigh income Upper-middle income Lower-middle income Low income\n\n0%\n\n20%\n\n40%\n\n60%\n\n80%\n\n100%\n\n90%\n\n70%\n\n50%\n\n30%\n\n10%\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\n2.2.2 Practicing Business Continuity Plans\n\nTo be effective, incident response and business continuity plans should be regularly practiced and\n\ntested through tabletop exercises and drills with clearly defined recovery time and recovery point\n\nobjectives. The literature on port resilience recommends practicing switching back to manual\n\noperations7 to ensure a port’s ability to maintain degraded operations without core IT/OT systems\n\nfor extended periods (Varley et al. 2024).",
+          "metadata": {
+            "year": 2026,
+            "section": "practice",
+            "segment": 0,
+            "category": "practice",
+            "end_char": 927,
+            "start_char": 0
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2
+          }
+        }
+      ],
+      "context": "[world-bank-cybersecurity-ports-2026:45:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 45]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more\n\n[world-bank-cybersecurity-ports-2026:16:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 16]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\nxvi\n\nSelected recommendations:\n\n• Inventories and vulnerability scans: Maintain live inventories of OT and IT (information te chnology)\n\nto help assess exposure and determine vulnerability to cyber threats on a regular basis. These\n\nalso help with the implementation and consistent updating of mitigation measures.\n\n• Testing: Validate business continuity plans through regular drills and tabletop exercises to\n\nconfirm that the plans work under pressure and ensure rapid recovery in real-world scenarios.\n\nBarriers\n\nCyber incidents impose system-wide costs along global supply chains and ports can no longer\n\nprotect themselves in isolation. However, human, financial, and economic barriers continue to limit\n\nprogress towards resilient supply chains.\n\nHuman error remains one of the most significant risk factors — an industry study found that 92\n\n[world-bank-cybersecurity-ports-2026:45:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 45]\nspecific penetration tests at least annually, and nearly a third do so every three months or more\n\n(Figure 8). In middle-income countries, this proportion falls to approximately half of the respondents.\n\nBy contrast, half of the respondents from low-income countries conduct vulnerability scans\n\nless than once a year or never. The absence of routine scanning and testing leaves weaknesses\n\nunaddressed and increases the likelihood that attempted intrusions with widely available malicious\n\nsoftware will succeed (NIST 2022).\n\nFigure 8 Frequency of conducting vulnerability scans\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nHow frequently do you conduct vulnerability scans or pentesting?\n\nAnnuallyQuarterly or more often Less than once a year Never Prefer not to say\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\n[world-bank-cybersecurity-ports-2026:52:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 52]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n35\n\n2.3 Main Takeaways and Key Recommendations\n\nMany ports struggle to maintain a current risk picture and implement security controls into\n\nroutine operations across IT/OT. At the same time, incident readiness remains under-practiced and\n\ninsufficiently integrated with business continuity. A central challenge of cybersecurity in ports is\n\nthe transition from one-off risk-gauging efforts to continuous outcomes-focused risk management\n\n(IMO 2025). By integrating cybersecurity responsibilities into established processes, such as risk\n\nmanagement, operations oversight, business continuity planning, and procurement, ports can\n\nstrengthen resilience without creating parallel institutional frameworks.\n\nRecommendation 1: Conduct an asset inventory\n\nPorts should identify the key systems and processes within the port by defining the perimeter\n\n[world-bank-cybersecurity-ports-2026:27:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 27]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n10\n\nBox 3 Cybersecurity considerations within the ISPS Code\n\nThe ISPS Code is structured in two parts:\n\n• Part A sets out mandatory requirements, including the obligation for port facilities to\n\nconduct a Port Facility Security Assessment and to develop, implement, and maintain\n\nan approved Port Facility Security Plan. The latter defines measures to prevent, detect,\n\nand respond to security threats affecting port infrastructure, operations, personnel,\n\nand cargo.\n\n• Part B provides non-mandatory guidance on how to meet the requirements of Part A,\n\nincluding illustrative examples of risks and mitigation measures.\n\nDespite its broad governance scope, the ISPS Code was designed primarily to address\n\nphysical security risks and has undergone only limited updates since its adoption.\n\nCybersecurity is not included among the mandatory requirements in Part A. References",
+      "context_ids": [
+        "world-bank-cybersecurity-ports-2026:45:para:0",
+        "world-bank-cybersecurity-ports-2026:16:para:0",
+        "world-bank-cybersecurity-ports-2026:45:para:1",
+        "world-bank-cybersecurity-ports-2026:52:para:0",
+        "world-bank-cybersecurity-ports-2026:27:para:0"
+      ],
+      "elapsed_ms": 48.939700005576015
+    },
+    {
+      "event": "model",
+      "turn": 1,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "call_PptmUrp926KCg1Cp897DpLZa",
+            "function": {
+              "name": "finish",
+              "arguments": "{\"status\":\"answered\",\"answer\":\"Ports need to conduct vulnerability scans not only at planned intervals (such as annually) but also when significant changes to port systems occur. This ensures that any new vulnerabilities introduced by system changes are identified and addressed promptly.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:45:para:0\",\"world-bank-cybersecurity-ports-2026:45:para:1\"]}"
+            }
+          }
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 1583,
+        "completion_tokens": 97,
+        "total_tokens": 1680,
+        "cost": 0.00029565,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00029565,
+          "upstream_inference_prompt_cost": 0.00023745,
+          "upstream_inference_completions_cost": 5.82e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "event": "citation_rendering",
+      "citations": [
+        "world-bank-cybersecurity-ports-2026:45:para:0",
+        "world-bank-cybersecurity-ports-2026:45:para:1"
+      ]
+    }
+  ],
+  "context": "[world-bank-cybersecurity-ports-2026:45:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 45]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n28\n\n2.1.3 Extending Risk Assessments Through Vulnerability Scans\n\nRisks should be validated through vulnerability scans. These, also sometimes called pentesting,\n\ndetect weaknesses in the system by scanning for missing updates, patches,6 or existing\n\nmisconfigurations. Vulnerability scans should be conducted at planned intervals (for example,\n\nannually) and when significant changes to port systems occur. They should be accompanied by an\n\nupdated risk register, which is a prioritized inventory of the most significant risks to achieving the\n\nset objectives. It is maintained to track ownership and due dates for risk mitigation actions and to\n\nmonitor any changes to risk levels. Examples of risk mitigation actions, as well as further technical\n\nresources for the reader, are provided in Appendix 3: Further Resources to Improve Protection.\n\nIn high-income settings, almost 69 percent of respondents conduct vulnerability scans or more\n\n[world-bank-cybersecurity-ports-2026:16:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 16]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\nxvi\n\nSelected recommendations:\n\n• Inventories and vulnerability scans: Maintain live inventories of OT and IT (information te chnology)\n\nto help assess exposure and determine vulnerability to cyber threats on a regular basis. These\n\nalso help with the implementation and consistent updating of mitigation measures.\n\n• Testing: Validate business continuity plans through regular drills and tabletop exercises to\n\nconfirm that the plans work under pressure and ensure rapid recovery in real-world scenarios.\n\nBarriers\n\nCyber incidents impose system-wide costs along global supply chains and ports can no longer\n\nprotect themselves in isolation. However, human, financial, and economic barriers continue to limit\n\nprogress towards resilient supply chains.\n\nHuman error remains one of the most significant risk factors — an industry study found that 92\n\n[world-bank-cybersecurity-ports-2026:45:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 45]\nspecific penetration tests at least annually, and nearly a third do so every three months or more\n\n(Figure 8). In middle-income countries, this proportion falls to approximately half of the respondents.\n\nBy contrast, half of the respondents from low-income countries conduct vulnerability scans\n\nless than once a year or never. The absence of routine scanning and testing leaves weaknesses\n\nunaddressed and increases the likelihood that attempted intrusions with widely available malicious\n\nsoftware will succeed (NIST 2022).\n\nFigure 8 Frequency of conducting vulnerability scans\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nHow frequently do you conduct vulnerability scans or pentesting?\n\nAnnuallyQuarterly or more often Less than once a year Never Prefer not to say\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\n[world-bank-cybersecurity-ports-2026:52:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 52]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n35\n\n2.3 Main Takeaways and Key Recommendations\n\nMany ports struggle to maintain a current risk picture and implement security controls into\n\nroutine operations across IT/OT. At the same time, incident readiness remains under-practiced and\n\ninsufficiently integrated with business continuity. A central challenge of cybersecurity in ports is\n\nthe transition from one-off risk-gauging efforts to continuous outcomes-focused risk management\n\n(IMO 2025). By integrating cybersecurity responsibilities into established processes, such as risk\n\nmanagement, operations oversight, business continuity planning, and procurement, ports can\n\nstrengthen resilience without creating parallel institutional frameworks.\n\nRecommendation 1: Conduct an asset inventory\n\nPorts should identify the key systems and processes within the port by defining the perimeter\n\n[world-bank-cybersecurity-ports-2026:27:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 27]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n10\n\nBox 3 Cybersecurity considerations within the ISPS Code\n\nThe ISPS Code is structured in two parts:\n\n• Part A sets out mandatory requirements, including the obligation for port facilities to\n\nconduct a Port Facility Security Assessment and to develop, implement, and maintain\n\nan approved Port Facility Security Plan. The latter defines measures to prevent, detect,\n\nand respond to security threats affecting port infrastructure, operations, personnel,\n\nand cargo.\n\n• Part B provides non-mandatory guidance on how to meet the requirements of Part A,\n\nincluding illustrative examples of risks and mitigation measures.\n\nDespite its broad governance scope, the ISPS Code was designed primarily to address\n\nphysical security risks and has undergone only limited updates since its adoption.\n\nCybersecurity is not included among the mandatory requirements in Part A. References",
+  "context_ids": [
+    "world-bank-cybersecurity-ports-2026:45:para:0",
+    "world-bank-cybersecurity-ports-2026:16:para:0",
+    "world-bank-cybersecurity-ports-2026:45:para:1",
+    "world-bank-cybersecurity-ports-2026:52:para:0",
+    "world-bank-cybersecurity-ports-2026:27:para:0"
+  ],
+  "model": "openai/gpt-4o-mini",
+  "usage": [
+    {
+      "prompt_tokens": 290,
+      "completion_tokens": 15,
+      "total_tokens": 305,
+      "cost": 5.25e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 5.25e-05,
+        "upstream_inference_prompt_cost": 4.35e-05,
+        "upstream_inference_completions_cost": 9e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    {
+      "prompt_tokens": 1583,
+      "completion_tokens": 97,
+      "total_tokens": 1680,
+      "cost": 0.00029565,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00029565,
+        "upstream_inference_prompt_cost": 0.00023745,
+        "upstream_inference_completions_cost": 5.82e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  ],
+  "service_cost_usd": 0.00034815,
+  "elapsed_ms": 3128.800400008913
+}

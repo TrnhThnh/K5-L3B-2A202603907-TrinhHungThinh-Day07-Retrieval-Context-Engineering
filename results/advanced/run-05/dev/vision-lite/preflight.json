@@ -1,0 +1,32 @@
+{
+  "model": "google/gemini-2.5-flash-lite",
+  "usage": {
+    "prompt_tokens": 8,
+    "completion_tokens": 5,
+    "total_tokens": 13,
+    "cost": 2.8e-06,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 2.8e-06,
+      "upstream_inference_prompt_cost": 8e-07,
+      "upstream_inference_completions_cost": 2e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    },
+    "budget_before": {
+      "limit": 0.7,
+      "usage_daily": 0.54996745,
+      "remaining": 0.15003254999999993,
+      "reserved_usd": 0.008
+    }
+  }
+}

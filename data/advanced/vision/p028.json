@@ -1,0 +1,56 @@
+{
+  "page": 28,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses national approaches to integrating cybersecurity into ISPS-based port security frameworks, highlighting the Italian Coast Guard's Circular No. 177/2025 and Chile's Circular O 75/006. Both frameworks emphasize the importance of incorporating cybersecurity considerations into existing security and risk management practices for port facilities. They require assessments of cyber threats, updates to security plans, and the designation of cybersecurity officers to manage risks effectively.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Box 4",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.45
+      ],
+      "description": "Case studies on integrating cybersecurity into ISPS-based port security frameworks, detailing the Italian Coast Guard's and Chile's approaches."
+    },
+    {
+      "kind": "image",
+      "label": "Image",
+      "bbox": [
+        0.05,
+        0.5,
+        0.95,
+        0.95
+      ],
+      "description": "Photograph depicting a port environment, relevant to the context of cybersecurity in maritime operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 243,
+    "total_tokens": 25983,
+    "cost": 0.0040068,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040068,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001458
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6061.345099995378,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

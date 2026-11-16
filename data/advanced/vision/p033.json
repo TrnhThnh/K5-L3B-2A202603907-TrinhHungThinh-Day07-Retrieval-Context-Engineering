@@ -1,0 +1,45 @@
+{
+  "page": 33,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page presents a bar chart illustrating the percentage of ports operating under national or sectoral cybersecurity regulations, categorized by income level. It highlights the responses regarding whether ports must comply with cybersecurity requirements, showing a significant number of ports across all income levels affirming the existence of such regulations. The text discusses the implications of these requirements on incident response mechanisms and the challenges faced by ports in adhering to formal obligations.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 2",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "description": "Bar chart showing the percentage of ports operating under national or sectoral cybersecurity regulations, segmented by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart includes categories for responses: 'Yes, there are requirements', 'No, there are no specific cybersecurity requirements', and 'Prefer not to say'."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 219,
+    "total_tokens": 25959,
+    "cost": 0.0039924,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039924,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001314
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6825.12080000015,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

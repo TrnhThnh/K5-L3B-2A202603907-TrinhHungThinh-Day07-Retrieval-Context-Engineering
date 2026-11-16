@@ -1,0 +1,1896 @@
+[
+  {
+    "query_id": "q26",
+    "question": "What roles does the report assign to a Security Operations Center in incident management?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_lQGzRlRFQjvupDrsju1ycIPO",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Security Operations Center incident management roles\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 252,
+          "completion_tokens": 18,
+          "total_tokens": 270,
+          "cost": 4.86e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 4.86e-05,
+            "upstream_inference_prompt_cost": 3.78e-05,
+            "upstream_inference_completions_cost": 1.08e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_lQGzRlRFQjvupDrsju1ycIPO",
+        "query": "Security Operations Center incident management roles",
+        "filters": {},
+        "top_k": 6,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:51:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 51,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n34\n\n2.2.3 Operationalizing Incident Response Using Security\n\nOperations Centers\n\nA Security Operations Center (SOC) is a centralized team that monitors, detects, and responds\n\nto cyber threats in real time, and it is a critical element of incident management. Without\n\none, organizations may struggle to identify escalation channels, delaying or preventing\n\neffective response.\n\nSurvey findings revealed an unexpected pattern. Middle-income countries were least likely to\n\noperate an in-house or managed SOC, while high-income and low-income countries showed the\n\nhighest rates of SOC outsourcing. Yet interviews suggest an encouraging shift, with more low- and\n\nmiddle-income port operators turning to third-party SOC services as a pragmatic way to build\n\ncapability where in-house expertise is limited. Clear reporting protocols across all staff are equally",
+            "metadata": {
+              "category": "practice",
+              "section": "practice",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 905
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:37:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 37,
+            "text": "In many ports, management-level responsibility for cybersecurity is formalized through board\n\noversight and senior executive roles, such as Chief Information Security Officers (CISOs) or\n\nequivalent functions. Under several national frameworks, senior management of critical entities is\n\nexplicitly responsible for ensuring that cybersecurity risks are identified, assessed, and managed\n\nin line with organizational objectives and regulatory obligations. At this level, responsibilities\n\ntypically include setting the cybersecurity strategy and risk appetite, approving policies and\n\nstandards, allocating financial and human resources, and overseeing compliance with national or\n\nsectoral requirements.\n\nManagement oversight is also central to preparedness and incident response. Senior executives\n\nare often responsible for overseeing resilience planning and exercising decision-making authority\n\nduring significant cyber incidents, particularly where impacts extend to operational continuity,",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 903,
+              "end_char": 1888
+            },
+            "score": 0.031099324975891997,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 936
+            },
+            "score": 0.030886196246139225,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 9,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:31:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 31,
+            "text": "Council, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1908,
+              "end_char": 2499
+            },
+            "score": 0.029138513513513514,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 14
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:31:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 31,
+            "text": "Australia SOCI: mandates risk management programs for\n\nCI operators.\n\nEU NIS2 Directive: supply chain risk management required\n\nas part of overall cybersecurity resilience.\n\nHong Kong Protection of Critical Infrastructures\n\nOrdinance: requires CI operators to submit and implement\n\na computer-system security management plan outlining\n\nhow they will secure critical computer systems.\n\nSingapore Cybersecurity Act: Critical information\n\ninfrastructure included in the scope of the regulation for\n\ncritical sectorial risk oversight.\n\nReporting &\n\ninformation-sharing\n\nMandatory notification\n\nof cyber incidents to\n\ncompetent authorities;\n\nestablishment of\n\ncoordination or\n\ninformation-sharing\n\nmechanisms.\n\nAustralia SOCI: the Australia Cybersecurity Centre\n\n(ACSC) serves as central hub for threat information and\n\ncoordination.\n\nEU NIS2 Directive: report significant incidents within 24\n\nhours to Computer Security Incident Response Teams.\n\nJapan Active Cyber Defense Law: establishes a new Cyber",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 935,
+              "end_char": 1907
+            },
+            "score": 0.025645240835114255,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 17,
+              "tfidf": 19
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:33:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 33,
+            "text": "The existence of national or sectoral cybersecurity requirements is closely associated with how\n\nports engage with incident reporting and response mechanisms. Among respondents who indicate\n\nbeing subject to such requirements, 69 percent indicate that they must notify a national or sectoral\n\nComputer Security Incident Response Teams (CSIRT) in the event of a cybersecurity incident,\n\nwhile a further 13 percent report that notification is possible on a voluntary basis. Where such\n\nresponse teams exist, their role typically includes assessing reported incidents, supporting response\n\nefforts, sharing relevant information with other critical infrastructure operators, competent public\n\nauthorities, and, where appropriate, CSIRT counterparts in other countries. This broader information\n\nexchange supports coordinated responses to cyber threats, enables intelligence gathering, and\n\nfacilitates risk mitigation beyond individual organizations or national boundaries.",
+            "metadata": {
+              "year": 2026,
+              "section": "policy",
+              "segment": 1,
+              "category": "policy",
+              "end_char": 1916,
+              "start_char": 956
+            },
+            "score": 0.015873015873015872,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3
+            }
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:51:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 51]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n34\n\n2.2.3 Operationalizing Incident Response Using Security\n\nOperations Centers\n\nA Security Operations Center (SOC) is a centralized team that monitors, detects, and responds\n\nto cyber threats in real time, and it is a critical element of incident management. Without\n\none, organizations may struggle to identify escalation channels, delaying or preventing\n\neffective response.\n\nSurvey findings revealed an unexpected pattern. Middle-income countries were least likely to\n\noperate an in-house or managed SOC, while high-income and low-income countries showed the\n\nhighest rates of SOC outsourcing. Yet interviews suggest an encouraging shift, with more low- and\n\nmiddle-income port operators turning to third-party SOC services as a pragmatic way to build\n\ncapability where in-house expertise is limited. Clear reporting protocols across all staff are equally\n\n[world-bank-cybersecurity-ports-2026:37:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 37]\nIn many ports, management-level responsibility for cybersecurity is formalized through board\n\noversight and senior executive roles, such as Chief Information Security Officers (CISOs) or\n\nequivalent functions. Under several national frameworks, senior management of critical entities is\n\nexplicitly responsible for ensuring that cybersecurity risks are identified, assessed, and managed\n\nin line with organizational objectives and regulatory obligations. At this level, responsibilities\n\ntypically include setting the cybersecurity strategy and risk appetite, approving policies and\n\nstandards, allocating financial and human resources, and overseeing compliance with national or\n\nsectoral requirements.\n\nManagement oversight is also central to preparedness and incident response. Senior executives\n\nare often responsible for overseeing resilience planning and exercising decision-making authority\n\nduring significant cyber incidents, particularly where impacts extend to operational continuity,\n\n[world-bank-cybersecurity-ports-2026:65:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center\n\n[world-bank-cybersecurity-ports-2026:31:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 31]\nCouncil, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.\n\n[world-bank-cybersecurity-ports-2026:31:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 31]\nAustralia SOCI: mandates risk management programs for\n\nCI operators.\n\nEU NIS2 Directive: supply chain risk management required\n\nas part of overall cybersecurity resilience.\n\nHong Kong Protection of Critical Infrastructures\n\nOrdinance: requires CI operators to submit and implement\n\na computer-system security management plan outlining\n\nhow they will secure critical computer systems.\n\nSingapore Cybersecurity Act: Critical information\n\ninfrastructure included in the scope of the regulation for\n\ncritical sectorial risk oversight.\n\nReporting &\n\ninformation-sharing\n\nMandatory notification\n\nof cyber incidents to\n\ncompetent authorities;\n\nestablishment of\n\ncoordination or\n\ninformation-sharing\n\nmechanisms.\n\nAustralia SOCI: the Australia Cybersecurity Centre\n\n(ACSC) serves as central hub for threat information and\n\ncoordination.\n\nEU NIS2 Directive: report significant incidents within 24\n\nhours to Computer Security Incident Response Teams.\n\nJapan Active Cyber Defense Law: establishes a new Cyber",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:51:para:0",
+          "world-bank-cybersecurity-ports-2026:37:para:1",
+          "world-bank-cybersecurity-ports-2026:65:para:0",
+          "world-bank-cybersecurity-ports-2026:31:para:2",
+          "world-bank-cybersecurity-ports-2026:31:para:1"
+        ],
+        "elapsed_ms": 153.0419000191614
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_cjEAhtbguBIzmHHazgI2mT0e",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"The report assigns several roles to a Security Operations Center (SOC) in incident management, including:\\n\\n1. **Monitoring and Detection**: The SOC is responsible for continuously monitoring cyber threats and detecting incidents in real time, which is crucial for effective incident management.\\n\\n2. **Response Coordination**: It plays a critical role in coordinating responses to cyber incidents, ensuring that escalation channels are identified and utilized effectively to prevent delays in response.\\n\\n3. **Capability Building**: The report notes a trend where low- and middle-income port operators are increasingly outsourcing SOC services to build their cybersecurity capabilities, especially where in-house expertise is limited.\\n\\nThese roles highlight the SOC's importance in enhancing the overall cybersecurity posture of ports and facilitating timely incident response.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:51:para:0\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 1494,
+          "completion_tokens": 190,
+          "total_tokens": 1684,
+          "cost": 0.0003381,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003381,
+            "upstream_inference_prompt_cost": 0.0002241,
+            "upstream_inference_completions_cost": 0.000114
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:51:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 51]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n34\n\n2.2.3 Operationalizing Incident Response Using Security\n\nOperations Centers\n\nA Security Operations Center (SOC) is a centralized team that monitors, detects, and responds\n\nto cyber threats in real time, and it is a critical element of incident management. Without\n\none, organizations may struggle to identify escalation channels, delaying or preventing\n\neffective response.\n\nSurvey findings revealed an unexpected pattern. Middle-income countries were least likely to\n\noperate an in-house or managed SOC, while high-income and low-income countries showed the\n\nhighest rates of SOC outsourcing. Yet interviews suggest an encouraging shift, with more low- and\n\nmiddle-income port operators turning to third-party SOC services as a pragmatic way to build\n\ncapability where in-house expertise is limited. Clear reporting protocols across all staff are equally\n\n[world-bank-cybersecurity-ports-2026:37:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 37]\nIn many ports, management-level responsibility for cybersecurity is formalized through board\n\noversight and senior executive roles, such as Chief Information Security Officers (CISOs) or\n\nequivalent functions. Under several national frameworks, senior management of critical entities is\n\nexplicitly responsible for ensuring that cybersecurity risks are identified, assessed, and managed\n\nin line with organizational objectives and regulatory obligations. At this level, responsibilities\n\ntypically include setting the cybersecurity strategy and risk appetite, approving policies and\n\nstandards, allocating financial and human resources, and overseeing compliance with national or\n\nsectoral requirements.\n\nManagement oversight is also central to preparedness and incident response. Senior executives\n\nare often responsible for overseeing resilience planning and exercising decision-making authority\n\nduring significant cyber incidents, particularly where impacts extend to operational continuity,\n\n[world-bank-cybersecurity-ports-2026:65:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 65]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center\n\n[world-bank-cybersecurity-ports-2026:31:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 31]\nCouncil, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.\n\n[world-bank-cybersecurity-ports-2026:31:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 31]\nAustralia SOCI: mandates risk management programs for\n\nCI operators.\n\nEU NIS2 Directive: supply chain risk management required\n\nas part of overall cybersecurity resilience.\n\nHong Kong Protection of Critical Infrastructures\n\nOrdinance: requires CI operators to submit and implement\n\na computer-system security management plan outlining\n\nhow they will secure critical computer systems.\n\nSingapore Cybersecurity Act: Critical information\n\ninfrastructure included in the scope of the regulation for\n\ncritical sectorial risk oversight.\n\nReporting &\n\ninformation-sharing\n\nMandatory notification\n\nof cyber incidents to\n\ncompetent authorities;\n\nestablishment of\n\ncoordination or\n\ninformation-sharing\n\nmechanisms.\n\nAustralia SOCI: the Australia Cybersecurity Centre\n\n(ACSC) serves as central hub for threat information and\n\ncoordination.\n\nEU NIS2 Directive: report significant incidents within 24\n\nhours to Computer Security Incident Response Teams.\n\nJapan Active Cyber Defense Law: establishes a new Cyber",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:51:para:0",
+      "world-bank-cybersecurity-ports-2026:37:para:1",
+      "world-bank-cybersecurity-ports-2026:65:para:0",
+      "world-bank-cybersecurity-ports-2026:31:para:2",
+      "world-bank-cybersecurity-ports-2026:31:para:1"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 252,
+        "completion_tokens": 18,
+        "total_tokens": 270,
+        "cost": 4.86e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 4.86e-05,
+          "upstream_inference_prompt_cost": 3.78e-05,
+          "upstream_inference_completions_cost": 1.08e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1494,
+        "completion_tokens": 190,
+        "total_tokens": 1684,
+        "cost": 0.0003381,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003381,
+          "upstream_inference_prompt_cost": 0.0002241,
+          "upstream_inference_completions_cost": 0.000114
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00038669999999999997,
+    "elapsed_ms": 4117.157600005157
+  },
+  {
+    "query_id": "q27",
+    "question": "How does the Cyber-SHIP Lab make maritime cyber incident training realistic for professionals?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_q2FQn6LMflJmQeliWeHNikmt",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Cyber-SHIP Lab maritime cyber incident training realistic professionals\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 22,
+          "total_tokens": 275,
+          "cost": 5.115e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.115e-05,
+            "upstream_inference_prompt_cost": 3.795e-05,
+            "upstream_inference_completions_cost": 1.32e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_q2FQn6LMflJmQeliWeHNikmt",
+        "query": "Cyber-SHIP Lab maritime cyber incident training realistic professionals",
+        "filters": {},
+        "top_k": 6,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:59:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 59,
+            "text": "maritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n\nreplicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n\ncyber incidents scenarios on information and operational technology (IT and OT) systems\n\nin a realistic environment. The use of cyber ranges more generally can help staff train and\n\nrespond to situations in a lower-cost, safe environment.\n\nThe Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n\ndedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n\ntechnical discipline, the course is grounded in the operational realities of the maritime\n\nenvironment, preparing U.S. Coast Guard personnel for assessing cyber and physical\n\nrisks. The collaboration brings together Stevens’ academic expertise in engineering and\n\ncybersecurity with the Coast Guard’s firsthand knowledge of maritime operations,",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 975,
+              "end_char": 1917
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:59:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 59,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n42\n\nFigure 14 Prevalence of specialized training or professional development opportunities for\n\ncybersecurity personnel in ports\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nDoes your organization provide specialized training or\n\nprofessional development opportunities for cybersecurity personnel?\n\nYes, at least once a year\n\nPrefer not to say\n\nYes, but less than once a year\n\nNo, no formal training is provided\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nBox 9 Case studies: Academic and port-specific collaboration aiming to\n\nimprove cybersecurity capacity\n\nThe University of Plymouth established the Cyber-SHIP Lab in partnership with over 20\n\nindustry and government partners — including Wärtsilä, Lloyd’s Register, ABS Group, and\n\nthe Royal Navy — to create a world-leading research and training facility dedicated to",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 974
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:69:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 69,
+            "text": "development represents a major opportunity to enhance overall cyber resilience and build a pipeline\n\nof high-quality jobs. Training investments should encompass the diverse roles required for maritime\n\ntransport cybersecurity, from Security Operations Center analysts and OT security engineers to\n\nmaritime risk managers and compliance specialists, also in collaboration with academic institutions.\n\nRecommendation 3: Measure training effectiveness through behavioral metrics\n\nOrganizations should implement behavioral indicators to measure the effectiveness of awareness\n\nprograms, such as the rate at which employees report suspicious emails or the reduction in\n\nsuccessful phishing simulations over time. These metrics help organizations assess and improve\n\ntheir training investments and demonstrate the return on investment in human capacity building.\n\nRecommendation 4: Translate cyber risk into financial terms and build the business case for\n\ninvestment",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1863,
+              "end_char": 2814
+            },
+            "score": 0.03057889822595705,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:89:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 89,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n72\n\nType Publication titles (ordered by date, newest first)\n\nMaritime cyber\n\nincident trends\n\n• NATO Cooperative Cyber Defence Centre of Excellence Policy Brief:\n\nAddressing State-Linked Cyber Threats to Critical Maritime Port\n\nInfrastructure (2025)\n\n• US Coast Guard – Cyber Trends and Insights in the Marine Environment\n\nAnnual Report (2024)\n\n• France Cyber Maritime and OWN Maritime Cyber Threat Overview 2023\n\n(2024)\n\nGuidelines\n\n(general)\n\n• World Bank Sectoral Cybersecurity Maturity Model 2.0 (forthcoming)\n\n• Guide to Developing a National Cybersecurity Strategy (ITU, World Bank,\n\nand others 2025)\n\n• NIST Cybersecurity Framework (CSF) 2.0 (2024)\n\nCyber incidents\n\ngeneral trends and\n\nresources\n\n• ITU Cybersecurity resources and capacity building for developing\n\ncountries, which includes resources in setting cybersecurity benchmarks,\n\ntraining, national strategy development",
+            "metadata": {
+              "category": "appendices",
+              "section": "appendices",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 921
+            },
+            "score": 0.03055037313432836,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:56:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 56,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n39\n\nFigure 12 Regular cybersecurity awareness training for employees\n\nDoes your organization provide regular cybersecurity awareness\n\ntraining for its employees?\n\nYes, at least once a year Yes, but less than once a year\n\nNo, no formal training is provided Prefer not to say\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nThis gap is particularly alarming given that interviewees consistently identified employees’ inability\n\nto recognize cyber threats as a major organizational vulnerability. Research in a related context\n\nunderscores the severity of this weakness, with an industry study finding that more than half\n\nof maritime crew members receive little to no training and almost all (92 percent) are prone to",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 911
+            },
+            "score": 0.029910714285714284,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 10
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "The Maritime and Port Authority of Singapore (MPA) has progressively built a multi-layered\n\ncyber resilience ecosystem for the maritime transport domain. It began with the launch of a\n\n24/7 Maritime Cybersecurity Operations Center (MSOC) in 2019 to monitor, detect, analyze,\n\nand respond to cyber threats affecting maritime critical information infrastructure. MPA\n\nhas expanded this into the Maritime Cyber Assurance and Operations Center (MCAOC),\n\nwhich provides real-time cyber threats monitoring and advisories to participating\n\nmaritime companies.\n\nNORMA Cyber: Nordic Maritime Cyber Resilience Center\n\nNORMA Cyber began in Norway in 2021 as the Norwegian Maritime Cyber Resilience\n\nCentre. It was founded by the Norwegian War Risk Association (DNK) and the Norwegian\n\nShipowners’ Association (NSA), and has since expanded into a Nordic, membership-\n\nbased, non-profit organization. It provides joint cyber resilience services to maritime",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 937,
+              "end_char": 1869
+            },
+            "score": 0.029206349206349208,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 15,
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:59:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 59]\nmaritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n\nreplicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n\ncyber incidents scenarios on information and operational technology (IT and OT) systems\n\nin a realistic environment. The use of cyber ranges more generally can help staff train and\n\nrespond to situations in a lower-cost, safe environment.\n\nThe Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n\ndedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n\ntechnical discipline, the course is grounded in the operational realities of the maritime\n\nenvironment, preparing U.S. Coast Guard personnel for assessing cyber and physical\n\nrisks. The collaboration brings together Stevens’ academic expertise in engineering and\n\ncybersecurity with the Coast Guard’s firsthand knowledge of maritime operations,\n\n[world-bank-cybersecurity-ports-2026:59:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 59]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n42\n\nFigure 14 Prevalence of specialized training or professional development opportunities for\n\ncybersecurity personnel in ports\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nDoes your organization provide specialized training or\n\nprofessional development opportunities for cybersecurity personnel?\n\nYes, at least once a year\n\nPrefer not to say\n\nYes, but less than once a year\n\nNo, no formal training is provided\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nBox 9 Case studies: Academic and port-specific collaboration aiming to\n\nimprove cybersecurity capacity\n\nThe University of Plymouth established the Cyber-SHIP Lab in partnership with over 20\n\nindustry and government partners — including Wärtsilä, Lloyd’s Register, ABS Group, and\n\nthe Royal Navy — to create a world-leading research and training facility dedicated to\n\n[world-bank-cybersecurity-ports-2026:69:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 69]\ndevelopment represents a major opportunity to enhance overall cyber resilience and build a pipeline\n\nof high-quality jobs. Training investments should encompass the diverse roles required for maritime\n\ntransport cybersecurity, from Security Operations Center analysts and OT security engineers to\n\nmaritime risk managers and compliance specialists, also in collaboration with academic institutions.\n\nRecommendation 3: Measure training effectiveness through behavioral metrics\n\nOrganizations should implement behavioral indicators to measure the effectiveness of awareness\n\nprograms, such as the rate at which employees report suspicious emails or the reduction in\n\nsuccessful phishing simulations over time. These metrics help organizations assess and improve\n\ntheir training investments and demonstrate the return on investment in human capacity building.\n\nRecommendation 4: Translate cyber risk into financial terms and build the business case for\n\ninvestment\n\n[world-bank-cybersecurity-ports-2026:89:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 89]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n72\n\nType Publication titles (ordered by date, newest first)\n\nMaritime cyber\n\nincident trends\n\n• NATO Cooperative Cyber Defence Centre of Excellence Policy Brief:\n\nAddressing State-Linked Cyber Threats to Critical Maritime Port\n\nInfrastructure (2025)\n\n• US Coast Guard – Cyber Trends and Insights in the Marine Environment\n\nAnnual Report (2024)\n\n• France Cyber Maritime and OWN Maritime Cyber Threat Overview 2023\n\n(2024)\n\nGuidelines\n\n(general)\n\n• World Bank Sectoral Cybersecurity Maturity Model 2.0 (forthcoming)\n\n• Guide to Developing a National Cybersecurity Strategy (ITU, World Bank,\n\nand others 2025)\n\n• NIST Cybersecurity Framework (CSF) 2.0 (2024)\n\nCyber incidents\n\ngeneral trends and\n\nresources\n\n• ITU Cybersecurity resources and capacity building for developing\n\ncountries, which includes resources in setting cybersecurity benchmarks,\n\ntraining, national strategy development\n\n[world-bank-cybersecurity-ports-2026:56:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 56]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n39\n\nFigure 12 Regular cybersecurity awareness training for employees\n\nDoes your organization provide regular cybersecurity awareness\n\ntraining for its employees?\n\nYes, at least once a year Yes, but less than once a year\n\nNo, no formal training is provided Prefer not to say\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nThis gap is particularly alarming given that interviewees consistently identified employees’ inability\n\nto recognize cyber threats as a major organizational vulnerability. Research in a related context\n\nunderscores the severity of this weakness, with an industry study finding that more than half\n\nof maritime crew members receive little to no training and almost all (92 percent) are prone to",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:59:para:1",
+          "world-bank-cybersecurity-ports-2026:59:para:0",
+          "world-bank-cybersecurity-ports-2026:69:para:2",
+          "world-bank-cybersecurity-ports-2026:89:para:0",
+          "world-bank-cybersecurity-ports-2026:56:para:0"
+        ],
+        "elapsed_ms": 69.22589999157935
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_U46ugXlqINGf8IPeR6o4kzNE",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"The Cyber-SHIP Lab enhances the realism of maritime cyber incident training for professionals by physically replicating a ship’s bridge. This allows maritime professionals to experience and respond to real cyber incident scenarios on information and operational technology (IT and OT) systems in a realistic environment. Additionally, the use of cyber ranges provides a lower-cost, safe environment for staff to train and respond to various situations, making the training more effective and applicable to real-world scenarios.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:59:para:1\",\"world-bank-cybersecurity-ports-2026:69:para:2\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 1620,
+          "completion_tokens": 144,
+          "total_tokens": 1764,
+          "cost": 0.0003294,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003294,
+            "upstream_inference_prompt_cost": 0.000243,
+            "upstream_inference_completions_cost": 8.64e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:59:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 59]\nmaritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n\nreplicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n\ncyber incidents scenarios on information and operational technology (IT and OT) systems\n\nin a realistic environment. The use of cyber ranges more generally can help staff train and\n\nrespond to situations in a lower-cost, safe environment.\n\nThe Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n\ndedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n\ntechnical discipline, the course is grounded in the operational realities of the maritime\n\nenvironment, preparing U.S. Coast Guard personnel for assessing cyber and physical\n\nrisks. The collaboration brings together Stevens’ academic expertise in engineering and\n\ncybersecurity with the Coast Guard’s firsthand knowledge of maritime operations,\n\n[world-bank-cybersecurity-ports-2026:59:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 59]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n42\n\nFigure 14 Prevalence of specialized training or professional development opportunities for\n\ncybersecurity personnel in ports\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nDoes your organization provide specialized training or\n\nprofessional development opportunities for cybersecurity personnel?\n\nYes, at least once a year\n\nPrefer not to say\n\nYes, but less than once a year\n\nNo, no formal training is provided\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nBox 9 Case studies: Academic and port-specific collaboration aiming to\n\nimprove cybersecurity capacity\n\nThe University of Plymouth established the Cyber-SHIP Lab in partnership with over 20\n\nindustry and government partners — including Wärtsilä, Lloyd’s Register, ABS Group, and\n\nthe Royal Navy — to create a world-leading research and training facility dedicated to\n\n[world-bank-cybersecurity-ports-2026:69:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 69]\ndevelopment represents a major opportunity to enhance overall cyber resilience and build a pipeline\n\nof high-quality jobs. Training investments should encompass the diverse roles required for maritime\n\ntransport cybersecurity, from Security Operations Center analysts and OT security engineers to\n\nmaritime risk managers and compliance specialists, also in collaboration with academic institutions.\n\nRecommendation 3: Measure training effectiveness through behavioral metrics\n\nOrganizations should implement behavioral indicators to measure the effectiveness of awareness\n\nprograms, such as the rate at which employees report suspicious emails or the reduction in\n\nsuccessful phishing simulations over time. These metrics help organizations assess and improve\n\ntheir training investments and demonstrate the return on investment in human capacity building.\n\nRecommendation 4: Translate cyber risk into financial terms and build the business case for\n\ninvestment\n\n[world-bank-cybersecurity-ports-2026:89:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 89]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n72\n\nType Publication titles (ordered by date, newest first)\n\nMaritime cyber\n\nincident trends\n\n• NATO Cooperative Cyber Defence Centre of Excellence Policy Brief:\n\nAddressing State-Linked Cyber Threats to Critical Maritime Port\n\nInfrastructure (2025)\n\n• US Coast Guard – Cyber Trends and Insights in the Marine Environment\n\nAnnual Report (2024)\n\n• France Cyber Maritime and OWN Maritime Cyber Threat Overview 2023\n\n(2024)\n\nGuidelines\n\n(general)\n\n• World Bank Sectoral Cybersecurity Maturity Model 2.0 (forthcoming)\n\n• Guide to Developing a National Cybersecurity Strategy (ITU, World Bank,\n\nand others 2025)\n\n• NIST Cybersecurity Framework (CSF) 2.0 (2024)\n\nCyber incidents\n\ngeneral trends and\n\nresources\n\n• ITU Cybersecurity resources and capacity building for developing\n\ncountries, which includes resources in setting cybersecurity benchmarks,\n\ntraining, national strategy development\n\n[world-bank-cybersecurity-ports-2026:56:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 56]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n39\n\nFigure 12 Regular cybersecurity awareness training for employees\n\nDoes your organization provide regular cybersecurity awareness\n\ntraining for its employees?\n\nYes, at least once a year Yes, but less than once a year\n\nNo, no formal training is provided Prefer not to say\n\nPercentage of responses\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\n\nLow income\n\nLower-middle income\n\nUpper-middle income\n\nHigh income\n\nSource: World Bank survey Understanding Cybersecurity in Ports.\n\nThis gap is particularly alarming given that interviewees consistently identified employees’ inability\n\nto recognize cyber threats as a major organizational vulnerability. Research in a related context\n\nunderscores the severity of this weakness, with an industry study finding that more than half\n\nof maritime crew members receive little to no training and almost all (92 percent) are prone to",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:59:para:1",
+      "world-bank-cybersecurity-ports-2026:59:para:0",
+      "world-bank-cybersecurity-ports-2026:69:para:2",
+      "world-bank-cybersecurity-ports-2026:89:para:0",
+      "world-bank-cybersecurity-ports-2026:56:para:0"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 253,
+        "completion_tokens": 22,
+        "total_tokens": 275,
+        "cost": 5.115e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.115e-05,
+          "upstream_inference_prompt_cost": 3.795e-05,
+          "upstream_inference_completions_cost": 1.32e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1620,
+        "completion_tokens": 144,
+        "total_tokens": 1764,
+        "cost": 0.0003294,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003294,
+          "upstream_inference_prompt_cost": 0.000243,
+          "upstream_inference_completions_cost": 8.64e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00038055,
+    "elapsed_ms": 3842.0221999986097
+  },
+  {
+    "query_id": "q28",
+    "question": "In the barriers discussion, what safeguards help port organizations share information while protecting sensitive commercial data?",
+    "status": "answered",
+    "answer": "Port organizations can implement several safeguards to share information while protecting sensitive commercial data:\n\n1. **Clear Rules on Data Ownership and Confidentiality**: Establishing clear rules regarding data ownership, confidentiality, and need-to-know access is essential. This ensures that sensitive information is protected while allowing for meaningful collaboration among stakeholders. [world-bank-cybersecurity-ports-2026:70:para:1]\n\n2. **Standardized Information-Sharing Protocols**: The use of standardized protocols helps build trust among organizations and protects commercially sensitive information. This was emphasized by interviewees from the Port of Singapore, who noted that such protocols are crucial for effective collaboration. [world-bank-cybersecurity-ports-2026:66:para:0]\n\n3. **Secure Technical Integration**: Implementing secure technical measures, such as controlled file transfers, allows for operational information sharing without increasing cyber risks. This approach was highlighted by interviewees from the Port of Barcelona as a way to improve collective security. [world-bank-cybersecurity-ports-2026:66:para:0]\n\n4. **Legal Frameworks for Information Sharing**: Well-defined national legal provisions enable ports and public authorities to engage in structured information-sharing arrangements while maintaining control over sensitive information. This legal backing is crucial for facilitating collaboration without compromising data security. [world-bank-cybersecurity-ports-2026:66:para:2]",
+    "citations": [
+      "world-bank-cybersecurity-ports-2026:70:para:1",
+      "world-bank-cybersecurity-ports-2026:66:para:0",
+      "world-bank-cybersecurity-ports-2026:66:para:2"
+    ],
+    "reason": "cited_answer_requires_content_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_ufRMsSOEUSHmljCKXUozMaEb",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"barriers safeguards port organizations share information protect sensitive commercial data\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 255,
+          "completion_tokens": 23,
+          "total_tokens": 278,
+          "cost": 5.205e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.205e-05,
+            "upstream_inference_prompt_cost": 3.825e-05,
+            "upstream_inference_completions_cost": 1.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_ufRMsSOEUSHmljCKXUozMaEb",
+        "query": "barriers safeguards port organizations share information protect sensitive commercial data",
+        "filters": {},
+        "top_k": 6,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:70:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 70,
+            "text": "systems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 978,
+              "end_char": 1394
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:66:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 66,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 986
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:63:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 63,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n46\n\nand therefore suppliers from investing into their development (Anderson 2001). Recognizing\n\nthis challenge, the United Kingdom Department for Science, Innovation and Technology (2025)\n\nhas highlighted Principles-Based Assurance11 as a potential approach to reducing information\n\nasymmetries and supporting more informed procurement decisions.\n\nAt the same time, information sharing within port ecosystems faces practical and legal constraints.\n\nPorts and shipping companies handle commercially sensitive and legally protected information that\n\ncan complicate efforts to establish shared cybersecurity initiatives (Feport 2020). Exchanging data\n\non vulnerabilities, incidents, or system architectures can raise concerns related to reputational\n\nrisk, competitive disadvantage, legal liability, and compliance with data protection requirements",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 893
+            },
+            "score": 0.03131881575727918,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:54:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 54,
+            "text": "accompanied by broad awareness programs for ports workforce. Financial barriers include funding\n\npressures and the perceived absence of a compelling business case. These factors reduce investment\n\nin cybersecurity controls, as such measures avert losses rather than produce measurable revenue.\n\nEconomic barriers arise when different parties do not share the same goals and problems spill over:\n\nif one operator cuts back on cybersecurity, it can raise risks for everyone else, creating so-called\n\nnegative externalities. Some parties may be tempted to benefit from others’ investments without\n\ncontributing themselves, free-riding8 on others (Moore 2010). On top of that, information gaps make\n\nit hard to assess risks clearly and learn from past events. This chapter examines these key barriers\n\nto improving cybersecurity in ports and first discusses human capacity barriers (3.1), then financial\n\nbarriers (3.2), and finally economic barriers (3.3).\n\n3.1 Human Capacity Barriers",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 968,
+              "end_char": 1940
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:54:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 54,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n37\n\nPorts are global gateways, connecting maritime transport to other modes of transportation. As\n\ncritical links in supply chains and logistics, the efficiency of their processes is fundamental to\n\nensuring functioning international trade and, therefore, global prosperity. The digitalization of port\n\ninfrastructure and operations will see fundamental growth over the next few decades. As such,\n\ncyber risks are likely to grow at a similar pace, and port stakeholders are well advised to recognize\n\nand anticipate such risks. Ports face a triple lock of barriers: they lack the people to manage\n\ncyber risk, the financial incentives to prioritize it, and the market structures that would reward\n\ncollective action. These barriers are mutually reinforcing, and addressing any one of them in isolation\n\nis insufficient.\n\nHuman capacity barriers include skills mismatches and the need for effective, specialized training,",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 967
+            },
+            "score": 0.02871794871794872,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 15
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:66:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 66,
+            "text": "addressed within domestic legal frameworks. Well-defined national provisions enable ports\n\nand public authorities to participate in structured information-sharing arrangements while\n\nmaintaining appropriate control over sensitive information. Box 12 presents examples of port\n\ncybersecurity coordination mechanisms that connect ports to wider national and international\n\ncybersecurity ecosystems.",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1905,
+              "end_char": 2297
+            },
+            "score": 0.02813852813852814,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 17,
+              "tfidf": 6
+            }
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.\n\n[world-bank-cybersecurity-ports-2026:66:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 66]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from\n\n[world-bank-cybersecurity-ports-2026:63:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 63]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n46\n\nand therefore suppliers from investing into their development (Anderson 2001). Recognizing\n\nthis challenge, the United Kingdom Department for Science, Innovation and Technology (2025)\n\nhas highlighted Principles-Based Assurance11 as a potential approach to reducing information\n\nasymmetries and supporting more informed procurement decisions.\n\nAt the same time, information sharing within port ecosystems faces practical and legal constraints.\n\nPorts and shipping companies handle commercially sensitive and legally protected information that\n\ncan complicate efforts to establish shared cybersecurity initiatives (Feport 2020). Exchanging data\n\non vulnerabilities, incidents, or system architectures can raise concerns related to reputational\n\nrisk, competitive disadvantage, legal liability, and compliance with data protection requirements\n\n[world-bank-cybersecurity-ports-2026:54:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 54]\naccompanied by broad awareness programs for ports workforce. Financial barriers include funding\n\npressures and the perceived absence of a compelling business case. These factors reduce investment\n\nin cybersecurity controls, as such measures avert losses rather than produce measurable revenue.\n\nEconomic barriers arise when different parties do not share the same goals and problems spill over:\n\nif one operator cuts back on cybersecurity, it can raise risks for everyone else, creating so-called\n\nnegative externalities. Some parties may be tempted to benefit from others’ investments without\n\ncontributing themselves, free-riding8 on others (Moore 2010). On top of that, information gaps make\n\nit hard to assess risks clearly and learn from past events. This chapter examines these key barriers\n\nto improving cybersecurity in ports and first discusses human capacity barriers (3.1), then financial\n\nbarriers (3.2), and finally economic barriers (3.3).\n\n3.1 Human Capacity Barriers\n\n[world-bank-cybersecurity-ports-2026:54:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 54]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n37\n\nPorts are global gateways, connecting maritime transport to other modes of transportation. As\n\ncritical links in supply chains and logistics, the efficiency of their processes is fundamental to\n\nensuring functioning international trade and, therefore, global prosperity. The digitalization of port\n\ninfrastructure and operations will see fundamental growth over the next few decades. As such,\n\ncyber risks are likely to grow at a similar pace, and port stakeholders are well advised to recognize\n\nand anticipate such risks. Ports face a triple lock of barriers: they lack the people to manage\n\ncyber risk, the financial incentives to prioritize it, and the market structures that would reward\n\ncollective action. These barriers are mutually reinforcing, and addressing any one of them in isolation\n\nis insufficient.\n\nHuman capacity barriers include skills mismatches and the need for effective, specialized training,\n\n[world-bank-cybersecurity-ports-2026:66:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 66]\naddressed within domestic legal frameworks. Well-defined national provisions enable ports\n\nand public authorities to participate in structured information-sharing arrangements while\n\nmaintaining appropriate control over sensitive information. Box 12 presents examples of port\n\ncybersecurity coordination mechanisms that connect ports to wider national and international\n\ncybersecurity ecosystems.",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:70:para:1",
+          "world-bank-cybersecurity-ports-2026:66:para:0",
+          "world-bank-cybersecurity-ports-2026:63:para:0",
+          "world-bank-cybersecurity-ports-2026:54:para:1",
+          "world-bank-cybersecurity-ports-2026:54:para:0",
+          "world-bank-cybersecurity-ports-2026:66:para:2"
+        ],
+        "elapsed_ms": 65.84510000539012
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_vuXNHo6wf2Jm28KAA8eyR5Lz",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Port organizations can implement several safeguards to share information while protecting sensitive commercial data:\\n\\n1. **Clear Rules on Data Ownership and Confidentiality**: Establishing clear rules regarding data ownership, confidentiality, and need-to-know access is essential. This ensures that sensitive information is protected while allowing for meaningful collaboration among stakeholders. [world-bank-cybersecurity-ports-2026:70:para:1]\\n\\n2. **Standardized Information-Sharing Protocols**: The use of standardized protocols helps build trust among organizations and protects commercially sensitive information. This was emphasized by interviewees from the Port of Singapore, who noted that such protocols are crucial for effective collaboration. [world-bank-cybersecurity-ports-2026:66:para:0]\\n\\n3. **Secure Technical Integration**: Implementing secure technical measures, such as controlled file transfers, allows for operational information sharing without increasing cyber risks. This approach was highlighted by interviewees from the Port of Barcelona as a way to improve collective security. [world-bank-cybersecurity-ports-2026:66:para:0]\\n\\n4. **Legal Frameworks for Information Sharing**: Well-defined national legal provisions enable ports and public authorities to engage in structured information-sharing arrangements while maintaining control over sensitive information. This legal backing is crucial for facilitating collaboration without compromising data security. [world-bank-cybersecurity-ports-2026:66:para:2]\",\"citations\":[\"world-bank-cybersecurity-ports-2026:70:para:1\",\"world-bank-cybersecurity-ports-2026:66:para:0\",\"world-bank-cybersecurity-ports-2026:66:para:2\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 1535,
+          "completion_tokens": 369,
+          "total_tokens": 1904,
+          "cost": 0.00045165,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00045165,
+            "upstream_inference_prompt_cost": 0.00023025,
+            "upstream_inference_completions_cost": 0.0002214
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.\n\n[world-bank-cybersecurity-ports-2026:66:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 66]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from\n\n[world-bank-cybersecurity-ports-2026:63:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 63]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n46\n\nand therefore suppliers from investing into their development (Anderson 2001). Recognizing\n\nthis challenge, the United Kingdom Department for Science, Innovation and Technology (2025)\n\nhas highlighted Principles-Based Assurance11 as a potential approach to reducing information\n\nasymmetries and supporting more informed procurement decisions.\n\nAt the same time, information sharing within port ecosystems faces practical and legal constraints.\n\nPorts and shipping companies handle commercially sensitive and legally protected information that\n\ncan complicate efforts to establish shared cybersecurity initiatives (Feport 2020). Exchanging data\n\non vulnerabilities, incidents, or system architectures can raise concerns related to reputational\n\nrisk, competitive disadvantage, legal liability, and compliance with data protection requirements\n\n[world-bank-cybersecurity-ports-2026:54:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 54]\naccompanied by broad awareness programs for ports workforce. Financial barriers include funding\n\npressures and the perceived absence of a compelling business case. These factors reduce investment\n\nin cybersecurity controls, as such measures avert losses rather than produce measurable revenue.\n\nEconomic barriers arise when different parties do not share the same goals and problems spill over:\n\nif one operator cuts back on cybersecurity, it can raise risks for everyone else, creating so-called\n\nnegative externalities. Some parties may be tempted to benefit from others’ investments without\n\ncontributing themselves, free-riding8 on others (Moore 2010). On top of that, information gaps make\n\nit hard to assess risks clearly and learn from past events. This chapter examines these key barriers\n\nto improving cybersecurity in ports and first discusses human capacity barriers (3.1), then financial\n\nbarriers (3.2), and finally economic barriers (3.3).\n\n3.1 Human Capacity Barriers\n\n[world-bank-cybersecurity-ports-2026:54:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 54]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n37\n\nPorts are global gateways, connecting maritime transport to other modes of transportation. As\n\ncritical links in supply chains and logistics, the efficiency of their processes is fundamental to\n\nensuring functioning international trade and, therefore, global prosperity. The digitalization of port\n\ninfrastructure and operations will see fundamental growth over the next few decades. As such,\n\ncyber risks are likely to grow at a similar pace, and port stakeholders are well advised to recognize\n\nand anticipate such risks. Ports face a triple lock of barriers: they lack the people to manage\n\ncyber risk, the financial incentives to prioritize it, and the market structures that would reward\n\ncollective action. These barriers are mutually reinforcing, and addressing any one of them in isolation\n\nis insufficient.\n\nHuman capacity barriers include skills mismatches and the need for effective, specialized training,\n\n[world-bank-cybersecurity-ports-2026:66:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 66]\naddressed within domestic legal frameworks. Well-defined national provisions enable ports\n\nand public authorities to participate in structured information-sharing arrangements while\n\nmaintaining appropriate control over sensitive information. Box 12 presents examples of port\n\ncybersecurity coordination mechanisms that connect ports to wider national and international\n\ncybersecurity ecosystems.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:70:para:1",
+      "world-bank-cybersecurity-ports-2026:66:para:0",
+      "world-bank-cybersecurity-ports-2026:63:para:0",
+      "world-bank-cybersecurity-ports-2026:54:para:1",
+      "world-bank-cybersecurity-ports-2026:54:para:0",
+      "world-bank-cybersecurity-ports-2026:66:para:2"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 255,
+        "completion_tokens": 23,
+        "total_tokens": 278,
+        "cost": 5.205e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.205e-05,
+          "upstream_inference_prompt_cost": 3.825e-05,
+          "upstream_inference_completions_cost": 1.38e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1535,
+        "completion_tokens": 369,
+        "total_tokens": 1904,
+        "cost": 0.00045165,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00045165,
+          "upstream_inference_prompt_cost": 0.00023025,
+          "upstream_inference_completions_cost": 0.0002214
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.0005037,
+    "elapsed_ms": 5800.805499980925
+  },
+  {
+    "query_id": "q29",
+    "question": "In the barriers recommendations, which information-governance rules are essential for effective mandatory and voluntary sharing?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_wqZpI7ro4WqHT9XrOEE5rSyI",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"barriers recommendations information-governance rules mandatory voluntary sharing\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 257,
+          "completion_tokens": 23,
+          "total_tokens": 280,
+          "cost": 5.235e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.235e-05,
+            "upstream_inference_prompt_cost": 3.855e-05,
+            "upstream_inference_completions_cost": 1.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_wqZpI7ro4WqHT9XrOEE5rSyI",
+        "query": "barriers recommendations information-governance rules mandatory voluntary sharing",
+        "filters": {},
+        "top_k": 6,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:70:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 70,
+            "text": "systems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 978,
+              "end_char": 1394
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:66:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 66,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 986
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:16:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 16,
+            "text": "to improving cybersecurity across the broader port ecosystem. However, fewer than a third of the\n\nsurveyed organizations (31 percent) participate in voluntary information-sharing mechanisms,\n\nregardless of their country’s income level.\n\nSelected recommendations:\n\n• Training: Implement role-based, recurrent cybersecurity training across all staff levels, covering\n\nboth IT and OT threat scenarios.\n\n• Culture: Foster a no-blame reporting culture that treats incident disclosure as a contribution to\n\ncollective defense rather than an admission of failure.\n\n• Incentives: Treat cyber-resilient supply chains as a public good and reflect this in governance\n\nframeworks and contractual arrangements. For example, invest in cyber resilience centers\n\nand cross-sector capacity building to enhance coordinated detection, intelligence sharing, and\n\nincident response capabilities.\n\nThis report provides recommendations to bridge these gaps, securing the digital backbone of",
+            "metadata": {
+              "category": "executive_summary",
+              "section": "executive_summary",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1822,
+              "end_char": 2777
+            },
+            "score": 0.030776515151515152,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:63:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 63,
+            "text": "(Busetti and Scanni 2025; Koepke 2017). This creates structural tensions: effective cybersecurity\n\ncollaboration depends on timely and transparent information sharing, yet commercial confidentiality\n\nand regulatory obligations may limit disclosure. Nevertheless, experience from a growing number of\n\nformal and informal collaboration platforms suggests that, when information sharing is structured,\n\ntrusted, and governed by clearly defined rules, collective cyber resilience can be significantly\n\nimproved (ENISA 2021).\n\nThese market and coordination failures are often more pronounced in LMICs. Weaker institutional\n\nand regulatory frameworks may fail to mandate or enforce minimum cybersecurity standards,\n\nreducing incentives for sustained investment (Jones et al. 2021). Financial constraints and\n\ntechnological gaps further limit ports’ abilities to procure cybersecurity solutions or attract skilled\n\nprofessionals, increasing reliance on legacy and vulnerable systems. Information asymmetries",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 894,
+              "end_char": 1884
+            },
+            "score": 0.03057889822595705,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:63:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 63,
+            "text": "and underdeveloped cyber-insurance markets compound these challenges, leaving ports not only\n\nmore exposed to cyber incidents but also less able to absorb and recover from their financial\n\nand operational impacts. Together, these factors can lock ports into a persistent cycle of\n\nunderinvestment in cybersecurity.\n\n3.3.1 Collaboration to Overcome Information Asymmetry\n\nIn maritime ports—where multiple public and private actors depend on shared digital and\n\noperational systems—collaboration through cybersecurity information-sharing mechanisms is\n\ncritical to reducing information asymmetries and strengthening collective resilience. Despite\n\ntheir benefits, participation in voluntary cybersecurity information-sharing communities—such\n\nas Information Sharing and Analysis Centers (ISACs)—remains relatively limited. As Figure 15\n\nshows, around 42 percent of respondents in high-income countries were part of a cybersecurity",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1885,
+              "end_char": 2803
+            },
+            "score": 0.030536130536130537,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:70:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 70,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n53\n\nRecommendation 5: Align economic incentives and risk responsibilities\n\nGovernments and ports should establish clear frameworks linking cybersecurity investments to\n\ntangible incentives. Port authorities and operators should leverage concession agreements and\n\nliability provisions in contracts to ensure that costs, risks, and benefits are equitably distributed\n\nacross stakeholders. Information-sharing and compulsory incident reporting help to reduce\n\ninformation asymmetry, facilitating coordinated risk management.\n\nRecommendation 6: Build a layered information-sharing ecosystem, from mandatory\n\nreporting to voluntary collaboration\n\nGovernments should accelerate the establishment of national or sectoral Computer Security Incident\n\nResponse Teams (CSIRTs) and cybersecurity frameworks for ports and other critical infrastructure,\n\nwith clear reporting obligations and feedback mechanisms—particularly in LMICs where such",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 977
+            },
+            "score": 0.029850746268656716,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 7
+            }
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.\n\n[world-bank-cybersecurity-ports-2026:66:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 66]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from\n\n[world-bank-cybersecurity-ports-2026:16:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 16]\nto improving cybersecurity across the broader port ecosystem. However, fewer than a third of the\n\nsurveyed organizations (31 percent) participate in voluntary information-sharing mechanisms,\n\nregardless of their country’s income level.\n\nSelected recommendations:\n\n• Training: Implement role-based, recurrent cybersecurity training across all staff levels, covering\n\nboth IT and OT threat scenarios.\n\n• Culture: Foster a no-blame reporting culture that treats incident disclosure as a contribution to\n\ncollective defense rather than an admission of failure.\n\n• Incentives: Treat cyber-resilient supply chains as a public good and reflect this in governance\n\nframeworks and contractual arrangements. For example, invest in cyber resilience centers\n\nand cross-sector capacity building to enhance coordinated detection, intelligence sharing, and\n\nincident response capabilities.\n\nThis report provides recommendations to bridge these gaps, securing the digital backbone of\n\n[world-bank-cybersecurity-ports-2026:63:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 63]\n(Busetti and Scanni 2025; Koepke 2017). This creates structural tensions: effective cybersecurity\n\ncollaboration depends on timely and transparent information sharing, yet commercial confidentiality\n\nand regulatory obligations may limit disclosure. Nevertheless, experience from a growing number of\n\nformal and informal collaboration platforms suggests that, when information sharing is structured,\n\ntrusted, and governed by clearly defined rules, collective cyber resilience can be significantly\n\nimproved (ENISA 2021).\n\nThese market and coordination failures are often more pronounced in LMICs. Weaker institutional\n\nand regulatory frameworks may fail to mandate or enforce minimum cybersecurity standards,\n\nreducing incentives for sustained investment (Jones et al. 2021). Financial constraints and\n\ntechnological gaps further limit ports’ abilities to procure cybersecurity solutions or attract skilled\n\nprofessionals, increasing reliance on legacy and vulnerable systems. Information asymmetries\n\n[world-bank-cybersecurity-ports-2026:63:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 63]\nand underdeveloped cyber-insurance markets compound these challenges, leaving ports not only\n\nmore exposed to cyber incidents but also less able to absorb and recover from their financial\n\nand operational impacts. Together, these factors can lock ports into a persistent cycle of\n\nunderinvestment in cybersecurity.\n\n3.3.1 Collaboration to Overcome Information Asymmetry\n\nIn maritime ports—where multiple public and private actors depend on shared digital and\n\noperational systems—collaboration through cybersecurity information-sharing mechanisms is\n\ncritical to reducing information asymmetries and strengthening collective resilience. Despite\n\ntheir benefits, participation in voluntary cybersecurity information-sharing communities—such\n\nas Information Sharing and Analysis Centers (ISACs)—remains relatively limited. As Figure 15\n\nshows, around 42 percent of respondents in high-income countries were part of a cybersecurity",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:70:para:1",
+          "world-bank-cybersecurity-ports-2026:66:para:0",
+          "world-bank-cybersecurity-ports-2026:16:para:2",
+          "world-bank-cybersecurity-ports-2026:63:para:1",
+          "world-bank-cybersecurity-ports-2026:63:para:2"
+        ],
+        "elapsed_ms": 135.29100001323968
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_fR2J3Zi7VAE8LxZXtAN07hm7",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"For effective mandatory and voluntary information sharing in ports, the essential information-governance rules include:\\n1. **Data Ownership**: Clear rules on who owns the data being shared.\\n2. **Confidentiality**: Guidelines to protect sensitive information from unauthorized access.\\n3. **Need-to-Know Access**: Restrictions on data access to ensure that only those who require the information for their roles can access it.\\nThese rules are crucial to protect sensitive information while enabling meaningful collaboration among stakeholders in the port ecosystem.\",\"citations\":[\"[world-bank-cybersecurity-ports-2026:70:para:1]\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 1398,
+          "completion_tokens": 145,
+          "total_tokens": 1543,
+          "cost": 0.0002967,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002967,
+            "upstream_inference_prompt_cost": 0.0002097,
+            "upstream_inference_completions_cost": 8.7e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:70:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 70]\nsystems remain underdeveloped. In parallel, ports and related actors should be encouraged to\n\nengage in voluntary information-sharing platforms to exchange threat intelligence and lessons\n\nlearned. For both mandatory and voluntary mechanisms to be effective, clear rules on data\n\nownership, confidentiality, and need-to-know access are essential to protect sensitive information\n\nwhile enabling meaningful collaboration.\n\n[world-bank-cybersecurity-ports-2026:66:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 66]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n49\n\n3.3.2 Standardized Information-Sharing Protocols\n\nInterview evidence suggests that the effectiveness of organization-wide collaborative arrangements\n\ndepends strongly on governance, trust, and practical enablers. More specifically, interviewees from\n\nthe Port of Singapore emphasized the importance of standardized information-sharing protocols\n\nto build trust and protect commercially sensitive or confidential information. Interviewees from\n\nthe Port of Barcelona highlighted that information sharing improves collective security by enabling\n\nearlier threat detection and more coordinated responses across the port ecosystem. Complementing\n\nthese measures, interviewees also pointed to the value of secure technical integration with\n\nstakeholders, such as controlled file transfers, to enable operational information sharing without\n\nincreasing cyber risk. In contexts where voluntary participation remains limited, interviewees from\n\n[world-bank-cybersecurity-ports-2026:16:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 16]\nto improving cybersecurity across the broader port ecosystem. However, fewer than a third of the\n\nsurveyed organizations (31 percent) participate in voluntary information-sharing mechanisms,\n\nregardless of their country’s income level.\n\nSelected recommendations:\n\n• Training: Implement role-based, recurrent cybersecurity training across all staff levels, covering\n\nboth IT and OT threat scenarios.\n\n• Culture: Foster a no-blame reporting culture that treats incident disclosure as a contribution to\n\ncollective defense rather than an admission of failure.\n\n• Incentives: Treat cyber-resilient supply chains as a public good and reflect this in governance\n\nframeworks and contractual arrangements. For example, invest in cyber resilience centers\n\nand cross-sector capacity building to enhance coordinated detection, intelligence sharing, and\n\nincident response capabilities.\n\nThis report provides recommendations to bridge these gaps, securing the digital backbone of\n\n[world-bank-cybersecurity-ports-2026:63:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 63]\n(Busetti and Scanni 2025; Koepke 2017). This creates structural tensions: effective cybersecurity\n\ncollaboration depends on timely and transparent information sharing, yet commercial confidentiality\n\nand regulatory obligations may limit disclosure. Nevertheless, experience from a growing number of\n\nformal and informal collaboration platforms suggests that, when information sharing is structured,\n\ntrusted, and governed by clearly defined rules, collective cyber resilience can be significantly\n\nimproved (ENISA 2021).\n\nThese market and coordination failures are often more pronounced in LMICs. Weaker institutional\n\nand regulatory frameworks may fail to mandate or enforce minimum cybersecurity standards,\n\nreducing incentives for sustained investment (Jones et al. 2021). Financial constraints and\n\ntechnological gaps further limit ports’ abilities to procure cybersecurity solutions or attract skilled\n\nprofessionals, increasing reliance on legacy and vulnerable systems. Information asymmetries\n\n[world-bank-cybersecurity-ports-2026:63:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 63]\nand underdeveloped cyber-insurance markets compound these challenges, leaving ports not only\n\nmore exposed to cyber incidents but also less able to absorb and recover from their financial\n\nand operational impacts. Together, these factors can lock ports into a persistent cycle of\n\nunderinvestment in cybersecurity.\n\n3.3.1 Collaboration to Overcome Information Asymmetry\n\nIn maritime ports—where multiple public and private actors depend on shared digital and\n\noperational systems—collaboration through cybersecurity information-sharing mechanisms is\n\ncritical to reducing information asymmetries and strengthening collective resilience. Despite\n\ntheir benefits, participation in voluntary cybersecurity information-sharing communities—such\n\nas Information Sharing and Analysis Centers (ISACs)—remains relatively limited. As Figure 15\n\nshows, around 42 percent of respondents in high-income countries were part of a cybersecurity",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:70:para:1",
+      "world-bank-cybersecurity-ports-2026:66:para:0",
+      "world-bank-cybersecurity-ports-2026:16:para:2",
+      "world-bank-cybersecurity-ports-2026:63:para:1",
+      "world-bank-cybersecurity-ports-2026:63:para:2"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 257,
+        "completion_tokens": 23,
+        "total_tokens": 280,
+        "cost": 5.235e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.235e-05,
+          "upstream_inference_prompt_cost": 3.855e-05,
+          "upstream_inference_completions_cost": 1.38e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1398,
+        "completion_tokens": 145,
+        "total_tokens": 1543,
+        "cost": 0.0002967,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002967,
+          "upstream_inference_prompt_cost": 0.0002097,
+          "upstream_inference_completions_cost": 8.7e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00034905,
+    "elapsed_ms": 3405.4978000058327
+  },
+  {
+    "query_id": "q30",
+    "question": "In the technical resources appendix, what can denial-of-service attacks disrupt at a port?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "invalid_citations",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_c9ALCdnjr9LSTQLMB3jbi7r3",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"denial-of-service attacks disrupt port\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 254,
+          "completion_tokens": 19,
+          "total_tokens": 273,
+          "cost": 4.95e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 4.95e-05,
+            "upstream_inference_prompt_cost": 3.81e-05,
+            "upstream_inference_completions_cost": 1.14e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_c9ALCdnjr9LSTQLMB3jbi7r3",
+        "query": "denial-of-service attacks disrupt port",
+        "filters": {},
+        "top_k": 6,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:88:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 88,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n71\n\nEntry point Explanation\n\nInsider Threats\n\nEmployees or contractors with privileged access can inadvertently\n\nor deliberately expose credentials, introduce malware via personal\n\ndevices, or be recruited by criminal actors to facilitate both cyber\n\nand physical intrusions.\n\nDistributed denial-of-service\n\nAttacks & Communication\n\nInterception\n\nDenial-of-service attacks can disable port web infrastructure,\n\nvessel traffic management, or Port Community Systems.\n\nInterception of radio and satellite communications used for vessel-\n\nto-shore coordination is an additional vector.\n\nSource: Compiled from ENISA (2019, 2020); T ombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\n\nWorld Bank Port Reform T oolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber",
+            "metadata": {
+              "category": "appendices",
+              "section": "appendices",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 916
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:72:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 72,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational",
+            "metadata": {
+              "category": "conclusions",
+              "section": "conclusions",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 972
+            },
+            "score": 0.03055037313432836,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 4
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:20:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 20,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n3\n\nAt an operational level, these systemic risks are shaped by the increasing integration of information\n\ntechnology (IT) and operational technology (OT) within port environments. Modern ports operate\n\ncomplex, networked systems in which IT applications—traditionally used for data management,\n\ncommercial records, and administrative processes—are closely linked to OT systems that control\n\nphysical operations such as cargo handling, crane and conveyor movements, and energy and facility\n\nmanagement (Lagouvardou 2018; Li et al. 2024). This convergence is significant because IT and OT\n\nsystems have distinct security requirements and risk tolerances, and failures can affect ports in\n\nfundamentally different ways. While cyber incidents2 affecting IT systems typically disrupt data\n\nintegrity, financial transactions, or administrative operations, incidents involving OT systems",
+            "metadata": {
+              "category": "introduction",
+              "section": "introduction",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 928
+            },
+            "score": 0.02964426877470356,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 9,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:35:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 35,
+            "text": "service, tool, landlord, and fully private models—determine how ownership, operational control, and\n\nrisk management responsibilities are distributed across the port community (World Bank 2025b).",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1912,
+              "end_char": 2106
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "tfidf": 2
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:87:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 87,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n70\n\nAppendix 3: Further Resources to Improve Protection\n\nCommon Entry Points of Cyber Incidents\n\nThe overwhelming majority of port cyber incidents documented in the literature involve\n\nthe exploitation of well-known, preventable weaknesses rather than novel techniques\n\n(Meland et al. 2021; Chubb et al. 2022; Mesa et al. 2024; Badea et al. 2025; Tombak et al. 2025).\n\nTable 3 summarizes these entry points and the systems they most commonly affect.\n\nT able 3 Common entry points for cyber incidents occurring in the port ecosystem\n\nEntry point Explanation\n\nPhishing & Spear-Phishing\n\nFraudulent emails or messages trick staff into surrendering\n\ncredentials or downloading malware. Spear-phishing targets\n\nindividuals with privileged system access.\n\nExploitation of Known\n\nSoftware\n\nVulnerabilities\n\nAttackers exploit unpatched software in terminal operating\n\nsystems, supervisory control and data acquisition (SCADA)",
+            "metadata": {
+              "year": 2026,
+              "section": "appendices",
+              "segment": 0,
+              "category": "appendices",
+              "end_char": 957,
+              "start_char": 0
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:31:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 31,
+            "text": "Council, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.",
+            "metadata": {
+              "category": "policy",
+              "section": "policy",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1908,
+              "end_char": 2499
+            },
+            "score": 0.015873015873015872,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "tfidf": 3
+            }
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:88:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 88]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n71\n\nEntry point Explanation\n\nInsider Threats\n\nEmployees or contractors with privileged access can inadvertently\n\nor deliberately expose credentials, introduce malware via personal\n\ndevices, or be recruited by criminal actors to facilitate both cyber\n\nand physical intrusions.\n\nDistributed denial-of-service\n\nAttacks & Communication\n\nInterception\n\nDenial-of-service attacks can disable port web infrastructure,\n\nvessel traffic management, or Port Community Systems.\n\nInterception of radio and satellite communications used for vessel-\n\nto-shore coordination is an additional vector.\n\nSource: Compiled from ENISA (2019, 2020); T ombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\n\nWorld Bank Port Reform T oolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber\n\n[world-bank-cybersecurity-ports-2026:72:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 72]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational\n\n[world-bank-cybersecurity-ports-2026:20:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 20]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n3\n\nAt an operational level, these systemic risks are shaped by the increasing integration of information\n\ntechnology (IT) and operational technology (OT) within port environments. Modern ports operate\n\ncomplex, networked systems in which IT applications—traditionally used for data management,\n\ncommercial records, and administrative processes—are closely linked to OT systems that control\n\nphysical operations such as cargo handling, crane and conveyor movements, and energy and facility\n\nmanagement (Lagouvardou 2018; Li et al. 2024). This convergence is significant because IT and OT\n\nsystems have distinct security requirements and risk tolerances, and failures can affect ports in\n\nfundamentally different ways. While cyber incidents2 affecting IT systems typically disrupt data\n\nintegrity, financial transactions, or administrative operations, incidents involving OT systems\n\n[world-bank-cybersecurity-ports-2026:35:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 35]\nservice, tool, landlord, and fully private models—determine how ownership, operational control, and\n\nrisk management responsibilities are distributed across the port community (World Bank 2025b).\n\n[world-bank-cybersecurity-ports-2026:87:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 87]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n70\n\nAppendix 3: Further Resources to Improve Protection\n\nCommon Entry Points of Cyber Incidents\n\nThe overwhelming majority of port cyber incidents documented in the literature involve\n\nthe exploitation of well-known, preventable weaknesses rather than novel techniques\n\n(Meland et al. 2021; Chubb et al. 2022; Mesa et al. 2024; Badea et al. 2025; Tombak et al. 2025).\n\nTable 3 summarizes these entry points and the systems they most commonly affect.\n\nT able 3 Common entry points for cyber incidents occurring in the port ecosystem\n\nEntry point Explanation\n\nPhishing & Spear-Phishing\n\nFraudulent emails or messages trick staff into surrendering\n\ncredentials or downloading malware. Spear-phishing targets\n\nindividuals with privileged system access.\n\nExploitation of Known\n\nSoftware\n\nVulnerabilities\n\nAttackers exploit unpatched software in terminal operating\n\nsystems, supervisory control and data acquisition (SCADA)\n\n[world-bank-cybersecurity-ports-2026:31:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 31]\nCouncil, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:88:para:0",
+          "world-bank-cybersecurity-ports-2026:72:para:0",
+          "world-bank-cybersecurity-ports-2026:20:para:0",
+          "world-bank-cybersecurity-ports-2026:35:para:2",
+          "world-bank-cybersecurity-ports-2026:87:para:0",
+          "world-bank-cybersecurity-ports-2026:31:para:2"
+        ],
+        "elapsed_ms": 72.70230000722222
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_1Rz880U1Uqz8Mfjn0XQbavYy",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"answer\":\"Denial-of-service attacks can disrupt the following at a port:\\n1. Port web infrastructure\\n2. Vessel traffic management\\n3. Port Community Systems\\n4. Interception of radio and satellite communications used for vessel-to-shore coordination.\\n\\nThese disruptions can significantly impact port operations and safety.\",\"citations\":[\"world-bank-cybersecurity-ports-2026:88:para:0\"]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 1653,
+          "completion_tokens": 98,
+          "total_tokens": 1751,
+          "cost": 0.00030675,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00030675,
+            "upstream_inference_prompt_cost": 0.00024795,
+            "upstream_inference_completions_cost": 5.88e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:88:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 88]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n71\n\nEntry point Explanation\n\nInsider Threats\n\nEmployees or contractors with privileged access can inadvertently\n\nor deliberately expose credentials, introduce malware via personal\n\ndevices, or be recruited by criminal actors to facilitate both cyber\n\nand physical intrusions.\n\nDistributed denial-of-service\n\nAttacks & Communication\n\nInterception\n\nDenial-of-service attacks can disable port web infrastructure,\n\nvessel traffic management, or Port Community Systems.\n\nInterception of radio and satellite communications used for vessel-\n\nto-shore coordination is an additional vector.\n\nSource: Compiled from ENISA (2019, 2020); T ombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\n\nWorld Bank Port Reform T oolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber\n\n[world-bank-cybersecurity-ports-2026:72:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 72]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n55\n\nPorts sit at the center of modern economies and supply chains—and increasingly at the center of\n\nmodern cyber risk. As the sector shifts toward “Port 4.0” operations, integrates port community\n\nsystems and electronic Maritime Single Windows, and links information technologies with\n\noperational technologies (IT with OT), cyber incidents no longer threaten only data or office systems.\n\nThey can halt vessel movements and port operations, disrupt national trade flows, create safety\n\nrisks, and propagate across the port ecosystem and beyond. In this context, cyber resilience has\n\nbecome inseparable from operational resilience.\n\nAt the same time, strengthening cybersecurity does not necessarily require the creation of entirely\n\nnew institutional structures. Many of the capabilities needed to improve cyber resilience already\n\nexist within port governance and operational practices. Ports routinely manage operational\n\n[world-bank-cybersecurity-ports-2026:20:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 20]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n3\n\nAt an operational level, these systemic risks are shaped by the increasing integration of information\n\ntechnology (IT) and operational technology (OT) within port environments. Modern ports operate\n\ncomplex, networked systems in which IT applications—traditionally used for data management,\n\ncommercial records, and administrative processes—are closely linked to OT systems that control\n\nphysical operations such as cargo handling, crane and conveyor movements, and energy and facility\n\nmanagement (Lagouvardou 2018; Li et al. 2024). This convergence is significant because IT and OT\n\nsystems have distinct security requirements and risk tolerances, and failures can affect ports in\n\nfundamentally different ways. While cyber incidents2 affecting IT systems typically disrupt data\n\nintegrity, financial transactions, or administrative operations, incidents involving OT systems\n\n[world-bank-cybersecurity-ports-2026:35:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 35]\nservice, tool, landlord, and fully private models—determine how ownership, operational control, and\n\nrisk management responsibilities are distributed across the port community (World Bank 2025b).\n\n[world-bank-cybersecurity-ports-2026:87:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 87]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n70\n\nAppendix 3: Further Resources to Improve Protection\n\nCommon Entry Points of Cyber Incidents\n\nThe overwhelming majority of port cyber incidents documented in the literature involve\n\nthe exploitation of well-known, preventable weaknesses rather than novel techniques\n\n(Meland et al. 2021; Chubb et al. 2022; Mesa et al. 2024; Badea et al. 2025; Tombak et al. 2025).\n\nTable 3 summarizes these entry points and the systems they most commonly affect.\n\nT able 3 Common entry points for cyber incidents occurring in the port ecosystem\n\nEntry point Explanation\n\nPhishing & Spear-Phishing\n\nFraudulent emails or messages trick staff into surrendering\n\ncredentials or downloading malware. Spear-phishing targets\n\nindividuals with privileged system access.\n\nExploitation of Known\n\nSoftware\n\nVulnerabilities\n\nAttackers exploit unpatched software in terminal operating\n\nsystems, supervisory control and data acquisition (SCADA)\n\n[world-bank-cybersecurity-ports-2026:31:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 31]\nCouncil, which aims to enhance information sharing and\n\nincident response between government agencies and key\n\nprivate-sector partners.\n\nSingapore Cybersecurity Act: notify Cyber Security\n\nAgency of incidents, including service disruptions, within\n\nshort windows.\n\nResilience &\n\ncontinuity\n\nRequirements to prepare\n\nfor incident response\n\nand recovery and ensure\n\ncontinuity of essential\n\nservices.\n\nEU NIS2 Directive: incident handling and continuity\n\nmeasures are part of risk management requirements.\n\nSingapore Cybersecurity Act: mandatory exercises and\n\nremedial actions to maintain service continuity.",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:88:para:0",
+      "world-bank-cybersecurity-ports-2026:72:para:0",
+      "world-bank-cybersecurity-ports-2026:20:para:0",
+      "world-bank-cybersecurity-ports-2026:35:para:2",
+      "world-bank-cybersecurity-ports-2026:87:para:0",
+      "world-bank-cybersecurity-ports-2026:31:para:2"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 254,
+        "completion_tokens": 19,
+        "total_tokens": 273,
+        "cost": 4.95e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 4.95e-05,
+          "upstream_inference_prompt_cost": 3.81e-05,
+          "upstream_inference_completions_cost": 1.14e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1653,
+        "completion_tokens": 98,
+        "total_tokens": 1751,
+        "cost": 0.00030675,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00030675,
+          "upstream_inference_prompt_cost": 0.00024795,
+          "upstream_inference_completions_cost": 5.88e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.00035625,
+    "elapsed_ms": 3729.377999989083
+  },
+  {
+    "query_id": "u03",
+    "question": "What is the private API key used by the Maritime and Port Authority of Singapore SOC?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "no_retrieval",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_EmU741E9ihzWIMqreonNvuw7",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"abstain\",\"answer\":\"I cannot provide information about private API keys or any sensitive data related to organizations.\",\"citations\":[]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 254,
+          "completion_tokens": 37,
+          "total_tokens": 291,
+          "cost": 6.03e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.03e-05,
+            "upstream_inference_prompt_cost": 3.81e-05,
+            "upstream_inference_completions_cost": 2.22e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 254,
+        "completion_tokens": 37,
+        "total_tokens": 291,
+        "cost": 6.03e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 6.03e-05,
+          "upstream_inference_prompt_cost": 3.81e-05,
+          "upstream_inference_completions_cost": 2.22e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 6.03e-05,
+    "elapsed_ms": 1104.3114000058267
+  },
+  {
+    "query_id": "u04",
+    "question": "What was the exact number of ransomware incidents at the Port of Los Angeles in calendar year 2035?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "model_abstention",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_XtavGSsdTOhSh5WiT9rD0uEN",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"ransomware incidents Port of Los Angeles 2035\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 258,
+          "completion_tokens": 23,
+          "total_tokens": 281,
+          "cost": 5.25e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 5.25e-05,
+            "upstream_inference_prompt_cost": 3.87e-05,
+            "upstream_inference_completions_cost": 1.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool_call_id": "call_XtavGSsdTOhSh5WiT9rD0uEN",
+        "query": "ransomware incidents Port of Los Angeles 2035",
+        "filters": {},
+        "top_k": 6,
+        "results": [
+          {
+            "id": "world-bank-cybersecurity-ports-2026:21:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 21,
+            "text": "• Marseilles, 2020: The Mespinoza/Pysa ransomware affected port operations via\n\ninterconnections with municipal IT systems\n\n• Durban and Cape Town, 2021: A cyber incident at Transnet halted port operations,\n\ntriggering force majeure and regional supply chain disruptions\n\n• Lisbon, 2021: A ransomware incident affected port servers, with threats to publish\n\nstolen data\n\n• Nagoya, 2023: A LockBit 3.0 ransomware incident shut down container operations for\n\ntwo days, disrupting just-in-time supply chains\n\n• DP World Australia, 2023: A cyber breach forced the shutdown of terminal operations,\n\nstranding around 30,000 containers\n\n• Seattle, 2024: Ransomware exploiting an unpatched software vulnerability\n\ndisrupted systems for weeks, with losses estimated at $10 million\n\nSource: Antwerp: Chubb et al. (2022), Farah et al. (2022), Keleştemur et al. (2024); Maersk: Badea et al. (2025), Steinberg et",
+            "metadata": {
+              "category": "introduction",
+              "section": "introduction",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 986,
+              "end_char": 1873
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 3
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:21:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 21,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n4\n\nBox 1 Selected examples of cyber incidents in the maritime transport sector\n\n• Antwerp, 2011–2013: Hackers infiltrated terminal operating systems to access\n\ncontainer location data, enabling large-scale drug smuggling\n\n• Maersk, 2017: The NotPetya malware disabled global IT systems, affecting 76 terminals\n\nand causing estimated direct losses of $250–300 million, and wider financial losses of\n\nmore than $7.3 billion for customers of the affected firms\n\n• COSCO Shipping Lines, 2018: Ransomware disrupted the carrier’s U.S. network, forcing\n\ntemporary reliance on manual processes\n\n• Hormuz, 2020: A ransomware incident reportedly damaged parts of the port’s\n\noperating systems\n\n• Shahid Rajaee, 2020: A cyber incident affecting the terminal operating system shut\n\ndown port operations for several days\n\n• Mediterranean Shipping Company (MSC), 2020: A malware incident disrupted internal\n\ndata systems and took down the company’s website",
+            "metadata": {
+              "category": "introduction",
+              "section": "introduction",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 985
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:87:para:1",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 87,
+            "text": "systems, and cargo management systems. Operational continuity\n\nconstraints often prevent timely patching.\n\nIT/OT Convergence &\n\nRansomware Propagation\n\nIncreasing connectivity between IT and OT systems (cranes, yard\n\nmanagement, gate systems) allows ransomware introduced via IT\n\nnetworks to propagate into operational systems, causing physical\n\nshutdowns.\n\nThird-Party & Supply Chain\n\nCompromise\n\nVendors, contractors, and logistics partners with network\n\naccess represent weak links. Absent cybersecurity certification\n\nrequirements and un-segmented networks allow a breach via any\n\nthird party to spread laterally.\n\nPort Community Systems\n\n& Web Application\n\nVulnerabilities\n\nPort Community Systems, connecting terminal operators,\n\ncustoms, and shipping lines, expose public-facing APIs, Electronic\n\nData Interchange connections, and web applications that can be\n\nexploited to alter cargo records or compromise customs data.\n\nGPS Spoofing & AIS\n\nManipulation",
+            "metadata": {
+              "category": "appendices",
+              "section": "appendices",
+              "year": 2026,
+              "segment": 1,
+              "start_char": 958,
+              "end_char": 1897
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 7
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:20:para:2",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 20,
+            "text": "legacy systems that no longer receive security updates, creating persistent and well-documented\n\nvulnerabilities (Pseftelis et al. 2021). Beyond these technical vulnerabilities, human factors remain\n\na critical challenge: a large share of incidents can be traced to unintentional insiders with limited\n\ncybersecurity awareness, weak access controls, or poor cyber hygiene (Akpan et al. 2022; Vergara\n\nCobos and Cakir 2024).\n\nTogether, these technological, structural, and human factors contribute to a cyber risk environment\n\nin which incidents are becoming more frequent and more diverse across the maritime transport\n\nsector. Recent examples from the sector, illustrated in Box 1, underscore how these risks materialize\n\nin practice. Reported incidents targeting maritime OT systems rose sharply between 2017 and\n\n2020 (Akpan et al. 2022), and large port complexes such as Los Angeles–Long Beach now face",
+            "metadata": {
+              "category": "introduction",
+              "section": "introduction",
+              "year": 2026,
+              "segment": 2,
+              "start_char": 1847,
+              "end_char": 2744
+            },
+            "score": 0.03076923076923077,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 5
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:43:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 43,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n26\n\n2.1 Evaluating Risk: Knowing What You Are Up Against\n\n2.1.1 How Do Incidents Occur?\n\nUnderstanding how incidents enter port systems is a prerequisite for protecting them. The\n\noverwhelming majority of port cyber incidents documented in the literature involve the exploitation\n\nof well-known, preventable weaknesses rather than novel techniques (Meland et al. 2021; Chubb et\n\nal. 2022; Badea et al. 2025). This has important implications: for most ports, basic and consistent\n\nimplementation of established protective controls would materially reduce exposure of information\n\nand operational technologies (IT and OT).\n\nSynthesizing incident data and threat analysis from various sources, the evidence consistently\n\npoints to several recurring entry points in port environments:\n\n• phishing and social engineering targeting staff,\n\n• exploitation of unpatched software vulnerabilities in IT systems,",
+            "metadata": {
+              "category": "practice",
+              "section": "practice",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 946
+            },
+            "score": 0.029857397504456328,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 8
+            }
+          },
+          {
+            "id": "world-bank-cybersecurity-ports-2026:65:para:0",
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "Cybersecurity in Ports - Shifting from Risk to Resilience.pdf",
+            "page": 65,
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience\n\n48\n\nBox 11 Case studies: Voluntary cyber resilience centers (CRCs)\n\nLos Angeles Cyber Resilience Center\n\nThe Port of Los Angeles launched its Cyber Resilience Center in January 2022 to serve\n\nas a “system of systems” for rapid sharing of cyber threat indicators and collective\n\ndefense among terminal operators, shipping lines, rail, trucking, and other supply-chain\n\nstakeholders. Building on the Port’s internal Cyber Security Operations Center (established\n\nin 2014), the CRC centralizes and automates the exchange of cyber indicators and defensive\n\nmeasures, offers training and tabletop exercises, and provides an early warning function\n\nto protect cargo flow. The port’s board approved an agreement with IBM in late 2020 to\n\ndesign, operate, and maintain the CRC, leveraging threat intelligence and orchestration\n\ntechnologies.\n\nSingapore Maritime Cyber Assurance and Operations Center",
+            "metadata": {
+              "category": "barriers",
+              "section": "barriers",
+              "year": 2026,
+              "segment": 0,
+              "start_char": 0,
+              "end_char": 936
+            },
+            "score": 0.02964254577157803,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 14,
+              "tfidf": 2
+            }
+          }
+        ],
+        "context": "[world-bank-cybersecurity-ports-2026:21:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 21]\n• Marseilles, 2020: The Mespinoza/Pysa ransomware affected port operations via\n\ninterconnections with municipal IT systems\n\n• Durban and Cape Town, 2021: A cyber incident at Transnet halted port operations,\n\ntriggering force majeure and regional supply chain disruptions\n\n• Lisbon, 2021: A ransomware incident affected port servers, with threats to publish\n\nstolen data\n\n• Nagoya, 2023: A LockBit 3.0 ransomware incident shut down container operations for\n\ntwo days, disrupting just-in-time supply chains\n\n• DP World Australia, 2023: A cyber breach forced the shutdown of terminal operations,\n\nstranding around 30,000 containers\n\n• Seattle, 2024: Ransomware exploiting an unpatched software vulnerability\n\ndisrupted systems for weeks, with losses estimated at $10 million\n\nSource: Antwerp: Chubb et al. (2022), Farah et al. (2022), Keleştemur et al. (2024); Maersk: Badea et al. (2025), Steinberg et\n\n[world-bank-cybersecurity-ports-2026:21:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 21]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n4\n\nBox 1 Selected examples of cyber incidents in the maritime transport sector\n\n• Antwerp, 2011–2013: Hackers infiltrated terminal operating systems to access\n\ncontainer location data, enabling large-scale drug smuggling\n\n• Maersk, 2017: The NotPetya malware disabled global IT systems, affecting 76 terminals\n\nand causing estimated direct losses of $250–300 million, and wider financial losses of\n\nmore than $7.3 billion for customers of the affected firms\n\n• COSCO Shipping Lines, 2018: Ransomware disrupted the carrier’s U.S. network, forcing\n\ntemporary reliance on manual processes\n\n• Hormuz, 2020: A ransomware incident reportedly damaged parts of the port’s\n\noperating systems\n\n• Shahid Rajaee, 2020: A cyber incident affecting the terminal operating system shut\n\ndown port operations for several days\n\n• Mediterranean Shipping Company (MSC), 2020: A malware incident disrupted internal\n\ndata systems and took down the company’s website\n\n[world-bank-cybersecurity-ports-2026:87:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 87]\nsystems, and cargo management systems. Operational continuity\n\nconstraints often prevent timely patching.\n\nIT/OT Convergence &\n\nRansomware Propagation\n\nIncreasing connectivity between IT and OT systems (cranes, yard\n\nmanagement, gate systems) allows ransomware introduced via IT\n\nnetworks to propagate into operational systems, causing physical\n\nshutdowns.\n\nThird-Party & Supply Chain\n\nCompromise\n\nVendors, contractors, and logistics partners with network\n\naccess represent weak links. Absent cybersecurity certification\n\nrequirements and un-segmented networks allow a breach via any\n\nthird party to spread laterally.\n\nPort Community Systems\n\n& Web Application\n\nVulnerabilities\n\nPort Community Systems, connecting terminal operators,\n\ncustoms, and shipping lines, expose public-facing APIs, Electronic\n\nData Interchange connections, and web applications that can be\n\nexploited to alter cargo records or compromise customs data.\n\nGPS Spoofing & AIS\n\nManipulation\n\n[world-bank-cybersecurity-ports-2026:20:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 20]\nlegacy systems that no longer receive security updates, creating persistent and well-documented\n\nvulnerabilities (Pseftelis et al. 2021). Beyond these technical vulnerabilities, human factors remain\n\na critical challenge: a large share of incidents can be traced to unintentional insiders with limited\n\ncybersecurity awareness, weak access controls, or poor cyber hygiene (Akpan et al. 2022; Vergara\n\nCobos and Cakir 2024).\n\nTogether, these technological, structural, and human factors contribute to a cyber risk environment\n\nin which incidents are becoming more frequent and more diverse across the maritime transport\n\nsector. Recent examples from the sector, illustrated in Box 1, underscore how these risks materialize\n\nin practice. Reported incidents targeting maritime OT systems rose sharply between 2017 and\n\n2020 (Akpan et al. 2022), and large port complexes such as Los Angeles–Long Beach now face\n\n[world-bank-cybersecurity-ports-2026:43:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 43]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n26\n\n2.1 Evaluating Risk: Knowing What You Are Up Against\n\n2.1.1 How Do Incidents Occur?\n\nUnderstanding how incidents enter port systems is a prerequisite for protecting them. The\n\noverwhelming majority of port cyber incidents documented in the literature involve the exploitation\n\nof well-known, preventable weaknesses rather than novel techniques (Meland et al. 2021; Chubb et\n\nal. 2022; Badea et al. 2025). This has important implications: for most ports, basic and consistent\n\nimplementation of established protective controls would materially reduce exposure of information\n\nand operational technologies (IT and OT).\n\nSynthesizing incident data and threat analysis from various sources, the evidence consistently\n\npoints to several recurring entry points in port environments:\n\n• phishing and social engineering targeting staff,\n\n• exploitation of unpatched software vulnerabilities in IT systems,",
+        "context_ids": [
+          "world-bank-cybersecurity-ports-2026:21:para:1",
+          "world-bank-cybersecurity-ports-2026:21:para:0",
+          "world-bank-cybersecurity-ports-2026:87:para:1",
+          "world-bank-cybersecurity-ports-2026:20:para:2",
+          "world-bank-cybersecurity-ports-2026:43:para:0"
+        ],
+        "elapsed_ms": 83.64649998839013
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "call_twkzHxwebgJ7u1sZKVcnP2Ln",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"abstain\",\"answer\":\"There is no information available regarding the exact number of ransomware incidents at the Port of Los Angeles in calendar year 2035.\",\"citations\":[]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 1694,
+          "completion_tokens": 46,
+          "total_tokens": 1740,
+          "cost": 0.0002817,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002817,
+            "upstream_inference_prompt_cost": 0.0002541,
+            "upstream_inference_completions_cost": 2.76e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    ],
+    "context": "[world-bank-cybersecurity-ports-2026:21:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 21]\n• Marseilles, 2020: The Mespinoza/Pysa ransomware affected port operations via\n\ninterconnections with municipal IT systems\n\n• Durban and Cape Town, 2021: A cyber incident at Transnet halted port operations,\n\ntriggering force majeure and regional supply chain disruptions\n\n• Lisbon, 2021: A ransomware incident affected port servers, with threats to publish\n\nstolen data\n\n• Nagoya, 2023: A LockBit 3.0 ransomware incident shut down container operations for\n\ntwo days, disrupting just-in-time supply chains\n\n• DP World Australia, 2023: A cyber breach forced the shutdown of terminal operations,\n\nstranding around 30,000 containers\n\n• Seattle, 2024: Ransomware exploiting an unpatched software vulnerability\n\ndisrupted systems for weeks, with losses estimated at $10 million\n\nSource: Antwerp: Chubb et al. (2022), Farah et al. (2022), Keleştemur et al. (2024); Maersk: Badea et al. (2025), Steinberg et\n\n[world-bank-cybersecurity-ports-2026:21:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 21]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n4\n\nBox 1 Selected examples of cyber incidents in the maritime transport sector\n\n• Antwerp, 2011–2013: Hackers infiltrated terminal operating systems to access\n\ncontainer location data, enabling large-scale drug smuggling\n\n• Maersk, 2017: The NotPetya malware disabled global IT systems, affecting 76 terminals\n\nand causing estimated direct losses of $250–300 million, and wider financial losses of\n\nmore than $7.3 billion for customers of the affected firms\n\n• COSCO Shipping Lines, 2018: Ransomware disrupted the carrier’s U.S. network, forcing\n\ntemporary reliance on manual processes\n\n• Hormuz, 2020: A ransomware incident reportedly damaged parts of the port’s\n\noperating systems\n\n• Shahid Rajaee, 2020: A cyber incident affecting the terminal operating system shut\n\ndown port operations for several days\n\n• Mediterranean Shipping Company (MSC), 2020: A malware incident disrupted internal\n\ndata systems and took down the company’s website\n\n[world-bank-cybersecurity-ports-2026:87:para:1 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 87]\nsystems, and cargo management systems. Operational continuity\n\nconstraints often prevent timely patching.\n\nIT/OT Convergence &\n\nRansomware Propagation\n\nIncreasing connectivity between IT and OT systems (cranes, yard\n\nmanagement, gate systems) allows ransomware introduced via IT\n\nnetworks to propagate into operational systems, causing physical\n\nshutdowns.\n\nThird-Party & Supply Chain\n\nCompromise\n\nVendors, contractors, and logistics partners with network\n\naccess represent weak links. Absent cybersecurity certification\n\nrequirements and un-segmented networks allow a breach via any\n\nthird party to spread laterally.\n\nPort Community Systems\n\n& Web Application\n\nVulnerabilities\n\nPort Community Systems, connecting terminal operators,\n\ncustoms, and shipping lines, expose public-facing APIs, Electronic\n\nData Interchange connections, and web applications that can be\n\nexploited to alter cargo records or compromise customs data.\n\nGPS Spoofing & AIS\n\nManipulation\n\n[world-bank-cybersecurity-ports-2026:20:para:2 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 20]\nlegacy systems that no longer receive security updates, creating persistent and well-documented\n\nvulnerabilities (Pseftelis et al. 2021). Beyond these technical vulnerabilities, human factors remain\n\na critical challenge: a large share of incidents can be traced to unintentional insiders with limited\n\ncybersecurity awareness, weak access controls, or poor cyber hygiene (Akpan et al. 2022; Vergara\n\nCobos and Cakir 2024).\n\nTogether, these technological, structural, and human factors contribute to a cyber risk environment\n\nin which incidents are becoming more frequent and more diverse across the maritime transport\n\nsector. Recent examples from the sector, illustrated in Box 1, underscore how these risks materialize\n\nin practice. Reported incidents targeting maritime OT systems rose sharply between 2017 and\n\n2020 (Akpan et al. 2022), and large port complexes such as Los Angeles–Long Beach now face\n\n[world-bank-cybersecurity-ports-2026:43:para:0 | Cybersecurity in Ports - Shifting from Risk to Resilience.pdf | page 43]\nCybersecurity in Ports: Shifting from Risk to Resilience\n\n26\n\n2.1 Evaluating Risk: Knowing What You Are Up Against\n\n2.1.1 How Do Incidents Occur?\n\nUnderstanding how incidents enter port systems is a prerequisite for protecting them. The\n\noverwhelming majority of port cyber incidents documented in the literature involve the exploitation\n\nof well-known, preventable weaknesses rather than novel techniques (Meland et al. 2021; Chubb et\n\nal. 2022; Badea et al. 2025). This has important implications: for most ports, basic and consistent\n\nimplementation of established protective controls would materially reduce exposure of information\n\nand operational technologies (IT and OT).\n\nSynthesizing incident data and threat analysis from various sources, the evidence consistently\n\npoints to several recurring entry points in port environments:\n\n• phishing and social engineering targeting staff,\n\n• exploitation of unpatched software vulnerabilities in IT systems,",
+    "context_ids": [
+      "world-bank-cybersecurity-ports-2026:21:para:1",
+      "world-bank-cybersecurity-ports-2026:21:para:0",
+      "world-bank-cybersecurity-ports-2026:87:para:1",
+      "world-bank-cybersecurity-ports-2026:20:para:2",
+      "world-bank-cybersecurity-ports-2026:43:para:0"
+    ],
+    "model": "openai/gpt-4o-mini",
+    "usage": [
+      {
+        "prompt_tokens": 258,
+        "completion_tokens": 23,
+        "total_tokens": 281,
+        "cost": 5.25e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 5.25e-05,
+          "upstream_inference_prompt_cost": 3.87e-05,
+          "upstream_inference_completions_cost": 1.38e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1694,
+        "completion_tokens": 46,
+        "total_tokens": 1740,
+        "cost": 0.0002817,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0002817,
+          "upstream_inference_prompt_cost": 0.0002541,
+          "upstream_inference_completions_cost": 2.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ],
+    "service_cost_usd": 0.0003342,
+    "elapsed_ms": 2506.5045000228565
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "page": 68,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses aligning economic incentives to enhance cyber resilience in ports. It emphasizes the importance of linking cybersecurity investments to incentives through concession agreements, cost-sharing mechanisms, and clear liability rules. The text highlights the need for cooperation among port authorities and operators to address economic misalignment and promote shared cybersecurity efforts. It also outlines the role of governments and private operators in improving cybersecurity through regulatory measures and contractual obligations, ultimately aiming to align private incentives with collective resilience goals.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "3.3.4",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "description": "Text discussing economic incentives for cyber resilience in ports."
+    },
+    {
+      "kind": "text",
+      "label": "3.4",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        0.9
+      ],
+      "description": "Text outlining main takeaways and key recommendations for improving cybersecurity."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 235,
+    "total_tokens": 25975,
+    "cost": 0.004002,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004002,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000141
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6031.926000025123,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

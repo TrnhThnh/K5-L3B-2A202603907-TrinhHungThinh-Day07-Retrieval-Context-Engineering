@@ -1,0 +1,56 @@
+{
+  "page": 65,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses voluntary cyber resilience centers (CRCs) in various ports, highlighting the Los Angeles Cyber Resilience Center, Singapore Maritime Cyber Assurance and Operations Center, and NORMA Cyber in Norway. Each center aims to enhance cyber threat sharing, monitoring, and response among maritime stakeholders, thereby improving overall cybersecurity in the maritime transport sector.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Box 11",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ],
+      "description": "Case studies on voluntary cyber resilience centers (CRCs) including Los Angeles, Singapore, and Norway."
+    },
+    {
+      "kind": "image",
+      "label": "Image",
+      "bbox": [
+        0.1,
+        0.6,
+        0.9,
+        0.95
+      ],
+      "description": "Photograph of a port, illustrating maritime operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 215,
+    "total_tokens": 25955,
+    "cost": 0.00399,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00399,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000129
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6821.6636999859475,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

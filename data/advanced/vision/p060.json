@@ -1,0 +1,45 @@
+{
+  "page": 60,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section discusses financial barriers to cybersecurity investment in ports, highlighting that many ports struggle to justify spending despite recognizing risks. It emphasizes the importance of leadership buy-in for securing ongoing investment and the need to quantify cyber risks in financial terms. The text also mentions tools like the Return on Security Investment (ROSI) and the Gordon-Loeb Model to help translate cyber risk into monetary terms, aiding decision-making for investment in cybersecurity.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure 10",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        1.0
+      ],
+      "description": "A photograph of a port, illustrating the context of cybersecurity challenges in maritime environments."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 172,
+    "total_tokens": 25912,
+    "cost": 0.0039642,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039642,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001032
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6245.673199999146,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "Content grading only; frozen model/prompt/retrieval/catalog/citation pipeline unchanged.",
+  "published_rule": "ADVANCED.md accepts abstention OR an explicit statement that evidence is insufficient, without unsupported assertions.",
+  "correction": "The initial aggregator required status=abstain exclusively. It now also accepts status=answered only when an original-page content reviewer explicitly confirms the response states missing evidence and does not guess.",
+  "observed_case": "at26: answer says the laptop manufacturer is not named; no manufacturer invented.",
+  "selection_impact": "No dev score or selected configuration changes; all dev negatives used status=abstain.",
+  "limit": "Do not infer this label from status, keywords, citation IDs or a desire to meet the threshold. Requires explicit content review. Does not remove provider failures from denominator."
+}

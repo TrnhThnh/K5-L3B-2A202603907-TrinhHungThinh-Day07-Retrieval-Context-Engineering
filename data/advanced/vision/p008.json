@@ -1,0 +1,56 @@
+{
+  "page": 8,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains acknowledgments for the report's development, highlighting contributions from various individuals and organizations involved in the study. It also details the funding sources for the report, including the Quality Infrastructure Investment Partnership and the Cybersecurity Multi Donor Trust Fund, emphasizing their roles in supporting cybersecurity initiatives in port infrastructure.",
+  "page_class": "front_matter",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Acknowledgements",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.5
+      ],
+      "description": "Acknowledgments for contributions to the report's development and stakeholder engagement."
+    },
+    {
+      "kind": "text",
+      "label": "Funding",
+      "bbox": [
+        0,
+        0.5,
+        1,
+        1
+      ],
+      "description": "Details on the funding sources for the report, including the Quality Infrastructure Investment Partnership and the Cybersecurity Multi Donor Trust Fund."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 206,
+    "total_tokens": 25946,
+    "cost": 0.0039846,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039846,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001236
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5825.92730000033,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

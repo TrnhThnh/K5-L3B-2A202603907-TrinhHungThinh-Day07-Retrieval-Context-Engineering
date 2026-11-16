@@ -1,0 +1,45 @@
+{
+  "page": 27,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "Box 3 discusses cybersecurity considerations within the ISPS Code, which is divided into two parts: mandatory requirements for port facilities and non-mandatory guidance. Part A mandates a Port Facility Security Assessment and the development of a Port Facility Security Plan, while Part B offers guidance on risks and mitigation measures. The ISPS Code primarily addresses physical security risks and has limited updates regarding cybersecurity, which is only referenced in Part B. This creates challenges in addressing cybersecurity within the existing framework.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure",
+      "bbox": [
+        0.1,
+        0.5,
+        0.9,
+        1.0
+      ],
+      "description": "Aerial view of a busy port with numerous shipping containers stacked in rows, showcasing port infrastructure and operations."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 186,
+    "total_tokens": 25926,
+    "cost": 0.0039726,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039726,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001116
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6975.141400005668,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

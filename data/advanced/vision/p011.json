@@ -1,0 +1,45 @@
+{
+  "page": 11,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page features a visually striking graphic representing the concept of cybersecurity in ports, highlighted by the title 'Executive Summary.' The design includes a stylized shipping container with digital elements and security shields, emphasizing the importance of cybersecurity in maritime logistics.",
+  "page_class": "decorative",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Executive Summary Graphic",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "A digital illustration of a shipping container with security shields, symbolizing cybersecurity in ports. The background is a gradient of dark blue, enhancing the futuristic theme."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 151,
+    "total_tokens": 25891,
+    "cost": 0.0039516,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039516,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.06e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4856.287600006908,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

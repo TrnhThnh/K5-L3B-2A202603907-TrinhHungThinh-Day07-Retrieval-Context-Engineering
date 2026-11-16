@@ -1,0 +1,18 @@
+{
+  "artifact_groups_verified": [
+    "results/final/dev/dense-base",
+    "results/final/dev/hybrid-context",
+    "results/final/dev/hybrid-rrf",
+    "results/final/dev/tfidf-base",
+    "results/final/test/hybrid-context",
+    "results/final/test/tfidf-base"
+  ],
+  "real_agent_traces": 150,
+  "selection_hashes_match": true,
+  "runtime_input_and_code_hashes_match": true,
+  "citation_and_budget_invariants_pass": true,
+  "review_aggregates_match": true,
+  "api_key_disclosures_detected": 0,
+  "unit_tests_passed": 23,
+  "review_limit": "Content grades remain Codex-assisted, student confirmation pending."
+}

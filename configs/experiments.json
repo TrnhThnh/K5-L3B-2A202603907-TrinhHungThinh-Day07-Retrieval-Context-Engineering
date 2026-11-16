@@ -1,0 +1,6 @@
+[
+  {"id":"tfidf-base","method":"tfidf","top_k":3,"budget":1600,"max_searches":1,"hypothesis":"Lexical baseline with small context; whole chunks may be dropped."},
+  {"id":"dense-base","method":"dense","top_k":3,"budget":1600,"max_searches":1,"hypothesis":"Semantic matching using the original Day06 B pgvector index."},
+  {"id":"hybrid-rrf","method":"hybrid","top_k":3,"budget":1600,"max_searches":1,"candidates":20,"hypothesis":"Improvement 1: reciprocal rank fusion combines lexical and semantic evidence."},
+  {"id":"hybrid-context","method":"hybrid","top_k":6,"budget":6000,"max_searches":3,"candidates":20,"hypothesis":"Improvement 2: more candidates, larger context and repeated agent searches reduce missing evidence."}
+]

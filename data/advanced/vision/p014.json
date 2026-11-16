@@ -1,0 +1,56 @@
+{
+  "page": 14,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "The World Bank survey highlights disparities in cybersecurity practices between high-income and low- & middle-income ports. Key findings include that 83% of high-income ports report incidents to a response team, compared to 56% of low- & middle-income ports. Additionally, 79% of high-income ports have conducted cybersecurity risk assessments in the past 24 months, while only 56% of low- & middle-income ports have done so. Furthermore, 84% of high-income ports provide regular cybersecurity training, in contrast to 49% of low- & middle-income ports.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 1",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.4
+      ],
+      "description": "A comparative chart showing the percentage of high-income and low- & middle-income ports reporting incidents, assessing risks, and building capacity in cybersecurity."
+    },
+    {
+      "kind": "text",
+      "label": "Text",
+      "bbox": [
+        0.1,
+        0.05,
+        0.9,
+        0.15
+      ],
+      "description": "Introduction text explaining the survey and its findings regarding port resilience."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 275,
+    "total_tokens": 26015,
+    "cost": 0.004026,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004026,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000165
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 9654.27090000594,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,45 @@
+{
+  "page": 53,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page illustrates the concept of '3 Barriers' in cybersecurity for ports, represented through a digital graphic. The image features a stylized ship and port structure, integrated with a shield symbolizing security, and various connections indicating cybersecurity measures.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "image",
+      "label": "Figure 3",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "description": "A digital illustration depicting a ship and port structure with a security shield above, symbolizing cybersecurity barriers. The design includes lines connecting various elements, representing cybersecurity measures."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 152,
+    "total_tokens": 25892,
+    "cost": 0.0039522,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039522,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.12e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 6271.563699992839,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

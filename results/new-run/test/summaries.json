@@ -1,0 +1,48 @@
+{
+  "tfidf-base": {
+    "n": 7,
+    "successful_answerable": 5,
+    "errors": 0,
+    "hit1": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    },
+    "hit3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    },
+    "median_ms": 0.7822999905329198,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  },
+  "hybrid-context": {
+    "n": 7,
+    "successful_answerable": 5,
+    "errors": 0,
+    "hit1": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    },
+    "hit3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "median_ms": 68.71439999667928,
+    "service_cost_usd": 0,
+    "cost_scope": "Local retrieval only; excludes LLM agent"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page": 12,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section emphasizes the critical role of ports in international trade and the interconnectedness of their digital systems. It highlights the financial impact of cyber incidents on ports, with average costs reaching $550,000 in 2023. The text underscores the collective responsibility of stakeholders in ensuring cybersecurity and the need for improved knowledge and tools to secure operational technology infrastructure.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "diagram",
+      "label": "Figure 1",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.9
+      ],
+      "description": "A diagram illustrating the cascading impacts of cyber incidents in ports, showing layers from 'Cyber Incident' to 'Cross-Border Spillover Effects' with corresponding icons representing local, national, and cross-border impacts."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 182,
+    "total_tokens": 25922,
+    "cost": 0.0039702,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039702,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001092
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5520.6759000138845,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,111 @@
+{
+  "page": 79,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains survey questions regarding an organization's cybersecurity policies and practices. It covers the existence of a formal cybersecurity policy, designated personnel for cybersecurity, recent risk assessments, frequency of vulnerability scans, and the operation of a Security Operations Center (SOC). Each question provides multiple-choice answers for respondents.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Section 3: Governance & Strategy",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.15
+      ],
+      "description": "Introduction to questions about cybersecurity policies."
+    },
+    {
+      "kind": "text",
+      "label": "Question 6",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.25
+      ],
+      "description": "Asks if the organization has a formal cybersecurity policy."
+    },
+    {
+      "kind": "text",
+      "label": "Question 7",
+      "bbox": [
+        0.05,
+        0.25,
+        0.95,
+        0.35
+      ],
+      "description": "Inquires about designated personnel responsible for cybersecurity."
+    },
+    {
+      "kind": "text",
+      "label": "Question 8",
+      "bbox": [
+        0.05,
+        0.35,
+        0.95,
+        0.45
+      ],
+      "description": "Questions if a cybersecurity risk assessment has been conducted in the past 24 months."
+    },
+    {
+      "kind": "text",
+      "label": "Section 4: Protection & Detection",
+      "bbox": [
+        0.05,
+        0.45,
+        0.95,
+        0.55
+      ],
+      "description": "Introduction to questions about how cybersecurity is enforced."
+    },
+    {
+      "kind": "text",
+      "label": "Question 9",
+      "bbox": [
+        0.05,
+        0.55,
+        0.95,
+        0.65
+      ],
+      "description": "Asks about the frequency of conducting vulnerability scans or pentesting."
+    },
+    {
+      "kind": "text",
+      "label": "Question 10",
+      "bbox": [
+        0.05,
+        0.65,
+        0.95,
+        0.75
+      ],
+      "description": "Inquires if the organization operates a Security Operations Center (SOC) or uses a managed SOC service."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 516,
+    "total_tokens": 26256,
+    "cost": 0.0041706,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0041706,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0003096
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 10688.709499983815,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

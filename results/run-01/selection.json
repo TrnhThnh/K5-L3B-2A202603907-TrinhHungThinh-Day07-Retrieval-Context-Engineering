@@ -1,0 +1,117 @@
+{
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 6,
+    "budget": 6000,
+    "max_searches": 3,
+    "candidates": 20,
+    "hypothesis": "Improvement 2: more candidates, larger context and repeated agent searches reduce missing evidence."
+  },
+  "baseline": {
+    "id": "tfidf-base",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "hypothesis": "Lexical baseline with small context; whole chunks may be dropped."
+  },
+  "selected_at_utc": "2026-11-16T02:37:49.890706+00:00",
+  "rule": "dev context evidence rate, then Hit@3, then Hit@1; ties use smaller budget/search count and config id. Agent quality is reported separately; selection is retrieval-first.",
+  "benchmark_sha256": "4b315ee65f6c960ab1daf7c7841e26ac433fbc8bef6f267bcadcaed6d97d40bb",
+  "configs_sha256": "0e01e29dec4b4a7a09ea0a1dfeac925e31a4c6d443571ce4c2755f4efc687505",
+  "dev_summaries": {
+    "tfidf-base": {
+      "n": 27,
+      "successful_answerable": 25,
+      "errors": 0,
+      "hit1": {
+        "n": 9,
+        "N": 25,
+        "rate": 0.36
+      },
+      "hit3": {
+        "n": 19,
+        "N": 25,
+        "rate": 0.76
+      },
+      "context_evidence_rate": {
+        "n": 10,
+        "N": 25,
+        "rate": 0.4
+      },
+      "median_ms": 2.8531999851111323,
+      "service_cost_usd": 0,
+      "cost_scope": "Local retrieval only; excludes LLM agent"
+    },
+    "dense-base": {
+      "n": 27,
+      "successful_answerable": 25,
+      "errors": 0,
+      "hit1": {
+        "n": 7,
+        "N": 25,
+        "rate": 0.28
+      },
+      "hit3": {
+        "n": 12,
+        "N": 25,
+        "rate": 0.48
+      },
+      "context_evidence_rate": {
+        "n": 8,
+        "N": 25,
+        "rate": 0.32
+      },
+      "median_ms": 56.926899997051805,
+      "service_cost_usd": 0,
+      "cost_scope": "Local retrieval only; excludes LLM agent"
+    },
+    "hybrid-rrf": {
+      "n": 27,
+      "successful_answerable": 25,
+      "errors": 0,
+      "hit1": {
+        "n": 13,
+        "N": 25,
+        "rate": 0.52
+      },
+      "hit3": {
+        "n": 17,
+        "N": 25,
+        "rate": 0.68
+      },
+      "context_evidence_rate": {
+        "n": 13,
+        "N": 25,
+        "rate": 0.52
+      },
+      "median_ms": 60.43139999383129,
+      "service_cost_usd": 0,
+      "cost_scope": "Local retrieval only; excludes LLM agent"
+    },
+    "hybrid-context": {
+      "n": 27,
+      "successful_answerable": 25,
+      "errors": 0,
+      "hit1": {
+        "n": 13,
+        "N": 25,
+        "rate": 0.52
+      },
+      "hit3": {
+        "n": 17,
+        "N": 25,
+        "rate": 0.68
+      },
+      "context_evidence_rate": {
+        "n": 22,
+        "N": 25,
+        "rate": 0.88
+      },
+      "median_ms": 60.6106000195723,
+      "service_cost_usd": 0,
+      "cost_scope": "Local retrieval only; excludes LLM agent"
+    }
+  }
+}

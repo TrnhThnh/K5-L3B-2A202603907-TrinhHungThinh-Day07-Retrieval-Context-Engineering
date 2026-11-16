@@ -1,0 +1,45 @@
+{
+  "page": 64,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the participation of organizations in cybersecurity information-sharing mechanisms across different income levels. It highlights the varying levels of engagement, with higher participation in high-income regions and lower in low-income areas. The text emphasizes the importance of voluntary information sharing to enhance resilience in port ecosystems and introduces the concept of Cyber Resilience Centers (CRCs) as hubs for collaboration and threat detection.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "chart",
+      "label": "Figure 15",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "description": "A stacked bar chart showing the percentage of responses regarding participation in cybersecurity information-sharing mechanisms across four income categories: High income, Upper-middle income, Lower-middle income, and Low income. The chart uses different colors to represent 'Yes', 'No', and 'Not sure' responses."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 203,
+    "total_tokens": 25943,
+    "cost": 0.0039828,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039828,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001218
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5255.50359999761,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

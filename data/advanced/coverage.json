@@ -1,0 +1,537 @@
+[
+  {
+    "page": 1,
+    "status": "front_matter",
+    "visual_regions": 1
+  },
+  {
+    "page": 2,
+    "status": "blank",
+    "visual_regions": 0
+  },
+  {
+    "page": 3,
+    "status": "front_matter",
+    "visual_regions": 0
+  },
+  {
+    "page": 4,
+    "status": "front_matter",
+    "visual_regions": 0
+  },
+  {
+    "page": 5,
+    "status": "front_matter",
+    "visual_regions": 0
+  },
+  {
+    "page": 6,
+    "status": "front_matter",
+    "visual_regions": 1
+  },
+  {
+    "page": 7,
+    "status": "front_matter",
+    "visual_regions": 2
+  },
+  {
+    "page": 8,
+    "status": "front_matter",
+    "visual_regions": 2
+  },
+  {
+    "page": 9,
+    "status": "front_matter",
+    "visual_regions": 1
+  },
+  {
+    "page": 10,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 11,
+    "status": "decorative",
+    "visual_regions": 1
+  },
+  {
+    "page": 12,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 13,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 14,
+    "status": "content",
+    "visual_regions": 3
+  },
+  {
+    "page": 15,
+    "status": "content",
+    "visual_regions": 4
+  },
+  {
+    "page": 16,
+    "status": "content",
+    "visual_regions": 4
+  },
+  {
+    "page": 17,
+    "status": "content",
+    "visual_regions": 3
+  },
+  {
+    "page": 18,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 19,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 20,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 21,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 22,
+    "status": "text",
+    "visual_regions": 0
+  },
+  {
+    "page": 23,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 24,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 25,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 26,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 27,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 28,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 29,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 30,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 31,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 32,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 33,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 34,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 35,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 36,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 37,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 38,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 39,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 40,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 41,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 42,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 43,
+    "status": "content",
+    "visual_regions": 3
+  },
+  {
+    "page": 44,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 45,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 46,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 47,
+    "status": "content",
+    "visual_regions": 0
+  },
+  {
+    "page": 48,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 49,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 50,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 51,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 52,
+    "status": "content",
+    "visual_regions": 6
+  },
+  {
+    "page": 53,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 54,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 55,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 56,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 57,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 58,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 59,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 60,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 61,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 62,
+    "status": "content",
+    "visual_regions": 5
+  },
+  {
+    "page": 63,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 64,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 65,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 66,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 67,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 68,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 69,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 70,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 71,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 72,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 73,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 74,
+    "status": "decorative",
+    "visual_regions": 1
+  },
+  {
+    "page": 75,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 76,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 77,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 78,
+    "status": "content",
+    "visual_regions": 6
+  },
+  {
+    "page": 79,
+    "status": "content",
+    "visual_regions": 7
+  },
+  {
+    "page": 80,
+    "status": "content",
+    "visual_regions": 7
+  },
+  {
+    "page": 81,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 82,
+    "status": "content",
+    "visual_regions": 5
+  },
+  {
+    "page": 83,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 84,
+    "status": "content",
+    "visual_regions": 3
+  },
+  {
+    "page": 85,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 86,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 87,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 88,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 89,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 90,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 91,
+    "status": "content",
+    "visual_regions": 1
+  },
+  {
+    "page": 92,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 93,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 94,
+    "status": "content",
+    "visual_regions": 2
+  },
+  {
+    "page": 95,
+    "status": "decorative",
+    "visual_regions": 1
+  },
+  {
+    "page": 96,
+    "status": "references",
+    "visual_regions": 0
+  },
+  {
+    "page": 97,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 98,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 99,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 100,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 101,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 102,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 103,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 104,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 105,
+    "status": "references",
+    "visual_regions": 1
+  },
+  {
+    "page": 106,
+    "status": "front_matter",
+    "visual_regions": 1
+  },
+  {
+    "page": 107,
+    "status": "decorative",
+    "visual_regions": 1
+  }
+]

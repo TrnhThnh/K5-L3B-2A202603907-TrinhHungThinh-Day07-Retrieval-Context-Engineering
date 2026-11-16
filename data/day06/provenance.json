@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/TrnhThnh/K5-L3B-Day06-2A202603907-DataIngestionEngineering",
+  "commit": "bf21bc0b5d7ab8a7ae4902c0905da5dfabd3469c",
+  "pages_sha256": "e9b348221db4dcbc352029fff97c9b44b0f6b8bbab7e9cde96c641f9e82cefdb",
+  "chunks": 212,
+  "chunking": "Day06 B: by_paragraph(max_size=1000)",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "split_note": "q01-q30 and u01-u04 dev; q26-q30/u03-u04 demoted after exploratory run-01. q31-q35/u05-u06 prospective test frozen after citation-format fix and before final benchmark. Author knows corpus; not externally blind.",
+  "dev": 34,
+  "test": 7
+}

@@ -1,0 +1,100 @@
+{
+  "page": 78,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page contains a survey section aimed at gathering organizational background information related to ports. It includes questions about the location of the organization, its type (e.g., port authority, terminal operator), the size of the port or terminal, its designation as a Critical Infrastructure Operator, and the digitization of processes within the organization.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Section Title",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.1
+      ],
+      "description": "Section 2: Organization Background"
+    },
+    {
+      "kind": "text",
+      "label": "Question 1",
+      "bbox": [
+        0.05,
+        0.1,
+        0.95,
+        0.15
+      ],
+      "description": "Which country is the port or organization you are working with located in?"
+    },
+    {
+      "kind": "text",
+      "label": "Question 2",
+      "bbox": [
+        0.05,
+        0.15,
+        0.95,
+        0.2
+      ],
+      "description": "What best describes your organization?"
+    },
+    {
+      "kind": "text",
+      "label": "Question 3",
+      "bbox": [
+        0.05,
+        0.2,
+        0.95,
+        0.25
+      ],
+      "description": "What size is the port(s) or terminal(s) you work in or with?"
+    },
+    {
+      "kind": "text",
+      "label": "Question 4",
+      "bbox": [
+        0.05,
+        0.25,
+        0.95,
+        0.3
+      ],
+      "description": "Is your organization considered a Critical Infrastructure Operator?"
+    },
+    {
+      "kind": "text",
+      "label": "Question 5",
+      "bbox": [
+        0.05,
+        0.3,
+        0.95,
+        0.35
+      ],
+      "description": "Please select which processes are digitized in the port(s) or terminal(s) your organization is active in."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 455,
+    "total_tokens": 26195,
+    "cost": 0.004134,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004134,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.000273
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 10394.539600005373,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

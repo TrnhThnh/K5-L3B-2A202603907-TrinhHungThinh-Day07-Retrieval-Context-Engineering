@@ -1,0 +1,56 @@
+{
+  "page": 88,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses insider threats and distributed denial-of-service attacks as entry points for cybersecurity risks in ports. It highlights the importance of guidelines and technical standards for enhancing cyber resilience. A table lists various cybersecurity resources, including guidelines and technical standards, ordered by publication date, to assist organizations in improving their cybersecurity posture.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Entry point Explanation",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.3
+      ],
+      "description": "Text explaining insider threats and denial-of-service attacks as cybersecurity entry points."
+    },
+    {
+      "kind": "table",
+      "label": "Table 4 List of further cybersecurity resources",
+      "bbox": [
+        0.0,
+        0.3,
+        1.0,
+        1.0
+      ],
+      "description": "A table listing various cybersecurity resources, including guidelines and technical standards, ordered by publication date."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 219,
+    "total_tokens": 25959,
+    "cost": 0.0039924,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039924,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001314
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5450.356199988164,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

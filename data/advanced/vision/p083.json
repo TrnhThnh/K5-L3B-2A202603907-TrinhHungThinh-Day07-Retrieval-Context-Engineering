@@ -1,0 +1,56 @@
+{
+  "page": 83,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page outlines the approach and coverage of expert interviews conducted on cybersecurity in ports. Eight semi-structured interviews were held between December 2025 and January 2026 with professionals from various regions, including Europe, Asia, and the Americas. The interviews aimed to gather qualitative insights into governance, operational practices, and contextual factors influencing cybersecurity decision-making in ports. An interview guide is provided, detailing the greeting, consent, and purpose of the interviews, emphasizing voluntary participation and confidentiality.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Interview Guide",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.1
+      ],
+      "description": "Introduction to the interview guide, outlining the purpose and structure of the interviews."
+    },
+    {
+      "kind": "text",
+      "label": "Greeting/Consent",
+      "bbox": [
+        0,
+        0.1,
+        1,
+        0.5
+      ],
+      "description": "Details on the greeting and consent process for the interviews, including the introduction, purpose, voluntary participation, and confidentiality."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 243,
+    "total_tokens": 25983,
+    "cost": 0.0040068,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040068,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0001458
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 5686.121500009904,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

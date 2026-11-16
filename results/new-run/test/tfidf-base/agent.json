@@ -1,0 +1,142 @@
+[
+  {
+    "query_id": "q31",
+    "question": "According to the report, which Italian port facilities are exempt from the circular's additional requirements to avoid regulatory duplication?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 284.0509999950882
+  },
+  {
+    "query_id": "q32",
+    "question": "In Table 1, how quickly does the EU NIS2 example say significant incidents should be reported, and to whom?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 321.31689999368973
+  },
+  {
+    "query_id": "q33",
+    "question": "In Figure 6, what inventory activity is listed in the continuous and proactive cyber risk management approach?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 286.93220001878217
+  },
+  {
+    "query_id": "q34",
+    "question": "According to the financial barriers discussion, for what share of surveyed ports is funding cybersecurity an important barrier?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 208.40220001991838
+  },
+  {
+    "query_id": "q35",
+    "question": "In the concluding barriers recommendations, which organizational culture is encouraged for raising concerns and reporting incidents?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 195.8329000044614
+  },
+  {
+    "query_id": "u05",
+    "question": "What exact cybersecurity insurance premium in US dollars did the Port of Barcelona pay in 2034?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 260.9975000086706
+  },
+  {
+    "query_id": "u06",
+    "question": "What is the exact 2036 percentage reduction in cyber incidents achieved by the Cyber-SHIP Lab?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError: provider/retrieval/protocol failure",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "model": "openai/gpt-4o-mini",
+    "usage": [],
+    "service_cost_usd": null,
+    "elapsed_ms": 229.82089998549782
+  }
+]

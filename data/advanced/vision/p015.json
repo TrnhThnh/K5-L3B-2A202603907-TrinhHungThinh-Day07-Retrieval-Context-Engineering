@@ -1,0 +1,78 @@
+{
+  "page": 15,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This page discusses the need for effective cybersecurity governance in ports, emphasizing accountability, compliance, and resource allocation. It highlights the lack of a binding global framework for port cybersecurity and notes that many countries have inadequate legislation. Recommendations include establishing a national cybersecurity framework and mandatory incident reporting. The practice section stresses the importance of proactive risk management and integrating cybersecurity into business continuity planning, particularly in high-income countries, while noting the challenges faced by low- and middle-income countries.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Policy",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.35
+      ],
+      "description": "Text discussing the need for effective cybersecurity governance in ports."
+    },
+    {
+      "kind": "text",
+      "label": "Selected recommendations",
+      "bbox": [
+        0.05,
+        0.35,
+        0.95,
+        0.45
+      ],
+      "description": "Text outlining recommendations for establishing a cybersecurity framework and mandatory incident reporting."
+    },
+    {
+      "kind": "text",
+      "label": "Practice",
+      "bbox": [
+        0.05,
+        0.45,
+        0.95,
+        0.85
+      ],
+      "description": "Text discussing the importance of proactive risk management and integrating cybersecurity into business continuity planning."
+    },
+    {
+      "kind": "text",
+      "label": "Overcoming policy, process, and capacity constraints",
+      "bbox": [
+        0.05,
+        0.85,
+        0.95,
+        0.95
+      ],
+      "description": "Text emphasizing the benefits of addressing cybersecurity constraints in ports."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 362,
+    "total_tokens": 26102,
+    "cost": 0.0040782,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040782,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 0.0002172
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7528.161700000055,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

@@ -1,0 +1,5047 @@
+[
+  {
+    "query_id": "at01",
+    "question": "In Table 2, give the low-income respondent count and exact percentage.",
+    "status": "answered",
+    "answer": "The low-income respondent count is 8, and the exact percentage is 7.34%.",
+    "citations": [
+      {
+        "label": "Table 2",
+        "bbox": [
+          0.1,
+          0.4,
+          0.9,
+          0.8
+        ],
+        "page": 75,
+        "support": "Table 2 presents the distribution of respondents by World Bank income classification. For the Low-income category, there are 8 respondents, representing 7.34%.",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p075.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_SL24eqG8KkCxJ9dSGlXd",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Table 2 low-income respondent count and percentage\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 797,
+          "completion_tokens": 22,
+          "total_tokens": 819,
+          "cost": 8.85e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.85e-05,
+            "upstream_inference_prompt_cost": 7.97e-05,
+            "upstream_inference_completions_cost": 8.8e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Table 2 low-income respondent count and percentage",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 75,
+            "id": "adv:p075:v00",
+            "text": "Table 2\nTable showing the distribution of survey respondents classified by income level, including the number of respondents and their respective percentages for each income category.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.1,
+                0.4,
+                0.9,
+                0.8
+              ],
+              "label": "Table 2",
+              "image": "data/advanced/pages/p075.jpg",
+              "crop": "data/advanced/regions/p075-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 92,
+            "id": "adv:p092:v01",
+            "text": "Figure 20\nA stacked bar chart showing the percentage of responses regarding designated cybersecurity personnel across income levels: High income, Upper-middle income, Lower-middle income, Low income.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.6,
+                0.9,
+                0.9
+              ],
+              "label": "Figure 20",
+              "image": "data/advanced/pages/p092.jpg",
+              "crop": "data/advanced/regions/p092-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03125,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 75,
+            "id": "adv:p075:t01",
+            "text": "data alone can reveal. The full questionnaire is provided\nbelow (English only).\n\nIncome Representation\n\nThe survey received 109 responses from ports, port authorities, and maritime organizations\nworldwide. Table 2 presents the distribution of respondents by World Bank income classification\n(World Bank 2026).\n\n\nTable 2 Respondents to survey, classified by income level\n\n Income level                   Number of respondents           Percentage\n\n High-income                   48                             44.04%\n\n Upper-middle-income            23                                21.10%\n\n Lower-middle-income            30                              27.52%\n\n Low-income                  8                                7.34%\n\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nAlthough low‑income countries are underrepresented in absolute terms, responses span all income\ngroups, allowing for comparative analysis of cybersecurity practices across different development\ncontexts. This pattern partly reflects the scope of the study, which focuses on ports; a significant\nshare o",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p075.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.030886196246139225,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 9,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 55,
+            "id": "adv:p055:v00",
+            "text": "Figure 11\nA bar chart showing the percentage of responses regarding organizations' cybersecurity skills across different income levels (High income, Upper-middle income, Lower-middle income, Low income). Categories include 'Yes, true', 'Partially', 'No, not true at all', and 'Prefer not to say'.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.8
+              ],
+              "label": "Figure 11",
+              "image": "data/advanced/pages/p055.jpg",
+              "crop": "data/advanced/regions/p055-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.030621785881252923,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 9
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 64,
+            "id": "adv:p064:v00",
+            "text": "Figure 15\nA stacked bar chart showing the percentage of responses regarding participation in cybersecurity information-sharing mechanisms across four income categories: High income, Upper-middle income, Lower-middle income, and Low income. The chart uses different colors to represent 'Yes', 'No', and 'Not sure' responses.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.8
+              ],
+              "label": "Figure 15",
+              "image": "data/advanced/pages/p064.jpg",
+              "crop": "data/advanced/regions/p064-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02946912242686891,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 11
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 93,
+            "id": "adv:p093:v00",
+            "text": "Figure 21\nBar chart showing the percentage of responses regarding the operation of Security Operations Centers (SOC) across different income levels: High income, Upper-middle income, Lower-middle income, and Low income. Categories include 'Yes - internally operated', 'Yes - outsourced', 'No', and 'Prefer not to say'.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.1,
+                0.9,
+                0.5
+              ],
+              "label": "Figure 21",
+              "image": "data/advanced/pages/p093.jpg",
+              "crop": "data/advanced/regions/p093-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.029211087420042643,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 10,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 33,
+            "id": "adv:p033:v00",
+            "text": "Figure 2\nBar chart showing the percentage of ports operating under national or sectoral cybersecurity regulations, segmented by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart includes categories for responses: 'Yes, there are requirements', 'No, there are no specific cybersecurity requirements', and 'Prefer not to say'.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.8
+              ],
+              "label": "Figure 2",
+              "image": "data/advanced/pages/p033.jpg",
+              "crop": "data/advanced/regions/p033-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02871794871794872,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 15,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 92,
+            "id": "adv:p092:t01",
+            "text": "ponses  60%\nof   50%\n     40%\n     30%Percentage     20%\n     10%\n     0%\n                 High income         Upper-middle income     Lower-middle income       Low income\n\n                                     Yes     No      Don’t know\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p092.jpg",
+              "start_char": 900,
+              "end_char": 1201
+            },
+            "score": 0.028665028665028666,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 14,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:v00",
+            "text": "List of Tables\nTable 1: Common elements of regulation governing critical infrastructure (page 14)\nTable 2: Respondents to survey, classified by income level (page 58)\nTable 3: Common entry points for cyber incidents occurring in the port ecosystem (page 70)\nTable 4: List of further cybersecurity resources (page 71)",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.05,
+                0.05,
+                0.95,
+                0.35
+              ],
+              "label": "List of Tables",
+              "image": "data/advanced/pages/p007.jpg",
+              "crop": "data/advanced/regions/p007-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.028068137824235385,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 22,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 50,
+            "id": "adv:p050:v00",
+            "text": "Figure 10\nBar chart showing the percentage of responses to the question of whether a cyber incident response drill or exercise has been conducted in the past 5 years, categorized by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart uses colors to represent 'Yes' (dark blue), 'No' (red), and 'Prefer not to say' (yellow).",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.3,
+                0.9,
+                0.9
+              ],
+              "label": "Figure 10",
+              "image": "data/advanced/pages/p050.jpg",
+              "crop": "data/advanced/regions/p050-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02792120864410021,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 23
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_FFwk46lJETm3Hc6IG4Zl",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[75]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3010,
+          "completion_tokens": 16,
+          "total_tokens": 3026,
+          "cost": 0.0003074,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003074,
+            "upstream_inference_prompt_cost": 0.000301,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p075:v00",
+          "adv:p092:v01",
+          "adv:p075:t01",
+          "adv:p055:v00",
+          "adv:p064:v00",
+          "adv:p093:v00",
+          "adv:p033:v00",
+          "adv:p092:t01",
+          "adv:p007:v00",
+          "adv:p050:v00"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          75
+        ],
+        "images": [
+          {
+            "page": 75,
+            "path": "data/advanced/pages/p075.jpg",
+            "sha256": "51f0bba01de788d8a16de09bf120a60ff05d11d30d1946895a7d17f1da238b09"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_AyQcP0LOSkjNW6xj8Uq5",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"citations\":[{\"label\":\"Table 2\",\"bbox\":[0.1,0.4,0.9,0.8],\"page\":75,\"support\":\"Table 2 presents the distribution of respondents by World Bank income classification. For the Low-income category, there are 8 respondents, representing 7.34%.\"}],\"status\":\"answered\",\"answer\":\"The low-income respondent count is 8, and the exact percentage is 7.34%.\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3460,
+          "completion_tokens": 118,
+          "total_tokens": 3578,
+          "cost": 0.0003932,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003932,
+            "upstream_inference_prompt_cost": 0.000346,
+            "upstream_inference_completions_cost": 4.72e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p075:v00",
+          "adv:p092:v01",
+          "adv:p075:t01",
+          "adv:p055:v00",
+          "adv:p064:v00",
+          "adv:p093:v00",
+          "adv:p033:v00",
+          "adv:p092:t01",
+          "adv:p007:v00",
+          "adv:p050:v00"
+        ],
+        "image_pages": [
+          75
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 797,
+        "completion_tokens": 22,
+        "total_tokens": 819,
+        "cost": 8.85e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.85e-05,
+          "upstream_inference_prompt_cost": 7.97e-05,
+          "upstream_inference_completions_cost": 8.8e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3010,
+        "completion_tokens": 16,
+        "total_tokens": 3026,
+        "cost": 0.0003074,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003074,
+          "upstream_inference_prompt_cost": 0.000301,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3460,
+        "completion_tokens": 118,
+        "total_tokens": 3578,
+        "cost": 0.0003932,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003932,
+          "upstream_inference_prompt_cost": 0.000346,
+          "upstream_inference_completions_cost": 4.72e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0007891,
+      "complete": true
+    },
+    "elapsed_ms": 10022.487199981697,
+    "opened_pages": [
+      75
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at02",
+    "question": "Using Table 2, how many more respondents are lower-middle-income than upper-middle-income? Show both counts and the difference.",
+    "status": "answered",
+    "answer": "There are 30 lower-middle-income respondents and 23 upper-middle-income respondents, making a difference of 7 respondents.",
+    "citations": [
+      {
+        "page": 75,
+        "label": "Table 2",
+        "bbox": [
+          0.1,
+          0.4,
+          0.9,
+          0.8
+        ],
+        "support": "Table 2 shows the distribution of survey respondents by income level, including the number of respondents for each category. Lower-middle-income has 30 respondents and Upper-middle-income has 23 respondents.",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p075.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_wnc8FFlsrA58cmd97zcD",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Table 2 respondents by income level\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 810,
+          "completion_tokens": 19,
+          "total_tokens": 829,
+          "cost": 8.86e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.86e-05,
+            "upstream_inference_prompt_cost": 8.1e-05,
+            "upstream_inference_completions_cost": 7.6e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Table 2 respondents by income level",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 75,
+            "id": "adv:p075:v00",
+            "text": "Table 2\nTable showing the distribution of survey respondents classified by income level, including the number of respondents and their respective percentages for each income category.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.1,
+                0.4,
+                0.9,
+                0.8
+              ],
+              "label": "Table 2",
+              "image": "data/advanced/pages/p075.jpg",
+              "crop": "data/advanced/regions/p075-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 75,
+            "id": "adv:p075:t01",
+            "text": "data alone can reveal. The full questionnaire is provided\nbelow (English only).\n\nIncome Representation\n\nThe survey received 109 responses from ports, port authorities, and maritime organizations\nworldwide. Table 2 presents the distribution of respondents by World Bank income classification\n(World Bank 2026).\n\n\nTable 2 Respondents to survey, classified by income level\n\n Income level                   Number of respondents           Percentage\n\n High-income                   48                             44.04%\n\n Upper-middle-income            23                                21.10%\n\n Lower-middle-income            30                              27.52%\n\n Low-income                  8                                7.34%\n\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nAlthough low‑income countries are underrepresented in absolute terms, responses span all income\ngroups, allowing for comparative analysis of cybersecurity practices across different development\ncontexts. This pattern partly reflects the scope of the study, which focuses on ports; a significant\nshare o",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p075.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:t00",
+            "text": "List of Tables\n\nTable 1   Common elements of regulation governing critical infrastructure....................................14\nTable 2   Respondents to survey, classified by income level..............................................................58\nTable 3   Common entry points for cyber incidents occurring in the port ecosystem.................... 70\nTable 4    List of further cybersecurity resources..................................................................................71\n\n\nList of Boxes\n\nBox 1      Selected examples of cyber incidents in the maritime transport sector............................ 4\nBox 2     Research approach and data collection....................................................................................7\nBox 3     Cybersecurity considerations within the ISPS Code............................................................ 10\nBox 4     Case studies: National approaches to integrating cybersecurity into\n          ISPS‑based port security frameworks....................................................................................11\nBox 5     Stee",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p007.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:v00",
+            "text": "List of Tables\nTable 1: Common elements of regulation governing critical infrastructure (page 14)\nTable 2: Respondents to survey, classified by income level (page 58)\nTable 3: Common entry points for cyber incidents occurring in the port ecosystem (page 70)\nTable 4: List of further cybersecurity resources (page 71)",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.05,
+                0.05,
+                0.95,
+                0.35
+              ],
+              "label": "List of Tables",
+              "image": "data/advanced/pages/p007.jpg",
+              "crop": "data/advanced/regions/p007-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:v01",
+            "text": "Figure 2\nA chart illustrating the percentage of respondents from different income countries operating under national or sectoral cybersecurity requirements.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.05,
+                0.55,
+                0.95,
+                0.85
+              ],
+              "label": "Figure 2",
+              "image": "data/advanced/pages/p032.jpg",
+              "crop": "data/advanced/regions/p032-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02967032967032967,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 10
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 92,
+            "id": "adv:p092:v01",
+            "text": "Figure 20\nA stacked bar chart showing the percentage of responses regarding designated cybersecurity personnel across income levels: High income, Upper-middle income, Lower-middle income, Low income.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.6,
+                0.9,
+                0.9
+              ],
+              "label": "Figure 20",
+              "image": "data/advanced/pages/p092.jpg",
+              "crop": "data/advanced/regions/p092-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.028083267871170464,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 16
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 23,
+            "id": "adv:p023:v00",
+            "text": "Figure 1\nA radar chart showing the average scoring of countries in the Global Cybersecurity Index by income level, with axes for legal measures, international cooperation, technical and procedural measures, capacity building, and organizational structures. The chart distinguishes between high income, upper-middle income, lower-middle income, and low income categories.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.1,
+                0.9,
+                0.5
+              ],
+              "label": "Figure 1",
+              "image": "data/advanced/pages/p023.jpg",
+              "crop": "data/advanced/regions/p023-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02797339593114241,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 12,
+              "tfidf": 11
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 50,
+            "id": "adv:p050:v00",
+            "text": "Figure 10\nBar chart showing the percentage of responses to the question of whether a cyber incident response drill or exercise has been conducted in the past 5 years, categorized by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart uses colors to represent 'Yes' (dark blue), 'No' (red), and 'Prefer not to say' (yellow).",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.3,
+                0.9,
+                0.9
+              ],
+              "label": "Figure 10",
+              "image": "data/advanced/pages/p050.jpg",
+              "crop": "data/advanced/regions/p050-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027799227799227798,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 10,
+              "tfidf": 14
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 33,
+            "id": "adv:p033:v00",
+            "text": "Figure 2\nBar chart showing the percentage of ports operating under national or sectoral cybersecurity regulations, segmented by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart includes categories for responses: 'Yes, there are requirements', 'No, there are no specific cybersecurity requirements', and 'Prefer not to say'.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.8
+              ],
+              "label": "Figure 2",
+              "image": "data/advanced/pages/p033.jpg",
+              "crop": "data/advanced/regions/p033-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027364110201042444,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 19,
+              "tfidf": 8
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 89,
+            "id": "adv:p089:v00",
+            "text": "Table 1\nA table listing maritime cyber incident trends and guidelines with publication titles ordered by date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.1,
+                0.95,
+                0.4
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p089.jpg",
+              "crop": "data/advanced/regions/p089-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02625418060200669,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 32,
+              "tfidf": 5
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_DKZdXHzoI70nV1LlFgQi",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[75]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3057,
+          "completion_tokens": 16,
+          "total_tokens": 3073,
+          "cost": 0.0003121,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003121,
+            "upstream_inference_prompt_cost": 0.0003057,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p075:v00",
+          "adv:p075:t01",
+          "adv:p007:t00",
+          "adv:p007:v00",
+          "adv:p032:v01",
+          "adv:p092:v01",
+          "adv:p023:v00",
+          "adv:p050:v00",
+          "adv:p033:v00",
+          "adv:p089:v00"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          75
+        ],
+        "images": [
+          {
+            "page": 75,
+            "path": "data/advanced/pages/p075.jpg",
+            "sha256": "51f0bba01de788d8a16de09bf120a60ff05d11d30d1946895a7d17f1da238b09"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_vr6hvMInbZPKqxcORqle",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"citations\":[{\"page\":75,\"label\":\"Table 2\",\"bbox\":[0.1,0.4,0.9,0.8],\"support\":\"Table 2 shows the distribution of survey respondents by income level, including the number of respondents for each category. Lower-middle-income has 30 respondents and Upper-middle-income has 23 respondents.\"}],\"answer\":\"There are 30 lower-middle-income respondents and 23 upper-middle-income respondents, making a difference of 7 respondents.\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3507,
+          "completion_tokens": 135,
+          "total_tokens": 3642,
+          "cost": 0.0004047,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004047,
+            "upstream_inference_prompt_cost": 0.0003507,
+            "upstream_inference_completions_cost": 5.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p075:v00",
+          "adv:p075:t01",
+          "adv:p007:t00",
+          "adv:p007:v00",
+          "adv:p032:v01",
+          "adv:p092:v01",
+          "adv:p023:v00",
+          "adv:p050:v00",
+          "adv:p033:v00",
+          "adv:p089:v00"
+        ],
+        "image_pages": [
+          75
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 810,
+        "completion_tokens": 19,
+        "total_tokens": 829,
+        "cost": 8.86e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.86e-05,
+          "upstream_inference_prompt_cost": 8.1e-05,
+          "upstream_inference_completions_cost": 7.6e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3057,
+        "completion_tokens": 16,
+        "total_tokens": 3073,
+        "cost": 0.0003121,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003121,
+          "upstream_inference_prompt_cost": 0.0003057,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3507,
+        "completion_tokens": 135,
+        "total_tokens": 3642,
+        "cost": 0.0004047,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004047,
+          "upstream_inference_prompt_cost": 0.0003507,
+          "upstream_inference_completions_cost": 5.4e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0008054000000000001,
+      "complete": true
+    },
+    "elapsed_ms": 5895.674700004747,
+    "opened_pages": [
+      75
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at03",
+    "question": "In Table 1, Reporting & information-sharing, which new body does Japan's Active Cyber Defense Law establish, and what coordination is it intended to improve?",
+    "status": "answered",
+    "answer": "Japan's Active Cyber Defense Law establishes a new Cyber Council, which is intended to improve information sharing and incident response between government agencies and key private-sector partners.",
+    "citations": [
+      {
+        "page": 31,
+        "bbox": [
+          0.398,
+          0.658,
+          0.879,
+          0.721
+        ],
+        "label": "Japan Active Cyber Defense Law",
+        "support": "Japan's Active Cyber Defense Law establishes a new Cyber Council, which aims to enhance information sharing and incident response between government agencies and key private-sector partners.",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p031.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_0BNK4XTEPsBzmCHuFHHb",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Japan's Active Cyber Defense Law new body coordination\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 814,
+          "completion_tokens": 22,
+          "total_tokens": 836,
+          "cost": 9.02e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.02e-05,
+            "upstream_inference_prompt_cost": 8.14e-05,
+            "upstream_inference_completions_cost": 8.8e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Japan's Active Cyber Defense Law new body coordination",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t02",
+            "text": "lan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information\n                                        infrastructure included in the scope of the regulation for\n                                              critical sectorial risk oversight.\n\n        Mandatory notification      Australia SOCI: the Australia Cybersecurity Centre\n          of cyber incidents to        (ACSC) serves as central hub for threat information and\n         competent authorities;       coordination.\n         establishment of\n                             EU NIS2 Directive: report significant incidents within 24          coordination or\n &                                hours to Computer Security Incident Response Teams.          information‑sharing\n         mechanisms.                                Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 1800,
+              "end_char": 2872
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t03",
+            "text": "Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting                                        incident response between government agencies and key                                 information-sharing                                private-sector partners.\n\n                                   Singapore Cybersecurity Act: notify Cyber Security\n                                 Agency of incidents, including service disruptions, within\n                                      short windows.\n\n &     Requirements to prepare   EU NIS2 Directive: incident handling and continuity\n           for incident response       measures are part of risk management requirements.\n        and recovery and ensure\n                                   Singapore Cybersecurity Act: mandatory exercises and          continuity of essential                  continuity       Resilience                                 remedial actions to maintain service continuity.           services.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 2700,
+              "end_char": 3774
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t01",
+            "text": "on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table: EU NIS2 Directive (European Union 2022a); Australia SOCI\n(Australian Government Critical Infrastructure Security Centre 2018); Japan Active Cyber Defense Law (formally Act on the\nPrevention of Damage Caused by Unauthorized Acts against Critical Electronic Computers, to become operational in 2027,\nThe House of Representatives, Japan 2025); Singapore Cyber Security Act (Cyber Security Agency of Singapore 2025); Hong\nKong Protection of Critical Infrastructures (Computer Systems) Ordinance (Legislative Council of the Hong Kong Special\nAdministrative Region China 2025); EU Making Critical Entities more Resilient Directive (European Union 2022b).\n\nOverall, while the core functions addressed by national port cybersecurity frameworks are broadly\nsimilar, their implementation reflects differences in institutional capacity, legal tradition, and\nregulatory maturity. These variations—and their imp",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 900,
+              "end_char": 1962
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                    15\n\n\n\n Theme  Description                   Illustrative examples\n\n          Supervisory powers,        Japan Active Cyber Defense Law: creates enforcement\n          inspections, and penalties   powers and penalties for failing to meet certain\n           for non compliance.          requirements, and new inspection/penalty powers for\n &                               non-compliance including orders or sanctions.\n\n                                   Singapore Cybersecurity Act: imposes penalties for\n                                    breaches or general non-compliance.                oversight        Enforcement                         EU Making Critical Entities more Resilient Directive:\n                                    ensures national authorities have the powers to carry out\n                                        on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.030776515151515152,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 49,
+            "id": "adv:p049:summary",
+            "text": "This page discusses the Maritime and Port Authority of Singapore's (MPA) cybersecurity tabletop exercises aimed at improving port resilience through business continuity planning. The exercises involve international participants and simulate cyberattacks across multiple ports, testing coordination mechanisms under different regulatory frameworks. It emphasizes the importance of considering cyber risks alongside physical risks and suggests backup strategies for recovery.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p049.jpg"
+            },
+            "score": 0.027222222222222224,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 12,
+              "tfidf": 15
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:summary",
+            "text": "This page discusses the enforcement and oversight of cybersecurity regulations in ports, highlighting various national frameworks and their implementation. It emphasizes the differences in institutional capacity and regulatory maturity across countries, with examples from Japan, Singapore, and the EU. The text also notes the uneven development of cybersecurity governance, with statistics on countries having national strategies and agencies, and the impact of legal instruments on compliance and enforcement.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p032.jpg"
+            },
+            "score": 0.026779422128259338,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 26
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 59,
+            "id": "adv:p059:t01",
+            "text": "ox 9 Case studies: Academic and port-specific collaboration aiming to\n    improve cybersecurity capacity\n\n    The University of Plymouth established the Cyber-SHIP Lab in partnership with over 20\n     industry and government partners — including Wärtsilä, Lloyd’s Register, ABS Group, and\n     the Royal Navy — to create a world-leading research and training facility dedicated to\n     maritime cybersecurity. Rather than relying solely on virtual simulations, the Lab physically\n     replicates a ship’s bridge, allowing maritime professionals to experience and respond to real\n     cyber incidents scenarios on information and operational technology (IT and OT) systems\n      in a realistic environment. The use of cyber ranges more generally can help staff train and\n     respond to situations in a lower-cost, safe environment.\n\n    The Stevens Institute of Technology partnered with the U.S. Coast Guard to develop a\n     dedicated course on maritime cybersecurity. Rather than treating cybersecurity as a purely\n     technical discipline, the course is grounded in the operational realities of",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p059.jpg",
+              "start_char": 900,
+              "end_char": 1999
+            },
+            "score": 0.02512945476698142,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 38
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 103,
+            "id": "adv:p103:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                             86\n\n\n\nSingapore Business Review. 2025. “Singapore Aims to Boost Maritime Efficiency with Digital and\nCybersecurity Upgrades.” Accessed January 21, 2026.\nhttps://sbr.com.sg/news/singapore-aims-boost-maritime-efficiency-digital-and-cybersecurity-\nupgrades.\n\nSteinberg, Sean, Adam Stepan, and Kyle Neary. 2021. “NotPetya: A Columbia University Case Study”.\nNew York: Columbia University School of International and Public Affairs Case Consortium.\nhttps://www.sipa.columbia.edu/sites/default/files/2022-11/NotPetya%20Final.pdf.\n\nStevens Institute of Technology. 2024. U.S. Coast Guard Maritime Cybersecurity Course.\nhttps://www.stevens.edu/program/maritime-cybersecurity-course.\n\nTam, Kimberly, Kemedi Moara-Nkwe, and Kevin D. Jones. 2021. “The use of cyber ranges in the\nmaritime context: Assessing maritime-cyber risks, raising awareness, and providing training.”\nMaritimeTechnologyandResearch 3 (1): 16.\n\nThe House of Representatives, Japan. 2025. ActonthePreventionofDamageCausedby\nUnauthorizedActsa",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p103.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.023976023976023976,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 31,
+              "tfidf": 17
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:t01",
+            "text": "to-shore coordination is an additional vector.\n\n\nSource: Compiled from ENISA (2019, 2020); Tombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\nWorld Bank Port Reform Toolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber\nresilience and further help achieve the recommendations in this report are listed in Table 4, with\nlinks available in the Bibliography. These include existing sector-agnostic frameworks and diagnostic\ntools, as well as sector-specific guidelines and standards for IT and OT. Examples of national\ncybersecurity legislation are provided in Table 1 in Chapter 1. The list below is intended to guide the\nreader to additional relevant resources, but is not exhaustive.\n\n\nTable 4 List of further cybersecurity resources\n\n Type               Publication titles (ordered by date, newest first)\n\n                        •  IAPH Cyber Resilience Guidelines for Emerging Technologies in the\n                      Maritime Supply Chain (2025)\n                        •",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p088.jpg",
+              "start_char": 900,
+              "end_char": 1995
+            },
+            "score": 0.023809523809523808,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 18,
+              "tfidf": 31
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 16,
+            "id": "adv:p016:t02",
+            "text": "t in\ncyber resilience. Clear contractual responsibilities but also trust-based collaboration are essential\nto improving cybersecurity across the broader port ecosystem. However, fewer than a third of the\nsurveyed organizations (31 percent) participate in voluntary information-sharing mechanisms,\nregardless of their country’s income level.\n\nSelected recommendations:\n\n•   Training: Implement role-based, recurrent cybersecurity training across all staff levels, covering\n   both IT and OT threat scenarios.\n\n•   Culture: Foster a no-blame reporting culture that treats incident disclosure as a contribution to\n    collective defense rather than an admission of failure.\n\n•   Incentives: Treat cyber-resilient supply chains as a public good and reflect this in governance\n   frameworks and contractual arrangements. For example, invest in cyber resilience centers\n   and cross-sector capacity building to enhance coordinated detection, intelligence sharing, and\n    incident response capabilities.\n\nThis report provides recommendations to bridge these gaps, securing the digital backbone of\nglobal ma",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p016.jpg",
+              "start_char": 1800,
+              "end_char": 2900
+            },
+            "score": 0.022833419823559936,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 34,
+              "tfidf": 22
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_tWUD4KuldXctHGxIpJEc",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[31]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3934,
+          "completion_tokens": 16,
+          "total_tokens": 3950,
+          "cost": 0.0003998,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003998,
+            "upstream_inference_prompt_cost": 0.0003934,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p031:t02",
+          "adv:p031:t03",
+          "adv:p032:t01",
+          "adv:p032:t00",
+          "adv:p049:summary",
+          "adv:p032:summary",
+          "adv:p059:t01",
+          "adv:p103:t00",
+          "adv:p088:t01",
+          "adv:p016:t02"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          31
+        ],
+        "images": [
+          {
+            "page": 31,
+            "path": "data/advanced/pages/p031.jpg",
+            "sha256": "4acc16803840f4dc078c59a7b383b3c78ed05fced95bad4fb9ac3598f3a4b5b9"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_ic2VmjgG3GXIHD03icUZ",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"Japan's Active Cyber Defense Law establishes a new Cyber Council, which is intended to improve information sharing and incident response between government agencies and key private-sector partners.\",\"citations\":[{\"page\":31,\"bbox\":[0.398,0.658,0.879,0.721],\"label\":\"Japan Active Cyber Defense Law\",\"support\":\"Japan's Active Cyber Defense Law establishes a new Cyber Council, which aims to enhance information sharing and incident response between government agencies and key private-sector partners.\"}],\"status\":\"answered\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 4380,
+          "completion_tokens": 136,
+          "total_tokens": 4516,
+          "cost": 0.0004924,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004924,
+            "upstream_inference_prompt_cost": 0.000438,
+            "upstream_inference_completions_cost": 5.44e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p031:t02",
+          "adv:p031:t03",
+          "adv:p032:t01",
+          "adv:p032:t00",
+          "adv:p049:summary",
+          "adv:p032:summary",
+          "adv:p059:t01",
+          "adv:p103:t00",
+          "adv:p088:t01",
+          "adv:p016:t02"
+        ],
+        "image_pages": [
+          31
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 814,
+        "completion_tokens": 22,
+        "total_tokens": 836,
+        "cost": 9.02e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 9.02e-05,
+          "upstream_inference_prompt_cost": 8.14e-05,
+          "upstream_inference_completions_cost": 8.8e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3934,
+        "completion_tokens": 16,
+        "total_tokens": 3950,
+        "cost": 0.0003998,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003998,
+          "upstream_inference_prompt_cost": 0.0003934,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 4380,
+        "completion_tokens": 136,
+        "total_tokens": 4516,
+        "cost": 0.0004924,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004924,
+          "upstream_inference_prompt_cost": 0.000438,
+          "upstream_inference_completions_cost": 5.44e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0009824,
+      "complete": true
+    },
+    "elapsed_ms": 5945.938699995168,
+    "opened_pages": [
+      31
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at04",
+    "question": "In Table 3, identify the three mechanisms described under Insider Threats.",
+    "status": "answered",
+    "answer": "The three mechanisms described under Insider Threats are Phishing & Spear-Phishing, IT/OT Convergence & Ransomware Propagation, and Third-Party & Supply Chain Compromise.",
+    "citations": [
+      {
+        "support": "The table lists common entry points for cyber incidents in the port ecosystem, including Phishing & Spear-Phishing, IT/OT Convergence & Ransomware Propagation, and Third-Party & Supply Chain Compromise.",
+        "bbox": [
+          0.05,
+          0.15,
+          0.95,
+          0.85
+        ],
+        "page": 87,
+        "label": "Table 3",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p087.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_T9T48KMxpA2dXsYVhE4p",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Table 3 Insider Threats\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 795,
+          "completion_tokens": 17,
+          "total_tokens": 812,
+          "cost": 8.63e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.63e-05,
+            "upstream_inference_prompt_cost": 7.95e-05,
+            "upstream_inference_completions_cost": 6.8e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Table 3 Insider Threats",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:v00",
+            "text": "Entry point Explanation\nText explaining insider threats and denial-of-service attacks as cybersecurity entry points.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.0,
+                0.0,
+                1.0,
+                0.3
+              ],
+              "label": "Entry point Explanation",
+              "image": "data/advanced/pages/p088.jpg",
+              "crop": "data/advanced/regions/p088-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:summary",
+            "text": "This page discusses insider threats and distributed denial-of-service attacks as entry points for cybersecurity risks in ports. It highlights the importance of guidelines and technical standards for enhancing cyber resilience. A table lists various cybersecurity resources, including guidelines and technical standards, ordered by publication date, to assist organizations in improving their cybersecurity posture.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p088.jpg"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:t00",
+            "text": "List of Tables\n\nTable 1   Common elements of regulation governing critical infrastructure....................................14\nTable 2   Respondents to survey, classified by income level..............................................................58\nTable 3   Common entry points for cyber incidents occurring in the port ecosystem.................... 70\nTable 4    List of further cybersecurity resources..................................................................................71\n\n\nList of Boxes\n\nBox 1      Selected examples of cyber incidents in the maritime transport sector............................ 4\nBox 2     Research approach and data collection....................................................................................7\nBox 3     Cybersecurity considerations within the ISPS Code............................................................ 10\nBox 4     Case studies: National approaches to integrating cybersecurity into\n          ISPS‑based port security frameworks....................................................................................11\nBox 5     Stee",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p007.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.031024531024531024,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 10,
+            "id": "adv:p010:v00",
+            "text": "Table\nA table listing acronyms related to cybersecurity in ports along with their full forms and descriptions.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Table",
+              "image": "data/advanced/pages/p010.jpg",
+              "crop": "data/advanced/regions/p010-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03055037313432836,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 89,
+            "id": "adv:p089:v00",
+            "text": "Table 1\nA table listing maritime cyber incident trends and guidelines with publication titles ordered by date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.1,
+                0.95,
+                0.4
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p089.jpg",
+              "crop": "data/advanced/regions/p089-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.030536130536130537,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:v00",
+            "text": "Table 3\nTable summarizing common entry points for cyber incidents in the port ecosystem, including entry points like Phishing & Spear-Phishing, Exploitation of Known Software Vulnerabilities, IT/OT Convergence & Ransomware Propagation, Third-Party & Supply Chain Compromise, Port Community Systems & Web Application Vulnerabilities, GPS Spoofing & AIS Manipulation, and Legacy & Outdated Systems.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.85
+              ],
+              "label": "Table 3",
+              "image": "data/advanced/pages/p087.jpg",
+              "crop": "data/advanced/regions/p087-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.0293236301369863,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 13
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:v01",
+            "text": "Table 4 List of further cybersecurity resources\nA table listing various cybersecurity resources, including guidelines and technical standards, ordered by publication date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+              ],
+              "label": "Table 4 List of further cybersecurity resources",
+              "image": "data/advanced/pages/p088.jpg",
+              "crop": "data/advanced/regions/p088-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.028814262023217248,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 12,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                70\n\nAppendix 3: Further Resources to Improve Protection\n\nCommon Entry Points of Cyber Incidents\n\nThe overwhelming majority of port cyber incidents documented in the literature involve\nthe exploitation of well-known, preventable weaknesses rather than novel techniques\n(Meland et al. 2021; Chubb et al. 2022; Mesa et al. 2024; Badea et al. 2025; Tombak et al. 2025).\nTable 3 summarizes these entry points and the systems they most commonly affect.\n\n\nTable 3 Common entry points for cyber incidents occurring in the port ecosystem\n\n Entry point                  Explanation\n\n                              Fraudulent emails or messages trick staff into surrendering\n Phishing & Spear-Phishing     credentials or downloading malware. Spear-phishing targets\n                                  individuals with privileged system access.\n\n                             Attackers exploit unpatched software in terminal operating\n Exploitation of Known                             systems, supervisory contr",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p087.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.02804284323271665,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 19
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 30,
+            "id": "adv:p030:v00",
+            "text": "Table 1\nTable synthesizing core elements of national cybersecurity governance frameworks into five themes: governance and accountability, risk prevention and protection, reporting and information-sharing, resilience and continuity, and enforcement and oversight.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.1,
+                0.5,
+                0.9,
+                0.9
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p030.jpg",
+              "crop": "data/advanced/regions/p030-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027106227106227107,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 18,
+              "tfidf": 10
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:v00",
+            "text": "Table 1\nA table summarizing enforcement powers, inspections, and penalties for non-compliance in various countries, including Japan, Singapore, and the EU.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.45
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p032.jpg",
+              "crop": "data/advanced/regions/p032-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02690100430416069,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 22,
+              "tfidf": 8
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_DGsaF9iJ3pikKNQTf5Vs",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[87]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 2876,
+          "completion_tokens": 16,
+          "total_tokens": 2892,
+          "cost": 0.000294,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.000294,
+            "upstream_inference_prompt_cost": 0.0002876,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p088:v00",
+          "adv:p088:summary",
+          "adv:p007:t00",
+          "adv:p010:v00",
+          "adv:p089:v00",
+          "adv:p087:v00",
+          "adv:p088:v01",
+          "adv:p087:t00",
+          "adv:p030:v00",
+          "adv:p032:v00"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          87
+        ],
+        "images": [
+          {
+            "page": 87,
+            "path": "data/advanced/pages/p087.jpg",
+            "sha256": "7bd51b6a524b7bafe3ed4929a11cd5ea677c0230848060ef11302d03dcb92bb4"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_PKe6E6DHCNIL1iLE7deH",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"citations\":[{\"support\":\"The table lists common entry points for cyber incidents in the port ecosystem, including Phishing & Spear-Phishing, IT/OT Convergence & Ransomware Propagation, and Third-Party & Supply Chain Compromise.\",\"bbox\":[0.05,0.15,0.95,0.85],\"page\":87,\"label\":\"Table 3\"}],\"status\":\"answered\",\"answer\":\"The three mechanisms described under Insider Threats are Phishing & Spear-Phishing, IT/OT Convergence & Ransomware Propagation, and Third-Party & Supply Chain Compromise.\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3379,
+          "completion_tokens": 142,
+          "total_tokens": 3521,
+          "cost": 0.0003947,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003947,
+            "upstream_inference_prompt_cost": 0.0003379,
+            "upstream_inference_completions_cost": 5.68e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p088:v00",
+          "adv:p088:summary",
+          "adv:p007:t00",
+          "adv:p010:v00",
+          "adv:p089:v00",
+          "adv:p087:v00",
+          "adv:p088:v01",
+          "adv:p087:t00",
+          "adv:p030:v00",
+          "adv:p032:v00"
+        ],
+        "image_pages": [
+          87
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 795,
+        "completion_tokens": 17,
+        "total_tokens": 812,
+        "cost": 8.63e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.63e-05,
+          "upstream_inference_prompt_cost": 7.95e-05,
+          "upstream_inference_completions_cost": 6.8e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 2876,
+        "completion_tokens": 16,
+        "total_tokens": 2892,
+        "cost": 0.000294,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000294,
+          "upstream_inference_prompt_cost": 0.0002876,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3379,
+        "completion_tokens": 142,
+        "total_tokens": 3521,
+        "cost": 0.0003947,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003947,
+          "upstream_inference_prompt_cost": 0.0003379,
+          "upstream_inference_completions_cost": 5.68e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.000775,
+      "complete": true
+    },
+    "elapsed_ms": 5799.012500006938,
+    "opened_pages": [
+      87
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at05",
+    "question": "According to the Phishing & Spear-Phishing row in Table 3, what do fraudulent messages trick staff into doing, and whom does spear-phishing target?",
+    "status": "answered",
+    "answer": "Fraudulent messages trick staff into surrendering credentials or downloading malware. Spear-phishing targets individuals with privileged system access.",
+    "citations": [
+      {
+        "page": 87,
+        "bbox": [
+          0.37,
+          0.4,
+          0.87,
+          0.46
+        ],
+        "label": "Table 3 Common entry points for cyber incidents occurring in the port ecosystem",
+        "support": "The explanation for Phishing & Spear-Phishing states that fraudulent emails or messages trick staff into surrendering credentials or downloading malware, and that spear-phishing targets individuals with privileged system access.",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p087.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_VVgv9wXdaUkaMLCwwgtO",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Table 3 Phishing & Spear-Phishing row\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 815,
+          "completion_tokens": 23,
+          "total_tokens": 838,
+          "cost": 9.07e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.07e-05,
+            "upstream_inference_prompt_cost": 8.15e-05,
+            "upstream_inference_completions_cost": 9.2e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Table 3 Phishing & Spear-Phishing row",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:v00",
+            "text": "Table 3\nTable summarizing common entry points for cyber incidents in the port ecosystem, including entry points like Phishing & Spear-Phishing, Exploitation of Known Software Vulnerabilities, IT/OT Convergence & Ransomware Propagation, Third-Party & Supply Chain Compromise, Port Community Systems & Web Application Vulnerabilities, GPS Spoofing & AIS Manipulation, and Legacy & Outdated Systems.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.85
+              ],
+              "label": "Table 3",
+              "image": "data/advanced/pages/p087.jpg",
+              "crop": "data/advanced/regions/p087-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 10,
+            "id": "adv:p010:v00",
+            "text": "Table\nA table listing acronyms related to cybersecurity in ports along with their full forms and descriptions.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Table",
+              "image": "data/advanced/pages/p010.jpg",
+              "crop": "data/advanced/regions/p010-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                70\n\nAppendix 3: Further Resources to Improve Protection\n\nCommon Entry Points of Cyber Incidents\n\nThe overwhelming majority of port cyber incidents documented in the literature involve\nthe exploitation of well-known, preventable weaknesses rather than novel techniques\n(Meland et al. 2021; Chubb et al. 2022; Mesa et al. 2024; Badea et al. 2025; Tombak et al. 2025).\nTable 3 summarizes these entry points and the systems they most commonly affect.\n\n\nTable 3 Common entry points for cyber incidents occurring in the port ecosystem\n\n Entry point                  Explanation\n\n                              Fraudulent emails or messages trick staff into surrendering\n Phishing & Spear-Phishing     credentials or downloading malware. Spear-phishing targets\n                                  individuals with privileged system access.\n\n                             Attackers exploit unpatched software in terminal operating\n Exploitation of Known                             systems, supervisory contr",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p087.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:t00",
+            "text": "List of Tables\n\nTable 1   Common elements of regulation governing critical infrastructure....................................14\nTable 2   Respondents to survey, classified by income level..............................................................58\nTable 3   Common entry points for cyber incidents occurring in the port ecosystem.................... 70\nTable 4    List of further cybersecurity resources..................................................................................71\n\n\nList of Boxes\n\nBox 1      Selected examples of cyber incidents in the maritime transport sector............................ 4\nBox 2     Research approach and data collection....................................................................................7\nBox 3     Cybersecurity considerations within the ISPS Code............................................................ 10\nBox 4     Case studies: National approaches to integrating cybersecurity into\n          ISPS‑based port security frameworks....................................................................................11\nBox 5     Stee",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p007.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:v01",
+            "text": "Table 4 List of further cybersecurity resources\nA table listing various cybersecurity resources, including guidelines and technical standards, ordered by publication date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+              ],
+              "label": "Table 4 List of further cybersecurity resources",
+              "image": "data/advanced/pages/p088.jpg",
+              "crop": "data/advanced/regions/p088-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.029631255487269532,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 8
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 30,
+            "id": "adv:p030:v00",
+            "text": "Table 1\nTable synthesizing core elements of national cybersecurity governance frameworks into five themes: governance and accountability, risk prevention and protection, reporting and information-sharing, resilience and continuity, and enforcement and oversight.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.1,
+                0.5,
+                0.9,
+                0.9
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p030.jpg",
+              "crop": "data/advanced/regions/p030-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02946912242686891,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 11
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 89,
+            "id": "adv:p089:v00",
+            "text": "Table 1\nA table listing maritime cyber incident trends and guidelines with publication titles ordered by date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.1,
+                0.95,
+                0.4
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p089.jpg",
+              "crop": "data/advanced/regions/p089-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02871794871794872,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 15,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:v00",
+            "text": "List of Tables\nTable 1: Common elements of regulation governing critical infrastructure (page 14)\nTable 2: Respondents to survey, classified by income level (page 58)\nTable 3: Common entry points for cyber incidents occurring in the port ecosystem (page 70)\nTable 4: List of further cybersecurity resources (page 71)",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.05,
+                0.05,
+                0.95,
+                0.35
+              ],
+              "label": "List of Tables",
+              "image": "data/advanced/pages/p007.jpg",
+              "crop": "data/advanced/regions/p007-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.028068137824235385,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 22,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 58,
+            "id": "adv:p058:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                      41\n\n\n\nOn the other hand, when properly trained, humans can also represent a vital layer of defense against\ncyber incidents (Akpan et al. 2022). For example, the Port of Barcelona indicated that their regular\nawareness training has proven to be one of the most effective defenses against cyber incidents\nto date.\n\nOrganizations should implement mechanisms to assess the impact of their training and awareness\ninvestments and demonstrate return on investment. The effectiveness of awareness programs\ncan be measured through behavioral indicators such as the rate at which employees report\nsuspicious emails or the reduction in successful phishing simulations over time. These metrics help\norganizations assess and improve their training investments.\n\n3.1.3 Specialized Training and Professional Development\n\nWhile broad-based employee awareness is a fundamental line of defense, specialized technical\nskills form the backbone of organizations’ defensive capabilities. A key theme that emerged",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p058.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.027526395173453996,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 8,
+              "tfidf": 18
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:summary",
+            "text": "This page discusses common entry points for cyber incidents in port ecosystems, highlighting vulnerabilities such as phishing, software exploitation, and third-party compromises. It emphasizes the importance of addressing known weaknesses to prevent cyber threats.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p087.jpg"
+            },
+            "score": 0.02749719416386083,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 21,
+              "tfidf": 6
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_zTdYsYGk9nP2jwGcJEcP",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[87]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3100,
+          "completion_tokens": 16,
+          "total_tokens": 3116,
+          "cost": 0.0003164,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003164,
+            "upstream_inference_prompt_cost": 0.00031,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p087:v00",
+          "adv:p010:v00",
+          "adv:p087:t00",
+          "adv:p007:t00",
+          "adv:p088:v01",
+          "adv:p030:v00",
+          "adv:p089:v00",
+          "adv:p007:v00",
+          "adv:p058:t00",
+          "adv:p087:summary"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          87
+        ],
+        "images": [
+          {
+            "page": 87,
+            "path": "data/advanced/pages/p087.jpg",
+            "sha256": "7bd51b6a524b7bafe3ed4929a11cd5ea677c0230848060ef11302d03dcb92bb4"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_ZGcmar93VFge6nioXd4K",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Table 3 Phishing & Spear-Phishing row\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3603,
+          "completion_tokens": 23,
+          "total_tokens": 3626,
+          "cost": 0.0003695,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003695,
+            "upstream_inference_prompt_cost": 0.0003603,
+            "upstream_inference_completions_cost": 9.2e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60115351,
+            "remaining": 0.09884649000000001,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p087:v00",
+          "adv:p010:v00",
+          "adv:p087:t00",
+          "adv:p007:t00",
+          "adv:p088:v01",
+          "adv:p030:v00",
+          "adv:p089:v00",
+          "adv:p007:v00",
+          "adv:p058:t00",
+          "adv:p087:summary"
+        ],
+        "image_pages": [
+          87
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 3 Phishing & Spear-Phishing row",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:v00",
+            "text": "Table 3\nTable summarizing common entry points for cyber incidents in the port ecosystem, including entry points like Phishing & Spear-Phishing, Exploitation of Known Software Vulnerabilities, IT/OT Convergence & Ransomware Propagation, Third-Party & Supply Chain Compromise, Port Community Systems & Web Application Vulnerabilities, GPS Spoofing & AIS Manipulation, and Legacy & Outdated Systems.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.85
+              ],
+              "label": "Table 3",
+              "image": "data/advanced/pages/p087.jpg",
+              "crop": "data/advanced/regions/p087-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 10,
+            "id": "adv:p010:v00",
+            "text": "Table\nA table listing acronyms related to cybersecurity in ports along with their full forms and descriptions.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Table",
+              "image": "data/advanced/pages/p010.jpg",
+              "crop": "data/advanced/regions/p010-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                70\n\nAppendix 3: Further Resources to Improve Protection\n\nCommon Entry Points of Cyber Incidents\n\nThe overwhelming majority of port cyber incidents documented in the literature involve\nthe exploitation of well-known, preventable weaknesses rather than novel techniques\n(Meland et al. 2021; Chubb et al. 2022; Mesa et al. 2024; Badea et al. 2025; Tombak et al. 2025).\nTable 3 summarizes these entry points and the systems they most commonly affect.\n\n\nTable 3 Common entry points for cyber incidents occurring in the port ecosystem\n\n Entry point                  Explanation\n\n                              Fraudulent emails or messages trick staff into surrendering\n Phishing & Spear-Phishing     credentials or downloading malware. Spear-phishing targets\n                                  individuals with privileged system access.\n\n                             Attackers exploit unpatched software in terminal operating\n Exploitation of Known                             systems, supervisory contr",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p087.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:t00",
+            "text": "List of Tables\n\nTable 1   Common elements of regulation governing critical infrastructure....................................14\nTable 2   Respondents to survey, classified by income level..............................................................58\nTable 3   Common entry points for cyber incidents occurring in the port ecosystem.................... 70\nTable 4    List of further cybersecurity resources..................................................................................71\n\n\nList of Boxes\n\nBox 1      Selected examples of cyber incidents in the maritime transport sector............................ 4\nBox 2     Research approach and data collection....................................................................................7\nBox 3     Cybersecurity considerations within the ISPS Code............................................................ 10\nBox 4     Case studies: National approaches to integrating cybersecurity into\n          ISPS‑based port security frameworks....................................................................................11\nBox 5     Stee",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p007.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:v01",
+            "text": "Table 4 List of further cybersecurity resources\nA table listing various cybersecurity resources, including guidelines and technical standards, ordered by publication date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+              ],
+              "label": "Table 4 List of further cybersecurity resources",
+              "image": "data/advanced/pages/p088.jpg",
+              "crop": "data/advanced/regions/p088-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.029631255487269532,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 8
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 30,
+            "id": "adv:p030:v00",
+            "text": "Table 1\nTable synthesizing core elements of national cybersecurity governance frameworks into five themes: governance and accountability, risk prevention and protection, reporting and information-sharing, resilience and continuity, and enforcement and oversight.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.1,
+                0.5,
+                0.9,
+                0.9
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p030.jpg",
+              "crop": "data/advanced/regions/p030-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02946912242686891,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 11
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 89,
+            "id": "adv:p089:v00",
+            "text": "Table 1\nA table listing maritime cyber incident trends and guidelines with publication titles ordered by date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.1,
+                0.95,
+                0.4
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p089.jpg",
+              "crop": "data/advanced/regions/p089-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02871794871794872,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 15,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:v00",
+            "text": "List of Tables\nTable 1: Common elements of regulation governing critical infrastructure (page 14)\nTable 2: Respondents to survey, classified by income level (page 58)\nTable 3: Common entry points for cyber incidents occurring in the port ecosystem (page 70)\nTable 4: List of further cybersecurity resources (page 71)",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.05,
+                0.05,
+                0.95,
+                0.35
+              ],
+              "label": "List of Tables",
+              "image": "data/advanced/pages/p007.jpg",
+              "crop": "data/advanced/regions/p007-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.028068137824235385,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 22,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 58,
+            "id": "adv:p058:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                      41\n\n\n\nOn the other hand, when properly trained, humans can also represent a vital layer of defense against\ncyber incidents (Akpan et al. 2022). For example, the Port of Barcelona indicated that their regular\nawareness training has proven to be one of the most effective defenses against cyber incidents\nto date.\n\nOrganizations should implement mechanisms to assess the impact of their training and awareness\ninvestments and demonstrate return on investment. The effectiveness of awareness programs\ncan be measured through behavioral indicators such as the rate at which employees report\nsuspicious emails or the reduction in successful phishing simulations over time. These metrics help\norganizations assess and improve their training investments.\n\n3.1.3 Specialized Training and Professional Development\n\nWhile broad-based employee awareness is a fundamental line of defense, specialized technical\nskills form the backbone of organizations’ defensive capabilities. A key theme that emerged",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p058.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.027526395173453996,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 8,
+              "tfidf": 18
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 87,
+            "id": "adv:p087:summary",
+            "text": "This page discusses common entry points for cyber incidents in port ecosystems, highlighting vulnerabilities such as phishing, software exploitation, and third-party compromises. It emphasizes the importance of addressing known weaknesses to prevent cyber threats.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p087.jpg"
+            },
+            "score": 0.02749719416386083,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 21,
+              "tfidf": 6
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 3,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_5LDmlWemPOdbxWgj7pj3",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"citations\":[{\"page\":87,\"bbox\":[0.37,0.4,0.87,0.46],\"label\":\"Table 3 Common entry points for cyber incidents occurring in the port ecosystem\",\"support\":\"The explanation for Phishing & Spear-Phishing states that fraudulent emails or messages trick staff into surrendering credentials or downloading malware, and that spear-phishing targets individuals with privileged system access.\"}],\"answer\":\"Fraudulent messages trick staff into surrendering credentials or downloading malware. Spear-phishing targets individuals with privileged system access.\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3616,
+          "completion_tokens": 138,
+          "total_tokens": 3754,
+          "cost": 0.0004168,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004168,
+            "upstream_inference_prompt_cost": 0.0003616,
+            "upstream_inference_completions_cost": 5.52e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60244781,
+            "remaining": 0.09755218999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p087:v00",
+          "adv:p010:v00",
+          "adv:p087:t00",
+          "adv:p007:t00",
+          "adv:p088:v01",
+          "adv:p030:v00",
+          "adv:p089:v00",
+          "adv:p007:v00",
+          "adv:p058:t00",
+          "adv:p087:summary"
+        ],
+        "image_pages": [
+          87
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 815,
+        "completion_tokens": 23,
+        "total_tokens": 838,
+        "cost": 9.07e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 9.07e-05,
+          "upstream_inference_prompt_cost": 8.15e-05,
+          "upstream_inference_completions_cost": 9.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3100,
+        "completion_tokens": 16,
+        "total_tokens": 3116,
+        "cost": 0.0003164,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003164,
+          "upstream_inference_prompt_cost": 0.00031,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3603,
+        "completion_tokens": 23,
+        "total_tokens": 3626,
+        "cost": 0.0003695,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003695,
+          "upstream_inference_prompt_cost": 0.0003603,
+          "upstream_inference_completions_cost": 9.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60115351,
+          "remaining": 0.09884649000000001,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3616,
+        "completion_tokens": 138,
+        "total_tokens": 3754,
+        "cost": 0.0004168,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004168,
+          "upstream_inference_prompt_cost": 0.0003616,
+          "upstream_inference_completions_cost": 5.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60244781,
+          "remaining": 0.09755218999999993,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0011934,
+      "complete": true
+    },
+    "elapsed_ms": 8398.78960000351,
+    "opened_pages": [
+      87
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at06",
+    "question": "In Table 4, name the two publications listed under Technical Standards, including their years.",
+    "status": "answered",
+    "answer": "The two publications listed under Technical Standards are ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026) and ISO 27001 Information security management systems (2022).",
+    "citations": [
+      {
+        "bbox": [
+          0.846,
+          0.846,
+          0.878,
+          0.878
+        ],
+        "page": 88,
+        "support": "The two publications listed under Technical Standards are ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026) and ISO 27001 Information security management systems (2022).",
+        "label": "Technical Standards",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p088.jpg"
+      },
+      {
+        "bbox": [
+          0.846,
+          0.846,
+          0.878,
+          0.878
+        ],
+        "page": 88,
+        "label": "Technical Standards",
+        "support": "The two publications listed under Technical Standards are ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026) and ISO 27001 Information security management systems (2022).",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p088.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_hkNCM2mZxwP6dOIHrm2y",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Table 4 Technical Standards publications\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 799,
+          "completion_tokens": 18,
+          "total_tokens": 817,
+          "cost": 8.71e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.71e-05,
+            "upstream_inference_prompt_cost": 7.99e-05,
+            "upstream_inference_completions_cost": 7.2e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60244781,
+            "remaining": 0.09755218999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Table 4 Technical Standards publications",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:v01",
+            "text": "Table 4 List of further cybersecurity resources\nA table listing various cybersecurity resources, including guidelines and technical standards, ordered by publication date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.0,
+                0.3,
+                1.0,
+                1.0
+              ],
+              "label": "Table 4 List of further cybersecurity resources",
+              "image": "data/advanced/pages/p088.jpg",
+              "crop": "data/advanced/regions/p088-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:v00",
+            "text": "List of Tables\nTable 1: Common elements of regulation governing critical infrastructure (page 14)\nTable 2: Respondents to survey, classified by income level (page 58)\nTable 3: Common entry points for cyber incidents occurring in the port ecosystem (page 70)\nTable 4: List of further cybersecurity resources (page 71)",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.05,
+                0.05,
+                0.95,
+                0.35
+              ],
+              "label": "List of Tables",
+              "image": "data/advanced/pages/p007.jpg",
+              "crop": "data/advanced/regions/p007-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.031746031746031744,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 7,
+            "id": "adv:p007:t00",
+            "text": "List of Tables\n\nTable 1   Common elements of regulation governing critical infrastructure....................................14\nTable 2   Respondents to survey, classified by income level..............................................................58\nTable 3   Common entry points for cyber incidents occurring in the port ecosystem.................... 70\nTable 4    List of further cybersecurity resources..................................................................................71\n\n\nList of Boxes\n\nBox 1      Selected examples of cyber incidents in the maritime transport sector............................ 4\nBox 2     Research approach and data collection....................................................................................7\nBox 3     Cybersecurity considerations within the ISPS Code............................................................ 10\nBox 4     Case studies: National approaches to integrating cybersecurity into\n          ISPS‑based port security frameworks....................................................................................11\nBox 5     Stee",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p007.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.03125,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 89,
+            "id": "adv:p089:v00",
+            "text": "Table 1\nA table listing maritime cyber incident trends and guidelines with publication titles ordered by date.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.1,
+                0.95,
+                0.4
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p089.jpg",
+              "crop": "data/advanced/regions/p089-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 10,
+            "id": "adv:p010:v00",
+            "text": "Table\nA table listing acronyms related to cybersecurity in ports along with their full forms and descriptions.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Table",
+              "image": "data/advanced/pages/p010.jpg",
+              "crop": "data/advanced/regions/p010-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.030536130536130537,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:v00",
+            "text": "Table 1\nA table summarizing enforcement powers, inspections, and penalties for non-compliance in various countries, including Japan, Singapore, and the EU.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.45
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p032.jpg",
+              "crop": "data/advanced/regions/p032-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.029857397504456328,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 8
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 30,
+            "id": "adv:p030:v00",
+            "text": "Table 1\nTable synthesizing core elements of national cybersecurity governance frameworks into five themes: governance and accountability, risk prevention and protection, reporting and information-sharing, resilience and continuity, and enforcement and oversight.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.1,
+                0.5,
+                0.9,
+                0.9
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p030.jpg",
+              "crop": "data/advanced/regions/p030-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02857142857142857,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 10,
+              "tfidf": 10
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:v00",
+            "text": "Table 1\nCommon elements of regulation governing critical infrastructure, detailing themes, descriptions, and illustrative examples from various jurisdictions.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.1,
+                0.95,
+                0.9
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p031.jpg",
+              "crop": "data/advanced/regions/p031-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027912386121341344,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 17
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:t03",
+            "text": "rity in the\n                      Maritime Sector (2019)\n\n                        •  ISA/IEC 62443 OT cybersecurity for industrial control systems series\n Technical                        (ISA 2026)\n Standards\n                        •  ISO 27001 Information security management systems (2022)",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p088.jpg",
+              "start_char": 2700,
+              "end_char": 2993
+            },
+            "score": 0.027402402402402402,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 14,
+              "tfidf": 12
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 88,
+            "id": "adv:p088:t01",
+            "text": "to-shore coordination is an additional vector.\n\n\nSource: Compiled from ENISA (2019, 2020); Tombak et al. (2025); UNCTAD (2023); France Cyber Maritime and OWN (2024);\nWorld Bank Port Reform Toolkit (2025a, 2025b, 2025c, 2025d); Liu et al. (2025).\n\nGuidelines and technical standards that may be consulted to improve an organization’s cyber\nresilience and further help achieve the recommendations in this report are listed in Table 4, with\nlinks available in the Bibliography. These include existing sector-agnostic frameworks and diagnostic\ntools, as well as sector-specific guidelines and standards for IT and OT. Examples of national\ncybersecurity legislation are provided in Table 1 in Chapter 1. The list below is intended to guide the\nreader to additional relevant resources, but is not exhaustive.\n\n\nTable 4 List of further cybersecurity resources\n\n Type               Publication titles (ordered by date, newest first)\n\n                        •  IAPH Cyber Resilience Guidelines for Emerging Technologies in the\n                      Maritime Supply Chain (2025)\n                        •",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p088.jpg",
+              "start_char": 900,
+              "end_char": 1995
+            },
+            "score": 0.02728937728937729,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 24,
+              "tfidf": 5
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_OEkhmBmil5vEThle23PU",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[88]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 2954,
+          "completion_tokens": 16,
+          "total_tokens": 2970,
+          "cost": 0.0003018,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003018,
+            "upstream_inference_prompt_cost": 0.0002954,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60244781,
+            "remaining": 0.09755218999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p088:v01",
+          "adv:p007:v00",
+          "adv:p007:t00",
+          "adv:p089:v00",
+          "adv:p010:v00",
+          "adv:p032:v00",
+          "adv:p030:v00",
+          "adv:p031:v00",
+          "adv:p088:t03",
+          "adv:p088:t01"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          88
+        ],
+        "images": [
+          {
+            "page": 88,
+            "path": "data/advanced/pages/p088.jpg",
+            "sha256": "2ddbcfe8d509ba7a2fda13a43ca3b5ab36afe9d818900b0e9c261e0cb41a8dba"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_Eha9HwfmWBpiGVf0n8n5",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"The two publications listed under Technical Standards are ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026) and ISO 27001 Information security management systems (2022).\",\"citations\":[{\"bbox\":[0.846,0.846,0.878,0.878],\"page\":88,\"support\":\"The two publications listed under Technical Standards are ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026) and ISO 27001 Information security management systems (2022).\",\"label\":\"Technical Standards\"},{\"bbox\":[0.846,0.846,0.878,0.878],\"page\":88,\"label\":\"Technical Standards\",\"support\":\"The two publications listed under Technical Standards are ISA/IEC 62443 OT cybersecurity for industrial control systems series (ISA 2026) and ISO 27001 Information security management systems (2022).\"}],\"status\":\"answered\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3405,
+          "completion_tokens": 270,
+          "total_tokens": 3675,
+          "cost": 0.0004485,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004485,
+            "upstream_inference_prompt_cost": 0.0003405,
+            "upstream_inference_completions_cost": 0.000108
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60244781,
+            "remaining": 0.09755218999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p088:v01",
+          "adv:p007:v00",
+          "adv:p007:t00",
+          "adv:p089:v00",
+          "adv:p010:v00",
+          "adv:p032:v00",
+          "adv:p030:v00",
+          "adv:p031:v00",
+          "adv:p088:t03",
+          "adv:p088:t01"
+        ],
+        "image_pages": [
+          88
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 799,
+        "completion_tokens": 18,
+        "total_tokens": 817,
+        "cost": 8.71e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.71e-05,
+          "upstream_inference_prompt_cost": 7.99e-05,
+          "upstream_inference_completions_cost": 7.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60244781,
+          "remaining": 0.09755218999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 2954,
+        "completion_tokens": 16,
+        "total_tokens": 2970,
+        "cost": 0.0003018,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003018,
+          "upstream_inference_prompt_cost": 0.0002954,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60244781,
+          "remaining": 0.09755218999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3405,
+        "completion_tokens": 270,
+        "total_tokens": 3675,
+        "cost": 0.0004485,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004485,
+          "upstream_inference_prompt_cost": 0.0003405,
+          "upstream_inference_completions_cost": 0.000108
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60244781,
+          "remaining": 0.09755218999999993,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0008374000000000001,
+      "complete": true
+    },
+    "elapsed_ms": 5589.9265999905765,
+    "opened_pages": [
+      88
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at07",
+    "question": "In the impact-ripple diagram, list the three impact levels outward from Cyber Incident, in order.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_6sPJC6rAU26PONd0vDOm",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"impact-ripple diagram Cyber Incident\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 801,
+          "completion_tokens": 18,
+          "total_tokens": 819,
+          "cost": 8.73e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.73e-05,
+            "upstream_inference_prompt_cost": 8.01e-05,
+            "upstream_inference_completions_cost": 7.2e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.60244781,
+            "remaining": 0.09755218999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "impact-ripple diagram Cyber Incident",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 12,
+            "id": "adv:p012:v00",
+            "text": "Impact-ripple infographic (unnumbered)\nConcentric impact arcs expand outward: Cyber Incident, Local Port Impact, National Economic Impact, Cross-Border Spillover Effects. Icons link a port cyber incident to operations, national economic activity and international spillovers.",
+            "metadata": {
+              "kind": "diagram",
+              "bbox": [
+                0.05,
+                0.52,
+                0.95,
+                0.99
+              ],
+              "label": "Impact-ripple infographic (unnumbered)",
+              "image": "data/advanced/pages/p012.jpg",
+              "crop": "data/advanced/regions/p012-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 12,
+            "id": "adv:p012:t02",
+            "text": "Border Spillover Eﬀects\n\n\n\n                             National Economic Impact\n\n\n\n                               Local Port Impact\n\n\n\n\n                          Cyber Incident",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p012.jpg",
+              "start_char": 1800,
+              "end_char": 1977
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 62,
+            "id": "adv:p062:v01",
+            "text": "Paragraph 1\nDiscussion on the uncertainty of cyber incident costs and the challenges in assessing potential losses.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.4
+              ],
+              "label": "Paragraph 1",
+              "image": "data/advanced/pages/p062.jpg",
+              "crop": "data/advanced/regions/p062-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.029386529386529386,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 14
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 85,
+            "id": "adv:p085:t01",
+            "text": "or your\n               organization, and how do you tackle those with cybersecurity? (e.g., targeted\n               attacks, human errors, etc.)\n                     iii. How do you approach the interface between IT & OT in relation to cyber risks?\n\n  •  Prompts:\n\n                     1.  What risk management tools or methodologies do you use?\n                 2.  Can you share examples of effective risk mitigation strategies?\n                 3. Do you perform internal/external audits on your response system?\n\n      c.  Incident response:\n                      i.  What response and continuity practices stand out as effective across ports you’ve\n              observed or worked in?\n                      ii.  Can you describe a recent incident and how it was handled?\n                     1.  Prompt: Since you already had a BCP, how did that impact the incident response?\n                  Did it help? What lessons were learned from past incidents? Did you change\n                 anything after the incident?\n  •  Prompts:\n\n                     1.  What is your process for detecting and",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p085.jpg",
+              "start_char": 900,
+              "end_char": 1999
+            },
+            "score": 0.028850145288501453,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 13
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 62,
+            "id": "adv:p062:v03",
+            "text": "Paragraph 3\nAddresses information asymmetry and its impact on cyber risk management.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.1,
+                0.6,
+                0.9,
+                0.8
+              ],
+              "label": "Paragraph 3",
+              "image": "data/advanced/pages/p062.jpg",
+              "crop": "data/advanced/regions/p062-v03.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027637721755368813,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 25,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 50,
+            "id": "adv:p050:summary",
+            "text": "This page discusses indicators for measuring cybersecurity progress in ports, including asset inventory, incident response times, backup success rates, and employee training participation. It highlights survey results indicating that nearly 60% of respondents from high-income countries conducted a cyber incident response drill in the past five years, while over half from low- and middle-income countries did not. Figure 10 illustrates the performance of cyber incident response drills across different income levels.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p050.jpg"
+            },
+            "score": 0.02694394213381555,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 19,
+              "tfidf": 10
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 12,
+            "id": "adv:p012:t01",
+            "text": "eaching its\ndestination, and compromise the safety of people and the integrity of equipment, such as robot\ncranes or guided vehicles. The costs of incidents\nare real and measurable: according to industry\nestimates, the average cost of a cyber incident in       As cyber-related disruptions in\nthe maritime transport sector reached $550,000        ports can have economy-wide\nin 2023, a threefold increase from 2022, and          and even cross-border impacts,\nransom demands averaged $3.2 million (Kenney and     cybersecurity represents a critical\nMacdonald 2023). Despite the growing importance       building block for making ports\nof cybersecurity, many port stakeholders lack         more resilient and for enabling\nup-to-date knowledge, tools, and experience           economic development.\nsecuring their information and operational\ntechnology infrastructure.\n\n                          Cross-Border Spillover Eﬀects\n\n\n\n                             National Economic Impact\n\n\n\n                               Local Port Impact\n\n\n\n\n                          Cyber Incident",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p012.jpg",
+              "start_char": 900,
+              "end_char": 1977
+            },
+            "score": 0.026419626007891578,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 27,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 80,
+            "id": "adv:p080:v06",
+            "text": "Question 15\nQuestion about the inclusion of cybersecurity in incident response planning.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0.05,
+                0.65,
+                0.95,
+                0.75
+              ],
+              "label": "Question 15",
+              "image": "data/advanced/pages/p080.jpg",
+              "crop": "data/advanced/regions/p080-v06.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.026151315789473682,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 35
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t03",
+            "text": "Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting                                        incident response between government agencies and key                                 information-sharing                                private-sector partners.\n\n                                   Singapore Cybersecurity Act: notify Cyber Security\n                                 Agency of incidents, including service disruptions, within\n                                      short windows.\n\n &     Requirements to prepare   EU NIS2 Directive: incident handling and continuity\n           for incident response       measures are part of risk management requirements.\n        and recovery and ensure\n                                   Singapore Cybersecurity Act: mandatory exercises and          continuity of essential                  continuity       Resilience                                 remedial actions to maintain service continuity.           services.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 2700,
+              "end_char": 3774
+            },
+            "score": 0.0260840108401084,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 22,
+              "tfidf": 12
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 12,
+            "id": "adv:p012:summary",
+            "text": "This section emphasizes the critical role of ports in international trade and the interconnectedness of their digital systems. It highlights the financial impact of cyber incidents on ports, with average costs reaching $550,000 in 2023. The text underscores the collective responsibility of stakeholders in ensuring cybersecurity and the need for improved knowledge and tools to secure operational technology infrastructure.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p012.jpg"
+            },
+            "score": 0.025448143405889884,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 28,
+              "tfidf": 11
+            }
+          }
+        ]
+      },
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 801,
+        "completion_tokens": 18,
+        "total_tokens": 819,
+        "cost": 8.73e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.73e-05,
+          "upstream_inference_prompt_cost": 8.01e-05,
+          "upstream_inference_completions_cost": 7.2e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.60244781,
+          "remaining": 0.09755218999999993,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 8.73e-05,
+      "complete": true
+    },
+    "elapsed_ms": 2472.5670000188984,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at08",
+    "question": "In the vulnerable-versus-cyber-resilient port infographic, list the four callout labels on the vulnerable side and the four on the resilient side.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 903.2454999978654,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at09",
+    "question": "In Figure 5, list the four port governance models top-to-bottom and explain how public and private responsibility change from the top model to the bottom.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 824.0218000137247,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at10",
+    "question": "In the continuous/proactive panel of Figure 6, give the six activities clockwise starting at Asset inventory.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 920.0985000061337,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at11",
+    "question": "In Figure 13, what generic training artifact is shown on the left, and which three job roles are explicitly labeled in the personalized-training panel on the right?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 795.2055999776348,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at12",
+    "question": "From Figure 4, give the percentages for No and Don't know, then their combined share.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 831.2686000135727,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at13",
+    "question": "In Figure 16, compare Europe & Central Asia with Latin America & Caribbean: give both shares and the percentage-point difference.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 823.5225999960676,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at14",
+    "question": "From Figure 17, give the shares of port authorities and terminal operators and calculate their gap in percentage points.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 937.9468999977689,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at15",
+    "question": "Read Figure 12 using its legend: which income group has the longest dark-blue annual-training segment, and which has the shortest? What does dark blue mean?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 1070.9782999765594,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at16",
+    "question": "In A Global Port Resilience Gap, give both regular-training percentages in Building Capacity and their percentage-point gap.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 809.5977999910247,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at17",
+    "question": "Combine Table 2 with Figure 17: compare the high-income share of respondents with the terminal-operator share. Give both percentages, their difference in percentage points, and distinguish the two classifications.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 804.7083000128623,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at18",
+    "question": "Combine Table 1's NIS2 reporting example with the Italian circular case study: what reporting timeframe and recipient does the table state, and which Italian facilities are exempt from the circular's additional requirements?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 805.9520999959204,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at19",
+    "question": "Combine Figure 13 and the Cyber-SHIP Lab case study: name the three roles labeled in personalized training, and identify what physical environment the Lab replicates for realistic IT/OT incident training.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 821.6285000089556,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at20",
+    "question": "Use the financial-barriers explanation and Box 10's formula for this hypothetical scenario: SLE=$100,000, ARO=2/year, mitigation=50%, annual control cost=$25,000. Calculate ALE, avoided annual losses and ROSI, and explain whether the benefit is new revenue or avoided loss.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 833.1163999973796,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at21",
+    "question": "In Appendix 2, how many expert interviews were conducted, over what period, and how were interviewees split between practitioners and academia?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 793.2274999911897,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at22",
+    "question": "According to the survey Limitations section, give the three reasons results are indicative rather than statistically generalizable.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 807.7468000119552,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at23",
+    "question": "What five safeguards does the appendix recommend for third-party remote access to vulnerable OT-enabled systems?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 838.5707999987062,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at24",
+    "question": "What software and named thematic-analysis procedure were used to analyze the expert interview transcripts?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 817.5340000016149,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at25",
+    "question": "What exact per-student tuition fee in US dollars does the report give for training at the Cyber-SHIP Lab?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 790.0041999819223,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at26",
+    "question": "Which laptop manufacturer is named on the personalized-training illustration in Figure 13?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 794.4860999996308,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at27",
+    "question": "What exact annual cybersecurity budget in dollars does the report give for the Port of Singapore in 2025?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 971.8683999963105,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at28",
+    "question": "What was the Port of Rotterdam's individual response to survey question 14, according to the report?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 814.7358999995049,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at29",
+    "question": "Using the report's observed 2025 control cost and mitigation rate for the Port of Los Angeles, calculate that port's actual ROSI.",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 797.4217000009958,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "at30",
+    "question": "What 95% confidence interval is printed for the terminal-operator share in Figure 17?",
+    "status": "error",
+    "answer": "",
+    "citations": [],
+    "reason": "RuntimeError",
+    "events": [
+      {
+        "event": "error",
+        "error_type": "RuntimeError",
+        "detail": "OpenRouter HTTP 429: Provider returned error"
+      }
+    ],
+    "usage": [],
+    "service_cost": {
+      "known_usd": 0,
+      "complete": false
+    },
+    "elapsed_ms": 821.1422000022139,
+    "opened_pages": [],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  }
+]

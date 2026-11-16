@@ -1,0 +1,55 @@
+{
+  "method": "Compare original rendered full pages, numerical legends, region boundaries and captions; no benchmark fed to extractor.",
+  "corrections": [
+    {
+      "page": 12,
+      "issue": "Machine invented Figure 1 label for an unnumbered diagram and cropped away outer/bottom content.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p012.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    },
+    {
+      "page": 14,
+      "issue": "Machine labeled the whole infographic Figure 1 and gave a bbox covering the introduction rather than charts.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p014.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    },
+    {
+      "page": 35,
+      "issue": "Machine crop excluded part of legend; values themselves checked correct.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p035.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    },
+    {
+      "page": 56,
+      "issue": "Machine bbox excluded chart heading/upper bars and included unrelated text/photo.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p056.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    },
+    {
+      "page": 58,
+      "issue": "Machine bbox clipped the bottom Operations supervisor label.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p058.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    },
+    {
+      "page": 76,
+      "issue": "Machine misidentified decorative port photograph as Figure 17; actual Figure 17 is on next page.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p076.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    },
+    {
+      "page": 77,
+      "issue": "Machine swapped Port association and Port authority in caption and summary; original legend checked.",
+      "action": "Corrected retrieval catalog using original page; raw machine output preserved.",
+      "original_image": "data/advanced/pages/p077.jpg",
+      "reviewer": "Codex visual inspection, student confirmation pending"
+    }
+  ],
+  "remaining_limit": "Other machine captions remain provisional. Answer agent must inspect original page images before citing; not all catalog descriptions independently verified."
+}

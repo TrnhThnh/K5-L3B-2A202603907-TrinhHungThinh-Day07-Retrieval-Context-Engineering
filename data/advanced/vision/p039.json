@@ -1,0 +1,45 @@
+{
+  "page": 39,
+  "status": "ok",
+  "model": "openai/gpt-4o-mini",
+  "page_summary": "This section outlines key recommendations for enhancing port cybersecurity governance. It emphasizes the need for alignment between global maritime frameworks and national cybersecurity requirements, the establishment of clear governance frameworks, and the strengthening of incident reporting mechanisms, particularly in low- and middle-income countries (LMICs). Additionally, it advocates for dedicated cybersecurity leadership within port communities to ensure effective oversight and coordination of cybersecurity strategies.",
+  "page_class": "content",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "Main Takeaways and Key Recommendations",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.2
+      ],
+      "description": "Text outlining the importance of effective governance in port cybersecurity and the recommendations provided."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25740,
+    "completion_tokens": 165,
+    "total_tokens": 25905,
+    "cost": 0.00396,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00396,
+      "upstream_inference_prompt_cost": 0.003861,
+      "upstream_inference_completions_cost": 9.9e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 4588.363199989544,
+  "verification_status": "machine_extraction_unverified_against_original"
+}

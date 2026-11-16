@@ -1,0 +1,2160 @@
+[
+  {
+    "query_id": "ad02",
+    "question": "In Table 1, Enforcement & oversight, what does the Singapore Cybersecurity Act impose?",
+    "status": "answered",
+    "answer": "The Singapore Cybersecurity Act imposes penalties for breaches or general non-compliance.",
+    "citations": [
+      {
+        "page": 32,
+        "bbox": [
+          1.4999999999999999e-05,
+          1.4999999999999999e-05,
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "label": "Table 1",
+        "support": "In Table 1, under the \"Enforcement & oversight\" theme and \"Illustrative examples\" column, the Singapore Cybersecurity Act is described as imposing penalties for breaches or general non-compliance.",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p032.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_61JOYoMHMUrQFnXHDBIS",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Singapore Cybersecurity Act impose Enforcement & oversight\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 798,
+          "completion_tokens": 19,
+          "total_tokens": 817,
+          "cost": 8.74e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.74e-05,
+            "upstream_inference_prompt_cost": 7.98e-05,
+            "upstream_inference_completions_cost": 7.6e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54643545,
+            "remaining": 0.1535645499999999,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "Singapore Cybersecurity Act impose Enforcement & oversight",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:summary",
+            "text": "This page discusses the enforcement and oversight of cybersecurity regulations in ports, highlighting various national frameworks and their implementation. It emphasizes the differences in institutional capacity and regulatory maturity across countries, with examples from Japan, Singapore, and the EU. The text also notes the uneven development of cybersecurity governance, with statistics on countries having national strategies and agencies, and the impact of legal instruments on compliance and enforcement.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p032.jpg"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                    15\n\n\n\n Theme  Description                   Illustrative examples\n\n          Supervisory powers,        Japan Active Cyber Defense Law: creates enforcement\n          inspections, and penalties   powers and penalties for failing to meet certain\n           for non compliance.          requirements, and new inspection/penalty powers for\n &                               non-compliance including orders or sanctions.\n\n                                   Singapore Cybersecurity Act: imposes penalties for\n                                    breaches or general non-compliance.                oversight        Enforcement                         EU Making Critical Entities more Resilient Directive:\n                                    ensures national authorities have the powers to carry out\n                                        on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                     14\n\n\n\nTable 1 Common elements of regulation governing critical infrastructure\n\n Theme  Description                   Illustrative examples\n\n         Formal assignment of       Australia Security of Critical Infrastructures Act (SOCI):\n          cybersecurity responsibility  executives responsible for implementing and maintaining\n &     at senior management or     risk management programs.\n         board level; requirements\n                             EU NIS2 Directive: management bodies accountable for           for oversight, compliance,\n                                      cybersecurity oversight.        and internal accountability       Governance accountability  mechanisms.                                   Singapore Cybersecurity Act: Owners of critical\n                                     information infrastructure must comply with codes\n                                and directions.\n\n         Implementation of           Australia SOCI: mandates risk management progra",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t03",
+            "text": "Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting                                        incident response between government agencies and key                                 information-sharing                                private-sector partners.\n\n                                   Singapore Cybersecurity Act: notify Cyber Security\n                                 Agency of incidents, including service disruptions, within\n                                      short windows.\n\n &     Requirements to prepare   EU NIS2 Directive: incident handling and continuity\n           for incident response       measures are part of risk management requirements.\n        and recovery and ensure\n                                   Singapore Cybersecurity Act: mandatory exercises and          continuity of essential                  continuity       Resilience                                 remedial actions to maintain service continuity.           services.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 2700,
+              "end_char": 3774
+            },
+            "score": 0.03076923076923077,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t02",
+            "text": "lan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information\n                                        infrastructure included in the scope of the regulation for\n                                              critical sectorial risk oversight.\n\n        Mandatory notification      Australia SOCI: the Australia Cybersecurity Centre\n          of cyber incidents to        (ACSC) serves as central hub for threat information and\n         competent authorities;       coordination.\n         establishment of\n                             EU NIS2 Directive: report significant incidents within 24          coordination or\n &                                hours to Computer Security Incident Response Teams.          information‑sharing\n         mechanisms.                                Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 1800,
+              "end_char": 2872
+            },
+            "score": 0.030330882352941176,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 8
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t01",
+            "text": "information infrastructure must comply with codes\n                                and directions.\n\n         Implementation of           Australia SOCI: mandates risk management programs for\n          cybersecurity programs      CI operators.\n          covering risk prevention,\n                             EU NIS2 Directive: supply chain risk management required &      detection, mitigation\n                                   as part of overall cybersecurity resilience.        and recovery, as well as\n        management of risks                              Hong Kong Protection of Critical Infrastructures\n          associated with suppliers,                                    Ordinance: requires CI operators to submit and implement       prevention      service providers, and other                  protection                          a computer-system security management plan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 900,
+              "end_char": 1968
+            },
+            "score": 0.030017921146953404,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 12
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t01",
+            "text": "on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table: EU NIS2 Directive (European Union 2022a); Australia SOCI\n(Australian Government Critical Infrastructure Security Centre 2018); Japan Active Cyber Defense Law (formally Act on the\nPrevention of Damage Caused by Unauthorized Acts against Critical Electronic Computers, to become operational in 2027,\nThe House of Representatives, Japan 2025); Singapore Cyber Security Act (Cyber Security Agency of Singapore 2025); Hong\nKong Protection of Critical Infrastructures (Computer Systems) Ordinance (Legislative Council of the Hong Kong Special\nAdministrative Region China 2025); EU Making Critical Entities more Resilient Directive (European Union 2022b).\n\nOverall, while the core functions addressed by national port cybersecurity frameworks are broadly\nsimilar, their implementation reflects differences in institutional capacity, legal tradition, and\nregulatory maturity. These variations—and their imp",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 900,
+              "end_char": 1962
+            },
+            "score": 0.02964426877470356,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 9
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 97,
+            "id": "adv:p097:summary",
+            "text": "This page includes references to various reports and studies related to cybersecurity in ports and maritime industries. It highlights the importance of cybersecurity awareness and provides links to resources from organizations such as the Cyber Security Agency of Singapore, ENISA, and others. The references cover topics like cyber risk management, cybersecurity legislation, and investment in cybersecurity measures.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p097.jpg"
+            },
+            "score": 0.02803921568627451,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 8,
+              "tfidf": 15
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 30,
+            "id": "adv:p030:t01",
+            "text": "ity, mandate baseline risk management and reporting practices, and create incentives\nfor coordination among public authorities and private operators. They are often complemented by\nnational cybersecurity strategies, which support a coordinated, whole-of-government approach by\naligning cybersecurity priorities with broader digital and socio-economic objectives and translating\nthem into concrete actions and resources (ITU 2025). Together, these instruments provide the\ninstitutional foundation for oversight, enforcement, and accountability—functions that cannot be\ndelivered through voluntary or industry-led instruments alone.\n\n1.2.2 Core Elements of National Cybersecurity Governance\nFrameworks\n\nAcross jurisdictions, national frameworks governing cybersecurity for ports tend to focus on\na relatively limited set of core regulatory functions. While legal instruments and institutional\narrangements differ, common elements recur across national cybersecurity and critical\ninfrastructure (CI) regimes. These shared elements provide a practical analytical lens for\nunderstanding how national gover",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p030.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.027984344422700584,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 10,
+              "tfidf": 13
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 101,
+            "id": "adv:p101:summary",
+            "text": "This page contains references related to cybersecurity in maritime and port sectors, highlighting various studies, reports, and guidelines from different organizations. Key topics include the economic implications of cybersecurity, retrospective analyses of cyber incidents, and frameworks for managing cybersecurity risks. Notable sources include Lloyd's List, NIST publications, and the Maritime and Port Authority of Singapore.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p101.jpg"
+            },
+            "score": 0.026838432635534086,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 9,
+              "tfidf": 21
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_inspect_pages_HFauFXP2t86r9PSAKtmY",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[32]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3426,
+          "completion_tokens": 16,
+          "total_tokens": 3442,
+          "cost": 0.000349,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.000349,
+            "upstream_inference_prompt_cost": 0.0003426,
+            "upstream_inference_completions_cost": 6.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p032:summary",
+          "adv:p032:t00",
+          "adv:p031:t00",
+          "adv:p031:t03",
+          "adv:p031:t02",
+          "adv:p031:t01",
+          "adv:p032:t01",
+          "adv:p097:summary",
+          "adv:p030:t01",
+          "adv:p101:summary"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          32
+        ],
+        "images": [
+          {
+            "page": 32,
+            "path": "data/advanced/pages/p032.jpg",
+            "sha256": "8899799f24e37520ad568c90440172e2ef73ffbb84d8ddd71926936505a901ef"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_x7ip1mu0OBFKLH6jhOp5",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Singapore Cybersecurity Act impose penalties for Enforcement & oversight\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 4058,
+          "completion_tokens": 21,
+          "total_tokens": 4079,
+          "cost": 0.0004142,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004142,
+            "upstream_inference_prompt_cost": 0.0004058,
+            "upstream_inference_completions_cost": 8.4e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p032:summary",
+          "adv:p032:t00",
+          "adv:p031:t00",
+          "adv:p031:t03",
+          "adv:p031:t02",
+          "adv:p031:t01",
+          "adv:p032:t01",
+          "adv:p097:summary",
+          "adv:p030:t01",
+          "adv:p101:summary"
+        ],
+        "image_pages": [
+          32
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Singapore Cybersecurity Act impose penalties for Enforcement & oversight",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                    15\n\n\n\n Theme  Description                   Illustrative examples\n\n          Supervisory powers,        Japan Active Cyber Defense Law: creates enforcement\n          inspections, and penalties   powers and penalties for failing to meet certain\n           for non compliance.          requirements, and new inspection/penalty powers for\n &                               non-compliance including orders or sanctions.\n\n                                   Singapore Cybersecurity Act: imposes penalties for\n                                    breaches or general non-compliance.                oversight        Enforcement                         EU Making Critical Entities more Resilient Directive:\n                                    ensures national authorities have the powers to carry out\n                                        on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:summary",
+            "text": "This page discusses the enforcement and oversight of cybersecurity regulations in ports, highlighting various national frameworks and their implementation. It emphasizes the differences in institutional capacity and regulatory maturity across countries, with examples from Japan, Singapore, and the EU. The text also notes the uneven development of cybersecurity governance, with statistics on countries having national strategies and agencies, and the impact of legal instruments on compliance and enforcement.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p032.jpg"
+            },
+            "score": 0.03125763125763126,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t03",
+            "text": "Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting                                        incident response between government agencies and key                                 information-sharing                                private-sector partners.\n\n                                   Singapore Cybersecurity Act: notify Cyber Security\n                                 Agency of incidents, including service disruptions, within\n                                      short windows.\n\n &     Requirements to prepare   EU NIS2 Directive: incident handling and continuity\n           for incident response       measures are part of risk management requirements.\n        and recovery and ensure\n                                   Singapore Cybersecurity Act: mandatory exercises and          continuity of essential                  continuity       Resilience                                 remedial actions to maintain service continuity.           services.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 2700,
+              "end_char": 3774
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 7
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                     14\n\n\n\nTable 1 Common elements of regulation governing critical infrastructure\n\n Theme  Description                   Illustrative examples\n\n         Formal assignment of       Australia Security of Critical Infrastructures Act (SOCI):\n          cybersecurity responsibility  executives responsible for implementing and maintaining\n &     at senior management or     risk management programs.\n         board level; requirements\n                             EU NIS2 Directive: management bodies accountable for           for oversight, compliance,\n                                      cybersecurity oversight.        and internal accountability       Governance accountability  mechanisms.                                   Singapore Cybersecurity Act: Owners of critical\n                                     information infrastructure must comply with codes\n                                and directions.\n\n         Implementation of           Australia SOCI: mandates risk management progra",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.03055037313432836,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t01",
+            "text": "on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table: EU NIS2 Directive (European Union 2022a); Australia SOCI\n(Australian Government Critical Infrastructure Security Centre 2018); Japan Active Cyber Defense Law (formally Act on the\nPrevention of Damage Caused by Unauthorized Acts against Critical Electronic Computers, to become operational in 2027,\nThe House of Representatives, Japan 2025); Singapore Cyber Security Act (Cyber Security Agency of Singapore 2025); Hong\nKong Protection of Critical Infrastructures (Computer Systems) Ordinance (Legislative Council of the Hong Kong Special\nAdministrative Region China 2025); EU Making Critical Entities more Resilient Directive (European Union 2022b).\n\nOverall, while the core functions addressed by national port cybersecurity frameworks are broadly\nsimilar, their implementation reflects differences in institutional capacity, legal tradition, and\nregulatory maturity. These variations—and their imp",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 900,
+              "end_char": 1962
+            },
+            "score": 0.030303030303030304,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t02",
+            "text": "lan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information\n                                        infrastructure included in the scope of the regulation for\n                                              critical sectorial risk oversight.\n\n        Mandatory notification      Australia SOCI: the Australia Cybersecurity Centre\n          of cyber incidents to        (ACSC) serves as central hub for threat information and\n         competent authorities;       coordination.\n         establishment of\n                             EU NIS2 Directive: report significant incidents within 24          coordination or\n &                                hours to Computer Security Incident Response Teams.          information‑sharing\n         mechanisms.                                Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 1800,
+              "end_char": 2872
+            },
+            "score": 0.030117753623188408,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 9
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t01",
+            "text": "information infrastructure must comply with codes\n                                and directions.\n\n         Implementation of           Australia SOCI: mandates risk management programs for\n          cybersecurity programs      CI operators.\n          covering risk prevention,\n                             EU NIS2 Directive: supply chain risk management required &      detection, mitigation\n                                   as part of overall cybersecurity resilience.        and recovery, as well as\n        management of risks                              Hong Kong Protection of Critical Infrastructures\n          associated with suppliers,                                    Ordinance: requires CI operators to submit and implement       prevention      service providers, and other                  protection                          a computer-system security management plan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 900,
+              "end_char": 1968
+            },
+            "score": 0.029206349206349208,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 15
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:v00",
+            "text": "Table 1\nA table summarizing enforcement powers, inspections, and penalties for non-compliance in various countries, including Japan, Singapore, and the EU.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.45
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p032.jpg",
+              "crop": "data/advanced/regions/p032-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.029116045245077504,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 17,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 30,
+            "id": "adv:p030:t01",
+            "text": "ity, mandate baseline risk management and reporting practices, and create incentives\nfor coordination among public authorities and private operators. They are often complemented by\nnational cybersecurity strategies, which support a coordinated, whole-of-government approach by\naligning cybersecurity priorities with broader digital and socio-economic objectives and translating\nthem into concrete actions and resources (ITU 2025). Together, these instruments provide the\ninstitutional foundation for oversight, enforcement, and accountability—functions that cannot be\ndelivered through voluntary or industry-led instruments alone.\n\n1.2.2 Core Elements of National Cybersecurity Governance\nFrameworks\n\nAcross jurisdictions, national frameworks governing cybersecurity for ports tend to focus on\na relatively limited set of core regulatory functions. While legal instruments and institutional\narrangements differ, common elements recur across national cybersecurity and critical\ninfrastructure (CI) regimes. These shared elements provide a practical analytical lens for\nunderstanding how national gover",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p030.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.027783137179239824,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 11,
+              "tfidf": 13
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 101,
+            "id": "adv:p101:summary",
+            "text": "This page contains references related to cybersecurity in maritime and port sectors, highlighting various studies, reports, and guidelines from different organizations. Key topics include the economic implications of cybersecurity, retrospective analyses of cyber incidents, and frameworks for managing cybersecurity risks. Notable sources include Lloyd's List, NIST publications, and the Maritime and Port Authority of Singapore.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p101.jpg"
+            },
+            "score": 0.027205882352941177,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 8,
+              "tfidf": 20
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 3,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_8kile3OGz1hzpsyKBqQE",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"Singapore Cybersecurity Act impose penalties for breaches or general non-compliance\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 4248,
+          "completion_tokens": 24,
+          "total_tokens": 4272,
+          "cost": 0.0004344,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004344,
+            "upstream_inference_prompt_cost": 0.0004248,
+            "upstream_inference_completions_cost": 9.6e-06
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p032:t00",
+          "adv:p032:summary",
+          "adv:p031:t00",
+          "adv:p031:t03",
+          "adv:p031:t02",
+          "adv:p032:t01",
+          "adv:p031:t01",
+          "adv:p032:v00",
+          "adv:p097:summary",
+          "adv:p030:t01",
+          "adv:p101:summary"
+        ],
+        "image_pages": [
+          32
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Singapore Cybersecurity Act impose penalties for breaches or general non-compliance",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                    15\n\n\n\n Theme  Description                   Illustrative examples\n\n          Supervisory powers,        Japan Active Cyber Defense Law: creates enforcement\n          inspections, and penalties   powers and penalties for failing to meet certain\n           for non compliance.          requirements, and new inspection/penalty powers for\n &                               non-compliance including orders or sanctions.\n\n                                   Singapore Cybersecurity Act: imposes penalties for\n                                    breaches or general non-compliance.                oversight        Enforcement                         EU Making Critical Entities more Resilient Directive:\n                                    ensures national authorities have the powers to carry out\n                                        on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t03",
+            "text": "Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting                                        incident response between government agencies and key                                 information-sharing                                private-sector partners.\n\n                                   Singapore Cybersecurity Act: notify Cyber Security\n                                 Agency of incidents, including service disruptions, within\n                                      short windows.\n\n &     Requirements to prepare   EU NIS2 Directive: incident handling and continuity\n           for incident response       measures are part of risk management requirements.\n        and recovery and ensure\n                                   Singapore Cybersecurity Act: mandatory exercises and          continuity of essential                  continuity       Resilience                                 remedial actions to maintain service continuity.           services.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 2700,
+              "end_char": 3774
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:t01",
+            "text": "on-site inspections and introduce penalties for\n                                     non-compliance.\n\n\nSource: World Bank and, in order of appearance in the table: EU NIS2 Directive (European Union 2022a); Australia SOCI\n(Australian Government Critical Infrastructure Security Centre 2018); Japan Active Cyber Defense Law (formally Act on the\nPrevention of Damage Caused by Unauthorized Acts against Critical Electronic Computers, to become operational in 2027,\nThe House of Representatives, Japan 2025); Singapore Cyber Security Act (Cyber Security Agency of Singapore 2025); Hong\nKong Protection of Critical Infrastructures (Computer Systems) Ordinance (Legislative Council of the Hong Kong Special\nAdministrative Region China 2025); EU Making Critical Entities more Resilient Directive (European Union 2022b).\n\nOverall, while the core functions addressed by national port cybersecurity frameworks are broadly\nsimilar, their implementation reflects differences in institutional capacity, legal tradition, and\nregulatory maturity. These variations—and their imp",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p032.jpg",
+              "start_char": 900,
+              "end_char": 1962
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 4,
+              "tfidf": 3
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:v00",
+            "text": "Table 1\nA table summarizing enforcement powers, inspections, and penalties for non-compliance in various countries, including Japan, Singapore, and the EU.",
+            "metadata": {
+              "kind": "table",
+              "bbox": [
+                0.05,
+                0.15,
+                0.95,
+                0.45
+              ],
+              "label": "Table 1",
+              "image": "data/advanced/pages/p032.jpg",
+              "crop": "data/advanced/regions/p032-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.030834914611005692,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 8,
+              "tfidf": 2
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                     14\n\n\n\nTable 1 Common elements of regulation governing critical infrastructure\n\n Theme  Description                   Illustrative examples\n\n         Formal assignment of       Australia Security of Critical Infrastructures Act (SOCI):\n          cybersecurity responsibility  executives responsible for implementing and maintaining\n &     at senior management or     risk management programs.\n         board level; requirements\n                             EU NIS2 Directive: management bodies accountable for           for oversight, compliance,\n                                      cybersecurity oversight.        and internal accountability       Governance accountability  mechanisms.                                   Singapore Cybersecurity Act: Owners of critical\n                                     information infrastructure must comply with codes\n                                and directions.\n\n         Implementation of           Australia SOCI: mandates risk management progra",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.0293236301369863,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 13,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t02",
+            "text": "lan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information\n                                        infrastructure included in the scope of the regulation for\n                                              critical sectorial risk oversight.\n\n        Mandatory notification      Australia SOCI: the Australia Cybersecurity Centre\n          of cyber incidents to        (ACSC) serves as central hub for threat information and\n         competent authorities;       coordination.\n         establishment of\n                             EU NIS2 Directive: report significant incidents within 24          coordination or\n &                                hours to Computer Security Incident Response Teams.          information‑sharing\n         mechanisms.                                Japan Active Cyber Defense Law: establishes a new Cyber\n                                         Council, which aims to enhance information sharing and      Reporting",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 1800,
+              "end_char": 2872
+            },
+            "score": 0.029273504273504274,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 5,
+              "tfidf": 12
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 31,
+            "id": "adv:p031:t01",
+            "text": "information infrastructure must comply with codes\n                                and directions.\n\n         Implementation of           Australia SOCI: mandates risk management programs for\n          cybersecurity programs      CI operators.\n          covering risk prevention,\n                             EU NIS2 Directive: supply chain risk management required &      detection, mitigation\n                                   as part of overall cybersecurity resilience.        and recovery, as well as\n        management of risks                              Hong Kong Protection of Critical Infrastructures\n          associated with suppliers,                                    Ordinance: requires CI operators to submit and implement       prevention      service providers, and other                  protection                          a computer-system security management plan outlining\n   Risk      third parties.            how they will secure critical computer systems.\n                                   Singapore Cybersecurity Act: Critical information",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p031.jpg",
+              "start_char": 900,
+              "end_char": 1968
+            },
+            "score": 0.028693528693528692,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 18
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 15,
+            "id": "adv:p015:t01",
+            "text": "compliance with existing frameworks in high-income countries. This situation is even less\nfavorable in low- and middle-income settings, with only 28 percent of port stakeholders reporting\nfull compliance.\n\nSelected recommendations:\n\n•   National or sectoral framework: Establish a technology-neutral cybersecurity framework\n    applicable to critical ports that defines cybersecurity obligations, covering governance, risk\n   management, and incident reporting, with enforceable compliance mechanisms.\n\n•  Mandatory incident reporting: Governments should establish clear obligations for ports to\n    report cyber incidents to national or sectoral response bodies. Without this baseline, the sector\n    operates without a shared understanding of the threats it faces, and similar vulnerabilities can\n   be exploited repeatedly across different operators.\n\n\n                                                  Overcoming policy, process,\nPractice                                                and capacity constraints\n                                                         to cybersecurity in ports\nRe",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p015.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.028381642512077296,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 12,
+              "tfidf": 9
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 32,
+            "id": "adv:p032:summary",
+            "text": "This page discusses the enforcement and oversight of cybersecurity regulations in ports, highlighting various national frameworks and their implementation. It emphasizes the differences in institutional capacity and regulatory maturity across countries, with examples from Japan, Singapore, and the EU. The text also notes the uneven development of cybersecurity governance, with statistics on countries having national strategies and agencies, and the impact of legal instruments on compliance and enforcement.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p032.jpg"
+            },
+            "score": 0.027912386121341344,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 17
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 101,
+            "id": "adv:p101:summary",
+            "text": "This page contains references related to cybersecurity in maritime and port sectors, highlighting various studies, reports, and guidelines from different organizations. Key topics include the economic implications of cybersecurity, retrospective analyses of cyber incidents, and frameworks for managing cybersecurity risks. Notable sources include Lloyd's List, NIST publications, and the Maritime and Port Authority of Singapore.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p101.jpg"
+            },
+            "score": 0.026779422128259338,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 26
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 4,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_9nf4SLOvFLcOEYra39si",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"answer\":\"The Singapore Cybersecurity Act imposes penalties for breaches or general non-compliance.\",\"citations\":[{\"page\":32,\"bbox\":[0.000014999999999999999,0.000014999999999999999,0.9999999999999999,0.9999999999999999],\"label\":\"Table 1\",\"support\":\"In Table 1, under the \\\"Enforcement & oversight\\\" theme and \\\"Illustrative examples\\\" column, the Singapore Cybersecurity Act is described as imposing penalties for breaches or general non-compliance.\"}],\"status\":\"answered\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 4573,
+          "completion_tokens": 184,
+          "total_tokens": 4757,
+          "cost": 0.0005309,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0005309,
+            "upstream_inference_prompt_cost": 0.0004573,
+            "upstream_inference_completions_cost": 7.36e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p032:t00",
+          "adv:p032:summary",
+          "adv:p031:t03",
+          "adv:p032:t01",
+          "adv:p031:t00",
+          "adv:p032:v00",
+          "adv:p031:t02",
+          "adv:p031:t01",
+          "adv:p015:t01",
+          "adv:p097:summary",
+          "adv:p030:t01",
+          "adv:p101:summary"
+        ],
+        "image_pages": [
+          32
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 798,
+        "completion_tokens": 19,
+        "total_tokens": 817,
+        "cost": 8.74e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 8.74e-05,
+          "upstream_inference_prompt_cost": 7.98e-05,
+          "upstream_inference_completions_cost": 7.6e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54643545,
+          "remaining": 0.1535645499999999,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3426,
+        "completion_tokens": 16,
+        "total_tokens": 3442,
+        "cost": 0.000349,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000349,
+          "upstream_inference_prompt_cost": 0.0003426,
+          "upstream_inference_completions_cost": 6.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 4058,
+        "completion_tokens": 21,
+        "total_tokens": 4079,
+        "cost": 0.0004142,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004142,
+          "upstream_inference_prompt_cost": 0.0004058,
+          "upstream_inference_completions_cost": 8.4e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 4248,
+        "completion_tokens": 24,
+        "total_tokens": 4272,
+        "cost": 0.0004344,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004344,
+          "upstream_inference_prompt_cost": 0.0004248,
+          "upstream_inference_completions_cost": 9.6e-06
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 4573,
+        "completion_tokens": 184,
+        "total_tokens": 4757,
+        "cost": 0.0005309,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0005309,
+          "upstream_inference_prompt_cost": 0.0004573,
+          "upstream_inference_completions_cost": 7.36e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0018158999999999998,
+      "complete": true
+    },
+    "elapsed_ms": 11725.829100003466,
+    "opened_pages": [
+      32
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  },
+  {
+    "query_id": "ad07",
+    "question": "In A Global Port Resilience Gap, compare incident-reporting percentages for high-income versus low- and middle-income ports and calculate the gap.",
+    "status": "answered",
+    "answer": "High-income ports report incidents to a response team at an 83% rate, while low- and middle-income ports report at a 56% rate. The gap is 27 percentage points.",
+    "citations": [
+      {
+        "page": 14,
+        "label": "A Global Port Resilience Gap — Reporting Incidents",
+        "bbox": [
+          0.05,
+          0.37,
+          0.95,
+          0.55
+        ],
+        "support": "The chart shows that 83% of high-income ports report incidents to a national or sectoral response team, compared to 56% of low- and middle-income ports.",
+        "source_id": "world-bank-cybersecurity-ports-2026",
+        "image": "data/advanced/pages/p014.jpg"
+      }
+    ],
+    "reason": "content_requires_original_page_review",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_PIZmt5u2rmfHkKFfzGnU",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"incident-reporting percentages for high-income versus low- and middle-income ports\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 810,
+          "completion_tokens": 28,
+          "total_tokens": 838,
+          "cost": 9.22e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.22e-05,
+            "upstream_inference_prompt_cost": 8.1e-05,
+            "upstream_inference_completions_cost": 1.12e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "incident-reporting percentages for high-income versus low- and middle-income ports",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:summary",
+            "text": "The World Bank survey highlights disparities in cybersecurity practices between high-income and low- & middle-income ports. Key findings include that 83% of high-income ports report incidents to a response team, compared to 56% of low- & middle-income ports. Additionally, 79% of high-income ports have conducted cybersecurity risk assessments in the past 24 months, while only 56% of low- & middle-income ports have done so. Furthermore, 84% of high-income ports provide regular cybersecurity training, in contrast to 49% of low- & middle-income ports.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p014.jpg"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:t00",
+            "text": "A Global Port Resilience Gap\n                  A Tale of Two Ports\n\n    The World Bank survey received 109 responses from ports, port authorities, and maritime\n  organizations worldwide. Respondents were distributed across the World Bank income groups\n      as follows: 48 from high-income countries (44 percent), 23 from upper-middle-income\n     countries (21 percent), 30 from lower-middle-income countries (28 percent), and 8 from\n low-income countries (7 percent). The results reveal important disparities between high-income\n and low- and middle-income countries in their ability to address cyber risks. Yet across all income\n                      groups, no port ecosystem appears fully cyber-proof.\n\n\n    High-IncomeHigh-Income                          Low- & Middle-Income\n\n\n\n                                 Reporting Incidents\n\n83%                 56%                            report incidents to a national or sectoral response team.\n\n\n\n                                   Assessing Risks\n\n79%                 56%\n\n                   have conducted a cybersecurity risk assessment i",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p014.jpg",
+              "start_char": 0,
+              "end_char": 1094
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:v00",
+            "text": "A Global Port Resilience Gap — Reporting Incidents\nHigh-Income 83%; Low- & Middle-Income 56%. Report incidents to a national or sectoral response team.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.05,
+                0.37,
+                0.95,
+                0.55
+              ],
+              "label": "A Global Port Resilience Gap — Reporting Incidents",
+              "image": "data/advanced/pages/p014.jpg",
+              "crop": "data/advanced/regions/p014-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 92,
+            "id": "adv:p092:t01",
+            "text": "ponses  60%\nof   50%\n     40%\n     30%Percentage     20%\n     10%\n     0%\n                 High income         Upper-middle income     Lower-middle income       Low income\n\n                                     Yes     No      Don’t know\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p092.jpg",
+              "start_char": 900,
+              "end_char": 1201
+            },
+            "score": 0.030309988518943745,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 44,
+            "id": "adv:p044:v00",
+            "text": "Figure 7\nBar chart showing the percentage of responses regarding whether ports have conducted a cybersecurity risk assessment in the past 24 months across different income categories: High income, Upper-middle income, Lower-middle income, and Low income. The chart includes three response categories: Yes (dark blue), No (red), and Prefer not to say (yellow).",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.7
+              ],
+              "label": "Figure 7",
+              "image": "data/advanced/pages/p044.jpg",
+              "crop": "data/advanced/regions/p044-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027799227799227798,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 10,
+              "tfidf": 14
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 75,
+            "id": "adv:p075:t01",
+            "text": "data alone can reveal. The full questionnaire is provided\nbelow (English only).\n\nIncome Representation\n\nThe survey received 109 responses from ports, port authorities, and maritime organizations\nworldwide. Table 2 presents the distribution of respondents by World Bank income classification\n(World Bank 2026).\n\n\nTable 2 Respondents to survey, classified by income level\n\n Income level                   Number of respondents           Percentage\n\n High-income                   48                             44.04%\n\n Upper-middle-income            23                                21.10%\n\n Lower-middle-income            30                              27.52%\n\n Low-income                  8                                7.34%\n\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nAlthough low‑income countries are underrepresented in absolute terms, responses span all income\ngroups, allowing for comparative analysis of cybersecurity practices across different development\ncontexts. This pattern partly reflects the scope of the study, which focuses on ports; a significant\nshare o",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p075.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.027417840375586856,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 11,
+              "tfidf": 15
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 44,
+            "id": "adv:p044:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                  27\n\n\n\nThe World Bank survey shows that recent risk assessments are far more common among\nrespondents from ports in high-income countries than among ports in low- and middle-income\ncountries (Figure 7). Among port stakeholders in high-income countries, 79 percent reported having\nconducted such an assessment in the past 24 months. In upper-middle-income (61 percent) and\nlower-middle-income (57 percent) contexts, this share is much lower. It drops to 38 percent among\nrespondents from ports in low-income countries. This is likely due to the higher maturity levels of the\nlegal requirements in high-income countries, as illustrated by the examples listed in Table 1 in the\nprevious chapter.\n\n\nFigure 7 Performance of cybersecurity risk assessments\n                Have you conducted a cybersecurity risk assessment in the past 24 months?\n\n    100%\n    90%\n    80%\n     70%responses  60%\nof   50%\n     40%\n     30%Percentage     20%\n     10%\n     0%\n                 High income         Upper-m",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p044.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.027346637102734665,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 22
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 50,
+            "id": "adv:p050:summary",
+            "text": "This page discusses indicators for measuring cybersecurity progress in ports, including asset inventory, incident response times, backup success rates, and employee training participation. It highlights survey results indicating that nearly 60% of respondents from high-income countries conducted a cyber incident response drill in the past five years, while over half from low- and middle-income countries did not. Figure 10 illustrates the performance of cyber incident response drills across different income levels.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p050.jpg"
+            },
+            "score": 0.025603864734299518,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 9,
+              "tfidf": 30
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:v01",
+            "text": "A Global Port Resilience Gap — Assessing Risks\nHigh-Income 79%; Low- & Middle-Income 56%. Conducted a cybersecurity risk assessment in the past 24 months.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.05,
+                0.58,
+                0.95,
+                0.76
+              ],
+              "label": "A Global Port Resilience Gap — Assessing Risks",
+              "image": "data/advanced/pages/p014.jpg",
+              "crop": "data/advanced/regions/p014-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02546333601933924,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 13,
+              "tfidf": 25
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 33,
+            "id": "adv:p033:v00",
+            "text": "Figure 2\nBar chart showing the percentage of ports operating under national or sectoral cybersecurity regulations, segmented by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart includes categories for responses: 'Yes, there are requirements', 'No, there are no specific cybersecurity requirements', and 'Prefer not to say'.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.8
+              ],
+              "label": "Figure 2",
+              "image": "data/advanced/pages/p033.jpg",
+              "crop": "data/advanced/regions/p033-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.025396825396825397,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 30,
+              "tfidf": 10
+            }
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_search_aBGRQIm8Ag9mNVG53avC",
+              "function": {
+                "name": "search",
+                "arguments": "{\"query\":\"incident-reporting percentages for high-income versus low- and middle-income ports\"}"
+              }
+            },
+            {
+              "type": "function",
+              "index": 1,
+              "id": "tool_inspect_pages_OXnxxHgzxnxYA8DlBhBs",
+              "function": {
+                "name": "inspect_pages",
+                "arguments": "{\"pages\":[14]}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 3395,
+          "completion_tokens": 44,
+          "total_tokens": 3439,
+          "cost": 0.0003571,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0003571,
+            "upstream_inference_prompt_cost": 0.0003395,
+            "upstream_inference_completions_cost": 1.76e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p014:summary",
+          "adv:p014:t00",
+          "adv:p014:v00",
+          "adv:p092:t01",
+          "adv:p044:v00",
+          "adv:p075:t01",
+          "adv:p044:t00",
+          "adv:p050:summary",
+          "adv:p014:v01",
+          "adv:p033:v00"
+        ],
+        "image_pages": []
+      },
+      {
+        "event": "search",
+        "query": "incident-reporting percentages for high-income versus low- and middle-income ports",
+        "results": [
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:summary",
+            "text": "The World Bank survey highlights disparities in cybersecurity practices between high-income and low- & middle-income ports. Key findings include that 83% of high-income ports report incidents to a response team, compared to 56% of low- & middle-income ports. Additionally, 79% of high-income ports have conducted cybersecurity risk assessments in the past 24 months, while only 56% of low- & middle-income ports have done so. Furthermore, 84% of high-income ports provide regular cybersecurity training, in contrast to 49% of low- & middle-income ports.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p014.jpg"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 1,
+              "tfidf": 1
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:t00",
+            "text": "A Global Port Resilience Gap\n                  A Tale of Two Ports\n\n    The World Bank survey received 109 responses from ports, port authorities, and maritime\n  organizations worldwide. Respondents were distributed across the World Bank income groups\n      as follows: 48 from high-income countries (44 percent), 23 from upper-middle-income\n     countries (21 percent), 30 from lower-middle-income countries (28 percent), and 8 from\n low-income countries (7 percent). The results reveal important disparities between high-income\n and low- and middle-income countries in their ability to address cyber risks. Yet across all income\n                      groups, no port ecosystem appears fully cyber-proof.\n\n\n    High-IncomeHigh-Income                          Low- & Middle-Income\n\n\n\n                                 Reporting Incidents\n\n83%                 56%                            report incidents to a national or sectoral response team.\n\n\n\n                                   Assessing Risks\n\n79%                 56%\n\n                   have conducted a cybersecurity risk assessment i",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p014.jpg",
+              "start_char": 0,
+              "end_char": 1094
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 3,
+              "tfidf": 4
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:v00",
+            "text": "A Global Port Resilience Gap — Reporting Incidents\nHigh-Income 83%; Low- & Middle-Income 56%. Report incidents to a national or sectoral response team.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.05,
+                0.37,
+                0.95,
+                0.55
+              ],
+              "label": "A Global Port Resilience Gap — Reporting Incidents",
+              "image": "data/advanced/pages/p014.jpg",
+              "crop": "data/advanced/regions/p014-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 2,
+              "tfidf": 6
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 92,
+            "id": "adv:p092:t01",
+            "text": "ponses  60%\nof   50%\n     40%\n     30%Percentage     20%\n     10%\n     0%\n                 High income         Upper-middle income     Lower-middle income       Low income\n\n                                     Yes     No      Don’t know\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p092.jpg",
+              "start_char": 900,
+              "end_char": 1201
+            },
+            "score": 0.030309988518943745,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 7,
+              "tfidf": 5
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 44,
+            "id": "adv:p044:v00",
+            "text": "Figure 7\nBar chart showing the percentage of responses regarding whether ports have conducted a cybersecurity risk assessment in the past 24 months across different income categories: High income, Upper-middle income, Lower-middle income, and Low income. The chart includes three response categories: Yes (dark blue), No (red), and Prefer not to say (yellow).",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.7
+              ],
+              "label": "Figure 7",
+              "image": "data/advanced/pages/p044.jpg",
+              "crop": "data/advanced/regions/p044-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.027799227799227798,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 10,
+              "tfidf": 14
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 75,
+            "id": "adv:p075:t01",
+            "text": "data alone can reveal. The full questionnaire is provided\nbelow (English only).\n\nIncome Representation\n\nThe survey received 109 responses from ports, port authorities, and maritime organizations\nworldwide. Table 2 presents the distribution of respondents by World Bank income classification\n(World Bank 2026).\n\n\nTable 2 Respondents to survey, classified by income level\n\n Income level                   Number of respondents           Percentage\n\n High-income                   48                             44.04%\n\n Upper-middle-income            23                                21.10%\n\n Lower-middle-income            30                              27.52%\n\n Low-income                  8                                7.34%\n\n\nSource: World Bank Survey Understanding Cybersecurity in Ports.\n\nAlthough low‑income countries are underrepresented in absolute terms, responses span all income\ngroups, allowing for comparative analysis of cybersecurity practices across different development\ncontexts. This pattern partly reflects the scope of the study, which focuses on ports; a significant\nshare o",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p075.jpg",
+              "start_char": 900,
+              "end_char": 2000
+            },
+            "score": 0.027417840375586856,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 11,
+              "tfidf": 15
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 44,
+            "id": "adv:p044:t00",
+            "text": "Cybersecurity in Ports: Shifting from Risk to Resilience                                                  27\n\n\n\nThe World Bank survey shows that recent risk assessments are far more common among\nrespondents from ports in high-income countries than among ports in low- and middle-income\ncountries (Figure 7). Among port stakeholders in high-income countries, 79 percent reported having\nconducted such an assessment in the past 24 months. In upper-middle-income (61 percent) and\nlower-middle-income (57 percent) contexts, this share is much lower. It drops to 38 percent among\nrespondents from ports in low-income countries. This is likely due to the higher maturity levels of the\nlegal requirements in high-income countries, as illustrated by the examples listed in Table 1 in the\nprevious chapter.\n\n\nFigure 7 Performance of cybersecurity risk assessments\n                Have you conducted a cybersecurity risk assessment in the past 24 months?\n\n    100%\n    90%\n    80%\n     70%responses  60%\nof   50%\n     40%\n     30%Percentage     20%\n     10%\n     0%\n                 High income         Upper-m",
+            "metadata": {
+              "kind": "text",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Native page text",
+              "image": "data/advanced/pages/p044.jpg",
+              "start_char": 0,
+              "end_char": 1100
+            },
+            "score": 0.027346637102734665,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 6,
+              "tfidf": 22
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 50,
+            "id": "adv:p050:summary",
+            "text": "This page discusses indicators for measuring cybersecurity progress in ports, including asset inventory, incident response times, backup success rates, and employee training participation. It highlights survey results indicating that nearly 60% of respondents from high-income countries conducted a cyber incident response drill in the past five years, while over half from low- and middle-income countries did not. Figure 10 illustrates the performance of cyber incident response drills across different income levels.",
+            "metadata": {
+              "kind": "summary",
+              "bbox": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "label": "Machine page summary; verify original",
+              "image": "data/advanced/pages/p050.jpg"
+            },
+            "score": 0.025603864734299518,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 9,
+              "tfidf": 30
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 14,
+            "id": "adv:p014:v01",
+            "text": "A Global Port Resilience Gap — Assessing Risks\nHigh-Income 79%; Low- & Middle-Income 56%. Conducted a cybersecurity risk assessment in the past 24 months.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.05,
+                0.58,
+                0.95,
+                0.76
+              ],
+              "label": "A Global Port Resilience Gap — Assessing Risks",
+              "image": "data/advanced/pages/p014.jpg",
+              "crop": "data/advanced/regions/p014-v01.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.02546333601933924,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 13,
+              "tfidf": 25
+            }
+          },
+          {
+            "source_id": "world-bank-cybersecurity-ports-2026",
+            "source": "data/advanced/source.pdf",
+            "page": 33,
+            "id": "adv:p033:v00",
+            "text": "Figure 2\nBar chart showing the percentage of ports operating under national or sectoral cybersecurity regulations, segmented by income level (High income, Upper-middle income, Lower-middle income, Low income). The chart includes categories for responses: 'Yes, there are requirements', 'No, there are no specific cybersecurity requirements', and 'Prefer not to say'.",
+            "metadata": {
+              "kind": "chart",
+              "bbox": [
+                0.1,
+                0.2,
+                0.9,
+                0.8
+              ],
+              "label": "Figure 2",
+              "image": "data/advanced/pages/p033.jpg",
+              "crop": "data/advanced/regions/p033-v00.jpg",
+              "extraction_status": "machine_description_not_gold"
+            },
+            "score": 0.025396825396825397,
+            "strategy": "hybrid",
+            "component_ranks": {
+              "dense": 30,
+              "tfidf": 10
+            }
+          }
+        ]
+      },
+      {
+        "event": "inspect_pages",
+        "pages": [
+          14
+        ],
+        "images": [
+          {
+            "page": 14,
+            "path": "data/advanced/pages/p014.jpg",
+            "sha256": "ee8a7790a444254556e68429b0e9af4997bccbd0c0c6ed2bce5de07523bc6cfd"
+          }
+        ]
+      },
+      {
+        "event": "model",
+        "turn": 2,
+        "message": {
+          "role": "assistant",
+          "content": null,
+          "refusal": null,
+          "reasoning": null,
+          "tool_calls": [
+            {
+              "type": "function",
+              "index": 0,
+              "id": "tool_finish_B8CpJjCxvNFdGyAX6QhW",
+              "function": {
+                "name": "finish",
+                "arguments": "{\"status\":\"answered\",\"citations\":[{\"page\":14,\"label\":\"A Global Port Resilience Gap — Reporting Incidents\",\"bbox\":[0.05,0.37,0.95,0.55],\"support\":\"The chart shows that 83% of high-income ports report incidents to a national or sectoral response team, compared to 56% of low- and middle-income ports.\"}],\"answer\":\"High-income ports report incidents to a response team at an 83% rate, while low- and middle-income ports report at a 56% rate. The gap is 27 percentage points.\"}"
+              }
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 4273,
+          "completion_tokens": 153,
+          "total_tokens": 4426,
+          "cost": 0.0004885,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0004885,
+            "upstream_inference_prompt_cost": 0.0004273,
+            "upstream_inference_completions_cost": 6.12e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "budget_before": {
+            "limit": 0.7,
+            "usage_daily": 0.54996745,
+            "remaining": 0.15003254999999993,
+            "reserved_usd": 0.008
+          }
+        },
+        "context_ids": [
+          "adv:p014:summary",
+          "adv:p014:t00",
+          "adv:p014:v00",
+          "adv:p092:t01",
+          "adv:p044:v00",
+          "adv:p075:t01",
+          "adv:p044:t00",
+          "adv:p050:summary",
+          "adv:p014:v01",
+          "adv:p033:v00"
+        ],
+        "image_pages": [
+          14
+        ]
+      }
+    ],
+    "usage": [
+      {
+        "prompt_tokens": 810,
+        "completion_tokens": 28,
+        "total_tokens": 838,
+        "cost": 9.22e-05,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 9.22e-05,
+          "upstream_inference_prompt_cost": 8.1e-05,
+          "upstream_inference_completions_cost": 1.12e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 3395,
+        "completion_tokens": 44,
+        "total_tokens": 3439,
+        "cost": 0.0003571,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0003571,
+          "upstream_inference_prompt_cost": 0.0003395,
+          "upstream_inference_completions_cost": 1.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      },
+      {
+        "prompt_tokens": 4273,
+        "completion_tokens": 153,
+        "total_tokens": 4426,
+        "cost": 0.0004885,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0004885,
+          "upstream_inference_prompt_cost": 0.0004273,
+          "upstream_inference_completions_cost": 6.12e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        },
+        "budget_before": {
+          "limit": 0.7,
+          "usage_daily": 0.54996745,
+          "remaining": 0.15003254999999993,
+          "reserved_usd": 0.008
+        }
+      }
+    ],
+    "service_cost": {
+      "known_usd": 0.0009378,
+      "complete": true
+    },
+    "elapsed_ms": 6054.224100022111,
+    "opened_pages": [
+      14
+    ],
+    "config": {
+      "id": "vision-lite",
+      "model": "google/gemini-2.5-flash-lite",
+      "top_k": 10,
+      "context_rows": 14,
+      "max_searches": 4,
+      "max_pages": 6,
+      "max_turns": 12,
+      "hypothesis": "Low-cost multimodal model with bounded retrieval and original-page inspection."
+    },
+    "source_id": "world-bank-cybersecurity-ports-2026"
+  }
+]

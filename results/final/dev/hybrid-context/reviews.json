@@ -1,0 +1,363 @@
+[
+  {
+    "query_id": "q01",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reason": "Collective responsibility/cascading risk plus governance and committee context supported across cited passages."
+  },
+  {
+    "query_id": "q02",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Diverse sources and interviews supported, but survey size 109 and desk-based regulatory mapping missing."
+  },
+  {
+    "query_id": "q03",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Table 2 gives 48 and 44.04%; valid alternative evidence."
+  },
+  {
+    "query_id": "q04",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Non-binding global framework and national implementation supported."
+  },
+  {
+    "query_id": "q05",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Live OT/IT inventories supported, but explicit regular vulnerability scans omitted."
+  },
+  {
+    "query_id": "q06",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      false,
+      true,
+      false
+    ],
+    "reason": "Core linkage supported but some extra efficiency/severity claims and evolving-risk-management attribution exceed their specific cited fragments."
+  },
+  {
+    "query_id": "q07",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "All four governance benefits supported."
+  },
+  {
+    "query_id": "q08",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Security assessment and plan requirements supported."
+  },
+  {
+    "query_id": "q09",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "False abstention despite corpus containing national-governance evidence."
+  },
+  {
+    "query_id": "q10",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "65-percent figure explicitly supported."
+  },
+  {
+    "query_id": "q11",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reason": "Central governance role, national framework and port-level responsibilities supported across passages."
+  },
+  {
+    "query_id": "q12",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Operational resilience and information sharing supported, but prevent/respond/recover definition missing."
+  },
+  {
+    "query_id": "q13",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Scan purpose and examples supported; complementary scan-frequency and OT-vulnerability passages relevant."
+  },
+  {
+    "query_id": "q14",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Exercises/40 participants and additional Singapore SOC background both supported."
+  },
+  {
+    "query_id": "q15",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Inventory/risk-rating is a valid progress indicator."
+  },
+  {
+    "query_id": "q16",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "Difference between plans and missing fallback risks supported, but actual under-practiced readiness finding omitted; regulatory passage does not establish gap."
+  },
+  {
+    "query_id": "q17",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "All employee-training response options correct; other citation concerns a different specialized-training question."
+  },
+  {
+    "query_id": "q18",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "False abstention on answerable ROSI definition."
+  },
+  {
+    "query_id": "q19",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "CRC date and purpose correct; NORMA continuation is not evidence for Los Angeles."
+  },
+  {
+    "query_id": "q20",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Public/private good and incentive recommendations supported, but specific cross-border societal-benefit rationale is not established by these selected citations."
+  },
+  {
+    "query_id": "q21",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    "reason": "Committee functions explicitly supported by committee/oversight passages; generic page 35 has no committee-function detail."
+  },
+  {
+    "query_id": "q22",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Significant system changes trigger scans; explanation consistent with scan purpose."
+  },
+  {
+    "query_id": "q23",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "Escape Room/shows supported; Barcelona training-evaluation passage does not establish Antwerp activities."
+  },
+  {
+    "query_id": "q24",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "All four integration areas and reuse of existing port capabilities supported."
+  },
+  {
+    "query_id": "q25",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "Dates and languages supported on page 75; regional-representation page does not support them."
+  },
+  {
+    "query_id": "q26",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "reason": "Core SOC monitoring/detection/response right, but extra claim that SOC establishes reporting protocols is stronger than retained paragraph."
+  },
+  {
+    "query_id": "q27",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "Ship bridge and IT/OT scenarios supported; generic workforce-development citation does not support Cyber-SHIP specifics."
+  },
+  {
+    "query_id": "q28",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      false
+    ],
+    "reason": "Ownership rules, standardized protocols and controlled file transfer supported; national/international sharing continuation does not establish named safeguards."
+  },
+  {
+    "query_id": "q29",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Ownership/confidentiality/need-to-know rules explicitly supported."
+  },
+  {
+    "query_id": "q30",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "reason": "Correct DoS targets but adds communications interception as DoS capability; source distinguishes separate vector."
+  },
+  {
+    "query_id": "u01",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Actual trace abstains without unsupported assertions; corpus absence audit checked for the requested fact."
+  },
+  {
+    "query_id": "u02",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Actual trace abstains without unsupported assertions; corpus absence audit checked for the requested fact."
+  },
+  {
+    "query_id": "u03",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Actual trace abstains without unsupported assertions; corpus absence audit checked for the requested fact."
+  },
+  {
+    "query_id": "u04",
+    "reviewer": "Codex AI-assisted content review; student confirmation pending",
+    "student_confirmed": false,
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "Actual trace abstains without unsupported assertions; corpus absence audit checked for the requested fact."
+  }
+]

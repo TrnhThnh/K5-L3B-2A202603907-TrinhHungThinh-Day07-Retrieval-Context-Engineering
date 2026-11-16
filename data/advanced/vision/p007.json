@@ -1,0 +1,56 @@
+{
+  "page": 7,
+  "status": "ok",
+  "model": "openai/gpt-4.1-mini",
+  "page_summary": "This page provides a detailed list of tables and boxes included in the report. The tables cover topics such as regulation elements for critical infrastructure, survey respondents by income level, common cyber incident entry points in ports, and additional cybersecurity resources. The boxes highlight various case studies, research approaches, cybersecurity considerations within the ISPS Code, governance mechanisms, network segmentation, business continuity planning, training methods, collaboration efforts, return on security investment, and cybersecurity collaboration networks.",
+  "page_class": "front_matter",
+  "regions": [
+    {
+      "kind": "text",
+      "label": "List of Tables",
+      "bbox": [
+        0.05,
+        0.05,
+        0.95,
+        0.35
+      ],
+      "description": "Table 1: Common elements of regulation governing critical infrastructure (page 14)\nTable 2: Respondents to survey, classified by income level (page 58)\nTable 3: Common entry points for cyber incidents occurring in the port ecosystem (page 70)\nTable 4: List of further cybersecurity resources (page 71)"
+    },
+    {
+      "kind": "text",
+      "label": "List of Boxes",
+      "bbox": [
+        0.05,
+        0.36,
+        0.95,
+        0.95
+      ],
+      "description": "Box 1: Selected examples of cyber incidents in the maritime transport sector (page 4)\nBox 2: Research approach and data collection (page 7)\nBox 3: Cybersecurity considerations within the ISPS Code (page 10)\nBox 4: Case studies: National approaches to integrating cybersecurity into ISPS-based port security frameworks (page 11)\nBox 5: Steering committees as a governance and coordination mechanism (page 21)\nBox 6: Network segmentation in port environments (page 29)\nBox 7: Case studies: Improving port resilience through business continuity planning (page 32)\nBox 8: Case studies: Delivery and communication styles of cybersecurity training methods (page 40)\nBox 9: Case studies: Academic and port-specific collaboration aiming to improve cybersecurity capacity (page 42)\nBox 10: Return on Security Investment (ROSI) calculation overview (page 44)\nBox 11: Case studies: Voluntary cyber resilience centers (CRCs) (page 48)\nBox 12: Case studies: Cybersecurity collaboration networks (page 50)"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 518,
+    "total_tokens": 3182,
+    "cost": 0.0018944,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0018944,
+      "upstream_inference_prompt_cost": 0.0010656,
+      "upstream_inference_completions_cost": 0.0008288
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "elapsed_ms": 7682.76060000062,
+  "verification_status": "machine_extraction_unverified_against_original"
+}
